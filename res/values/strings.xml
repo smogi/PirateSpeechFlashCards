@@ -4,5 +4,6 @@
     <string name="app_name">PirateSpeechFlashCards</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="menu_info">The 450 cards are divided into 7 categories. Learning each category before proceeding to the next will provide the best learning speed. Any card can be deleted and the naughty section is password protected or can be deleted.</string>
 
 </resources>
