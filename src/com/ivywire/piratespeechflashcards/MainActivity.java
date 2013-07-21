@@ -2,6 +2,7 @@ package com.ivywire.piratespeechflashcards;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -46,22 +47,39 @@ public class MainActivity extends Activity implements OnClickListener {
 	//Reactions for button onClicks
 	@Override
     public void onClick(View v) {
+		Intent intent;
         switch(v.getId()){
             case R.id.button1:
+            	intent = new Intent(this, InstructionsActivity.class);
+            	startActivity(intent);
                 break;
             case R.id.button2:
+            	intent = new Intent(this, MediumActivity.class);
+            	startActivity(intent);
                 break;
             case R.id.button3:
+            	intent = new Intent(this, StartingActivity.class);
+            	startActivity(intent);
                 break;
             case R.id.button4:
+            	intent = new Intent(this, DifficultActivity.class);
+            	startActivity(intent);
                 break;
             case R.id.button5:
+            	intent = new Intent(this, BeginnerActivity.class);
+            	startActivity(intent);
                 break;
             case R.id.button6:
+            	intent = new Intent(this, ComplexActivity.class);
+            	startActivity(intent);
                 break;
             case R.id.button7:
+            	intent = new Intent(this, NaughtyActivity.class);
+            	startActivity(intent);
                 break;
             case R.id.button8:
+            	intent = new Intent(this, ShareActivity.class);
+            	startActivity(intent);
                 break;
         }
     }
