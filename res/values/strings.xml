@@ -6,5 +6,12 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_info">The 450 cards are divided into 7 categories. Learning each category before proceeding to the next will provide the best learning speed. Any card can be deleted and the naughty section is password protected or can be deleted.</string>
     <string name="title_activity_instructions">InstructionsActivity</string>
+    <string name="title_activity_medium">MediumActivity</string>
+    <string name="title_activity_starting">StartingActivity</string>
+    <string name="title_activity_difficult">DifficultActivity</string>
+    <string name="title_activity_beginner">BeginnerActivity</string>
+    <string name="title_activity_complex">ComplexActivity</string>
+    <string name="title_activity_naughty">NaughtyActivity</string>
+    <string name="title_activity_share">ShareActivity</string>
 
 </resources>

@@ -26,6 +26,34 @@
             android:name="com.ivywire.piratespeechflashcards.InstructionsActivity"
             android:label="@string/title_activity_instructions" >
         </activity>
+        <activity
+            android:name="com.ivywire.piratespeechflashcards.MediumActivity"
+            android:label="@string/title_activity_medium" >
+        </activity>
+        <activity
+            android:name="com.ivywire.piratespeechflashcards.StartingActivity"
+            android:label="@string/title_activity_starting" >
+        </activity>
+        <activity
+            android:name="com.ivywire.piratespeechflashcards.DifficultActivity"
+            android:label="@string/title_activity_difficult" >
+        </activity>
+        <activity
+            android:name="com.ivywire.piratespeechflashcards.BeginnerActivity"
+            android:label="@string/title_activity_beginner" >
+        </activity>
+        <activity
+            android:name="com.ivywire.piratespeechflashcards.ComplexActivity"
+            android:label="@string/title_activity_complex" >
+        </activity>
+        <activity
+            android:name="com.ivywire.piratespeechflashcards.NaughtyActivity"
+            android:label="@string/title_activity_naughty" >
+        </activity>
+        <activity
+            android:name="com.ivywire.piratespeechflashcards.ShareActivity"
+            android:label="@string/title_activity_share" >
+        </activity>
     </application>
 
 </manifest>
