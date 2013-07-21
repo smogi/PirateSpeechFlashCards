@@ -13,6 +13,7 @@ public class MainActivity extends Activity {
 	private Button beginnerButton;
 	private Button mediumButton;
 	private Button difficultButton;
+	private Button complexButton;
 	private Button naughtyButton;
 	private Button shareButton;
 
@@ -20,6 +21,16 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		instructionsButton = (Button) findViewById(R.id.button1);
+		mediumButton = (Button) findViewById(R.id.button2);
+		startingButton = (Button) findViewById(R.id.button3);
+		difficultButton = (Button) findViewById(R.id.button4);
+		beginnerButton = (Button) findViewById(R.id.button5);
+		complexButton = (Button) findViewById(R.id.button6);
+		naughtyButton = (Button) findViewById(R.id.button7);
+		shareButton = (Button) findViewById(R.id.button8);
+		
 	}
 
 	@Override
