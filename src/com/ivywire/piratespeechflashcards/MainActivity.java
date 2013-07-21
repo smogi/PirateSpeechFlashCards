@@ -3,8 +3,18 @@ package com.ivywire.piratespeechflashcards;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
+	
+	//Fields
+	private Button instructionsButton;
+	private Button startingButton;
+	private Button beginnerButton;
+	private Button mediumButton;
+	private Button difficultButton;
+	private Button naughtyButton;
+	private Button shareButton;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
