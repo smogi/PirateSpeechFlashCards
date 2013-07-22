@@ -1,7 +1,9 @@
 package com.ivywire.piratespeechflashcards;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 
 import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
@@ -37,8 +39,25 @@ public class CardLoadActivity extends Activity {
 		return true;
 	}
 	
+	public String makeCardString(InputStream input){
+		BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+		StringBuilder out = new StringBuilder();
+		String str = "";
+		try {
+			while ((str = reader.readLine()) != null) {
+			    out.append(str);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		return str;
+	}
+	
 	// AsyncTask portion
-	private class LoadCardsTask extends AsyncTask<CardDatabaseHelper, Integer, Void>{	
+	private class LoadCardsTask extends AsyncTask<CardDatabaseHelper, Integer, Void>{
+		public String[] cards;
+		public String[] cardElements;
 		public void onPreExecute(){
 			//Prepare any pre-database query stuff, aka algorithm for getting words in txt and putting them 
 			//into stored arrays
@@ -46,7 +65,9 @@ public class CardLoadActivity extends Activity {
 			InputStream iS = null;
 			try {
 				iS = assetManager.open("cards.txt"); 
-		        
+				String cardString = makeCardString(iS);
+				iS.close();
+				
 		    } catch (IOException e) {
 		    	e.printStackTrace();
 		    }
