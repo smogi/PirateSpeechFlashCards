@@ -13,5 +13,6 @@
     <string name="title_activity_complex">ComplexActivity</string>
     <string name="title_activity_naughty">NaughtyActivity</string>
     <string name="title_activity_share">ShareActivity</string>
+    <string name="title_activity_card_load">CardLoadActivity</string>
 
 </resources>

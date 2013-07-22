@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends Activity implements OnClickListener {
 	
-	//Fields
+	// Fields
 	private Button instructionsButton;
 	private Button startingButton;
 	private Button beginnerButton;
@@ -44,7 +44,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		shareButton.setOnClickListener(this);
 	}
 
-	//Reactions for button onClicks
+	// Reactions for button onClicks
 	@Override
     public void onClick(View v) {
 		Intent intent;
