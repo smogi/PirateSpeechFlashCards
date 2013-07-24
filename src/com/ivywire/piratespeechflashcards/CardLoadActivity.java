@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.StringWriter;
 
 import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
@@ -11,25 +12,21 @@ import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.app.LoaderManager;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.ContentValues;
-import android.content.Loader;
+import android.content.Intent;
 import android.content.res.AssetManager;
-import android.database.Cursor;
-import android.support.v4.content.CursorLoader;
-import android.support.v4.widget.SimpleCursorAdapter;
 import android.view.Menu;
 
 public class CardLoadActivity extends Activity {
 	
-	private Uri cardUri;
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_card_load);
+		setContentView(R.layout.activity_card_load);	
+		LoadCardsTask task = new LoadCardsTask();
+		task.execute();
 	}
 
 	@Override
@@ -40,24 +37,37 @@ public class CardLoadActivity extends Activity {
 	}
 	
 	public String makeCardString(InputStream input){
-		BufferedReader reader = new BufferedReader(new InputStreamReader(input));
-		StringBuilder out = new StringBuilder();
-		String str = "";
+		BufferedReader br = null;
+		StringBuilder sb = new StringBuilder();
+		String line;
+		
 		try {
-			while ((str = reader.readLine()) != null) {
-			    out.append(str);
+ 
+			br = new BufferedReader(new InputStreamReader(input));
+			while ((line = br.readLine()) != null) {
+				sb.append(line);
 			}
+ 
 		} catch (IOException e) {
 			e.printStackTrace();
+		} finally {
+			if (br != null) {
+				try {
+					br.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
 		}
-		
-		return str;
+ 
+		return sb.toString();
 	}
 	
 	// AsyncTask portion
 	private class LoadCardsTask extends AsyncTask<CardDatabaseHelper, Integer, Void>{
-		public String[] cards;
-		public String[] cardElements;
+		private String[] cards = new String[450];
+		private String[] cardElements = new String[3];
+		
 		public void onPreExecute(){
 			//Prepare any pre-database query stuff, aka algorithm for getting words in txt and putting them 
 			//into stored arrays
@@ -65,29 +75,41 @@ public class CardLoadActivity extends Activity {
 			InputStream iS = null;
 			try {
 				iS = assetManager.open("cards.txt"); 
-				String cardString = makeCardString(iS);
+				//cardString is null in next line for some reason. Why? Why? Why? Why? 
+				//Is it because of the assetManager? <--(Likely not)
+				//Or the makeCardString method? <-- Likely this
+				String cardString = "";
+				cardString = makeCardString(iS);
 				iS.close();
-				
+				cards = cardString.split(";");	
 		    } catch (IOException e) {
 		    	e.printStackTrace();
 		    }
 		}
 		
 		protected Void doInBackground(CardDatabaseHelper... db) {
-			String category;
 			String title;
+			String category;
 			String sentence;
 			String definition;
 			
-			//Insert to tables 
-			ContentValues values = new ContentValues();
-			values.put(FlashCardTable.COLUMN_CATEGORY, category);
-			values.put(FlashCardTable.COLUMN_TITLE, title);
-			values.put(FlashCardTable.COLUMN_SENTENCE, sentence);
-			values.put(FlashCardTable.COLUMN_DEFINITION, definition);
-			
-			getContentResolver().insert(MyCardContentProvider.CONTENT_URI, values);
-			
+			for(int i = 0; i < cards.length; i++){
+				//Insert to tables 
+				cardElements = cards[i].split("=");
+				
+				title = cardElements[0];
+				category = cardElements[1];
+				sentence = cardElements[2];
+				definition = cardElements[3];
+				
+				ContentValues values = new ContentValues();
+				values.put(FlashCardTable.COLUMN_CATEGORY, category);
+				values.put(FlashCardTable.COLUMN_TITLE, title);
+				values.put(FlashCardTable.COLUMN_SENTENCE, sentence);
+				values.put(FlashCardTable.COLUMN_DEFINITION, definition);
+				
+				Uri newUri = getContentResolver().insert(MyCardContentProvider.CONTENT_URI, values);
+			}
 			return null;
 		}
 		
@@ -95,8 +117,9 @@ public class CardLoadActivity extends Activity {
 	        //setProgressPercent(progress[0]);
 	    }
 
-		protected void onPostExecute(Long result) {
-	       //Direct to MainActivity (menu)
+		protected void onPostExecute(Void result) {
+			//Direct to MainActivity (menu)
+			startActivity(new Intent(CardLoadActivity.this, MainActivity.class));
 	    }
 	}
 }

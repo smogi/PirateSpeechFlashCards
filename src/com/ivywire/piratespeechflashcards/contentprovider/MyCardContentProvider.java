@@ -25,13 +25,13 @@ public class MyCardContentProvider extends ContentProvider{
 	private static final int CARDS = 10;
 	private static final  int CARD_ID = 20;
 	
-	private static final String AUTHORITY = "com.ivywire.piratespeechcards.contentprovider";
+	private static final String AUTHORITY = "com.ivywire.piratespeechflashcards.contentprovider";
 	
 	private static final String BASE_PATH = "cards";
 	
 	public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY
 			+ "/" + BASE_PATH);
-
+	
 	public static final String CONTENT_TYPE = ContentResolver.CURSOR_DIR_BASE_TYPE
 			+ "/cards";
 	public static final String CONTENT_ITEM_TYPE = ContentResolver.CURSOR_ITEM_BASE_TYPE
