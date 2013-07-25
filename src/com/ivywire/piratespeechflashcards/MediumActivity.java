@@ -37,7 +37,7 @@ public class MediumActivity extends Activity{
         };
         
         // Attach listeners
-        view.setOnGestureList
+        view.setOnTouchListener(gestureListener);
 	}
 	
 	@Override
