@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.StringWriter;
 
 import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
@@ -108,7 +107,7 @@ public class CardLoadActivity extends Activity {
 				values.put(FlashCardTable.COLUMN_SENTENCE, sentence);
 				values.put(FlashCardTable.COLUMN_DEFINITION, definition);
 				
-				Uri newUri = getContentResolver().insert(MyCardContentProvider.CONTENT_URI, values);
+				getContentResolver().insert(MyCardContentProvider.CONTENT_URI, values);
 			}
 			return null;
 		}
