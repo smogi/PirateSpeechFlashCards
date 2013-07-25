@@ -35,6 +35,9 @@ public class MediumActivity extends Activity{
                 return gestureDetector.onTouchEvent(event);
             }
         };
+        
+        // Attach listeners
+        view.setOnGestureList
 	}
 	
 	@Override
