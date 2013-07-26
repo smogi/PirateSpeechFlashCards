@@ -2,6 +2,7 @@ package com.ivywire.piratespeechflashcards;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Context;
 import android.gesture.GestureOverlayView;
 import android.gesture.GestureOverlayView.OnGestureListener;
 import android.support.v4.view.GestureDetectorCompat;
@@ -13,31 +14,33 @@ import android.view.GestureDetector.SimpleOnGestureListener;
 import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.View.OnTouchListener;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MediumActivity extends Activity{
-	private static final int SWIPE_MIN_DISTANCE = 120;
-    private static final int SWIPE_MAX_OFF_PATH = 250;
-    private static final int SWIPE_THRESHOLD_VELOCITY = 200;
-    private GestureDetector gestureDetector;
-    View.OnTouchListener gestureListener;
-    
+	GestureDetector gesturedetector = null;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_medium);
 		View view = findViewById(R.id.cardScreen);
+		gesturedetector = new GestureDetector(this, new MyGestureListener());
 		
-		// Gesture detection
-        gestureDetector = new GestureDetector(this, new CardGestureDetector());
-        gestureListener = new View.OnTouchListener() {
-            public boolean onTouch(View v, MotionEvent event) {
-                return gestureDetector.onTouchEvent(event);
-            }
-        };
-        
-        // Attach listeners
-        view.setOnTouchListener(gestureListener);
+		view.setOnTouchListener(new OnTouchListener() {
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				gesturedetector.onTouchEvent(event);
+				return true;
+			}
+		});
+	}
+	
+	public boolean dispatchTouchEvent(MotionEvent ev){
+		super.dispatchTouchEvent(ev);
+		return gesturedetector.onTouchEvent(ev);
+
 	}
 	
 	@Override
@@ -47,22 +50,24 @@ public class MediumActivity extends Activity{
 		return true;
 	}
 	
-	class CardGestureDetector extends SimpleOnGestureListener {
-		 @Override
+	class MyGestureListener extends GestureDetector.SimpleOnGestureListener{
+		private static final int SWIPE_MIN_DISTANCE = 25;
+		private static final int SWIPE_MAX_OFF_PATH = 50;
+		private static final int SWIPE_THRESHOLD_VELOCITY = 10;
+		
+		@Override
 		public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-		    try {
-		        if (Math.abs(e1.getY() - e2.getY()) > SWIPE_MAX_OFF_PATH)
-		            return false;
-		        // swipe
-		        if(e1.getY() - e2.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
-		        	Toast.makeText(MediumActivity.this, "Down Swipe", Toast.LENGTH_SHORT).show();
-		        } else if (e2.getY() - e1.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
-		        	Toast.makeText(MediumActivity.this, "Up Swipe", Toast.LENGTH_SHORT).show();
-			    }
-			} catch (Exception e) {
-			    // nothing
-			    }
-			    return false;
-			}
+			float dX = e2.getX()-e1.getX();
+			float dY = e1.getY()-e2.getY();
+			
+			 if (Math.abs(dX)<SWIPE_MAX_OFF_PATH && Math.abs(velocityY)>=SWIPE_THRESHOLD_VELOCITY &&
+					 Math.abs(dY)>=SWIPE_MIN_DISTANCE ) {
+				 if (dY>0) {
+					 Toast.makeText(MediumActivity.this, "Up Swipe", Toast.LENGTH_SHORT).show();
+				 } else {
+					 Toast.makeText(MediumActivity.this, "Down Swipe", Toast.LENGTH_SHORT).show();
+				 }return true;
+			 }return false;
+		}
 	}
 }
