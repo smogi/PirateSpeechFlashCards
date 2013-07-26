@@ -52,7 +52,7 @@ public class MediumActivity extends Activity{
 	
 	class MyGestureListener extends GestureDetector.SimpleOnGestureListener{
 		private static final int SWIPE_MIN_DISTANCE = 25;
-		private static final int SWIPE_MAX_OFF_PATH = 50;
+		private static final int SWIPE_MAX_OFF_PATH = 100;
 		private static final int SWIPE_THRESHOLD_VELOCITY = 10;
 		
 		@Override
