@@ -23,7 +23,7 @@ public class MediumActivity extends Activity{
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+		super.onCreate(savedInstanceState); 
 		setContentView(R.layout.activity_medium);
 		View view = findViewById(R.id.cardScreen);
 		gesturedetector = new GestureDetector(this, new MyGestureListener());
