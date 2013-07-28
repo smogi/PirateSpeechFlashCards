@@ -8,10 +8,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MediumActivity" >
 
-    <TextView
-        android:id="@+id/cardScreen"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_world" />
+	<android.support.v4.view.ViewPager
+	    android:id="@+id/card_pager"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"/>
 
 </RelativeLayout>
