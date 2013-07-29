@@ -62,19 +62,6 @@ public class MediumActivity extends FragmentActivity implements LoaderManager.Lo
                 invalidateOptionsMenu();
             }
         });*/		
-		
-		//Gesture detector stuff for onFlign
-		/*
-		View view = findViewById(R.id.cardScreen);
-		gesturedetector = new GestureDetector(this, new MyGestureListener());
-		view.setOnTouchListener(new OnTouchListener() {
-			@Override
-			public boolean onTouch(View v, MotionEvent event) {
-				gesturedetector.onTouchEvent(event);
-				return true;
-			}
-		});
-		*/
 	}
 
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
@@ -98,15 +85,7 @@ public class MediumActivity extends FragmentActivity implements LoaderManager.Lo
 	public void onLoaderReset(Loader<Cursor> arg0) {
 	    adapter.swapCursor(null);
 	} 
-    /*
-    
-	public boolean dispatchTouchEvent(MotionEvent ev){
-		super.dispatchTouchEvent(ev);
-		return gesturedetector.onTouchEvent(ev);
-
-	}
 	
-	*/
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -153,25 +132,4 @@ public class MediumActivity extends FragmentActivity implements LoaderManager.Lo
 
         return super.onOptionsItemSelected(item);
     }*/
-	
-	class MyGestureListener extends GestureDetector.SimpleOnGestureListener{
-		private static final int SWIPE_MIN_DISTANCE = 25;
-		private static final int SWIPE_MAX_OFF_PATH = 100;
-		private static final int SWIPE_THRESHOLD_VELOCITY = 10;
-		
-		@Override
-		public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
-			float dX = e2.getX()-e1.getX();
-			float dY = e1.getY()-e2.getY();
-			
-			 if (Math.abs(dX)<SWIPE_MAX_OFF_PATH && Math.abs(velocityY)>=SWIPE_THRESHOLD_VELOCITY &&
-					 Math.abs(dY)>=SWIPE_MIN_DISTANCE ) {
-				 if (dY>0) {
-					 Toast.makeText(MediumActivity.this, "Up Swipe", Toast.LENGTH_SHORT).show();
-				 } else {
-					 Toast.makeText(MediumActivity.this, "Down Swipe", Toast.LENGTH_SHORT).show();
-				 }return true;
-			 }return false;
-		}
-	}
 }
