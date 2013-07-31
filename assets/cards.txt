@@ -1325,3 +1325,4 @@ Dame=Medium=Avast! Ye drunken scallywags, cast ye deadlights to dar door. Dame e
 
 Galley=Medium=Arr! Me wayward scallywags, let’s b set’n sail, for another tavern, that b have’n  a galley, as me needs weight in me belly to stable me legs, under the remainder of me carcass!=Galley is a kitchen.;
 
+

@@ -15,5 +15,6 @@
     <string name="title_activity_share">ShareActivity</string>
     <string name="title_activity_card_load">CardLoadActivity</string>
     <string name="title_template_step">Step</string>
+    <string name="Share_this_app_with_your_friends">Share this app with your friends!</string>
 
 </resources>

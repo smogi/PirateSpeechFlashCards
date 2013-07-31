@@ -42,6 +42,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		complexButton.setOnClickListener(this);
 		naughtyButton.setOnClickListener(this);
 		shareButton.setOnClickListener(this);
+				
 	}
 
 	// Reactions for button onClicks

@@ -133,3 +133,4 @@ public class MediumActivity extends FragmentActivity implements LoaderManager.Lo
         return super.onOptionsItemSelected(item);
     }*/
 }
+
