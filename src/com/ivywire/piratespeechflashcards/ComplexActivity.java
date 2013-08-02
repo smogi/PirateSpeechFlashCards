@@ -29,7 +29,7 @@ public class ComplexActivity extends Activity implements LoaderManager.LoaderCal
 		pager= (ViewPager) findViewById(R.id.flashcard_pager);
 		pager.setAdapter(adapter);
 		
-		getSupportLoaderManager().initLoader(-1, this, null);
+		getSupportLoaderManager().initLoader(-1, null, this);
 	}
 	
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
