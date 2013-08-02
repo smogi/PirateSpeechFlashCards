@@ -5,8 +5,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
+import android.view.View.OnClickListener;
 
-public class ShareActivity extends Activity {
+public class ShareActivity extends Activity implements OnClickListener {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -34,5 +35,6 @@ public class ShareActivity extends Activity {
 		getMenuInflater().inflate(R.menu.share, menu);
 		return true;
 	}
+	
 	
 }

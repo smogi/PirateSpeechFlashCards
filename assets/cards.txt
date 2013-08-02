@@ -279,8 +279,6 @@ to kiss the Gunner’s daughter.=Brutal language;
 
 Loose Lipped=Medium=B sure mate, tell ol Shark’e nut’n. He b loose lipped! Year ago, we made port, with much booty in our pockets. He opens his mouth about our stash, an scurvy thugs b wait’n for us, as we set sail to another tavern.=Can’t keep a secret;
 
-(Sentence Structure)=Instructions=This (noun) be (adjective) This grog be warm. That wench be sharp-tonged=Noun first then adjective follows;
-
 Plunder'n=Beginner=We b set’n sail, at sun up an first wind. We be plot’n, for heavy laden frigates for plunder’n! Hope’n it B a strong sea fair’n day. The smell of blood, b in the air!=Taking a treasure;
 
 Yarrr=Starting=Yarrr, me meets ye at the gangplank, at 6 bells. Huge adventures abound. Bring ye scabbard swords, an ye daggers, tucked in ye belts. Ye liver need protect’n!=Agreement;
@@ -466,7 +464,7 @@ attached to one’s belt;
 Thieve'n=Beginner=When ye b drunk, ye feeble mind, b turn’n to thieve ’n. Before ye know, ye future quickly come
  to murdur’n ways, an Jack Kemp b, tight’n ye tie!=The process of stealing;
  
-Treachery=COmplex=
+Treachery=Complex=
 Their vile ways, b wretched treachery upon us. 
 We just b lowly salts o’ salts. 
 We best b keep’n, our eyes fixed, their way.=Doing evil deeds;
@@ -658,13 +656,6 @@ Ships=Complex=Barge		Blockade        Runner	                 Clipper
             Dutch Clipper              Frigate               Man of War
            Schooner                Tail Ship                  Wind Jammer=Ships;
 
-Colors Of The Cards=Instructions=
-     Level Of Difficulty By Color
-     
-     Gray      =  Instructions               Green   = Median
-     Blue       =  Starting                     Purple  = Difficult
-     Yellow   = Beginner                    Rose    =  Complex                                    
-                            Red = Naughty;
 
 Messmates=Medium=
 I say, we all b messmates.  Low and behold, we b lift’n our jibs.  B time to weigh anchor, an voyage,
@@ -1239,9 +1230,7 @@ Who b want’n ye blood    How be ye innards=greeting sentences;
 
 Masthead=Complex=I b warn’n ye, if ye don’t b deal’n dar cards, from the masthead, me dagger, be slice’n ye gizzard!=The top of the mast  (inference,  the top of anything);
 
-I Hear’s Ye Can Go
-12 Inches!=Naughty=I hears ye can go 12 inches.
-Three inches, four times, harrr, harrr=Inferred length of penis but addressing strokes to ejaculation;
+I Hear’s Ye Can Go 12 Inches!=Naughty=I hears ye can go 12 inches.Three inches, four times, harrr, harrr=Inferred length of penis but addressing strokes to ejaculation;
 
 Come About=Difficult=They b a crew, of bile soaked hornswogglers, that b stir’n, for bloodletting. Let’s come about, with daggers an muskets ready, an grant their wishes. 
 Member, dead men tell’s no tales!=Change of Direction;
