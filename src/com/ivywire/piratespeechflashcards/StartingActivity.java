@@ -13,7 +13,7 @@ import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.Loader;
 
-public class StartingActivity extends Activity implements LoaderManager.LoaderCallbacks<Cursor> {
+public class StartingActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 	GestureDetector gesturedetector = null;
 	CardCursorPagerAdapter adapter;
 	ViewPager pager;
@@ -30,15 +30,10 @@ public class StartingActivity extends Activity implements LoaderManager.LoaderCa
 	}
 	
 
-	private LoaderManager getSupportLoaderManager() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
 
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
 		String[] projection = { FlashCardTable.COLUMN_TITLE, FlashCardTable.COLUMN_DEFINITION};
-		String WHERE = "category='Beginner'";
+		String WHERE = "category='Starting'";
 		
 	    return new CursorLoader(this, MyCardContentProvider.CONTENT_URI, null, WHERE, null, null);
 	

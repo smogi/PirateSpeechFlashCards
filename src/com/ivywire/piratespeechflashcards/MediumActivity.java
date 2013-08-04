@@ -44,7 +44,7 @@ public class MediumActivity extends FragmentActivity implements LoaderManager.Lo
 
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
 		String[] projection = { FlashCardTable.COLUMN_TITLE, FlashCardTable.COLUMN_DEFINITION};
-		String WHERE = "category='Beginner'";
+		String WHERE = "category='Medium'";
 		
 	    return new CursorLoader(this, MyCardContentProvider.CONTENT_URI, null, WHERE, null, null);
 	

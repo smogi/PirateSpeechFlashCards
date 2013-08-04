@@ -15,7 +15,7 @@ import android.support.v4.view.ViewPager;
 import android.view.GestureDetector;
 
 
-public class ComplexActivity extends Activity implements LoaderManager.LoaderCallbacks<Cursor> {
+public class ComplexActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor> {
     GestureDetector gesturedetector=null;
     CardCursorPagerAdapter adapter;
     ViewPager pager;
@@ -23,7 +23,7 @@ public class ComplexActivity extends Activity implements LoaderManager.LoaderCal
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_complex);
+		setContentView(R.layout.activity_card_slide);
 		
 		adapter = new CardCursorPagerAdapter(this, null);
 		pager= (ViewPager) findViewById(R.id.flashcard_pager);
@@ -34,7 +34,7 @@ public class ComplexActivity extends Activity implements LoaderManager.LoaderCal
 	
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
 		String[] projection = { FlashCardTable.COLUMN_TITLE, FlashCardTable.COLUMN_DEFINITION};
-		String WHERE = "category='Beginner'";
+		String WHERE = "category='Complex'";
 		
 	    return new CursorLoader(this, MyCardContentProvider.CONTENT_URI, null, WHERE, null, null);
 	
@@ -49,11 +49,6 @@ public class ComplexActivity extends Activity implements LoaderManager.LoaderCal
 	    adapter.swapCursor(null);
 	} 
 	
-
-	private LoaderManager getSupportLoaderManager() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

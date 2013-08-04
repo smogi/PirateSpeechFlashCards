@@ -1,6 +1,5 @@
 package com.ivywire.piratespeechflashcards;
 
-import com.directionalviewpager.DirectionalViewPager;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
@@ -16,22 +15,22 @@ import android.view.Menu;
 
 public class NaughtyActivity<DirectionalViewPager> extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 	CardCursorPagerAdapter adapter;
-	DirectionalViewPager pager;
+	ViewPager pager;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_card_slide);
 		
 		adapter = new CardCursorPagerAdapter(this, null);
-		pager= (DirectionalViewPager) findViewById(R.id.flashcard_pager);
-		((ViewPager) pager).setAdapter(adapter);
+		pager= (ViewPager) findViewById(R.id.flashcard_pager);
+		pager.setAdapter(adapter);
 		
 		getSupportLoaderManager().initLoader(-1, null, this);
 	}
 	
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
 		String[] projection = { FlashCardTable.COLUMN_TITLE, FlashCardTable.COLUMN_DEFINITION};
-		String WHERE = "category='Complex'";
+		String WHERE = "category='Naughty'";
 		
 	    return new CursorLoader(this, MyCardContentProvider.CONTENT_URI, null, WHERE, null, null);
 	
