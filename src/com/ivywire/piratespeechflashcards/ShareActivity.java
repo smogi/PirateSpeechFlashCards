@@ -6,24 +6,28 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 
 public class ShareActivity extends Activity implements OnClickListener {
-
+	private Button button;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_share);
+		
+		button = (Button) findViewById (R.id.Social);
+		button.setOnClickListener(this);
 	}
 	
 	public void onClick(View v) { 
 	    switch(v.getId()){ 
-	    case R.id.Social:
-	    Intent shareIntent=new Intent(Intent.ACTION_SEND);
-		shareIntent.setType("text/plain");
-		shareIntent.putExtra(Intent.EXTRA_TEXT,"I want to share this with you!");
-		shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Great Post");
-		startActivity(Intent.createChooser(shareIntent, "Share..."));
-   
+		    case R.id.Social:
+			    Intent shareIntent=new Intent(Intent.ACTION_SEND);
+				shareIntent.setType("text/plain");
+				shareIntent.putExtra(Intent.EXTRA_TEXT,"I want to share this with you!");
+				shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Great Post");
+				startActivity(Intent.createChooser(shareIntent, "Share..."));
 	    }
     }
 	
