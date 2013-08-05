@@ -43,7 +43,7 @@ royal Booty!  The dastardly, blaggard, Cap地 Clay,
 an his crew, me b one, put it below, a 
 rocky cliff, nearly 20 years ago.=Loot;
 
-Bosum=Beginner=He b, dar Cap-n痴 new Bosum, a fearless pirate, he b! His saber, knows no mercy; cause he b know地,dead men, tells no tails.=Short for boatswain - Deck officer;
+Bosum=Beginner=He b, dar Cap-n痴 new Bosum, a fearless pirate, he b! His saber, knows no mercy - cause he b know地,dead men, tells no tails.=Short for boatswain - Deck officer;
 
 Bucko=Beginner=Aye Aye, there Bucko, me hearty!  B地 a many a voyage, since our wakes b crossed. How b ye villainous ways?=Friend;
 
@@ -536,7 +536,7 @@ Aye Aye, mates! The pup b of right metal, but yet, of simple mind. We b stand地 
 Fleet=Difficult=
 Helmsman! Hard tack port, crew mightily up the rigg地痴, to drop full sails, an throw up, the jibs. We b, under attack soon, cause the King痴 fleet b upon us.=A group of ships larger than armada under one leader;
 
-Flotsam=Difficult
+Flotsam=Difficult=
 That ol bar maid, her whole ship look like flotsam, after a night on the reefs, in a stormy sea. Me sure, when she be a young lass, her cargo b tight in the hold!=Cargo afloat after a shipwreck;
 
 Jetsam=Complex=If I b so bold, we b board地 that Man-O-War by high noon. We b off地 lights and livers and slip地 steal to their vitals. When we b done, we throw them like jetsam, overboard to choke the sharks!=Trash that has been thrown out;

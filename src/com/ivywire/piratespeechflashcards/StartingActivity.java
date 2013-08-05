@@ -1,12 +1,10 @@
 package com.ivywire.piratespeechflashcards;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.database.Cursor;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.view.ViewPager;
-import android.view.GestureDetector;
 import android.view.Menu;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
@@ -14,14 +12,13 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.Loader;
 
 public class StartingActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor> {
-	GestureDetector gesturedetector = null;
 	CardCursorPagerAdapter adapter;
 	ViewPager pager;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_starting);
+		setContentView(R.layout.activity_card_slide);
 		adapter = new CardCursorPagerAdapter(this, null);
 		pager = (ViewPager) findViewById(R.id.flashcard_pager);
 		pager.setAdapter(adapter);
