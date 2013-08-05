@@ -1,10 +1,8 @@
 package com.ivywire.piratespeechflashcards;
 
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
-import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.database.Cursor;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.LoaderManager;
@@ -30,7 +28,7 @@ public class DifficultActivity extends FragmentActivity implements LoaderManager
 	}
 
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
-		String[] projection = { FlashCardTable.COLUMN_TITLE, FlashCardTable.COLUMN_DEFINITION};
+		//String[] projection = { FlashCardTable.COLUMN_TITLE, FlashCardTable.COLUMN_DEFINITION};
 		String WHERE = "category='Difficult'";
 		
 	    return new CursorLoader(this, MyCardContentProvider.CONTENT_URI, null, WHERE, null, null);

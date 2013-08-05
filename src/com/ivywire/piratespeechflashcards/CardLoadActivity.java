@@ -9,7 +9,6 @@ import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;

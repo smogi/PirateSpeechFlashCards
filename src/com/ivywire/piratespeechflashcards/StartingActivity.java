@@ -7,7 +7,6 @@ import android.support.v4.app.LoaderManager;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
-import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.Loader;
 
@@ -29,7 +28,7 @@ public class StartingActivity extends FragmentActivity implements LoaderManager.
 
 
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
-		String[] projection = { FlashCardTable.COLUMN_TITLE, FlashCardTable.COLUMN_DEFINITION};
+		//String[] projection = { FlashCardTable.COLUMN_TITLE, FlashCardTable.COLUMN_DEFINITION};
 		String WHERE = "category='Starting'";
 		
 	    return new CursorLoader(this, MyCardContentProvider.CONTENT_URI, null, WHERE, null, null);
