@@ -13,13 +13,5 @@
 	    android:layout_height="match_parent" >
 	
 	</android.support.v4.view.ViewPager>
-
-	<TextView
-	    android:id="@+id/textView1"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_alignLeft="@+id/flashcard_pager"
-	    android:layout_alignTop="@+id/flashcard_pager"
-	    android:text="Swipe right for next and left for previous" />
 	
 </RelativeLayout>

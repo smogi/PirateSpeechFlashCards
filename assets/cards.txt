@@ -210,7 +210,7 @@ suck the heat, from his marrow.=A basket at the top of a mast where one stands l
 Maroon=Difficult=Mates, it b Nate Da Mutant, dat not b able to keep his angry blow hole tight. I say we shove off, an maroon 
 his trouble make'n ways.  What ye b say'n?=Stranded;
 
-Me=Starting=Cap'n be say'n, “Me spyglass be miss-in. Best be in me locker, by sunrise, or, there be keelhaul'n, tell the thief be known.”  He finds it to b you, ye b see'n ye guts, spilled on dar deck, free of ye carcass, as ye b watch'n!=A word for “me” or “my”;
+Me=Starting=Cap'n be say'n, "Me spyglass be miss-in. Best be in me locker, by sunrise, or, there be keelhaul'n, tell the thief be known."  He finds it to b you, ye b see'n ye guts, spilled on dar deck, free of ye carcass, as ye b watch'n!=A word for "me" or "my";
 
 Me Hearties=Starting=
 Me Hearties, we b go'n ashore at 6 bells.  Me says, we finds dar first wayward tavern, with lively tunes, an dance'n wenches. May b, we be spoil'n a fight, before end of night. What ye say mates?=A pirate crew leader addressing his men;
@@ -301,7 +301,7 @@ B Ye Bilges Flooded=Medium=Arrr, there me bucko, b ye bilges flooded?=How are yo
 
 He B Set Afloat=Difficult=Mark me words, me days b over with him. He b set afloat. Me seas b calm an nor, a cloud in the sky. Then his lie'n ways, throw'd me cargo over board, an me ship on the reefs.=The relationship was ended with another.;
 
-Sea Fair'n Day=Medium=Aye, me hearties! Steersman says, “Voyage be mighty, this sea fair'n day, begad!”=Good weather;
+Sea Fair'n Day=Medium=Aye, me hearties! Steersman says, "Voyage be mighty, this sea fair'n day, begad!"=Good weather;
 
 Rig The Top Sails=Medium=Rig the top sails. Winch up the jibs. Leave the sprog below deck, he not b ready. Send him to the brig, to sweep
  the cats' dung.=Let's go fast.;
@@ -338,7 +338,7 @@ Avast Sign=Medium=Avast! Helmsman, ahead be no current, nor wind for dar sails! 
 
 Vast=Medium=Stands by, till she comes about starboard. Her bounty b vast. We come up her aft, board, an plunder her vast bounty! B prepared to lay waste, of dar crew, member'n, dead men tell no tales!=A lot;
 
-Mighty=Beginner=Bosun says, “He b a rabid sea dog, and mighty at bloodshed. He swares, cut throat, b his best revenge.”=A lot;
+Mighty=Beginner=Bosun says, "He b a rabid sea dog, and mighty at bloodshed. He swares, cut throat, b his best revenge."=A lot;
 
 Scrap-n=Beginner=When cook takes on too much ale, his mouth become 
 a fiery cannon, start'n brawls. 
@@ -633,7 +633,7 @@ Sprog=Complex=
 Ye act like a sprog, rather than, the ol sea dog that ye b. Why b ye a foul? Are ye daft an addled? Me b mystified!=An untrained crew member;
 
 Squadron=Complex=
-Cap'n, crow's nest reports, “Ahoy to the aft. Squadron of, king's Man-O-War.  They b close'n fast. Tack, sharp to port, bring her around, so gunner, can lay'n waste. 
+Cap'n, crow's nest reports, "Ahoy to the aft. Squadron of, king's Man-O-War.  They b close'n fast. Tack, sharp to port, bring her around, so gunner, can lay'n waste. 
 What say ye?=A group of 10 or less warships;
 
 Cur=Beginner=
@@ -775,7 +775,7 @@ Crew=Beginner=
 Arrr, I beseech ye crew. Say we b down the gangplank, an b find'n, a mighty tavern, for grog and grub? 
 What ye, b say'n?=All the working people on a ship;
 
-Na=Beginner=Ye say mutiny, b the only answer, but I b say'n na!=Another word for no   Hard sounding “a”;
+Na=Beginner=Ye say mutiny, b the only answer, but I b say'n na!=Another word for no   Hard sounding "a";
 
 Tack=Medium=Tack to port, bring her round, an steady'er rudder, till we dock. Then we b bound'n, for all the rum, we b hold'n.=To turn a ship;
 
@@ -887,7 +887,7 @@ Stand Down=Difficult=
 Dem boney wenches, with the lack'n treasure chests, ain't b worth bloodshed. I orders ye, to 
 stand down, ye blood sucking leeches!=Back off;
 
-No Mistaken=Difficult=No mistaken, Two Toe'd Jack, b quite the scallywag! He tells sea tales, to the pups, an, when he b done, they put their tongues, back in their mouths, an say, “that b a good'n!”=Affirmation of accuracy regarding a statement;
+No Mistaken=Difficult=No mistaken, Two Toe'd Jack, b quite the scallywag! He tells sea tales, to the pups, an, when he b done, they put their tongues, back in their mouths, an say, "that b a good'n!"=Affirmation of accuracy regarding a statement;
 
 Hark Ye Now=Starting=
 Hark ye now me pretty lass. Fetch me a bottle of rum. Me mates be dry, from a far voyage. Now b gone with ye!=A summons to get attention from another;
@@ -964,7 +964,7 @@ Ahoy, one more grog, me fine tavern maid, an, be quick about it. Me not keep'n p
 Cackle=Medium=
 Dar ol cook's maid, never ends her cackle. It b, so shrill, me, no b hold'n, me biscuits down. So say I, mates.=The noise a hen makes when excite;
 
-Bide=Medium=An officer, me want'n to b. Cap'n, says, “Bide ye time, work hard, an with ye, clever mind, ye'l soon b raised up.”=Wait;
+Bide=Medium=An officer, me want'n to b. Cap'n, says, "Bide ye time, work hard, an with ye, clever mind, ye'l soon b raised up."=Wait;
 
 Easy There=Beginner=
 I got, a one legged, half minded, ol wench, an 4 wee rats at home port, b starve'n, if ye b make'n me a God forsaken corpse. Put down dar musket, Easy there, on that trigger 
@@ -999,7 +999,7 @@ Step Up=Beginner=
 I says, ye scurvy bunch of scalawags, let's step up, for another round of rum. Then we b at rope's end, hoist anchor, an set sail, to another tavern, 
 where the wenches, ease our dead lights!=Move to;
 
-Weigh Anchor=Medium=Mr. Jones, dar 1st mate, says, “Hoist dar Jolly Boat and all crew b present,  weigh anchor, move lively, at raise'n full sails, an, we b mightly abound!=Lift the anchor;
+Weigh Anchor=Medium=Mr. Jones, dar 1st mate, says, "Hoist dar Jolly Boat and all crew b present,  weigh anchor, move lively, at raise'n full sails, an, we b mightly abound!=Lift the anchor;
 
 Cock Ye Piece=Difficult=We b bring'n her, about the aft, to her port. Cock ye pieces, an, ready ye daggers. We b let'n blood sooner, than the tavern wenches, b take's our doubloons!=Pull the hammer back on your musket.;
 
@@ -1115,7 +1115,7 @@ Blow Me Down=Beginner=Blow me down, bucko!  Me never dreamed, ye had a mother, y
 Dare Say=Starting=You b tell'n me, he throw scrubs overboard, for no reason, an, he thinks he b a mighty mate? Dare say? He truly b addled. Me hears, his whole family have unsquare keels, with their rudders, gone wild.=Astonishment;
 
 Strike Me Dead=Starting=
-Me b at ye service, Cap'n.  B'n a fine seafar'n day. If we don't hears today, from the Crow's Nest, “Land Ho,” ye can  strike me dead, an send me to Fiddler's Green!=Statement of profound testament;
+Me b at ye service, Cap'n.  B'n a fine seafar'n day. If we don't hears today, from the Crow's Nest, "Land Ho," ye can  strike me dead, an send me to Fiddler's Green!=Statement of profound testament;
 
 Rudder Run Shallow=Naughty=Arrr, don't be crow'n bout ye wench please'n ways.
 Me hear ladies say ye rudder run shallow.=A short penis;
@@ -1148,7 +1148,7 @@ Will's ye blow me hornpipe.=A metaphorical word for penis;
 
 Ye Shimmy Me Mast=Naughty=Me asked her, with sensitivity, ye shimmy me mast?=Will you be on top for intercourse?;
 
-Me Mast Be Ready For Full Sails=Naughty=Me wench, did ask me, after me home from much rum, if I b up for full speed ahead an me say's, “Me mast b ready for full sail an a heave'n sea!”=An erection;
+Me Mast Be Ready For Full Sails=Naughty=Me wench, did ask me, after me home from much rum, if I b up for full speed ahead an me say's, "Me mast b ready for full sail an a heave'n sea!"=An erection;
 
 Me Cannon Be Loaded=Naughty=
 Arr.. me sweet lady, might we slip to ye cabin,
@@ -1157,14 +1157,14 @@ me cannon be loaded for ye pound'n seas.=Invitation for intercourse;
 Shiver Me Timbers=Naughty=
 May I be whisper'n in ye ear?  Last night you rocked my ship, and shivered me timbers!=Great sex;
 
-Balls For Dessert=Naughty=Then she says out of a cloudless sky, “Ye bag of salty ol bones, ye buys me dinner, fit for a queen, I'll have ye balls for dessert. If me b lie'n, strike me dead!=Oral testicular massage;
+Balls For Dessert=Naughty=Then she says out of a cloudless sky, "Ye bag of salty ol bones, ye buys me dinner, fit for a queen, I'll have ye balls for dessert. If me b lie'n, strike me dead!=Oral testicular massage;
 
 Rig'n=Naughty=Ye b into, me rig'n ye hands an feet, bound tight, then me rid'n ye like ye b a wounded shark?=Bondage;
 
 Abandon Ship=Naughty=
 Me be give'n ye a mighty tongue lash'n, an, ye b abandon ship.  Ye may never return, say's I!=Oral sex;
 
-Ram'n Speed=Naughty=She b whisper'n in me ear, “How's ye like it, Dirty Jack, fair seas with a calm wind, or, ye be abound'n in heavy seas at  ram-n speed?”=Slow and easy intercourse or no holds barred;
+Ram'n Speed=Naughty=She b whisper'n in me ear, "How's ye like it, Dirty Jack, fair seas with a calm wind, or, ye be abound'n in heavy seas at  ram-n speed?"=Slow and easy intercourse or no holds barred;
 
 Scuttle=Naughty=If ye welcome me aboard, it'll be a little sand, that'll fall from the hour glass, of me plunder'n ye hold, 
 before me scuttle ye mind!=Short trip to orgasm;
@@ -1259,7 +1259,7 @@ Ballard=Complex=I b say'n mates, b bind'n the ship, to the ballards, an, let's b
 Head=Difficult=I b say'n mates, I need to set course, to the head. Me bilge b abound'n, an, a mighty current, be press'n.=Bathroom;
 
 Debauchery=Complex=
-Me wish a good book learn'n, b'n mine.  When dar squire said, with highest dignity, “It is clear for all fine men to see, that you be the epitome in the mastery of debauchery.”  B'wildered, to such fine words, me said, “Me b grateful for ye kind words, my dear sir. Me mother would be pleased.”=A wide diverse obsession with carnal acts;
+Me wish a good book learn'n, b'n mine.  When dar squire said, with highest dignity, "It is clear for all fine men to see, that you be the epitome in the mastery of debauchery."  B'wildered, to such fine words, me said, "Me b grateful for ye kind words, my dear sir. Me mother would be pleased."=A wide diverse obsession with carnal acts;
 
 Take Me Leave=Starting=
 Ye wretched souls, hear me words.  Dar rum, b take'n me under. Me beg ye pardon, at take'n me leave.=Leaving;

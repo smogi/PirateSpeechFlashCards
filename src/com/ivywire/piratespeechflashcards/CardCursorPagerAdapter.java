@@ -9,6 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class CardCursorPagerAdapter extends PagerAdapter {
@@ -43,12 +44,17 @@ public class CardCursorPagerAdapter extends PagerAdapter {
 	
 	@Override
 	public Object instantiateItem(View view, int position) {
+		LinearLayout layout;
+		int position2 = position;
+		if(position == 0){
+			layout = (LinearLayout) inflater.inflate(R.layout.activity_slide_info, null);
+		}else{
+		position2++;
+	    position2 = position2 % cursor.getCount();
 
-	    position = position % cursor.getCount();
+	    cursor.moveToPosition(position2);
 
-	    cursor.moveToPosition(position);
-
-	    LinearLayout layout = (LinearLayout) inflater.inflate(R.layout.activity_card, null);
+	    layout = (LinearLayout) inflater.inflate(R.layout.activity_card, null);
 
 	    TextView cardTitle = (TextView) layout.findViewById(R.id.pirate_card_title);
 	    TextView cardExample = (TextView) layout.findViewById(R.id.pirate_card_example);
@@ -57,8 +63,8 @@ public class CardCursorPagerAdapter extends PagerAdapter {
 	    cardTitle.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_TITLE)));
 	    cardExample.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_SENTENCE)));
 	    cardDefinition.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DEFINITION)));
-
-	    ((ViewPager) view).addView(layout);
+		}
+		((ViewPager) view).addView(layout);
 	    return layout;
 	}
 	
