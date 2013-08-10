@@ -1,5 +1,6 @@
 package com.ivywire.piratespeechflashcards;
 
+import com.ivywire.piratespeechflashcards.adapters.MediumCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 
 import android.os.Build;
@@ -20,7 +21,7 @@ import android.view.MenuItem;
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class MediumActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 	GestureDetector gesturedetector = null;
-	CardCursorPagerAdapter adapter;
+	MediumCardCursorPagerAdapter adapter;
 	ViewPager pager;
 
 	@Override
@@ -28,7 +29,7 @@ public class MediumActivity extends FragmentActivity implements LoaderManager.Lo
 		super.onCreate(savedInstanceState); 
 		setContentView(R.layout.activity_card_slide);
 		
-		adapter = new CardCursorPagerAdapter(this, null);
+		adapter = new MediumCardCursorPagerAdapter(this, null);
 		pager = (ViewPager) findViewById(R.id.flashcard_pager);
 		pager.setAdapter(adapter);
 		

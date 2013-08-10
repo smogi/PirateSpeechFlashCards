@@ -2,6 +2,9 @@ package com.ivywire.piratespeechflashcards;
 
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
+
+import com.ivywire.piratespeechflashcards.adapters.ComplexCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 
 import android.database.Cursor;
@@ -15,7 +18,7 @@ import android.view.GestureDetector;
 
 public class ComplexActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor> {
     GestureDetector gesturedetector=null;
-    CardCursorPagerAdapter adapter;
+    ComplexCardCursorPagerAdapter adapter;
     ViewPager pager;
         
 	@Override
@@ -23,7 +26,7 @@ public class ComplexActivity extends FragmentActivity implements LoaderManager.L
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_card_slide);
 		
-		adapter = new CardCursorPagerAdapter(this, null);
+		adapter = new ComplexCardCursorPagerAdapter(this, null);
 		pager= (ViewPager) findViewById(R.id.flashcard_pager);
 		pager.setAdapter(adapter);
 		
@@ -51,8 +54,53 @@ public class ComplexActivity extends FragmentActivity implements LoaderManager.L
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.complex, menu);
-		return true;
+		super.onCreateOptionsMenu(menu);
+		getMenuInflater().inflate(R.menu.slide, menu);
+		
+		//Use this in future when adding prev and next buttons
+		/*
+		menu.findItem(R.id.action_previous).setEnabled(pager.getCurrentItem() > 0);
+
+        // Add either a "next" or "finish" button to the action bar, depending on which page
+        // is currently selected.
+        MenuItem item = menu.add(Menu.NONE, R.id.action_next, Menu.NONE,
+                (pager.getCurrentItem() == adapter.getCount() - 1)
+                        ? R.string.action_finish
+                        : R.string.action_next);
+
+        item.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM | MenuItem.SHOW_AS_ACTION_WITH_TEXT);
+		*/
+        return true;
 	}
 
+	@Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        	case R.id.action_delete:
+        		DeleteDialogFragment dialog = new DeleteDialogFragment();
+        		dialog.setFields(pager, adapter);
+        		dialog.show(getSupportFragmentManager(), "DeleteDialogFragment");
+        	/*
+            case android.R.id.home:
+                // Navigate "up" the demo structure to the launchpad activity.
+                // See http://developer.android.com/design/patterns/navigation.html for more.
+                NavUtils.navigateUpTo(this, new Intent(this, MainActivity.class));
+                return true;
+			*/
+            case R.id.action_previous:
+                // Go to the previous step in the wizard. If there is no previous step,
+                // setCurrentItem will do nothing.
+        		pager.setCurrentItem(pager.getCurrentItem() - 1);
+                return true;
+
+            case R.id.action_next:
+                // Advance to the next step in the wizard. If there is no next step, setCurrentItem
+                // will do nothing.
+                pager.setCurrentItem(pager.getCurrentItem() + 1);
+                return true;
+            
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 }
