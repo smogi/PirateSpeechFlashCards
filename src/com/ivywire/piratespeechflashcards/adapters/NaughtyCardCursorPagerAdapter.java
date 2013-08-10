@@ -38,7 +38,7 @@ public class NaughtyCardCursorPagerAdapter extends PagerAdapter{
 		if(cursor == null) {
 	        return 0;
 	    } else {
-	        return 105;
+	        return 49;
 	    }
 	}
 	
@@ -48,7 +48,7 @@ public class NaughtyCardCursorPagerAdapter extends PagerAdapter{
 		int position2 = position;
 		if(position == 0){
 			layout = (LinearLayout) inflater.inflate(R.layout.activity_slide_info, null);
-		}if(position == 104){
+		}if(position == 48){
 			layout = (LinearLayout) inflater.inflate(R.layout.activity_slide_info, null);
 		}
 		else if(position > 0 && position < 104){

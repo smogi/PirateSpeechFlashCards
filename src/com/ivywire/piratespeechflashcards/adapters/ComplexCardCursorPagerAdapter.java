@@ -38,7 +38,7 @@ public class ComplexCardCursorPagerAdapter extends PagerAdapter{
 		if(cursor == null) {
 	        return 0;
 	    } else {
-	        return 105;
+	        return 62;
 	    }
 	}
 	
@@ -48,7 +48,7 @@ public class ComplexCardCursorPagerAdapter extends PagerAdapter{
 		int position2 = position;
 		if(position == 0){
 			layout = (LinearLayout) inflater.inflate(R.layout.activity_slide_info, null);
-		}if(position == 104){
+		}if(position == 61){
 			layout = (LinearLayout) inflater.inflate(R.layout.activity_slide_info, null);
 		}
 		else if(position > 0 && position < 104){
