@@ -1,15 +1,25 @@
 package com.ivywire.piratespeechflashcards;
 
+import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
+import com.ivywire.piratespeechflashcards.database.FlashCardTable;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.database.Cursor;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class MainActivity extends Activity implements OnClickListener {
+	private Cursor naughtyCursor;
+	private String [] nProjection;
+	private String nSelection;
+	private String[] nSelectionArgs;
+	private String nSortOrder;
 	
+	private String disableNaughty;
 	// Fields
 	private Button instructionsButton;
 	private Button startingButton;
@@ -42,7 +52,8 @@ public class MainActivity extends Activity implements OnClickListener {
 		complexButton.setOnClickListener(this);
 		naughtyButton.setOnClickListener(this);
 		shareButton.setOnClickListener(this);
-				
+		
+		naughtyCheck(naughtyButton);
 	}
 
 	// Reactions for button onClicks
@@ -85,6 +96,26 @@ public class MainActivity extends Activity implements OnClickListener {
         }
     }
 	
+	public void naughtyCheck(Button myButton){
+		nProjection = new String[] {FlashCardTable.COLUMN_CATEGORY, FlashCardTable.COLUMN_TITLE};
+		nSelection = FlashCardTable.COLUMN_CATEGORY + " = " + " 'naughtyDisabled' ";
+		naughtyCursor = getContentResolver().query(
+				MyCardContentProvider.CONTENT_URI,
+				nProjection,
+				nSelection,
+				null,
+				null
+				);
+		if(naughtyCursor != null && naughtyCursor.getCount()>0){
+			naughtyCursor.moveToFirst();
+			disableNaughty = naughtyCursor.getString(naughtyCursor.getColumnIndex(FlashCardTable.COLUMN_TITLE));
+			if(disableNaughty == "Yes"){
+				myButton.setEnabled(false);
+			}else{
+				//Nothing
+			}
+		}naughtyCursor.close();
+	}
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

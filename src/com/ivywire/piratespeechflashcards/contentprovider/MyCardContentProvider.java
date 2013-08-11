@@ -174,7 +174,8 @@ public class MyCardContentProvider extends ContentProvider{
 	private void checkColumns(String[] projection) {
 		String[] available = { FlashCardTable.COLUMN_CATEGORY,
 				FlashCardTable.COLUMN_TITLE, FlashCardTable.COLUMN_SENTENCE,
-				FlashCardTable.COLUMN_DEFINITION, FlashCardTable.COLUMN_ID };
+				FlashCardTable.COLUMN_DEFINITION, FlashCardTable.COLUMN_ID, 
+				FlashCardTable.COLUMN_DISABLED };
 	    if (projection != null) {
 	    	HashSet<String> requestedColumns = new HashSet<String>(Arrays.asList(projection));
 	    	HashSet<String> availableColumns = new HashSet<String>(Arrays.asList(available));

@@ -11,6 +11,7 @@ public class FlashCardTable {
 	public static final String COLUMN_TITLE = "title";
 	public static final String COLUMN_SENTENCE = "sentence";
 	public static final String COLUMN_DEFINITION = "definition";
+	public static final String COLUMN_DISABLED = "disabled";
 	
 	// Database creation SQL statement
 	private static final String DATABASE_CREATE = "create table " 
@@ -20,7 +21,8 @@ public class FlashCardTable {
 			+ COLUMN_CATEGORY + " text not null, "
 			+ COLUMN_TITLE + " text not null, "
 			+ COLUMN_SENTENCE + " text not null, "
-			+ COLUMN_DEFINITION + " text not null"
+			+ COLUMN_DEFINITION + " text not null, "
+			+ COLUMN_DISABLED + " text not null"
 			+ ");";
 	
 	public static void onCreate(SQLiteDatabase database) {
