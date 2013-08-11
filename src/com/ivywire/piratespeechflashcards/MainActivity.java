@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -53,6 +54,12 @@ public class MainActivity extends Activity implements OnClickListener {
 		naughtyButton.setOnClickListener(this);
 		shareButton.setOnClickListener(this);
 		
+		naughtyCheck(naughtyButton);
+	}
+	
+	@Override
+	protected void onResume(){
+		super.onResume();
 		naughtyCheck(naughtyButton);
 	}
 
@@ -120,8 +127,20 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
+		super.onCreateOptionsMenu(menu);
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+	
+	@Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+        	case R.id.action_manage:
+        		Intent intent = new Intent(this, ManageActivity.class);
+            	startActivity(intent);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
 	}
 
 }

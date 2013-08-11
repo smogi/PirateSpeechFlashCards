@@ -20,9 +20,9 @@ public class FlashCardTable {
 			+ COLUMN_ID + " integer primary key autoincrement, "
 			+ COLUMN_CATEGORY + " text not null, "
 			+ COLUMN_TITLE + " text not null, "
-			+ COLUMN_SENTENCE + " text not null, "
-			+ COLUMN_DEFINITION + " text not null, "
-			+ COLUMN_DISABLED + " text not null"
+			+ COLUMN_SENTENCE + " text, "
+			+ COLUMN_DEFINITION + " text, "
+			+ COLUMN_DISABLED + " text"
 			+ ");";
 	
 	public static void onCreate(SQLiteDatabase database) {
