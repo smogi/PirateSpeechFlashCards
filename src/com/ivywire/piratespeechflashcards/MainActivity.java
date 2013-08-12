@@ -1,6 +1,7 @@
 package com.ivywire.piratespeechflashcards;
 
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
+import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.os.Bundle;
@@ -19,8 +20,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	private String nSelection;
 	private String[] nSelectionArgs;
 	private String nSortOrder;
-	
-	private String disableNaughty;
+
 	// Fields
 	private Button instructionsButton;
 	private Button startingButton;
@@ -53,18 +53,13 @@ public class MainActivity extends Activity implements OnClickListener {
 		complexButton.setOnClickListener(this);
 		naughtyButton.setOnClickListener(this);
 		shareButton.setOnClickListener(this);
-		
-		if(naughtyCheck() == true){
-			naughtyButton.setOnClickListener(null);
-		}
+		naughtyCheck();
 	}
 	
 	@Override
 	protected void onResume(){
 		super.onResume();
-		if(naughtyCheck() == true){
-			naughtyButton.setOnClickListener(null);
-		}
+		naughtyCheck();
 	}
 
 	// Reactions for button onClicks
@@ -107,7 +102,10 @@ public class MainActivity extends Activity implements OnClickListener {
         }
     }
 	
-	public boolean naughtyCheck(){
+	public void naughtyCheck(){
+		Button button2 = (Button) findViewById(R.id.button7);
+
+
 		nProjection = new String[] {FlashCardTable.COLUMN_CATEGORY, FlashCardTable.COLUMN_TITLE};
 		nSelection = FlashCardTable.COLUMN_CATEGORY + " = " + " 'naughtyDisabled' ";
 		naughtyCursor = getContentResolver().query(
@@ -119,20 +117,13 @@ public class MainActivity extends Activity implements OnClickListener {
 				);
 		if(naughtyCursor != null && naughtyCursor.getCount()>0){
 			naughtyCursor.moveToFirst();
-			disableNaughty = naughtyCursor.getString(naughtyCursor.getColumnIndex(FlashCardTable.COLUMN_TITLE));
-			if(disableNaughty == "Yes"){
-				naughtyCursor.close();
-				return true;
+			String disableNaughty = naughtyCursor.getString(naughtyCursor.getColumnIndex(FlashCardTable.COLUMN_TITLE));
+			if(disableNaughty.equals("Yes")){
+				button2.setClickable(false);
 			}else{
-				naughtyCursor.close();
-				return false;
+				// Nothing
 			}
-		}else{
-			naughtyCursor.close();
-			return false;
-		}
-		
-		
+		}naughtyCursor.close();
 	}
 	
 	@Override

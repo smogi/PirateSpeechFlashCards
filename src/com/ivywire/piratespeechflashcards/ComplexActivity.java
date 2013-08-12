@@ -78,7 +78,7 @@ public class ComplexActivity extends FragmentActivity implements LoaderManager.L
         switch (item.getItemId()) {
         	case R.id.action_delete:
         		DeleteDialogFragment dialog = new DeleteDialogFragment();
-        		dialog.setFields(pager, adapter);
+        		dialog.setFields(pager, "Complex");
         		dialog.show(getSupportFragmentManager(), "DeleteDialogFragment");
         	/*
             case android.R.id.home:

@@ -10,12 +10,14 @@ import com.ivywire.piratespeechflashcards.adapters.StartingCardCursorPagerAdapte
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.view.ViewPager;
 
 public class DeleteDialogFragment extends DialogFragment {
 	ViewPager pager;
+	String category;
 	
 	public Dialog onCreateDialog(Bundle savedInstanceState){
 		// 1. Instantiate an AlertDialog.Builder with its constructor
@@ -26,8 +28,8 @@ public class DeleteDialogFragment extends DialogFragment {
 		       .setTitle(R.string.delete_dialog_title);
 		builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener(){
 			public void onClick(DialogInterface dialog, int id) {
-				
 	               if(pager != null){
+	            	   //Cursor cursor = getContentResolver().query
 	            	   pager.setCurrentItem(pager.getCurrentItem() + 1);
 	               }
 	               
@@ -42,38 +44,9 @@ public class DeleteDialogFragment extends DialogFragment {
 		return dialog;
 	}
 	
-	public void setFields(ViewPager mPager, CardCursorPagerAdapter mAdapter){
+	public void setFields(ViewPager mPager, String mCategory){
 		pager = mPager;
-		CardCursorPagerAdapter adapter = mAdapter;
+		category = mCategory;
 	}
-	
-	public void setFields(ViewPager mPager, MediumCardCursorPagerAdapter mAdapter){
-		pager = mPager;
-		MediumCardCursorPagerAdapter adapter = mAdapter;
-	}
-	
-	public void setFields(ViewPager mPager, BeginnerCardCursorPagerAdapter mAdapter){
-		pager = mPager;
-		BeginnerCardCursorPagerAdapter adapter = mAdapter;
-	}
-	
-	public void setFields(ViewPager mPager, ComplexCardCursorPagerAdapter mAdapter){
-		pager = mPager;
-		ComplexCardCursorPagerAdapter adapter = mAdapter;
-	}
-	
-	public void setFields(ViewPager mPager, DifficultCardCursorPagerAdapter mAdapter){
-		pager = mPager;
-		DifficultCardCursorPagerAdapter adapter = mAdapter;
-	}
-	
-	public void setFields(ViewPager mPager, NaughtyCardCursorPagerAdapter mAdapter){
-		pager = mPager;
-		NaughtyCardCursorPagerAdapter adapter = mAdapter;
-	}
-	
-	public void setFields(ViewPager mPager, StartingCardCursorPagerAdapter mAdapter){
-		pager = mPager;
-		StartingCardCursorPagerAdapter adapter = mAdapter;
-	}
+
 }	

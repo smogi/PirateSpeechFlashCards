@@ -99,7 +99,7 @@ public class MediumActivity extends FragmentActivity implements LoaderManager.Lo
         switch (item.getItemId()) {
         	case R.id.action_delete:
         		DeleteDialogFragment dialog = new DeleteDialogFragment();
-        		dialog.setFields(pager, adapter);
+        		dialog.setFields(pager, "Medium");
         		dialog.show(getSupportFragmentManager(), "DeleteDialogFragment");
         	/*
             case android.R.id.home:

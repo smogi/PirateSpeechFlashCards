@@ -11,6 +11,7 @@ import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.app.Activity;
 import android.content.ContentValues;
@@ -24,16 +25,24 @@ public class CardLoadActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_card_load);	
+		setContentView(R.layout.activity_card_load);
+		
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-		if(!prefs.getBoolean("firstTime", false)) {
+		if(!prefs.getBoolean("firstLaunch", false)) {
 			
 			LoadCardsTask task = new LoadCardsTask();
 			task.execute();
 			
 			SharedPreferences.Editor editor = prefs.edit();
-			editor.putBoolean("firstTime", true);
+			editor.putBoolean("firstLaunch", true);
 			editor.commit();
+		}else{
+			 new Handler().postDelayed(new Runnable() {
+                 @Override
+                 public void run() {
+                	 startActivity(new Intent(CardLoadActivity.this, MainActivity.class));
+                 }
+             }, 5000);
 		}
 	}
 

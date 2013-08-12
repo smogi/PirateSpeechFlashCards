@@ -18,6 +18,7 @@ import android.widget.TextView;
 public class MediumCardCursorPagerAdapter extends PagerAdapter {
 	private Cursor cursor;
 	private LayoutInflater inflater;
+	private String cardDeleted;
 	
 	public MediumCardCursorPagerAdapter(Context context, Cursor cursor){
 		this.cursor = cursor;
@@ -54,15 +55,20 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 		else if(position > 0 && position < 104){
 			position2--;
 		    cursor.moveToPosition(position2);
-		    layout = (LinearLayout) inflater.inflate(R.layout.activity_card, null);
-		    
-		    TextView cardTitle = (TextView) layout.findViewById(R.id.pirate_card_title);
-		    TextView cardExample = (TextView) layout.findViewById(R.id.pirate_card_example);
-		    TextView cardDefinition = (TextView) layout.findViewById(R.id.pirate_card_definition);
-	
-		    cardTitle.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_TITLE)));
-		    cardExample.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_SENTENCE)));
-		    cardDefinition.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DEFINITION)));
+		    cardDeleted = cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DISABLED));
+		    if(cardDeleted.equals("true")){
+		    	layout = (LinearLayout) inflater.inflate(R.layout.activity_deleted_card, null);
+		    }else{
+			    layout = (LinearLayout) inflater.inflate(R.layout.activity_card, null);
+			    
+			    TextView cardTitle = (TextView) layout.findViewById(R.id.pirate_card_title);
+			    TextView cardExample = (TextView) layout.findViewById(R.id.pirate_card_example);
+			    TextView cardDefinition = (TextView) layout.findViewById(R.id.pirate_card_definition);
+			    
+			    cardTitle.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_TITLE)));
+			    cardExample.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_SENTENCE)));
+			    cardDefinition.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DEFINITION)));
+		    }
 		}
 		((ViewPager) view).addView(layout);
 	    return layout;
