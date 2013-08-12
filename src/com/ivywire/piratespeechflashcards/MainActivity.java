@@ -54,13 +54,17 @@ public class MainActivity extends Activity implements OnClickListener {
 		naughtyButton.setOnClickListener(this);
 		shareButton.setOnClickListener(this);
 		
-		naughtyCheck(naughtyButton);
+		if(naughtyCheck() == true){
+			naughtyButton.setOnClickListener(null);
+		}
 	}
 	
 	@Override
 	protected void onResume(){
 		super.onResume();
-		naughtyCheck(naughtyButton);
+		if(naughtyCheck() == true){
+			naughtyButton.setOnClickListener(null);
+		}
 	}
 
 	// Reactions for button onClicks
@@ -103,7 +107,7 @@ public class MainActivity extends Activity implements OnClickListener {
         }
     }
 	
-	public void naughtyCheck(Button myButton){
+	public boolean naughtyCheck(){
 		nProjection = new String[] {FlashCardTable.COLUMN_CATEGORY, FlashCardTable.COLUMN_TITLE};
 		nSelection = FlashCardTable.COLUMN_CATEGORY + " = " + " 'naughtyDisabled' ";
 		naughtyCursor = getContentResolver().query(
@@ -117,11 +121,18 @@ public class MainActivity extends Activity implements OnClickListener {
 			naughtyCursor.moveToFirst();
 			disableNaughty = naughtyCursor.getString(naughtyCursor.getColumnIndex(FlashCardTable.COLUMN_TITLE));
 			if(disableNaughty == "Yes"){
-				myButton.setEnabled(false);
+				naughtyCursor.close();
+				return true;
 			}else{
-				//Nothing
+				naughtyCursor.close();
+				return false;
 			}
-		}naughtyCursor.close();
+		}else{
+			naughtyCursor.close();
+			return false;
+		}
+		
+		
 	}
 	
 	@Override

@@ -51,7 +51,7 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter{
 		}if(position == 89){
 			layout = (LinearLayout) inflater.inflate(R.layout.activity_slide_info, null);
 		}
-		else if(position > 0 && position < 91){
+		else if(position > 0 && position < 89){
 			position2--;
 		    cursor.moveToPosition(position2);
 		    layout = (LinearLayout) inflater.inflate(R.layout.activity_card, null);
