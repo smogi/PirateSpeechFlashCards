@@ -74,7 +74,7 @@ public class DifficultActivity extends FragmentActivity implements LoaderManager
         switch (item.getItemId()) {
         	case R.id.action_delete:
         		DeleteDialogFragment dialog = new DeleteDialogFragment();
-        		dialog.setFields(pager, "Difficult");
+        		dialog.setFields(this, pager, "Difficult", pager.getCurrentItem());
         		dialog.show(getSupportFragmentManager(), "DeleteDialogFragment");
         	/*
             case android.R.id.home:

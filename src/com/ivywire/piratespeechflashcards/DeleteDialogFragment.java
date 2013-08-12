@@ -6,9 +6,12 @@ import com.ivywire.piratespeechflashcards.adapters.DifficultCardCursorPagerAdapt
 import com.ivywire.piratespeechflashcards.adapters.MediumCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.adapters.NaughtyCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.adapters.StartingCardCursorPagerAdapter;
+import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
+import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -18,7 +21,9 @@ import android.support.v4.view.ViewPager;
 public class DeleteDialogFragment extends DialogFragment {
 	ViewPager pager;
 	String category;
-	
+	Context context;
+	int position;
+
 	public Dialog onCreateDialog(Bundle savedInstanceState){
 		// 1. Instantiate an AlertDialog.Builder with its constructor
 		AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
@@ -28,8 +33,10 @@ public class DeleteDialogFragment extends DialogFragment {
 		       .setTitle(R.string.delete_dialog_title);
 		builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener(){
 			public void onClick(DialogInterface dialog, int id) {
-	               if(pager != null){
-	            	   //Cursor cursor = getContentResolver().query
+	               if(pager != null && category != null){
+	            	   String [] projection = {FlashCardTable.COLUMN_DISABLED };
+	            	   String selection = " WHERE Category =" + " '" + category + "' ";
+	            	   Cursor cursor = context.getContentResolver().query(MyCardContentProvider.CONTENT_URI, projection, selection, null, null );
 	            	   pager.setCurrentItem(pager.getCurrentItem() + 1);
 	               }
 	               
@@ -44,9 +51,11 @@ public class DeleteDialogFragment extends DialogFragment {
 		return dialog;
 	}
 	
-	public void setFields(ViewPager mPager, String mCategory){
+	public void setFields(Context mContext, ViewPager mPager, String mCategory, int mPosition){
+		context = mContext;
 		pager = mPager;
 		category = mCategory;
+		position = mPosition;
 	}
 
 }	

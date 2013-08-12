@@ -76,7 +76,7 @@ public class StartingActivity extends FragmentActivity implements LoaderManager.
         switch (item.getItemId()) {
         	case R.id.action_delete:
         		DeleteDialogFragment dialog = new DeleteDialogFragment();
-        		dialog.setFields(pager, "Starting");
+        		dialog.setFields(this, pager, "Starting", pager.getCurrentItem());
         		dialog.show(getSupportFragmentManager(), "DeleteDialogFragment");
         	/*
             case android.R.id.home:
