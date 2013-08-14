@@ -4,25 +4,35 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp" >
 
-	<TextView android:id="@+id/pirate_card_title"
-	    style="?android:textAppearanceLarge"
-	    android:textStyle="bold"
+    <TextView
+        android:id="@+id/pirate_card_title"
+        style="?android:textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="15dp"
+        android:text="title"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+	
+	<TextView
+	    android:id="@+id/pirate_card_example"
+	    style="?android:textAppearanceMedium"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
-	    android:layout_marginBottom="16dp" />
-	
-	<TextView style="?android:textAppearanceMedium"
-	    android:id="@+id/pirate_card_example"
 	    android:lineSpacingMultiplier="1.2"
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content" />
+	    android:paddingLeft="15dp"
+	    android:text="example" />
 	
-	<TextView style="?android:textAppearanceMedium"
+	<TextView
 	    android:id="@+id/pirate_card_definition"
-	    android:lineSpacingMultiplier="1.2"
+	    style="?android:textAppearanceMedium"
 	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content" />
+	    android:layout_height="wrap_content"
+	    android:lineSpacingMultiplier="1.2"
+	    android:paddingLeft="15dp"
+	    android:text="definition" />
 
 </LinearLayout>

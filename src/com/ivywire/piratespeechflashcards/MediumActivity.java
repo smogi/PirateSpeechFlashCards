@@ -1,7 +1,9 @@
 package com.ivywire.piratespeechflashcards;
 
+import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.adapters.MediumCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
+import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -22,15 +24,18 @@ import android.view.MenuItem;
 public class MediumActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 	GestureDetector gesturedetector = null;
 	MediumCardCursorPagerAdapter adapter;
-	ViewPager pager;
+	VerticalViewPager pager;
+	CardDatabaseHelper naughtyHelper;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState); 
-		setContentView(R.layout.activity_card_slide);
+		setContentView(R.layout.activity_card_slide_vertical);
+		
+		naughtyHelper = new CardDatabaseHelper(this);
 		
 		adapter = new MediumCardCursorPagerAdapter(this, null);
-		pager = (ViewPager) findViewById(R.id.flashcard_pager);
+		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
 		
 		getSupportLoaderManager().initLoader(-1, null, this);
@@ -99,7 +104,7 @@ public class MediumActivity extends FragmentActivity implements LoaderManager.Lo
         switch (item.getItemId()) {
         	case R.id.action_delete:
         		DeleteDialogFragment dialog = new DeleteDialogFragment();
-        		dialog.setFields(this, pager, "Medium", pager.getCurrentItem());
+        		dialog.setFields(this, pager, "Medium", pager.getCurrentItem(), naughtyHelper);
         		dialog.show(getSupportFragmentManager(), "DeleteDialogFragment");
         	/*
             case android.R.id.home:

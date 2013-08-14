@@ -1,25 +1,25 @@
 package com.ivywire.piratespeechflashcards;
 
-import com.ivywire.piratespeechflashcards.adapters.BeginnerCardCursorPagerAdapter;
-import com.ivywire.piratespeechflashcards.adapters.ComplexCardCursorPagerAdapter;
-import com.ivywire.piratespeechflashcards.adapters.DifficultCardCursorPagerAdapter;
-import com.ivywire.piratespeechflashcards.adapters.MediumCardCursorPagerAdapter;
-import com.ivywire.piratespeechflashcards.adapters.NaughtyCardCursorPagerAdapter;
-import com.ivywire.piratespeechflashcards.adapters.StartingCardCursorPagerAdapter;
+import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
+import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.view.ViewPager;
 
 public class DeleteDialogFragment extends DialogFragment {
-	ViewPager pager;
+	CardDatabaseHelper helper;
+	ViewPager pager2;
+	VerticalViewPager pager;
 	String category;
 	Context context;
 	int position;
@@ -34,10 +34,15 @@ public class DeleteDialogFragment extends DialogFragment {
 		builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener(){
 			public void onClick(DialogInterface dialog, int id) {
 	               if(pager != null && category != null){
-	            	   String [] projection = {FlashCardTable.COLUMN_DISABLED };
-	            	   String selection = " WHERE Category =" + " '" + category + "' ";
+	            	   String [] projection = {FlashCardTable.COLUMN_DISABLED, FlashCardTable.COLUMN_ID };
+	            	   String selection = " category =" + " '" + category + "' ";
 	            	   Cursor cursor = context.getContentResolver().query(MyCardContentProvider.CONTENT_URI, projection, selection, null, null );
-	            	   pager.setCurrentItem(pager.getCurrentItem() + 1);
+	            	   cursor.moveToPosition(position);
+	            	   String columnId = cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_ID));
+	            	   int columnId2 = Integer.parseInt(columnId);
+	            	   columnId2--;
+	            	   helper.updateDisabled(columnId2, "true");
+	            	   pager.getAdapter().notifyDataSetChanged();
 	               }
 	               
 	           }
@@ -53,9 +58,16 @@ public class DeleteDialogFragment extends DialogFragment {
 	
 	public void setFields(Context mContext, ViewPager mPager, String mCategory, int mPosition){
 		context = mContext;
+		pager2 = mPager;
+		category = mCategory;
+		position = mPosition;
+	}
+	public void setFields(Context mContext, VerticalViewPager mPager, String mCategory, int mPosition, CardDatabaseHelper mHelper){
+		context = mContext;
 		pager = mPager;
 		category = mCategory;
 		position = mPosition;
+		helper = mHelper;
 	}
 
 }	

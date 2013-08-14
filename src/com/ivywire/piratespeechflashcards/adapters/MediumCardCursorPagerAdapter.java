@@ -1,5 +1,7 @@
 package com.ivywire.piratespeechflashcards.adapters;
 
+import com.external.verticalviewpager.PagerAdapter;
+import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.R;
 import com.ivywire.piratespeechflashcards.R.id;
 import com.ivywire.piratespeechflashcards.R.layout;
@@ -7,8 +9,6 @@ import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.content.Context;
 import android.database.Cursor;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -31,7 +31,7 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 	
 	@Override
 	public void destroyItem(View view, int position, Object object) {
-	    ((ViewPager) view).removeView((LinearLayout) object);
+	    ((VerticalViewPager) view).removeView((LinearLayout) object);
 	}
 	
 	@Override
@@ -56,7 +56,7 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 			position2--;
 		    cursor.moveToPosition(position2);
 		    cardDeleted = cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DISABLED));
-		    if(cardDeleted.equals("true")){
+		    if(cardDeleted != null && cardDeleted.equals("true")){
 		    	layout = (LinearLayout) inflater.inflate(R.layout.activity_deleted_card, null);
 		    }else{
 			    layout = (LinearLayout) inflater.inflate(R.layout.activity_card, null);
@@ -70,12 +70,16 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 			    cardDefinition.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DEFINITION)));
 		    }
 		}
-		((ViewPager) view).addView(layout);
+		((VerticalViewPager) view).addView(layout);
 	    return layout;
 	}
 	
 	@Override
 	public boolean isViewFromObject(View arg0, Object arg1) {
 		return arg0 == arg1;
+	}
+	
+	public int getItemPosition(Object object) {
+	    return POSITION_NONE;
 	}
 }

@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/menu_info"
-        android:textSize="16sp" />
+        android:textSize="16sp"/>
 
     <Button
         android:id="@+id/button1"
@@ -40,7 +40,7 @@
         android:layout_alignLeft="@+id/button1"
         android:layout_below="@+id/button1"
         android:layout_marginTop="25dp"
-        android:text="Starting" />
+        android:text="Starting"/>
 
     <Button
         android:id="@+id/button4"
@@ -58,7 +58,7 @@
         android:layout_alignLeft="@+id/button3"
         android:layout_below="@+id/button3"
         android:layout_marginTop="25dp"
-        android:text="Beginner" />
+        android:text="Beginner"/>
 
     <Button
         android:id="@+id/button6"

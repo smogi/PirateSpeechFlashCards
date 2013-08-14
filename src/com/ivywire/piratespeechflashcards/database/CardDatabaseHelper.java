@@ -1,5 +1,6 @@
 package com.ivywire.piratespeechflashcards.database;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -22,5 +23,12 @@ public class CardDatabaseHelper extends SQLiteOpenHelper {
 	// Method is called during the upgrade of the database
 	public void onUpgrade(SQLiteDatabase database, int oldVersion, int newVersion){
 		FlashCardTable.onUpgrade(database, oldVersion, newVersion);
+	}
+	
+	public void updateDisabled(int id, String disabled){
+		SQLiteDatabase db = this.getWritableDatabase();
+		ContentValues values = new ContentValues();
+ 		values.put(FlashCardTable.COLUMN_DISABLED, "true");
+ 		db.update(FlashCardTable.TABLE_CARDS, values, "_id=" + id, null);
 	}
 }
