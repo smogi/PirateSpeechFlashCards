@@ -8,21 +8,32 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".ManageActivity" >
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/manage_description"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/parrotnaughty" />
+
     <TextView
         android:id="@+id/manage_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="Press below to remove naughty cards." />
+        android:layout_above="@+id/remove_naughty_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:text="Press below to remove naughty cards."
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/remove_naughty_button"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/manage_description"
-        android:layout_below="@+id/manage_description"
-        android:layout_marginTop="25dp"
-        android:text="Remove all naughty cards" />
+        android:layout_above="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:background="#fb0000"
+        android:text="Remove all naughty cards"
+        android:textSize="20sp" />
 
 </RelativeLayout>

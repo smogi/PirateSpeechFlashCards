@@ -7,12 +7,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".ShareActivity" >
+
         <Button
             android:id="@+id/Social"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="150dp"
-            android:layout_marginTop="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="142dp"
+            android:background="#ffb400"
             android:text="@string/Share_this_app_with_your_friends" />
 
 </RelativeLayout>
