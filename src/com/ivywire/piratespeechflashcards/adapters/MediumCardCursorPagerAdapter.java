@@ -60,7 +60,7 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 		    	layout = (LinearLayout) inflater.inflate(R.layout.activity_deleted_card, null);
 		    }else{
 			    layout = (LinearLayout) inflater.inflate(R.layout.activity_card, null);
-			    
+			    layout.setBackgroundResource(R.drawable.card_medium);
 			    TextView cardTitle = (TextView) layout.findViewById(R.id.pirate_card_title);
 			    TextView cardExample = (TextView) layout.findViewById(R.id.pirate_card_example);
 			    TextView cardDefinition = (TextView) layout.findViewById(R.id.pirate_card_definition);

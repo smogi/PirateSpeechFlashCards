@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.Color;
+import android.graphics.LightingColorFilter;
+import android.graphics.PorterDuff;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -44,7 +47,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		complexButton = (Button) findViewById(R.id.button6);
 		naughtyButton = (Button) findViewById(R.id.button7);
 		shareButton = (Button) findViewById(R.id.button8);
-		
+				
 		instructionsButton.setOnClickListener(this);
 		mediumButton.setOnClickListener(this);
 		startingButton.setOnClickListener(this);

@@ -55,7 +55,7 @@ public class StartingCardCursorPagerAdapter extends PagerAdapter{
 			position2--;
 		    cursor.moveToPosition(position2);
 		    layout = (LinearLayout) inflater.inflate(R.layout.activity_card, null);
-		    
+		    layout.setBackgroundResource(R.drawable.card_starting);
 		    TextView cardTitle = (TextView) layout.findViewById(R.id.pirate_card_title);
 		    TextView cardExample = (TextView) layout.findViewById(R.id.pirate_card_example);
 		    TextView cardDefinition = (TextView) layout.findViewById(R.id.pirate_card_definition);
