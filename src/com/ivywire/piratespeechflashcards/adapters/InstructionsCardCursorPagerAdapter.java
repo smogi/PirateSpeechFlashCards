@@ -1,10 +1,10 @@
 package com.ivywire.piratespeechflashcards.adapters;
 
+import com.external.verticalviewpager.PagerAdapter;
 import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.R;
 
 import android.content.Context;
-import android.support.v4.view.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.RelativeLayout;
