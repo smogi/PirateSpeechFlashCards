@@ -26,15 +26,15 @@
         android:src="@drawable/piratebird3" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView2_difficult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView1"
-        android:layout_toRightOf="@+id/imageView1"
+        android:layout_alignBottom="@+id/imageView1_difficult"
+        android:layout_toRightOf="@+id/imageView1_difficult"
         android:src="@drawable/piratebird2" />
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/imageView1_difficult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView3"
