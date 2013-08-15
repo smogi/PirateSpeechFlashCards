@@ -31,7 +31,7 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 	
 	@Override
 	public void destroyItem(View view, int position, Object object) {
-	    ((VerticalViewPager) view).removeView((LinearLayout) object);
+	    ((VerticalViewPager) view).removeView((RelativeLayout) object);
 	}
 	
 	@Override
@@ -45,21 +45,21 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 	
 	@Override
 	public Object instantiateItem(View view, int position) {
-		LinearLayout layout = null;
+		RelativeLayout layout = null;
 		int position2 = position;
 		if(position == 0){
-			layout = (LinearLayout) inflater.inflate(R.layout.activity_slide_info, null);
+			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
 		}if(position == 104){
-			layout = (LinearLayout) inflater.inflate(R.layout.activity_slide_info, null);
+			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
 		}
 		else if(position > 0 && position < 104){
 			position2--;
 		    cursor.moveToPosition(position2);
 		    cardDeleted = cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DISABLED));
 		    if(cardDeleted != null && cardDeleted.equals("true")){
-		    	layout = (LinearLayout) inflater.inflate(R.layout.activity_deleted_card, null);
+		    	layout = (RelativeLayout) inflater.inflate(R.layout.activity_deleted_card, null);
 		    }else{
-			    layout = (LinearLayout) inflater.inflate(R.layout.activity_card, null);
+			    layout = (RelativeLayout) inflater.inflate(R.layout.activity_card, null);
 			    layout.setBackgroundResource(R.drawable.card_medium);
 			    TextView cardTitle = (TextView) layout.findViewById(R.id.pirate_card_title);
 			    TextView cardExample = (TextView) layout.findViewById(R.id.pirate_card_example);

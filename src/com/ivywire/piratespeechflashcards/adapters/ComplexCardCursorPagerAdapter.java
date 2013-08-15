@@ -30,7 +30,7 @@ public class ComplexCardCursorPagerAdapter extends PagerAdapter{
 	
 	@Override
 	public void destroyItem(View view, int position, Object object) {
-	    ((ViewPager) view).removeView((LinearLayout) object);
+	    ((ViewPager) view).removeView((RelativeLayout) object);
 	}
 	
 	@Override
@@ -44,17 +44,17 @@ public class ComplexCardCursorPagerAdapter extends PagerAdapter{
 	
 	@Override
 	public Object instantiateItem(View view, int position) {
-		LinearLayout layout = null;
+		RelativeLayout layout = null;
 		int position2 = position;
 		if(position == 0){
-			layout = (LinearLayout) inflater.inflate(R.layout.activity_slide_info, null);
+			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
 		}if(position == 61){
-			layout = (LinearLayout) inflater.inflate(R.layout.activity_slide_info, null);
+			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
 		}
 		else if(position > 0 && position < 61){
 			position2--;
 		    cursor.moveToPosition(position2);
-		    layout = (LinearLayout) inflater.inflate(R.layout.activity_card, null);
+		    layout = (RelativeLayout) inflater.inflate(R.layout.activity_card, null);
 		    layout.setBackgroundResource(R.drawable.card_complex);
 		    TextView cardTitle = (TextView) layout.findViewById(R.id.pirate_card_title);
 		    TextView cardExample = (TextView) layout.findViewById(R.id.pirate_card_example);
