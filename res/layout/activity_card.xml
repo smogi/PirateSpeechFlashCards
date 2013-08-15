@@ -11,9 +11,8 @@
         style="?android:textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:layout_marginBottom="16dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:height="60dp"
         android:text="title"
@@ -38,12 +37,11 @@
         style="?android:textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="70dp"
         android:gravity="center"
         android:lineSpacingMultiplier="1.2"
         android:paddingLeft="15dp"
         android:text="definition"
         android:textSize="22sp" />
-
 
 </LinearLayout>
