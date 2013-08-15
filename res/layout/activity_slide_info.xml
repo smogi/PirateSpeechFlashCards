@@ -5,7 +5,7 @@
     android:background="@drawable/card_shape" >
 
     <ImageView
-        android:id="@+id/imageView1_difficult"
+        android:id="@+id/imageView1_complex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -13,18 +13,18 @@
         android:src="@drawable/firstpiratepicture1" />
 
     <ImageView
-        android:id="@+id/imageView2_difficult"
+        android:id="@+id/imageView2_complex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageView1_difficult"
+        android:layout_toRightOf="@+id/imageView1_complex"
         android:src="@drawable/words1" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView3_complex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1_difficult"
+        android:layout_below="@+id/imageView1_complex"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="51dp"
         android:src="@drawable/swipe" />
