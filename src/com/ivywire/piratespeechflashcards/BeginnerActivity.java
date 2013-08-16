@@ -9,6 +9,7 @@ import android.support.v4.content.CursorLoader;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.LoaderManager;
 
+import com.external.verticalviewpager.AnimationPager;
 import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.adapters.BeginnerCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
@@ -26,6 +27,7 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
 		adapter = new BeginnerCardCursorPagerAdapter(this, null);
 		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
+		pager.setPageTransformer(true, new AnimationPager());
 		ViewPager pager2 = new ViewPager(this);
 		getSupportLoaderManager().initLoader(-1, null, this);
 	}

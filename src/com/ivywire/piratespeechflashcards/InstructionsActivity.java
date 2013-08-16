@@ -1,5 +1,6 @@
 package com.ivywire.piratespeechflashcards;
 
+import com.external.verticalviewpager.AnimationPager;
 import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.adapters.InstructionsCardCursorPagerAdapter;
 
@@ -22,6 +23,7 @@ public class InstructionsActivity extends FragmentActivity {
 		adapter = new InstructionsCardCursorPagerAdapter(this);
 		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
+		pager.setPageTransformer(true, new AnimationPager());
 	}
 	
 
