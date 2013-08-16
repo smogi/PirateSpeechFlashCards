@@ -24,7 +24,7 @@ public class InstructionsActivity extends FragmentActivity {
 		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
 		pager.setPageTransformer(true, new AnimationPager());
-		pager.setPageTransformer(true, new AnimationPager());
+		
 	}
 	
 
