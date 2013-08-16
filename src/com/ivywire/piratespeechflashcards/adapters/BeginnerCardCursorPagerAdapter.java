@@ -5,21 +5,29 @@ import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.R;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
+import android.content.ActivityNotFoundException;
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
+import android.net.Uri;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 	private Cursor cursor;
 	private LayoutInflater inflater;
+	private Context context2;
 	
 	public BeginnerCardCursorPagerAdapter(Context context, Cursor cursor){
 		this.cursor = cursor;
 	    this.inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+	    context2 = context;
 	}
 	
 	public void swapCursor(Cursor cursor){
@@ -48,6 +56,23 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
 		}if(position == 89){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_beginner, null);
+			Button rateButton = (Button) layout.findViewById(R.id.ratingButton1_beginner);
+			rateButton.setOnClickListener(new OnClickListener(){
+
+				@Override
+				public void onClick(View v) {				   
+					try{
+						context2.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.imangi.templerun]")));
+									        
+				    }
+				    catch (ActivityNotFoundException e){
+				    	Toast.makeText(context2, "Could not open Android market, please install the market app.", Toast.LENGTH_SHORT).show(); 
+				    }
+					
+				}
+				
+			});
+		    
 		}
 		else if(position > 0 && position < 89){
 			position2--;
@@ -70,4 +95,5 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 	public boolean isViewFromObject(View arg0, Object arg1) {
 		return arg0 == arg1;
 	}
+
 }
