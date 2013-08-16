@@ -24,16 +24,8 @@
         android:layout_marginLeft="20dp"
         android:src="@drawable/avast1" />
 
-    <RatingBar
-        android:id="@+id/ratingBar1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView2_starting"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="18dp" />
-
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button1_starting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -41,5 +33,14 @@
         android:layout_marginTop="19dp"
         android:text="Submit Rating!"
         android:textSize="24sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2_starting"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:progress="100" />
 
 </RelativeLayout>

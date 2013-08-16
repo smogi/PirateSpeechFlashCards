@@ -31,7 +31,9 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView2_medium"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="14dp" />
+        android:layout_marginBottom="14dp"
+        android:clickable="false"
+	    android:progress="100" />
 
     <Button
         android:id="@+id/button1_medium"

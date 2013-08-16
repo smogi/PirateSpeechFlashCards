@@ -40,6 +40,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView2_naughty"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true" 
+        android:clickable="false"
+	    android:progress="100"/>
 
 </RelativeLayout>
