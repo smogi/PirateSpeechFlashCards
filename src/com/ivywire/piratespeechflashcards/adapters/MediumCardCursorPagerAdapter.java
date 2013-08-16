@@ -3,15 +3,12 @@ package com.ivywire.piratespeechflashcards.adapters;
 import com.external.verticalviewpager.PagerAdapter;
 import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.R;
-import com.ivywire.piratespeechflashcards.R.id;
-import com.ivywire.piratespeechflashcards.R.layout;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -50,7 +47,7 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 		if(position == 0){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
 		}if(position == 104){
-			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
+			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_medium, null);
 		}
 		else if(position > 0 && position < 104){
 			position2--;

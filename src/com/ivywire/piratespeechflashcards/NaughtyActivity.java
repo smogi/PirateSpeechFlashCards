@@ -1,5 +1,6 @@
 package com.ivywire.piratespeechflashcards;
 
+import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.adapters.NaughtyCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 
@@ -15,14 +16,14 @@ import android.view.MenuItem;
 
 public class NaughtyActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 	NaughtyCardCursorPagerAdapter adapter;
-	ViewPager pager;
+	VerticalViewPager pager;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_card_slide);
 		
 		adapter = new NaughtyCardCursorPagerAdapter(this, null);
-		pager= (ViewPager) findViewById(R.id.flashcard_pager);
+		pager= (VerticalViewPager) findViewById(R.id.flashcard_pager);
 		pager.setAdapter(adapter);
 		
 		getSupportLoaderManager().initLoader(-1, null, this);

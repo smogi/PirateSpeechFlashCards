@@ -1,21 +1,19 @@
 package com.ivywire.piratespeechflashcards.adapters;
 
+import com.external.verticalviewpager.PagerAdapter;
+import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.R;
-import com.ivywire.piratespeechflashcards.R.id;
-import com.ivywire.piratespeechflashcards.R.layout;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.content.Context;
 import android.database.Cursor;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class BeginnerCardCursorPagerAdapter extends PagerAdapter{
+public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 	private Cursor cursor;
 	private LayoutInflater inflater;
 	
@@ -30,7 +28,7 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter{
 	
 	@Override
 	public void destroyItem(View view, int position, Object object) {
-	    ((ViewPager) view).removeView((RelativeLayout) object);
+	    ((VerticalViewPager) view).removeView((RelativeLayout) object);
 	}
 	
 	@Override
@@ -49,7 +47,7 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter{
 		if(position == 0){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
 		}if(position == 89){
-			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
+			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_beginner, null);
 		}
 		else if(position > 0 && position < 89){
 			position2--;
@@ -64,7 +62,7 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter{
 		    cardExample.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_SENTENCE)));
 		    cardDefinition.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DEFINITION)));
 		}
-		((ViewPager) view).addView(layout);
+		((VerticalViewPager) view).addView(layout);
 	    return layout;
 	}
 	

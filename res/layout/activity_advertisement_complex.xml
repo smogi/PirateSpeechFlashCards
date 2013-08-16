@@ -17,6 +17,7 @@
         android:layout_height="190dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
+        android:layout_marginBottom="2dp"
         android:src="@drawable/monkeypirate" />
 
     <ImageView
@@ -30,7 +31,7 @@
         android:src="@drawable/ahoycapn1" />
 
     <RatingBar
-        android:id="@+id/ratingBar1"
+        android:id="@+id/ratingBar1_naughty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView3_complex"
@@ -41,7 +42,7 @@
         android:id="@+id/button1_complex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/ratingBar1"
+        android:layout_above="@+id/ratingBar1_naughty"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
         android:text="Submit rating!"

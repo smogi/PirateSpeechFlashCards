@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.adapters.ComplexCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 
@@ -12,14 +13,13 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
-import android.support.v4.view.ViewPager;
 import android.view.GestureDetector;
 
 
 public class ComplexActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor> {
     GestureDetector gesturedetector=null;
     ComplexCardCursorPagerAdapter adapter;
-    ViewPager pager;
+    VerticalViewPager pager;
         
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +27,7 @@ public class ComplexActivity extends FragmentActivity implements LoaderManager.L
 		setContentView(R.layout.activity_card_slide);
 		
 		adapter = new ComplexCardCursorPagerAdapter(this, null);
-		pager= (ViewPager) findViewById(R.id.flashcard_pager);
+		pager= (VerticalViewPager) findViewById(R.id.flashcard_pager);
 		pager.setAdapter(adapter);
 		
 		getSupportLoaderManager().initLoader(-1, null, this);

@@ -69,5 +69,12 @@ public class DeleteDialogFragment extends DialogFragment {
 		position = mPosition;
 		helper = mHelper;
 	}
+	
+	public void setFields(Context mContext, VerticalViewPager mPager, String mCategory, int mPosition){
+		context = mContext;
+		pager = mPager;
+		category = mCategory;
+		position = mPosition;
+	}
 
 }	
