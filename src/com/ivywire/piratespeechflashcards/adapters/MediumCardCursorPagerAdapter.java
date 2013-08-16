@@ -1,6 +1,6 @@
 package com.ivywire.piratespeechflashcards.adapters;
 
-import com.external.verticalviewpager.AnimationPager;
+import com.external.verticalviewpager.VerticalViewPager;
 import com.external.verticalviewpager.PagerAdapter;
 import com.ivywire.piratespeechflashcards.R;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
@@ -29,7 +29,7 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 	
 	@Override
 	public void destroyItem(View view, int position, Object object) {
-	    ((AnimationPager) view).removeView((RelativeLayout) object);
+	    ((VerticalViewPager) view).removeView((RelativeLayout) object);
 	}
 	
 	@Override
@@ -68,7 +68,7 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 			    cardDefinition.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DEFINITION)));
 		    }
 		}
-		((AnimationPager) view).addView(layout);
+		((VerticalViewPager) view).addView(layout);
 	    return layout;
 	}
 	

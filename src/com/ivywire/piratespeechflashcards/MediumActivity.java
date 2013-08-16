@@ -25,19 +25,20 @@ import android.view.MenuItem;
 public class MediumActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 	GestureDetector gesturedetector = null;
 	MediumCardCursorPagerAdapter adapter;
-	AnimationPager pager;
+	VerticalViewPager pager;
 	CardDatabaseHelper naughtyHelper;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState); 
-		setContentView(R.layout.activity_card_slide_animation);
+		setContentView(R.layout.activity_card_slide_vertical);
 		
 		naughtyHelper = new CardDatabaseHelper(this);
 		
 		adapter = new MediumCardCursorPagerAdapter(this, null);
-		pager = (AnimationPager) findViewById(R.id.flashcard_pager_animation);
+		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
+		pager.setPageTransformer(true, new AnimationPager());
 		
 		getSupportLoaderManager().initLoader(-1, null, this);
 		

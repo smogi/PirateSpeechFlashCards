@@ -7,18 +7,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-public class AnimationPager extends VerticalViewPager implements VerticalViewPager.PageTransformer {
-    
-	public AnimationPager(Context context) {
-		super(context);
-	    initViewPager();
-	    		
-	}
-	
-	public AnimationPager(Context context, AttributeSet attr){
-		super(context, attr);
-		initViewPager();
-	}
+public class AnimationPager implements VerticalViewPager.PageTransformer {
 
 
 	private static float MIN_SCALE = 0.75f;
