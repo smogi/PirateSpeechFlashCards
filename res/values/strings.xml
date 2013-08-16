@@ -23,7 +23,5 @@
     <string name="title_activity_manage">Manage</string>
     <string name="title_template_step">Step</string>
     <string name="Share_this_app_with_your_friends">Share this app with your friends!</string>
-    
-    <color name="light_blue">#E0F2F7</color>
 
 </resources>

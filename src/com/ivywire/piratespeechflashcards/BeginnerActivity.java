@@ -26,7 +26,7 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
 		adapter = new BeginnerCardCursorPagerAdapter(this, null);
 		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
-		
+		ViewPager pager2 = new ViewPager(this);
 		getSupportLoaderManager().initLoader(-1, null, this);
 	}
 	
