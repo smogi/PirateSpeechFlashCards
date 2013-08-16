@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		instructionsButton = (Button) findViewById(R.id.button1_difficult);
+		instructionsButton = (Button) findViewById(R.id.button1_asd);
 		mediumButton = (Button) findViewById(R.id.button2);
 		startingButton = (Button) findViewById(R.id.button3);
 		difficultButton = (Button) findViewById(R.id.button4);
@@ -70,7 +70,7 @@ public class MainActivity extends Activity implements OnClickListener {
     public void onClick(View v) {
 		Intent intent;
         switch(v.getId()){
-            case R.id.button1_difficult:
+            case R.id.button1_asd:
             	intent = new Intent(this, InstructionsActivity.class);
             	startActivity(intent);
                 break;
