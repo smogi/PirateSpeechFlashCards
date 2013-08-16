@@ -20,6 +20,8 @@
         android:layout_marginTop="114dp"
         android:layout_toRightOf="@+id/imageView1"
         android:src="@drawable/piratebird2" />
+    
+    
 
     <ImageView
         android:id="@+id/imageView3_complex"
