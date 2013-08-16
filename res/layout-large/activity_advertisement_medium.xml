@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="12dp"
+    android:layout_margin="18dp"
     android:background="@drawable/card_medium"
     android:orientation="horizontal" >
 
     <ImageView
         android:id="@+id/imageView1_medium"
-        android:layout_width="190dp"
-        android:layout_height="190dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="2dp"
@@ -21,8 +21,8 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView1_medium"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="48dp"
-        android:layout_marginRight="2dp"
+        android:layout_marginBottom="178dp"
+        android:layout_marginRight="23dp"
         android:src="@drawable/olseadog1" />
 
     <RatingBar
@@ -31,9 +31,9 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView2_medium"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="14dp"
+        android:layout_marginBottom="77dp"
         android:clickable="false"
-	    android:progress="100" />
+        android:progress="100" />
 
     <Button
         android:id="@+id/button1_medium"
@@ -42,8 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/ratingBar1_naughty"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="40dp"
         android:text="Submit rating!"
-        android:textSize="24sp" />
+        android:textSize="35sp" />
 
 </RelativeLayout>
