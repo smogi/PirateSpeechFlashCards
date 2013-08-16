@@ -17,7 +17,7 @@ public class InstructionsActivity extends FragmentActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_instructions);
+		setContentView(R.layout.activity_card_slide_vertical);
 		
 		adapter = new InstructionsCardCursorPagerAdapter(this);
 		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);

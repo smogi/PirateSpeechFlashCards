@@ -20,7 +20,7 @@ public class DifficultActivity extends FragmentActivity implements LoaderManager
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_card_slide);
+		setContentView(R.layout.activity_card_slide_vertical);
 		
 		adapter = new DifficultCardCursorPagerAdapter(this, null);
 		pager= (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
