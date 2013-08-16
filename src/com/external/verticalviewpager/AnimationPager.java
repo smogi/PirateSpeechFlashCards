@@ -3,6 +3,7 @@ package com.external.verticalviewpager;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
+import android.util.AttributeSet;
 import android.view.View;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
@@ -12,6 +13,11 @@ public class AnimationPager extends VerticalViewPager implements VerticalViewPag
 		super(context);
 	    initViewPager();
 	    		
+	}
+	
+	public AnimationPager(Context context, AttributeSet attr){
+		super(context, attr);
+		initViewPager();
 	}
 
 
