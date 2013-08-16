@@ -20,7 +20,7 @@ public class InstructionsActivity extends FragmentActivity {
 		setContentView(R.layout.activity_instructions);
 		
 		adapter = new InstructionsCardCursorPagerAdapter(this);
-		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager);
+		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
 	}
 	

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Talk Like A Pirate!</string>
+    <string name="app_name">Talk Pirate!</string>
     <string name="action_finish">Finish</string>
     <string name="action_previous">Prev</string>
     <string name="action_next">Next</string>
@@ -12,16 +12,15 @@
     <string name="delete_dialog_message">Are you sure? It\'s permanent.</string>
     <string name="delete_dialog_title">Delete</string>
     <string name="menu_info">The 450 cards are divided into 7 categories. Learning each category before proceeding to the next will provide the best learning speed. Any card can be deleted and the naughty section can deleted via the tool icon above. If you enjoy this app, please take the time to rate and share us!</string>
-    <string name="title_activity_instructions">InstructionsActivity</string>
-    <string name="title_activity_medium">MediumActivity</string>
-    <string name="title_activity_starting">StartingActivity</string>
-    <string name="title_activity_difficult">DifficultActivity</string>
-    <string name="title_activity_beginner">BeginnerActivity</string>
-    <string name="title_activity_complex">ComplexActivity</string>
-    <string name="title_activity_naughty">NaughtyActivity</string>
-    <string name="title_activity_share">ShareActivity</string>
-    <string name="title_activity_manage">ManageActivity</string>
-    <string name="title_activity_card_load">CardLoadActivity</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="title_activity_medium">Medium</string>
+    <string name="title_activity_starting">Starting</string>
+    <string name="title_activity_difficult">Difficult</string>
+    <string name="title_activity_beginner">Beginner</string>
+    <string name="title_activity_complex">Complex</string>
+    <string name="title_activity_naughty">Naughty</string>
+    <string name="title_activity_share">Share</string>
+    <string name="title_activity_manage">Manage</string>
     <string name="title_template_step">Step</string>
     <string name="Share_this_app_with_your_friends">Share this app with your friends!</string>
     

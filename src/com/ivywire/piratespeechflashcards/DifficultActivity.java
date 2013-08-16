@@ -23,7 +23,7 @@ public class DifficultActivity extends FragmentActivity implements LoaderManager
 		setContentView(R.layout.activity_card_slide);
 		
 		adapter = new DifficultCardCursorPagerAdapter(this, null);
-		pager= (VerticalViewPager) findViewById(R.id.flashcard_pager);
+		pager= (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
 		
 		getSupportLoaderManager().initLoader(-1, null, this);

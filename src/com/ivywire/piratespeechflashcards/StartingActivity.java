@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.database.Cursor;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.app.LoaderManager;
-import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -23,7 +22,7 @@ public class StartingActivity extends FragmentActivity implements LoaderManager.
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_card_slide);
 		adapter = new StartingCardCursorPagerAdapter(this, null);
-		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager);
+		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
 		
 		getSupportLoaderManager().initLoader(-1, null, this);
