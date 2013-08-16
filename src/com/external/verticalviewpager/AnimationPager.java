@@ -11,11 +11,11 @@ public class AnimationPager implements VerticalViewPager.PageTransformer {
 
 
 	private static float MIN_SCALE = 0.75f;
-	private View view;
+	
 	
 	
 	@Override
-	public void transformPage(View page, float position) {
+	public void transformPage(View view, float position) {
 		// TODO Auto-generated method stub
 		int pageHeight = view.getHeight();
 		
