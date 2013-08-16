@@ -35,7 +35,10 @@
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignBottom="@+id/imageView3_complex"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:maxHeight="300dp"
+        android:maxWidth="300dp" />
 
 </RelativeLayout>
