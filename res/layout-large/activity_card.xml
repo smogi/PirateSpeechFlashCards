@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:padding="16dp" >
+
+	<TextView
+	    android:id="@+id/pirate_card_title"
+	    style="?android:textAppearanceLarge"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="22dp"
+	    android:gravity="center"
+	    android:height="60dp"
+	    android:text="title"
+	    android:textAlignment="center"
+	    android:textSize="30sp"
+	    android:textStyle="bold" />
+
+	<TextView
+	    android:id="@+id/pirate_card_definition"
+	    style="?android:textAppearanceMedium"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/pirate_card_example"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="28dp"
+	    android:gravity="center"
+	    android:lineSpacingMultiplier="1.2"
+	    android:paddingLeft="15dp"
+	    android:text="definition"
+	    android:textSize="20sp"
+	    android:textStyle="normal|italic" />
+
+	<TextView
+	    android:id="@+id/pirate_card_example"
+	    style="?android:textAppearanceMedium"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/pirate_card_title"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="42dp"
+	    android:gravity="center"
+	    android:lineSpacingMultiplier="1.2"
+	    android:paddingLeft="15dp"
+	    android:text="example"
+	    android:textSize="20sp" />
+
+</RelativeLayout>
+

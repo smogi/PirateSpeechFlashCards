@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-    
-        <ImageView
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:background="@drawable/card_medium"
+    android:orientation="horizontal" >
+
+    <ImageView
         android:id="@+id/imageView1_medium"
         android:layout_width="190dp"
         android:layout_height="190dp"
