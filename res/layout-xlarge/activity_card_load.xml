@@ -22,7 +22,6 @@
         android:src="@drawable/piratebird2" />
     
     
-
     <ImageView
         android:id="@+id/imageView3_complex"
         android:layout_width="1000dp"
