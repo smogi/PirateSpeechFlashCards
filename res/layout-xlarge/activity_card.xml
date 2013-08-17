@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
-    
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp"
+    android:padding="16dp" >
 
-</LinearLayout>
+	<TextView
+	    android:id="@+id/pirate_card_definition"
+	    style="?android:textAppearanceMedium"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginBottom="115dp"
+	    android:gravity="center"
+	    android:lineSpacingMultiplier="1.2"
+	    android:paddingLeft="15dp"
+	    android:text="definition"
+	    android:textSize="50sp"
+	    android:textStyle="normal|italic" />
+
+	<TextView
+	    android:id="@+id/pirate_card_example"
+	    style="?android:textAppearanceMedium"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/pirate_card_definition"
+	    android:layout_below="@+id/pirate_card_title"
+	    android:layout_marginTop="113dp"
+	    android:gravity="center"
+	    android:lineSpacingMultiplier="1.2"
+	    android:paddingLeft="15dp"
+	    android:text="example"
+	    android:textSize="50sp" />
+
+	<TextView
+	    android:id="@+id/pirate_card_title"
+	    style="?android:textAppearanceLarge"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="120dp"
+	    android:gravity="center"
+	    android:height="60dp"
+	    android:text="title"
+	    android:textAlignment="center"
+	    android:textSize="70sp"
+	    android:textStyle="bold" />
+
+</RelativeLayout>
