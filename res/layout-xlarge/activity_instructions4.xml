@@ -2,7 +2,37 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:background="@drawable/card_instructions"
     android:orientation="vertical" >
-    
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="650dp"
+        android:layout_height="650dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/sword1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="680dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="62dp"
+        android:text="Please, tell your friends about our app!"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="680dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:text="Our cards are grouped from simple to complex and the naughty section at the end can be password protected or deleted. Any card can be deleted."
+        android:textSize="35sp" />
 
 </RelativeLayout>
