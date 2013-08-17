@@ -23,15 +23,13 @@
         android:layout_marginBottom="40dp"
         android:text="For the greatest success, get a friend or friends to join you in your adventure or make it a family project. Together, have fun practicing, encouraging and harassing each other! Practicing must be done out loud to be able to speak off the cuff. Like all foreign languages, the work is hard up front, even a bit frustrating, but the fun soon follows." />
 
-    <TextView
+    <ImageButton
         android:id="@+id/youtube"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_above="@+id/textView2"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_marginBottom="60dp"
+        android:layout_alignParentRight="true"
         android:autoLink="web"
-        android:text="YouTube: Talk Like a Pirate is excellent!"
-        android:textSize="16sp" />
+        android:src="@drawable/monkeypirate_youtube" />
 
 </RelativeLayout>
