@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-    
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:background="@drawable/card_naughty" >
+
+        <ImageView
+            android:id="@+id/imageView1_naughty"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="2dp"
+            android:src="@drawable/knife1" />
+
+    <Button
+        android:id="@+id/button1_naughty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:text="Submit rating!"
+        android:textSize="50sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1_naughty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1_naughty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:clickable="false"
+        android:progress="100" />
+
+    <ImageView
+        android:id="@+id/imageView2_naughty"
+        android:layout_width="400dp"
+        android:layout_height="900dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button1_naughty"
+        android:layout_marginTop="53dp"
+        android:src="@drawable/you1" />
 
 </RelativeLayout>
