@@ -7,25 +7,32 @@
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="280dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp"
-        android:text="		Our cards are grouped from simple to complex and the naughty section at the end can be password protected or deleted. Any card can be deleted." />
-
-    <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="440dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="39dp"
         android:text="Please, tell your friends about our app!"
-        android:textSize="16sp"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
-    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Our cards are grouped from simple to complex and the naughty section at the end can be password protected or deleted. Any card can be deleted."
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/sword1" />
 
 </RelativeLayout>
