@@ -8,11 +8,7 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
 
-    <supports-screens 
-        android:normalScreens="true"
-        android:largeScreens="true"
-        android:xlargeScreens="true"/>
-    
+  
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
