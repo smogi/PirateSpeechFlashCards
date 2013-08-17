@@ -9,6 +9,7 @@ import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -38,10 +39,7 @@ public class InstructionsCardCursorPagerAdapter extends PagerAdapter {
 				break;
 			case 2:
 				layout = (RelativeLayout) inflater.inflate(R.layout.activity_instructions3, null);
-				TextView link = (TextView) layout.findViewById(R.id.youtube);
-				String linkText = "Visit the <a href=' http://www.youtube.com/watch?v=fqMu6e5Dgtg'";
-				link.setText(Html.fromHtml(linkText));
-				link.setMovementMethod(LinkMovementMethod.getInstance());
+				ImageButton link = (ImageButton) layout.findViewById(R.id.youtube);
 				break;
 			case 3:
 				layout = (RelativeLayout) inflater.inflate(R.layout.activity_instructions4, null);
