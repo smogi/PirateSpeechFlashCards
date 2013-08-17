@@ -5,15 +5,6 @@
     android:background="@drawable/imgthing" >
 
     <ImageView
-        android:id="@+id/imageView3_info"
-        android:layout_width="300dp"
-        android:layout_height="230dp"
-        android:layout_above="@+id/imageView1_info"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="13dp"
-        android:src="@drawable/swipe" />
-
-    <ImageView
         android:id="@+id/imageView1_info"
         android:layout_width="200dp"
         android:layout_height="300dp"
@@ -22,14 +13,38 @@
         android:src="@drawable/parrotpirate1" />
 
     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="Slide up for the previous card"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/textView1"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="98dp"
+        android:layout_alignTop="@+id/imageView1_info"
+        android:layout_marginTop="25dp"
         android:layout_toRightOf="@+id/imageView1_info"
         android:text="Arr, matey! Ye b ready ta come aboard, ta set full sails, under heavy winds, for abound’n adventures?"
         android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Slide down for the next card"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
 </RelativeLayout>
