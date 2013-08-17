@@ -25,8 +25,8 @@ public class ShareActivity extends Activity implements OnClickListener {
 		    case R.id.Social:
 			    Intent shareIntent=new Intent(Intent.ACTION_SEND);
 				shareIntent.setType("text/plain");
-				shareIntent.putExtra(Intent.EXTRA_TEXT,"I want to share this with you!");
-				shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Great Post");
+				shareIntent.putExtra(Intent.EXTRA_TEXT,"Learn to talk like a pirate!");
+				shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Check out this app!");
 				startActivity(Intent.createChooser(shareIntent, "Share..."));
 	    }
     }

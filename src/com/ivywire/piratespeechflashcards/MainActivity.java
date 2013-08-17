@@ -99,8 +99,11 @@ public class MainActivity extends Activity implements OnClickListener {
             	startActivity(intent);
                 break;
             case R.id.button8:
-            	intent = new Intent(this, ShareActivity.class);
-            	startActivity(intent);
+            	Intent shareIntent=new Intent(Intent.ACTION_SEND);
+				shareIntent.setType("text/plain");
+				shareIntent.putExtra(Intent.EXTRA_TEXT,"Learn to talk like a pirate!");
+				shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Check out this app!");
+				startActivity(Intent.createChooser(shareIntent, "Share..."));
                 break;
         }
     }
