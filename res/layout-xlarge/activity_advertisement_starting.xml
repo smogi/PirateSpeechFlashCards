@@ -16,12 +16,22 @@
         android:text="Submit Rating!"
         android:textSize="50sp" />
 
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1_starting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:clickable="false"
+        android:progress="100" />
+
     <ImageView
         android:id="@+id/imageView1_starting"
         android:layout_width="450dp"
         android:layout_height="420dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
         android:src="@drawable/knife1" />
 
     <ImageView
@@ -29,18 +39,7 @@
         android:layout_width="400dp"
         android:layout_height="600dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="49dp"
+        android:layout_alignParentRight="true"
         android:src="@drawable/avast1" />
-
-    <RatingBar
-        android:id="@+id/ratingBar1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/imageView2_starting"
-        android:layout_below="@+id/button1_starting"
-        android:layout_marginTop="80dp"
-        android:clickable="false"
-        android:progress="100" />
     
 </RelativeLayout>

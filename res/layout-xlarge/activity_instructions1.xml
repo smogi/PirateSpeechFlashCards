@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-     android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="12dp"
+    android:layout_margin="50dp"
     android:background="@drawable/card_instructions" >
 
     <TextView
@@ -11,29 +11,29 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="79dp"
         android:text="Talk Pirate Flashcards"
-        android:textStyle="bold" 
-        android:textSize="25sp" />
+        android:textSize="65sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="290dp"
+        android:layout_width="680dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView3"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="20dp"
-        android:text="The goal of this app is for your family, friends, and you to have fun  talking pirate. Flash cards have long been the best way to learn a new language.  " />
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:text="The goal of this app is for your family, friends, and you to have fun  talking pirate. Flash cards have long been the best way to learn a new language.  "
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="290dp"
+        android:layout_width="680dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="30dp"
-        android:text="It is impossible to become fluent and to speak a new language with ease if the vocabulary is too small. The fun of talking pirate comes from having a large integrated vocabulary so that you and yours can use it metaphorically to describe your current events. The greater your imagination and skill the greater everyone’s fun will “b.” " />
-    
-    
+        android:layout_marginBottom="81dp"
+        android:text="It is impossible to become fluent and to speak a new language with ease if the vocabulary is too small. The fun of talking pirate comes from having a large integrated vocabulary so that you and yours can use it metaphorically to describe your current events. The greater your imagination and skill the greater everyone’s fun will “b.” "
+        android:textSize="40sp" />
 
 </RelativeLayout>
