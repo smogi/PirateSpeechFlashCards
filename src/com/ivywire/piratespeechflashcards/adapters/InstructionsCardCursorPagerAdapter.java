@@ -5,15 +5,21 @@ import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.R;
 
 import android.content.Context;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 public class InstructionsCardCursorPagerAdapter extends PagerAdapter {
 	private LayoutInflater inflater;
 	
+	
+	
 	public InstructionsCardCursorPagerAdapter(Context context){
 		this.inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		
 	}
 	
 	public void destroyItem(View view, int position, Object object){
@@ -32,6 +38,10 @@ public class InstructionsCardCursorPagerAdapter extends PagerAdapter {
 				break;
 			case 2:
 				layout = (RelativeLayout) inflater.inflate(R.layout.activity_instructions3, null);
+				TextView link = (TextView) layout.findViewById(R.id.youtube);
+				String linkText = "Visit the <a href=' http://www.youtube.com/watch?v=fqMu6e5Dgtg'";
+				link.setText(Html.fromHtml(linkText));
+				link.setMovementMethod(LinkMovementMethod.getInstance());
 				break;
 			case 3:
 				layout = (RelativeLayout) inflater.inflate(R.layout.activity_instructions4, null);
@@ -40,6 +50,7 @@ public class InstructionsCardCursorPagerAdapter extends PagerAdapter {
 		((VerticalViewPager) view).addView(layout);
 	    return layout;
 	}
+	
 	@Override
 	public int getCount() {
 		// TODO Auto-generated method stub
