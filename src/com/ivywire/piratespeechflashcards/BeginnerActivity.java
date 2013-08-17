@@ -1,9 +1,13 @@
 package com.ivywire.piratespeechflashcards;
 
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
+import android.annotation.SuppressLint;
 import android.database.Cursor;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.app.FragmentActivity;
@@ -13,8 +17,10 @@ import com.external.verticalviewpager.AnimationPager;
 import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.adapters.BeginnerCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
+
 import android.support.v4.content.Loader;
 
+@SuppressLint("Recycle")
 public class BeginnerActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 	BeginnerCardCursorPagerAdapter adapter;
 	VerticalViewPager pager;
@@ -23,12 +29,11 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_card_slide_vertical);
-		
+		View view = (View) findViewById(R.id.beginner_layout);
 		adapter = new BeginnerCardCursorPagerAdapter(this, null);
 		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
 		pager.setPageTransformer(true, new AnimationPager());
-		ViewPager pager2 = new ViewPager(this);
 		getSupportLoaderManager().initLoader(-1, null, this);
 	}
 	
@@ -40,7 +45,6 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
 	}
 	
 	public void onLoadFinished(Loader<Cursor> arg0, Cursor cursor) {
-		
 	    adapter.swapCursor(cursor);
 	}
 	

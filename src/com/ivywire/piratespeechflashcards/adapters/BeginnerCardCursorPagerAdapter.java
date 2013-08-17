@@ -14,6 +14,7 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -87,7 +88,7 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 		    cardExample.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_SENTENCE)));
 		    cardDefinition.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DEFINITION)));
 		}
-		((VerticalViewPager) view).addView(layout);
+		((ViewGroup) view).addView(layout);
 	    return layout;
 	}
 	
@@ -95,5 +96,4 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 	public boolean isViewFromObject(View arg0, Object arg1) {
 		return arg0 == arg1;
 	}
-
 }
