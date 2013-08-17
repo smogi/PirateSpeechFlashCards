@@ -3,31 +3,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/card_shape" >
-   
+
     <ImageView
         android:id="@+id/imageView1_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="400dp"
+        android:layout_height="560dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:src="@drawable/firstpiratepicture1" />
 
     <ImageView
-        android:id="@+id/imageView2_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageView1_info"
-        android:src="@drawable/words1" />
-
-    <ImageView
         android:id="@+id/imageView3_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
         android:layout_below="@+id/imageView1_info"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
         android:src="@drawable/swipe" />
-    
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="400dp"
+        android:layout_height="570dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/words1" />
 
 </RelativeLayout>

@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/manage_description"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:src="@drawable/parrotnaughty" />
 
     <TextView
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/remove_naughty_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="45dp"
         android:text="Press below to remove naughty cards."
         android:textSize="30sp" />
 
@@ -30,8 +30,9 @@
         android:id="@+id/remove_naughty_button"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView1_complex"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp"
         android:background="#fb0000"
         android:text="Remove all naughty cards"
         android:textSize="20sp" />
