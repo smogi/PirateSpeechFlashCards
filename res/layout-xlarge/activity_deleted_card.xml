@@ -2,28 +2,21 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="12dp"
+    android:layout_margin="50dp"
     android:background="@drawable/card_deleted"
     android:orientation="vertical" >
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:layout_width="680dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView1_deleted"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="98dp"
         android:gravity="center"
         android:text="Unfortunately this card has been deleted from our database. Please swipe to go to the next card!"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/parrotnaughty" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/textView1_deleted"
@@ -31,9 +24,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="153dp"
         android:text="This card has been deleted!"
         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_alignLeft="@+id/textView1_deleted"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/parrotnaughty" />
 
 </RelativeLayout>

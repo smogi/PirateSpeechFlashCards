@@ -2,31 +2,34 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/card_shape" >
-
-    <ImageView
-        android:id="@+id/imageView1_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/firstpiratepicture1" />
-
-    <ImageView
-        android:id="@+id/imageView2_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageView1_info"
-        android:src="@drawable/words1" />
+    android:background="@drawable/imgthing" >
 
     <ImageView
         android:id="@+id/imageView3_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1_info"
+        android:layout_width="300dp"
+        android:layout_height="230dp"
+        android:layout_above="@+id/imageView1_info"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
+        android:layout_marginBottom="13dp"
         android:src="@drawable/swipe" />
+
+    <ImageView
+        android:id="@+id/imageView1_info"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/parrotpirate1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="98dp"
+        android:layout_toRightOf="@+id/imageView1_info"
+        android:text="Arr, matey! Ye b ready ta come aboard, ta set full sails, under heavy winds, for abound’n adventures?"
+        android:textSize="23sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
