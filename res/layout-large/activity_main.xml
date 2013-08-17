@@ -9,86 +9,80 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="125dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1_asd"
-        android:layout_alignBottom="@+id/button1_asd"
-        android:layout_alignRight="@+id/textView1"
-        android:layout_marginRight="20dp"
-        android:background="#c2e5c0"
-        android:text="Medium" />
-
-    <Button
         android:id="@+id/button3"
-        android:layout_width="125dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button1_asd"
         android:layout_below="@+id/button1_asd"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="40dp"
         android:background="#85c4ff"
-        android:text="Starting" />
+        android:text="Starting"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="125dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/button3"
         android:layout_alignBottom="@+id/button3"
         android:layout_alignLeft="@+id/button2"
         android:background="#BCA9F5"
-        android:text="Difficult" />
+        android:text="Difficult"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="125dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button3"
         android:layout_below="@+id/button3"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="40dp"
         android:background="#fdff8b"
-        android:text="Beginner" />
+        android:text="Beginner"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="125dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/button5"
         android:layout_alignBottom="@+id/button5"
         android:layout_alignLeft="@+id/button4"
         android:background="#F5A9F2"
-        android:text="Complex" />
+        android:text="Complex"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="125dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button5"
         android:layout_below="@+id/button5"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="40dp"
         android:background="#FA5858"
-        android:text="Naughty" />
+        android:text="Naughty"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="125dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/button7"
         android:layout_alignBottom="@+id/button7"
         android:layout_alignLeft="@+id/button6"
         android:background="#F5D0A9"
-        android:text="Share" />
+        android:text="Share"
+        android:textSize="30sp" />
 
     <Button
-        android:id="@+id/button1_asd"
-        android:layout_width="125dp"
+        android:id="@+id/button2"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:background="#BDBDBD"
-        android:text="Instructions" />
+        android:layout_above="@+id/button3"
+        android:layout_alignRight="@+id/textView1"
+        android:background="#c2e5c0"
+        android:text="Medium"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textView1"
@@ -96,11 +90,23 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
         android:background="@drawable/card_shape"
         android:padding="10dp"
         android:password="false"
         android:singleLine="false"
         android:text="@string/menu_info"
-        android:textSize="16sp" />
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button1_asd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="49dp"
+        android:background="#BDBDBD"
+        android:text="Instructions"
+        android:textSize="30sp" />
 
 </RelativeLayout>
