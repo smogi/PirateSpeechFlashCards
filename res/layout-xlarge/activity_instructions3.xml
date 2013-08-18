@@ -7,32 +7,35 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="690dp"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
         android:text="There are two ways to hear how the language is spoken.  In Walt Disney’s movie, “Treasure Island”  produced in 1950 is where Long John Silver’s dialect sets the standard."
-        android:textSize="35sp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="680dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="53dp"
-        android:text="For the greatest success, get a friend or friends to join you in your adventure or make it a family project. Together, have fun practicing, encouraging and harassing each other! Practicing must be done out loud to be able to speak off the cuff. Like all foreign languages, the work is hard up front, even a bit frustrating, but the fun soon follows."
         android:textSize="35sp" />
 
     <ImageButton
         android:id="@+id/youtube"
         android:layout_width="470dp"
         android:layout_height="300dp"
-        android:layout_above="@+id/textView2"
+        android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="33dp"
+        android:layout_marginTop="28dp"
         android:autoLink="web"
         android:src="@drawable/monkeypirate_youtube" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="680dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/youtube"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="35dp"
+        android:text="For the greatest success, get a friend or friends to join you in your adventure or make it a family project. Together, have fun practicing, encouraging and harassing each other! Practicing must be done out loud to be able to speak off the cuff. Like all foreign languages, the work is hard up front, even a bit frustrating, but the fun soon follows."
+        android:textSize="35sp" />
 
 </RelativeLayout>
