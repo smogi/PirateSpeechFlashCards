@@ -16,8 +16,7 @@ import android.widget.TextView;
 public class InstructionsCardCursorPagerAdapter extends PagerAdapter {
 	private LayoutInflater inflater;
 	
-	
-	
+		
 	public InstructionsCardCursorPagerAdapter(Context context){
 		this.inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		
