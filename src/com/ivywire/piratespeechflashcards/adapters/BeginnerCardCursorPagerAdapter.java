@@ -31,8 +31,9 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 	    context2 = context;
 	}
 	
-	public void swapCursor(Cursor cursor){
-		this.cursor = cursor;
+	public void swapCursor(Cursor mCursor){
+		this.cursor = mCursor;
+
 	}
 	
 	@Override
@@ -95,5 +96,9 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 	@Override
 	public boolean isViewFromObject(View arg0, Object arg1) {
 		return arg0 == arg1;
+	}
+	
+	public int getItemPosition(Object object) {
+		return POSITION_NONE;
 	}
 }

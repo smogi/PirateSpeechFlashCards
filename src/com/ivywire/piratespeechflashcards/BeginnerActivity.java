@@ -3,6 +3,7 @@ package com.ivywire.piratespeechflashcards;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.v4.view.ViewPager;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -12,11 +13,13 @@ import android.database.Cursor;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.LoaderManager;
+import android.support.v4.app.LoaderManager.LoaderCallbacks;
 
 import com.external.verticalviewpager.AnimationPager;
 import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.adapters.BeginnerCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
+import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 
 import android.support.v4.content.Loader;
 
@@ -24,17 +27,27 @@ import android.support.v4.content.Loader;
 public class BeginnerActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 	BeginnerCardCursorPagerAdapter adapter;
 	VerticalViewPager pager;
+	CardDatabaseHelper dataHelper;
+	LoaderCallbacks<Cursor> callback;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_card_slide_vertical);
+		
+		dataHelper = new CardDatabaseHelper(this);
+		
 		View view = (View) findViewById(R.id.beginner_layout);
 		adapter = new BeginnerCardCursorPagerAdapter(this, null);
 		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
 		pager.setPageTransformer(true, new AnimationPager());
 		getSupportLoaderManager().initLoader(-1, null, this);
+		callback = this;
+	}
+	
+	public void resetLoads(){
+		getSupportLoaderManager().restartLoader(0, null, this);
 	}
 	
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
@@ -79,8 +92,9 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
         switch (item.getItemId()) {
         	case R.id.action_delete:
         		DeleteDialogFragment dialog = new DeleteDialogFragment();
-        		dialog.setFields(this, pager, "Beginner", pager.getCurrentItem());
+        		dialog.setFields(this, pager, "Beginner", pager.getCurrentItem(), dataHelper);
         		dialog.show(getSupportFragmentManager(), "DeleteDialogFragment");
+        		
         	/*
             case android.R.id.home:
                 // Navigate "up" the demo structure to the launchpad activity.

@@ -1,20 +1,26 @@
 package com.ivywire.piratespeechflashcards;
 
 import com.external.verticalviewpager.VerticalViewPager;
+import com.ivywire.piratespeechflashcards.adapters.BeginnerCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
+import android.support.v4.app.LoaderManager;
+import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.view.ViewPager;
+import android.widget.Adapter;
 
 public class DeleteDialogFragment extends DialogFragment {
 	CardDatabaseHelper helper;
@@ -22,6 +28,9 @@ public class DeleteDialogFragment extends DialogFragment {
 	VerticalViewPager pager;
 	String category;
 	Context context;
+	LoaderManager loaderManager;
+	LoaderCallbacks callback;
+	Activity mActivity;
 	int position;
 
 	public Dialog onCreateDialog(Bundle savedInstanceState){
@@ -42,7 +51,9 @@ public class DeleteDialogFragment extends DialogFragment {
 	            	   int columnId2 = Integer.parseInt(columnId);
 	            	   columnId2--;
 	            	   helper.updateDisabled(columnId2, "true");
-	            	   pager.getAdapter().notifyDataSetChanged();
+	            	   
+	            	   //Adapter adapter = (Adapter) pager.getAdapter();
+	            	   pager.removeViewAt(pager.getCurrentItem());
 	               }
 	               
 	           }
@@ -68,6 +79,16 @@ public class DeleteDialogFragment extends DialogFragment {
 		category = mCategory;
 		position = mPosition;
 		helper = mHelper;
+	}
+	
+	public void setFields(Context mContext, VerticalViewPager mPager, String mCategory, int mPosition, CardDatabaseHelper mHelper, LoaderManager mLoaderManager, LoaderCallbacks<Cursor> mCallback){
+		context = mContext;
+		pager = mPager;
+		category = mCategory;
+		position = mPosition;
+		helper = mHelper;
+		loaderManager = mLoaderManager;
+		callback = mCallback;
 	}
 	
 	public void setFields(Context mContext, VerticalViewPager mPager, String mCategory, int mPosition){
