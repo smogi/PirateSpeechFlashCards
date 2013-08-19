@@ -8,23 +8,96 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginRight="39dp"
-        android:layout_marginTop="18dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignRight="@+id/email"
+        android:layout_marginBottom="18dp"
         android:text="Author: Mike Kilgore Sr."
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="bold" />
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/mikekilgore" />
+
     <TextView
-        android:id="@+id/email"
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView1"
-        android:layout_below="@+id/textView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_below="@+id/textView4"
+        android:text="with a huge future!&apos; Mike" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ivywire"
+        android:layout_below="@+id/textView3"
+        android:text="&apos;A new development team" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView5"
         android:layout_marginTop="14dp"
+        android:text="Karanbir Randhawa: Lead Developer"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="17dp"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:text="Android Developers:"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/ivywire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_below="@+id/textView2"
         android:autoLink="email"
-        android:text="talkpirate@gmail.com" />
+        android:text="ivywireline@gmail.com" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="24dp"
+        android:text="Steven Tan: Project Manager"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/email"
+        android:layout_below="@+id/textView8"
+        android:text="Anthony Luu and Alex Checca"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="31dp"
+        android:textStyle="bold"
+        android:text="Artist: Sean Gregorio" />
 
     <TextView
         android:id="@+id/textView3"
@@ -35,98 +108,55 @@
         android:text="Skype: Ivywire-Main" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView3"
-        android:layout_below="@+id/textView3"
-        android:text="&apos;A new development team&apos;" />
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="15dp"
+        android:text="&apos;Very Creative-Easy to work with&apos; Mike" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_below="@+id/textView4"
-        android:text="with a huge future!' Mike" />
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView11"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="19dp"
+        android:autoLink="web"
+        android:text="www.mantisart.blogspot.com"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignParentRight="true"
+        android:autoLink="email"
+        android:text="seang07@yahoo.com"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView1"
+        android:autoLink="email"
+        android:text="talkpirate@gmail.com" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@+id/email"
         android:layout_below="@+id/email"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="24dp"
         android:text="Developer: IvyWire Development"
-        android:textSize="17sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/ivywire"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/email"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="18dp"
-        android:autoLink="email"
-        android:text="ivywireline@gmail.com" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView9"
-        android:layout_marginTop="28dp"
-        android:layout_toLeftOf="@+id/email"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView4"
-        android:layout_below="@+id/textView8"
-        android:text="Anthony Luu and Alex Checca" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_below="@+id/textView7"
-        android:layout_marginTop="20dp"
-        android:text="Lead Developer: Karanbir Randhawa"
-        android:textSize="15sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView4"
-        android:layout_centerVertical="true"
-        android:text="Project Manager:"
-        android:textSize="12sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView7"
-        android:layout_below="@+id/textView7"
-        android:layout_marginLeft="16dp"
-        android:text="Steven Tan"
-        android:textSize="15sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView5"
-        android:layout_below="@+id/textView6"
-        android:layout_marginTop="18dp"
-        android:text="Android Developers:" />
 
 </RelativeLayout>

@@ -44,6 +44,8 @@ public class InstructionsCardCursorPagerAdapter extends PagerAdapter {
 			case 3:
 				layout = (RelativeLayout) inflater.inflate(R.layout.activity_instructions4, null);
 				break;
+			case 4:
+				layout = (RelativeLayout) inflater.inflate(R.layout.activity_credits, null);
 		}
 		((VerticalViewPager) view).addView(layout);
 	    return layout;

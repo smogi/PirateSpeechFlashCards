@@ -31,6 +31,7 @@
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:autoLink="web"
-        android:src="@drawable/monkeypirate_youtube" />
+        android:src="@drawable/monkeypirate_youtube"
+        android:text="http://www.youtube.com/watch?v=fqMu6e5Dgtg" />
 
 </RelativeLayout>
