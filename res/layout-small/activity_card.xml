@@ -41,6 +41,7 @@
      android:layout_height="wrap_content"
      android:layout_alignLeft="@+id/pirate_card_example"
      android:layout_alignParentBottom="true"
+     android:layout_marginBottom="52dp"
      android:gravity="center"
      android:lineSpacingMultiplier="1.2"
      android:paddingLeft="15dp"

@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView1_naughty"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="2dp"
@@ -18,12 +18,12 @@
     <Button
         android:id="@+id/button1_naughty"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="Submit rating!"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 
     <ImageView
         android:id="@+id/imageView2_naughty"
@@ -31,17 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/imageView1_naughty"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="56dp"
-        android:layout_marginRight="2dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="28dp"
         android:src="@drawable/you1" />
-
-    <RatingBar
-        android:id="@+id/ratingBar1_naughty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView2_naughty"
-        android:layout_centerHorizontal="true" 
-        android:clickable="false"
-	    android:progress="100"/>
 
 </RelativeLayout>

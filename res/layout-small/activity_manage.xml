@@ -9,29 +9,29 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/parrotnaughty" />
-
-    <Button
-        android:id="@+id/remove_naughty_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/imageView1"
-        android:layout_below="@+id/manage_description"
-        android:layout_marginTop="16dp"
-        android:text="Remove all naughty cards"
-        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/manage_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:text="We understand for a portion of our users some of our content make them uncomfortable. That&apos;s why we offer the option for you to edit our settings to disable the naughty cards section."
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/remove_naughty_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/manage_description"
         android:layout_centerHorizontal="true"
-        android:text="We understand for a portion of our users some of our content make them uncomfortable. That's why we offer the option for you to edit our settings to disable the naughty cards section."
-        android:textSize="18sp" />
+        android:layout_marginTop="40dp"
+        android:text="Remove all naughty cards"
+        android:textSize="15sp" />
 
 </RelativeLayout>

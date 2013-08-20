@@ -13,8 +13,8 @@
 
     <ImageView
         android:id="@+id/imageView1_complex"
-        android:layout_width="220dp"
-        android:layout_height="190dp"
+        android:layout_width="175dp"
+        android:layout_height="165dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="2dp"
@@ -22,31 +22,20 @@
 
     <ImageView
         android:id="@+id/imageView3_complex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:layout_alignBottom="@+id/imageView1_complex"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="30dp"
-        android:layout_marginRight="5dp"
+        android:layout_marginBottom="41dp"
         android:src="@drawable/ahoycapn1" />
-
-    <RatingBar
-        android:id="@+id/ratingBar1_naughty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView3_complex"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="26dp" 
-        android:clickable="false"
-	    android:progress="100"/>
 
     <Button
         android:id="@+id/button1_complex"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/ratingBar1_naughty"
+        android:layout_height="40dp"
+        android:layout_above="@+id/imageView3_complex"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp"
+        android:layout_marginBottom="30dp"
         android:text="Submit rating!"
         android:textSize="24sp" />
 

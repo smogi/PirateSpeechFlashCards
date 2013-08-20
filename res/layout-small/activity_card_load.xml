@@ -8,15 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".CardLoadActivity" >
 
-    <ProgressBar
-        android:id="@+id/progressBar1"
-        style="?android:attr/progressBarStyleLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="63dp" />
-
     <ImageView
         android:id="@+id/imageView3_complex"
         android:layout_width="wrap_content"
@@ -41,5 +32,13 @@
         android:layout_alignLeft="@+id/imageView3_complex"
         android:layout_marginBottom="22dp"
         android:src="@drawable/piratebird1" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageView2_complex" />
 
 </RelativeLayout>
