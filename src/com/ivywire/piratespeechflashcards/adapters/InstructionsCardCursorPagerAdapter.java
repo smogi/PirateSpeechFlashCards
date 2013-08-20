@@ -53,7 +53,7 @@ public class InstructionsCardCursorPagerAdapter extends PagerAdapter {
 	@Override
 	public int getCount() {
 		// TODO Auto-generated method stub
-		return 4;
+		return 5;
 	}
 
 	@Override
