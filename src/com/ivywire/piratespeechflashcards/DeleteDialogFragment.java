@@ -52,8 +52,9 @@ public class DeleteDialogFragment extends DialogFragment {
 	            	   columnId2--;
 	            	   helper.updateDisabled(columnId2, "true");
 	            	   
+	            	   pager.setAdapter(pager.getAdapter());
+	            	   pager.getAdapter().notifyDataSetChanged();
 	            	   //Adapter adapter = (Adapter) pager.getAdapter();
-	            	   pager.removeViewAt(pager.getCurrentItem());
 	               }
 	               
 	           }

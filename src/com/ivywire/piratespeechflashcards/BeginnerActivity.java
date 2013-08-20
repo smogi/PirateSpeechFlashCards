@@ -20,20 +20,24 @@ import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.adapters.BeginnerCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
+import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.support.v4.content.Loader;
 
 @SuppressLint("Recycle")
 public class BeginnerActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 	BeginnerCardCursorPagerAdapter adapter;
+	BeginnerCardCursorPagerAdapter adapterResume;
 	VerticalViewPager pager;
 	CardDatabaseHelper dataHelper;
 	LoaderCallbacks<Cursor> callback;
+	Cursor disabledCursor;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_card_slide_vertical);
+		getSupportLoaderManager().initLoader(-1, null, this);
 		
 		dataHelper = new CardDatabaseHelper(this);
 		
@@ -42,10 +46,25 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
 		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
 		pager.setPageTransformer(true, new AnimationPager());
-		getSupportLoaderManager().initLoader(-1, null, this);
-		callback = this;
+		adapter.notifyDataSetChanged();
+		
 	}
 	
+	@Override
+	protected void onStop(){
+		super.onStop();
+		getSupportLoaderManager().initLoader(-1, null, this);
+		pager.setAdapter(null);
+		adapterResume = new BeginnerCardCursorPagerAdapter(this, null);
+		pager.setAdapter(adapter);
+		
+		
+		/*disabledCursor = getContentResolver().query(MyCardContentProvider.CONTENT_URI, new String []{FlashCardTable.COLUMN_DISABLED, FlashCardTable.COLUMN_TITLE, FlashCardTable.COLUMN_ID}, FlashCardTable.COLUMN_DISABLED + " = true", null, null);
+		int [] ids = new int[disabledCursor.getCount()];
+		for(int i = 0; i < disabledCursor.getCount(); i++){
+			ids[i] = Integer.parseInt(disabledCursor.getString(disabledCursor.getColumnIndex(FlashCardTable.COLUMN_ID)));
+		}*/
+	}
 	public void resetLoads(){
 		getSupportLoaderManager().restartLoader(0, null, this);
 	}
@@ -62,7 +81,7 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
 	}
 	
 	public void onLoaderReset(Loader<Cursor> arg0) {
-	    adapter.swapCursor(null);
+		adapter.swapCursor(null);
 	} 
 
 	@Override
@@ -106,6 +125,7 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
                 // Go to the previous step in the wizard. If there is no previous step,
                 // setCurrentItem will do nothing.
         		pager.setCurrentItem(pager.getCurrentItem() - 1);
+        		
                 return true;
 
             case R.id.action_next:
