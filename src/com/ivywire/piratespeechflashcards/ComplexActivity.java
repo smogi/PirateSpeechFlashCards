@@ -26,13 +26,13 @@ public class ComplexActivity extends FragmentActivity implements LoaderManager.L
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_card_slide_vertical);
-		
+		getSupportLoaderManager().initLoader(-1, null, this);
 		adapter = new ComplexCardCursorPagerAdapter(this, null);
 		pager= (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
 		pager.setPageTransformer(true, new AnimationPager());
 		
-		getSupportLoaderManager().initLoader(-1, null, this);
+		adapter.notifyDataSetChanged();
 	}
 	
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
