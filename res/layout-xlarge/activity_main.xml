@@ -53,28 +53,6 @@
         android:text="Complex"
         android:textSize="50sp" />
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_below="@+id/button5"
-        android:layout_marginTop="40dp"
-        android:background="#FA5858"
-        android:text="Naughty"
-        android:textSize="50sp" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_alignBaseline="@+id/button7"
-        android:layout_alignBottom="@+id/button7"
-        android:layout_alignLeft="@+id/button6"
-        android:background="#F5D0A9"
-        android:text="Share"
-        android:textSize="50sp" />
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
@@ -109,6 +87,28 @@
         android:layout_marginTop="45dp"
         android:background="#BDBDBD"
         android:text="Instructions"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="50dp"
+        android:background="#FA5858"
+        android:text="Naughty"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignLeft="@+id/button5"
+        android:background="#F5D0A9"
+        android:text="Share"
         android:textSize="50sp" />
 
 </RelativeLayout>

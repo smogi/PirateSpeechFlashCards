@@ -64,28 +64,6 @@
         android:text="Complex"
         android:textSize="12sp" />
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="100dp"
-        android:layout_height="30dp"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_below="@+id/button5"
-        android:layout_marginTop="15dp"
-        android:background="#FA5858"
-        android:text="Naughty"
-        android:textSize="12sp" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="100dp"
-        android:layout_height="30dp"
-        android:layout_alignBaseline="@+id/button7"
-        android:layout_alignBottom="@+id/button7"
-        android:layout_alignLeft="@+id/button6"
-        android:background="#F5D0A9"
-        android:text="Share"
-        android:textSize="12sp" />
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="match_parent"
@@ -97,16 +75,38 @@
         android:password="false"
         android:singleLine="false"
         android:text="@string/menu_info"
-        android:textSize="10sp" />
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="#FA5858"
+        android:text="Naughty"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_marginBottom="0dp"
+        android:background="#F5D0A9"
+        android:text="Share"
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/button1_asd"
         android:layout_width="100dp"
         android:layout_height="30dp"
         android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1"
+        android:layout_centerVertical="true"
         android:layout_marginLeft="29dp"
-        android:layout_marginTop="37dp"
         android:background="#BDBDBD"
         android:text="Instructions"
         android:textSize="12sp" />
