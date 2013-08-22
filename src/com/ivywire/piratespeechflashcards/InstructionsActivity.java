@@ -6,6 +6,7 @@ import com.ivywire.piratespeechflashcards.adapters.InstructionsCardCursorPagerAd
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
@@ -46,7 +47,11 @@ public class InstructionsActivity extends FragmentActivity {
                 // Advance to the next step in the wizard. If there is no next step, setCurrentItem
                 // will do nothing.
                 pager.setCurrentItem(pager.getCurrentItem() + 1);
-                return true; 
+                return true;
+                
+            case R.id.action_mainmenu:
+            	Intent intent = new Intent(this, MainActivity.class);
+            	startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }

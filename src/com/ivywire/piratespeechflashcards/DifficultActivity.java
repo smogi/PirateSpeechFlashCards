@@ -6,6 +6,7 @@ import com.ivywire.piratespeechflashcards.adapters.DifficultCardCursorPagerAdapt
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 
 import android.os.Bundle;
+import android.content.Intent;
 import android.database.Cursor;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.LoaderManager;
@@ -96,6 +97,10 @@ public class DifficultActivity extends FragmentActivity implements LoaderManager
                 // will do nothing.
                 pager.setCurrentItem(pager.getCurrentItem() + 1);
                 return true;
+                          
+            case R.id.action_mainmenu:
+            	Intent intent = new Intent(this, MainActivity.class);
+            	startActivity(intent);
             
         }
 

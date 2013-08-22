@@ -126,6 +126,10 @@ public class MediumActivity extends FragmentActivity implements LoaderManager.Lo
                 // will do nothing.
                 pager.setCurrentItem(pager.getCurrentItem() + 1);
                 return true;
+                
+            case R.id.action_mainmenu:
+            	Intent intent = new Intent(this, MainActivity.class);
+            	startActivity(intent);
             
         }
 

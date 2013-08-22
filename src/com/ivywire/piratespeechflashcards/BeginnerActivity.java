@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.database.Cursor;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.app.FragmentActivity;
@@ -133,6 +134,10 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
                 // will do nothing.
                 pager.setCurrentItem(pager.getCurrentItem() + 1);
                 return true;
+          
+            case R.id.action_mainmenu:
+            	Intent intent = new Intent(this, MainActivity.class);
+            	startActivity(intent);
             
         }
 
