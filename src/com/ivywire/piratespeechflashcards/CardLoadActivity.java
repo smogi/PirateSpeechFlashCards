@@ -41,6 +41,7 @@ public class CardLoadActivity extends Activity {
                  @Override
                  public void run() {
                 	 startActivity(new Intent(CardLoadActivity.this, MainActivity.class));
+                	 finish();
                  }
              }, 3000);
 		}
@@ -137,6 +138,7 @@ public class CardLoadActivity extends Activity {
 		protected void onPostExecute(Void result) {
 			//Direct to MainActivity (menu)
 			startActivity(new Intent(CardLoadActivity.this, MainActivity.class));
+			finish();
 	    }
 	}
 }
