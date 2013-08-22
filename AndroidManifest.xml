@@ -31,42 +31,37 @@
         <activity
             android:name="com.ivywire.piratespeechflashcards.InstructionsActivity"
             android:label="@string/title_activity_instructions" 
-            android:screenOrientation="portrait" >
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name="com.ivywire.piratespeechflashcards.MediumActivity"
             android:label="@string/title_activity_medium" 
-            android:screenOrientation="portrait" >
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name="com.ivywire.piratespeechflashcards.StartingActivity"
             android:label="@string/title_activity_starting" 
-            android:screenOrientation="portrait" >
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name="com.ivywire.piratespeechflashcards.DifficultActivity"
             android:label="@string/title_activity_difficult" 
-            android:screenOrientation="portrait" >
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name="com.ivywire.piratespeechflashcards.BeginnerActivity"
             android:label="@string/title_activity_beginner" 
-            android:screenOrientation="portrait" >
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name="com.ivywire.piratespeechflashcards.ComplexActivity"
             android:label="@string/title_activity_complex" 
-            android:screenOrientation="portrait" >
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name="com.ivywire.piratespeechflashcards.NaughtyActivity"
             android:label="@string/title_activity_naughty" 
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.ivywire.piratespeechflashcards.ShareActivity"
-            android:label="@string/title_activity_share" 
-            android:screenOrientation="portrait" >
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name="com.ivywire.piratespeechflashcards.ManageActivity"

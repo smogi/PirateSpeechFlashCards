@@ -6,16 +6,6 @@
     android:background="@drawable/card_instructions" >
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/youtube"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="10dp"
-        android:layout_marginTop="14dp"
-        android:text="For the greatest success, get a friend or friends to join you in your adventure or make it a family project. Together, have fun practicing, encouraging and harassing each other! Practicing must be done out loud to be able to speak off the cuff. Like all foreign languages, the work is hard up front, even a bit frustrating, but the fun soon follows." />
-
-    <TextView
         android:id="@+id/textView1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -28,8 +18,9 @@
         android:id="@+id/youtube"
         android:layout_width="250dp"
         android:layout_height="160dp"
-        android:layout_below="@+id/textView1"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
         android:autoLink="web"
         android:src="@drawable/monkeypirate_youtube"
         android:text="http://www.youtube.com/watch?v=fqMu6e5Dgtg" />
