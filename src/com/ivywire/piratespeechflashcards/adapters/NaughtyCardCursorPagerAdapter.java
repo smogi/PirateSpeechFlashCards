@@ -7,6 +7,7 @@ import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.RelativeLayout;
@@ -15,10 +16,15 @@ import android.widget.TextView;
 public class NaughtyCardCursorPagerAdapter extends PagerAdapter{
 	private Cursor cursor;
 	private LayoutInflater inflater;
+	private Typeface boldFont;
+	private Typeface boldItalicFont;
+	private Typeface font;
+	private Context context;
 	
 	public NaughtyCardCursorPagerAdapter(Context context, Cursor cursor){
 		this.cursor = cursor;
 	    this.inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+	    this.context = context;
 	}
 	
 	public void swapCursor(Cursor cursor){
@@ -42,6 +48,9 @@ public class NaughtyCardCursorPagerAdapter extends PagerAdapter{
 	@Override
 	public Object instantiateItem(View view, int position) {
 		RelativeLayout layout = null;
+		font = Typeface.createFromAsset(context.getAssets(), "times.ttf");
+		boldFont = Typeface.createFromAsset(context.getAssets(), "times-bold.ttf");
+		boldItalicFont = Typeface.createFromAsset(context.getAssets(), "times-bold-italic.ttf");
 		int position2 = position;
 		if(position == 0){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
@@ -60,6 +69,10 @@ public class NaughtyCardCursorPagerAdapter extends PagerAdapter{
 		    cardTitle.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_TITLE)));
 		    cardExample.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_SENTENCE)));
 		    cardDefinition.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DEFINITION)));
+		
+		    cardTitle.setTypeface(boldFont);
+		    cardExample.setTypeface(font);
+		    cardDefinition.setTypeface(boldItalicFont);
 		}
 		((VerticalViewPager) view).addView(layout);
 	    return layout;
