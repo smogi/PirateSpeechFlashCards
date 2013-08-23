@@ -4,16 +4,16 @@ import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.content.ContentValues;
 import android.content.Intent;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class ManageActivity extends Activity implements OnClickListener {
+public class ManageActivity extends FragmentActivity implements OnClickListener {
 	private Button removeNaughtyButton;
 	private String disabled;
 	private String naughty;
@@ -60,11 +60,13 @@ public class ManageActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
-		Intent intent;
         switch(v.getId()){
             case R.id.remove_naughty_button:
             	turnNaughtyOff();
                 break;
+            case R.id.naughty_password_button:
+            	PasswordCreateDialogFragment frag = new PasswordCreateDialogFragment();
+            	frag.show(getSupportFragmentManager(), "PasswordCreateDialogFragment");
         }
 		
 	}
