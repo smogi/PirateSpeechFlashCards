@@ -2,49 +2,36 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/imgthing" >
-
-    <ImageView
-        android:id="@+id/imageView1_info"
-        android:layout_width="200dp"
-        android:layout_height="300dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:src="@drawable/parrotpirate1" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="23dp"
-        android:gravity="center"
-        android:text="Slide up for the previous card"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+     >
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView1_info"
-        android:layout_marginTop="25dp"
-        android:layout_toRightOf="@+id/imageView1_info"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_marginRight="27dp"
         android:text="Arr, matey! Ye b ready ta come aboard, ta set full sails, under heavy winds, for abound’n adventures?"
-        android:textSize="23sp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="77dp"
+        android:src="@drawable/swipe" />
+
+    <ImageView
+        android:id="@+id/imageView1_info"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
-        android:gravity="center"
-        android:text="Slide down for the next card"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+        android:layout_marginRight="21dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:src="@drawable/firstpiratepicture1" />
 
 </RelativeLayout>

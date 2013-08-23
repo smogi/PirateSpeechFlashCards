@@ -7,41 +7,21 @@
 
 	    <ImageView
 	        android:id="@+id/imageView1_beginner"
-	        android:layout_width="300dp"
+	        android:layout_width="380dp"
 	        android:layout_height="300dp"
 	        android:layout_alignParentBottom="true"
 	        android:layout_alignParentLeft="true"
-	        android:layout_marginBottom="2dp"
-	        android:src="@drawable/parrotnaughty" />
-
-	    <RatingBar
-	        android:id="@+id/ratingBar1_beginner"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:layout_below="@+id/ratingButton1_beginner"
-	        android:layout_centerHorizontal="true"
-	        android:layout_marginTop="49dp"
-	        android:clickable="false"
-	        android:progress="100" />
-
-	    <Button
-	        android:id="@+id/ratingButton1_beginner"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
 	        android:layout_alignParentTop="true"
-	        android:layout_centerHorizontal="true"
-	        android:layout_marginTop="81dp"
-	        android:text="Submit rating!"
-	        android:textSize="35sp" />
+	        android:layout_marginLeft="36dp"
+	        android:src="@drawable/parrotnaughty" />
 
 	    <ImageView
 	        android:id="@+id/imageView2_beginner"
-	        android:layout_width="wrap_content"
+	        android:layout_width="250dp"
 	        android:layout_height="wrap_content"
-	        android:layout_alignParentRight="true"
-	        android:layout_below="@+id/ratingBar1_beginner"
-	        android:layout_marginRight="5dp"
-	        android:layout_marginTop="83dp"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_toRightOf="@+id/imageView1_beginner"
 	        android:src="@drawable/spyglass1" />
 
 </RelativeLayout>

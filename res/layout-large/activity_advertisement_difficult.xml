@@ -7,40 +7,20 @@
 
     <ImageView
         android:id="@+id/imageView1_difficult"
-        android:layout_width="320dp"
-        android:layout_height="300dp"
-        android:layout_alignParentBottom="true"
+        android:layout_width="410dp"
+        android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="57dp"
         android:src="@drawable/monkeypirate" />
 
     <ImageView
         android:id="@+id/imageView2_difficult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_width="270dp"
+        android:layout_height="fill_parent"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="170dp"
-        android:layout_marginRight="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="58dp"
         android:src="@drawable/olcapn" />
-
-    <RatingBar
-        android:id="@+id/ratingBar1_difficult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView2_difficult"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="118dp"
-        android:clickable="false"
-        android:progress="100" />
-
-    <Button
-        android:id="@+id/button1_difficult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/ratingBar1_difficult"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
-        android:text="Submit rating!"
-        android:textSize="35sp" />
 
 </RelativeLayout>

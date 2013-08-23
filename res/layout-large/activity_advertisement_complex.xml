@@ -6,47 +6,22 @@
     android:background="@drawable/card_complex" >
 
     <ImageView
-        android:id="@+id/imageView2_complex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/imageView1_complex" />
-
-    <ImageView
         android:id="@+id/imageView1_complex"
-        android:layout_width="320dp"
+        android:layout_width="410dp"
         android:layout_height="300dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="52dp"
         android:src="@drawable/monkeypirate" />
-
-    <RatingBar
-        android:id="@+id/ratingBar1_naughty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView3_complex"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="56dp"
-        android:clickable="false"
-        android:progress="100" />
-
-    <Button
-        android:id="@+id/button1_complex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/ratingBar1_naughty"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="47dp"
-        android:text="Submit rating!"
-        android:textSize="35sp" />
 
     <ImageView
         android:id="@+id/imageView3_complex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_width="300dp"
+        android:layout_height="fill_parent"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="162dp"
-        android:layout_marginRight="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="101dp"
         android:src="@drawable/ahoycapn1" />
 
 </RelativeLayout>

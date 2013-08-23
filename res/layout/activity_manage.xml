@@ -7,24 +7,6 @@
     android:layout_marginTop="10dp"
     tools:context=".ManageActivity" >
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="180dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/parrotnaughty" />
-
-    <Button
-        android:id="@+id/remove_naughty_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/imageView1"
-        android:layout_below="@+id/manage_description"
-        android:layout_marginTop="16dp"
-        android:text="Remove all naughty cards"
-        android:textSize="20sp" />
-
     <TextView
         android:id="@+id/manage_description"
         android:layout_width="wrap_content"
@@ -34,15 +16,33 @@
         android:text="We understand for a portion of our users some of our content make them uncomfortable. That's why we offer the option for you to edit our settings to disable the naughty cards section."
         android:textSize="18sp" />
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/parrotnaughty" />
+
+    <Button
+        android:id="@+id/remove_naughty_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="20dp"
+        android:text="Diable all naughty cards"
+        android:textSize="20sp" />
+
     <Button
         android:id="@+id/naughty_password_button"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/remove_naughty_button"
         android:layout_alignRight="@+id/remove_naughty_button"
         android:layout_below="@+id/remove_naughty_button"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="29dp"
         android:text="Change admin password"
         android:textSize="20sp" />
 
