@@ -5,42 +5,23 @@
     android:layout_margin="40dp"
     android:background="@drawable/card_complex" >
 
-    	<Button
-        android:id="@+id/button1_complex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="127dp"
-        android:text="Submit rating!"
-        android:textSize="70sp" />
-
-        <RatingBar
-            android:id="@+id/ratingBar1_naughty"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/button1_complex"
-            android:layout_below="@+id/button1_complex"
-            android:layout_marginLeft="89dp"
-            android:layout_marginTop="87dp"
-            android:clickable="false"
-            android:progress="100" />
-
-        <ImageView
-            android:id="@+id/imageView3_complex"
-            android:layout_width="350dp"
-            android:layout_height="600dp"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/ratingBar1_naughty"
-            android:layout_marginTop="43dp"
-            android:src="@drawable/ahoycapn1" />
-
         <ImageView
             android:id="@+id/imageView1_complex"
             android:layout_width="500dp"
             android:layout_height="460dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
+            android:layout_marginLeft="119dp"
             android:src="@drawable/monkeypirate" />
+
+        <ImageView
+            android:id="@+id/imageView3_complex"
+            android:layout_width="520dp"
+            android:layout_height="520dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="65dp"
+            android:src="@drawable/ahoycapn1" />
 
 </RelativeLayout>

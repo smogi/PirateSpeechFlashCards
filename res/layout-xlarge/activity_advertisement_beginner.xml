@@ -6,42 +6,22 @@
     android:background="@drawable/card_beginner" >
 
 	    <ImageView
+	        android:id="@+id/imageView2_beginner"
+	        android:layout_width="520dp"
+	        android:layout_height="500dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="21dp"
+	        android:src="@drawable/spyglass1" />
+
+	    <ImageView
 	        android:id="@+id/imageView1_beginner"
 	        android:layout_width="500dp"
 	        android:layout_height="500dp"
 	        android:layout_alignParentBottom="true"
 	        android:layout_alignParentLeft="true"
-	        android:layout_marginBottom="2dp"
+	        android:layout_marginLeft="74dp"
 	        android:src="@drawable/parrotnaughty" />
-
-	    <ImageView
-	        android:id="@+id/imageView2_beginner"
-	        android:layout_width="350dp"
-	        android:layout_height="350dp"
-	        android:layout_alignParentRight="true"
-	        android:layout_below="@+id/ratingBar1_beginner"
-	        android:layout_marginTop="136dp"
-	        android:src="@drawable/spyglass1" />
-
-	    <Button
-	        android:id="@+id/ratingButton1_beginner"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:layout_alignParentTop="true"
-	        android:layout_centerHorizontal="true"
-	        android:layout_marginTop="139dp"
-	        android:text="Submit rating!"
-	        android:textSize="50sp" />
-
-	    <RatingBar
-	        android:id="@+id/ratingBar1_beginner"
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:layout_below="@+id/ratingButton1_beginner"
-	        android:layout_centerHorizontal="true"
-	        android:layout_marginTop="85dp"
-	        android:clickable="false"
-	        android:progress="100" />
 
 </RelativeLayout>
     

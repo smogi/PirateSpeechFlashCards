@@ -2,26 +2,26 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="40dp"
-    android:background="@drawable/card_naughty" >
+    android:layout_margin="50dp"
+    android:background="@drawable/card_medium" >
 
     <ImageView
-        android:id="@+id/imageView1_naughty"
+        android:id="@+id/imageView1_medium"
         android:layout_width="500dp"
         android:layout_height="500dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="130dp"
-        android:src="@drawable/knife1" />
+        android:layout_marginLeft="112dp"
+        android:src="@drawable/sword1" />
 
     <ImageView
-        android:id="@+id/imageView2_naughty"
-        android:layout_width="520dp"
+        android:id="@+id/imageView2_medium"
+        android:layout_width="500dp"
         android:layout_height="500dp"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="30dp"
-        android:layout_marginRight="40dp"
-        android:src="@drawable/you1" />
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/olseadog1" />
 
 </RelativeLayout>
