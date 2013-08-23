@@ -15,24 +15,14 @@
         android:src="@drawable/parrotnaughty" />
 
     <TextView
-        android:id="@+id/textView1_deleted"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:text="This card has been deleted!"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView1"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="15dp"
         android:gravity="center"
         android:text="Unfortunately this card has been deleted from our database. Please swipe to go to the next card!"
         android:textAppearance="?android:attr/textAppearanceMedium"

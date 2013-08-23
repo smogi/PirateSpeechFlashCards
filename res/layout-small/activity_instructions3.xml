@@ -15,17 +15,6 @@
         android:text="There are two ways to hear how the language is spoken.  In Walt Disney’s movie, “Treasure Island”  produced in 1950 is where Long John Silver’s dialect sets the standard."
         android:textSize="12sp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/youtube"
-        android:layout_margin="10dp"
-        android:text="For the greatest success, get a friend or friends to join you in your adventure or make it a family project. Together, have fun practicing, encouraging and harassing each other! Practicing must be done out loud to be able to speak off the cuff. Like all foreign languages, the work is hard up front, even a bit frustrating, but the fun soon follows."
-        android:textSize="12sp" />
-
     <ImageButton
         android:id="@+id/youtube"
         android:layout_width="180dp"
