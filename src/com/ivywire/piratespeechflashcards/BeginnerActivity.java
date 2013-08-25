@@ -55,8 +55,6 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
 		dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); 
 		dialog.setContentView(R.layout.activity_slide_info); 		
 		dialog.show();
-		
-		
 	}
 	
 	@Override

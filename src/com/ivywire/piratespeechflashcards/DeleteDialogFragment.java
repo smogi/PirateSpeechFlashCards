@@ -21,6 +21,7 @@ import android.support.v4.app.LoaderManager;
 import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.view.ViewPager;
 import android.widget.Adapter;
+import android.widget.Toast;
 
 public class DeleteDialogFragment extends DialogFragment {
 	CardDatabaseHelper helper;
@@ -51,12 +52,12 @@ public class DeleteDialogFragment extends DialogFragment {
 	            	   int columnId2 = Integer.parseInt(columnId);
 	            	   columnId2--;
 	            	   helper.updateDisabled(columnId2, "true");
-	            	   
 	            	   pager.setAdapter(pager.getAdapter());
 	            	   pager.getAdapter().notifyDataSetChanged();
 	            	   //Adapter adapter = (Adapter) pager.getAdapter();
+	            	   Toast bread = Toast.makeText(context.getApplicationContext(), "Your changes will take into effect the next time you restart your phone!", Toast.LENGTH_LONG);
+	            	   bread.show();
 	               }
-	               
 	           }
 		});
 		builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener(){

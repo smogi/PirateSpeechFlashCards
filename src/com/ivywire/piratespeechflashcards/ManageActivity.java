@@ -17,6 +17,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
+import android.widget.Toast;
      
 public class ManageActivity extends FragmentActivity implements OnClickListener {
 	private Button removeNaughtyButton;
@@ -33,34 +34,6 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_manage);
-		
-		popUp = new PopupWindow(this);
-		layout = new LinearLayout(this);
-		mainLayout = new LinearLayout(this);
-		tv = new TextView(this);
-		removeNaughtyButton = (Button) findViewById(R.id.remove_naughty_button);
-		removeNaughtyButton.setOnClickListener((new OnClickListener() {
-
-            public void onClick(View v) {
-                if (click) {
-                    popUp.showAtLocation(mainLayout, Gravity.TOP, 10, 10);
-                    popUp.update(50, 50, 300, 80);
-                    click = false;
-                } else {
-                    popUp.dismiss();
-                    click = true;
-                }
-            }
-
-        }));
-        params = new LayoutParams(LayoutParams.WRAP_CONTENT,
-                LayoutParams.WRAP_CONTENT);
-        layout.setOrientation(LinearLayout.VERTICAL);
-        tv.setText("All Naughty cards are now disabled");
-        layout.addView(tv, params);
-        popUp.setContentView(layout);
-        getWindow().setLayout(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
-        
 	}
 
 	@Override
@@ -98,6 +71,8 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
         switch(v.getId()){
             case R.id.remove_naughty_button:            
             	turnNaughtyOff();
+            	Toast bread = Toast.makeText(getApplicationContext(), "All naughty cards are now disabled", Toast.LENGTH_LONG);
+            	bread.show();
                 break;
             case R.id.naughty_password_button:
             	PasswordCreateDialogFragment frag = new PasswordCreateDialogFragment();
