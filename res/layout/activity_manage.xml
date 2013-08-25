@@ -16,6 +16,7 @@
         android:text="We understand for a portion of our users some of our content make them uncomfortable. That's why we offer the option for you to edit our settings to disable the naughty cards section."
         android:textSize="18sp" />
 
+    
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
