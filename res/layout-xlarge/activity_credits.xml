@@ -138,26 +138,25 @@
         android:textSize="32sp" />
 
     <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:autoLink="email"
+        android:text="seang07@yahoo.com"
+        android:textSize="32sp" />
+
+    <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView13"
         android:layout_alignBottom="@+id/textView13"
         android:layout_alignRight="@+id/textView3"
-        android:layout_marginRight="79dp"
+        android:layout_marginRight="131dp"
         android:autoLink="web"
         android:text="www.mantisart.blogspot.com"
-        android:textSize="32sp" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView11"
-        android:layout_marginRight="95dp"
-        android:layout_toLeftOf="@+id/imageView1"
-        android:autoLink="email"
-        android:text="seang07@yahoo.com"
         android:textSize="32sp" />
 
 </RelativeLayout>

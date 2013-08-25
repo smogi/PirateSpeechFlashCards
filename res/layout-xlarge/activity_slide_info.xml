@@ -16,19 +16,18 @@
         android:id="@+id/imageView1"
         android:layout_width="500dp"
         android:layout_height="300dp"
+        android:layout_alignLeft="@+id/textView1"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="168dp"
         android:src="@drawable/swipe" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="500dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="23dp"
-        android:layout_marginTop="29dp"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginRight="31dp"
         android:text="Arr, matey! Ye b ready ta come aboard, ta set full sails, under heavy winds, for abound’n adventures?"
         android:textSize="50sp"
         android:textStyle="bold" />
