@@ -24,10 +24,9 @@
         android:id="@+id/textView1"
         android:layout_width="500dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView1"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="35dp"
-        android:layout_marginRight="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
         android:text="Arr, matey! Ye b ready ta come aboard, ta set full sails, under heavy winds, for abound’n adventures?"
         android:textSize="50sp"
         android:textStyle="bold" />
