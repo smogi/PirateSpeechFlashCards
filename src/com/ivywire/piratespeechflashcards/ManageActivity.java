@@ -42,7 +42,6 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
 		removeNaughtyButton = (Button) findViewById(R.id.remove_naughty_button);
 		removeNaughtyButton.setOnClickListener(this);
 		mainLayout.addView(removeNaughtyButton, params);
-        setContentView(mainLayout);
 		
 		
 	}
