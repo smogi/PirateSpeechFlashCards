@@ -5,10 +5,13 @@ import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.R;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -38,13 +41,14 @@ public class InstructionsCardCursorPagerAdapter extends PagerAdapter {
 				break;
 			case 2:
 				layout = (RelativeLayout) inflater.inflate(R.layout.activity_instructions3, null);
-				ImageButton link = (ImageButton) layout.findViewById(R.id.youtube);
+				
 				break;
 			case 3:
 				layout = (RelativeLayout) inflater.inflate(R.layout.activity_instructions4, null);
 				break;
 			case 4:
 				layout = (RelativeLayout) inflater.inflate(R.layout.activity_credits, null);
+				ImageButton link = (ImageButton) layout.findViewById(R.id.youtube);
 		}
 		((VerticalViewPager) view).addView(layout);
 	    return layout;

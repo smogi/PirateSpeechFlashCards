@@ -66,7 +66,7 @@
         <activity
             android:name="com.ivywire.piratespeechflashcards.ManageActivity"
             android:label="@string/title_activity_manage" 
-            android:screenOrientation="portrait" >
+            android:screenOrientation="landscape" >
         </activity>
         <activity
             android:name="com.ivywire.piratespeechflashcards.CardLoadActivity"

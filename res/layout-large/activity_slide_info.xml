@@ -12,25 +12,25 @@
         android:layout_alignParentTop="true"
         android:src="@drawable/firstpiratepicture1" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="400dp"
-        android:layout_height="170dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="81dp"
-        android:src="@drawable/swipe" />
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/imageView1"
-        android:layout_marginRight="42dp"
-        android:layout_marginTop="33dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="27dp"
         android:text="Arr, matey! Ye b ready ta come aboard, ta set full sails, under heavy winds, for abound’n adventures?"
         android:textSize="30sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="400dp"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="58dp"
+        android:src="@drawable/swipe" />
 
 </RelativeLayout>

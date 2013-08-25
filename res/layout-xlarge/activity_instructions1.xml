@@ -13,7 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="30dp"
         android:layout_marginTop="24dp"
-        android:text="The goal of this app is for your family, friends, and you to have fun  talking pirate. Flash cards have long been the best way to learn a new language.  "
+        android:text="The goal of this app is for your family, friends, and you to have fun talking pirate. Flash cards have long been the best way to learn a new language.  "
         android:textSize="35sp" />
 
     <TextView
