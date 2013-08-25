@@ -6,7 +6,7 @@
 
     <ImageView
         android:id="@+id/imageView1_info"
-        android:layout_width="700dp"
+        android:layout_width="500dp"
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -27,7 +27,7 @@
         android:layout_above="@+id/imageView1"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="35dp"
-        android:layout_marginRight="31dp"
+        android:layout_marginRight="66dp"
         android:text="Arr, matey! Ye b ready ta come aboard, ta set full sails, under heavy winds, for abound’n adventures?"
         android:textSize="50sp"
         android:textStyle="bold" />
