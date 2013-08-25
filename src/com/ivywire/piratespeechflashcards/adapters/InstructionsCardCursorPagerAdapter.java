@@ -18,11 +18,12 @@ import android.widget.TextView;
 
 public class InstructionsCardCursorPagerAdapter extends PagerAdapter {
 	private LayoutInflater inflater;
+	private Context context;
 	
 		
 	public InstructionsCardCursorPagerAdapter(Context context){
 		this.inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		
+		this.context = context;
 	}
 	
 	public void destroyItem(View view, int position, Object object){
@@ -41,14 +42,21 @@ public class InstructionsCardCursorPagerAdapter extends PagerAdapter {
 				break;
 			case 2:
 				layout = (RelativeLayout) inflater.inflate(R.layout.activity_instructions3, null);
-				
+				ImageButton link = (ImageButton) layout.findViewById(R.id.youtube);
+				link.setOnClickListener(new OnClickListener(){
+					@Override
+					public void onClick(View v){
+						Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=fqMu6e5Dgtg"));
+						context.startActivity(i);
+					}
+				});
 				break;
 			case 3:
 				layout = (RelativeLayout) inflater.inflate(R.layout.activity_instructions4, null);
 				break;
 			case 4:
 				layout = (RelativeLayout) inflater.inflate(R.layout.activity_credits, null);
-				ImageButton link = (ImageButton) layout.findViewById(R.id.youtube);
+				break;
 		}
 		((VerticalViewPager) view).addView(layout);
 	    return layout;
