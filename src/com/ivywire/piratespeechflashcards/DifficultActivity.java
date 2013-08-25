@@ -4,6 +4,7 @@ import com.external.verticalviewpager.AnimationPager;
 import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.adapters.DifficultCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
+import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 
 import android.os.Bundle;
 import android.content.Intent;
@@ -18,11 +19,14 @@ import android.view.MenuItem;
 public class DifficultActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 	DifficultCardCursorPagerAdapter adapter;
     VerticalViewPager pager;
+    CardDatabaseHelper dataHelper;
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_card_slide_vertical);
+		
+		dataHelper = new CardDatabaseHelper(this);
 		
 		adapter = new DifficultCardCursorPagerAdapter(this, null);
 		pager= (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
@@ -30,6 +34,9 @@ public class DifficultActivity extends FragmentActivity implements LoaderManager
 		pager.setPageTransformer(true, new AnimationPager());
 		
 		getSupportLoaderManager().initLoader(-1, null, this);
+		
+		InstructionsDialogFragment dialog = new InstructionsDialogFragment(this, pager);
+		dialog.show(getSupportFragmentManager(), "InstructionsDialogFragment");
 	}
 
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
@@ -77,7 +84,7 @@ public class DifficultActivity extends FragmentActivity implements LoaderManager
         switch (item.getItemId()) {
         	case R.id.action_delete:
         		DeleteDialogFragment dialog = new DeleteDialogFragment();
-        		dialog.setFields(this, pager, "Difficult", pager.getCurrentItem());
+        		dialog.setFields(this, pager, "Difficult", pager.getCurrentItem(), dataHelper);
         		dialog.show(getSupportFragmentManager(), "DeleteDialogFragment");
         	/*
             case android.R.id.home:

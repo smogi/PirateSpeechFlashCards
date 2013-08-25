@@ -12,23 +12,29 @@ import com.external.verticalviewpager.AnimationPager;
 import com.external.verticalviewpager.VerticalViewPager;
 import com.ivywire.piratespeechflashcards.adapters.StartingCardCursorPagerAdapter;
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
+import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
+
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.Loader;
 
 public class StartingActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor> {
 	StartingCardCursorPagerAdapter adapter;
 	VerticalViewPager pager;
-	
+	CardDatabaseHelper dataHelper;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_card_slide_vertical);
+		dataHelper = new CardDatabaseHelper(this);
 		adapter = new StartingCardCursorPagerAdapter(this, null);
 		pager = (VerticalViewPager) findViewById(R.id.flashcard_pager_vertical);
 		pager.setAdapter(adapter);
 		pager.setPageTransformer(true, new AnimationPager());
 		
 		getSupportLoaderManager().initLoader(-1, null, this);
+		
+		InstructionsDialogFragment dialog = new InstructionsDialogFragment(this, pager);
+		dialog.show(getSupportFragmentManager(), "InstructionsDialogFragment");
 	}
 	
 

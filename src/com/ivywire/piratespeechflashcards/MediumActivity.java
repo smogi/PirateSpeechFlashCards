@@ -53,6 +53,9 @@ public class MediumActivity extends FragmentActivity implements LoaderManager.Lo
                 invalidateOptionsMenu();
             }
         });*/		
+		
+		InstructionsDialogFragment dialog = new InstructionsDialogFragment(this, pager);
+		dialog.show(getSupportFragmentManager(), "InstructionsDialogFragment");
 	}
 
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {

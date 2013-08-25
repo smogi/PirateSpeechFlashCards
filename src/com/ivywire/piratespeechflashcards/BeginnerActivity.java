@@ -51,10 +51,8 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
 		pager.setPageTransformer(true, new AnimationPager());
 		adapter.notifyDataSetChanged();
 		
-		Dialog dialog = new Dialog(this, android.R.style.Theme_Light); 
-		dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); 
-		dialog.setContentView(R.layout.activity_slide_info); 		
-		dialog.show();
+		InstructionsDialogFragment dialog = new InstructionsDialogFragment(this, pager);
+		dialog.show(getSupportFragmentManager(), "InstructionsDialogFragment");
 	}
 	
 	@Override

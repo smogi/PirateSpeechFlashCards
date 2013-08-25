@@ -30,6 +30,9 @@ public class NaughtyActivity extends FragmentActivity implements LoaderManager.L
 		pager.setPageTransformer(true, new AnimationPager());
 		
 		getSupportLoaderManager().initLoader(-1, null, this);
+		
+		InstructionsDialogFragment dialog = new InstructionsDialogFragment(this, pager);
+		dialog.show(getSupportFragmentManager(), "InstructionsDialogFragment");
 	}
 	
 	public Loader<Cursor> onCreateLoader(int id, Bundle args) {
