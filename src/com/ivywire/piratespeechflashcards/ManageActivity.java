@@ -38,12 +38,29 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
 		layout = new LinearLayout(this);
 		mainLayout = new LinearLayout(this);
 		tv = new TextView(this);
-		removeNaughtyButton = new Button(this);
 		removeNaughtyButton = (Button) findViewById(R.id.remove_naughty_button);
-		removeNaughtyButton.setOnClickListener(this);
-		mainLayout.addView(removeNaughtyButton, params);
-		
-		
+		removeNaughtyButton.setOnClickListener((new OnClickListener() {
+
+            public void onClick(View v) {
+                if (click) {
+                    popUp.showAtLocation(mainLayout, Gravity.TOP, 10, 10);
+                    popUp.update(50, 50, 300, 80);
+                    click = false;
+                } else {
+                    popUp.dismiss();
+                    click = true;
+                }
+            }
+
+        }));
+        params = new LayoutParams(LayoutParams.WRAP_CONTENT,
+                LayoutParams.WRAP_CONTENT);
+        layout.setOrientation(LinearLayout.VERTICAL);
+        tv.setText("All Naughty cards are now disabled");
+        layout.addView(tv, params);
+        popUp.setContentView(layout);
+        getWindow().setLayout(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+        
 	}
 
 	@Override
@@ -79,20 +96,7 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
 	@Override
 	public void onClick(View v) {
         switch(v.getId()){
-            case R.id.remove_naughty_button:
-            	if (click) {
-            		popUp.showAtLocation(mainLayout, Gravity.BOTTOM, 10, 10);
-            		popUp.update(50, 50, 300, 80);
-            		click = false;
-            	}else{
-            		popUp.dismiss();
-            		click = true;
-            	}
-            	params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-            	layout.setOrientation(LinearLayout.VERTICAL);
-            	tv.setText("All naughty cards are now disabled.");
-            	layout.addView(tv, params);
-            	popUp.setContentView(layout); 
+            case R.id.remove_naughty_button:            
             	turnNaughtyOff();
                 break;
             case R.id.naughty_password_button:
