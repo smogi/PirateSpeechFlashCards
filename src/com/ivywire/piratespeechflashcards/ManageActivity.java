@@ -21,6 +21,7 @@ import android.widget.Toast;
      
 public class ManageActivity extends FragmentActivity implements OnClickListener {
 	private Button removeNaughtyButton;
+	private Button changePasswordButton;
 	private String disabled;
 	private String naughty;
 	private PopupWindow popUp;
@@ -34,6 +35,12 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_manage);
+		
+		removeNaughtyButton = (Button) findViewById(R.id.remove_naughty_button);
+		changePasswordButton = (Button) findViewById(R.id.naughty_password_button);
+		
+		removeNaughtyButton.setOnClickListener(this);
+		changePasswordButton.setOnClickListener(this);
 	}
 
 	@Override
@@ -73,10 +80,11 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
             	turnNaughtyOff();
             	Toast bread = Toast.makeText(getApplicationContext(), "All naughty cards are now disabled", Toast.LENGTH_LONG);
             	bread.show();
-                break;
+                break;	
             case R.id.naughty_password_button:
-            	PasswordCreateDialogFragment frag = new PasswordCreateDialogFragment();
+            	PasswordCreateDialogFragment frag = new PasswordCreateDialogFragment(this);
             	frag.show(getSupportFragmentManager(), "PasswordCreateDialogFragment");
+            	break;
         }
 		
 	}
