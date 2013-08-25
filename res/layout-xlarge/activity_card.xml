@@ -32,7 +32,7 @@
 	    android:lineSpacingMultiplier="1.2"
 	    android:paddingLeft="15dp"
 	    android:text="example"
-	    android:textSize="50sp" />
+	    android:textSize="45sp" />
 
 	<TextView
 	    android:id="@+id/pirate_card_title"
