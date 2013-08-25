@@ -8,7 +8,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.Window;
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.content.Intent;
 import android.database.Cursor;
 import android.support.v4.content.CursorLoader;
@@ -48,6 +50,12 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
 		pager.setAdapter(adapter);
 		pager.setPageTransformer(true, new AnimationPager());
 		adapter.notifyDataSetChanged();
+		
+		Dialog dialog = new Dialog(this, android.R.style.Theme_Light); 
+		dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); 
+		dialog.setContentView(R.layout.activity_slide_info); 		
+		dialog.show();
+		
 		
 	}
 	

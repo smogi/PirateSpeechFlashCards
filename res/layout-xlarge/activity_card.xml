@@ -43,7 +43,6 @@
 	    android:layout_centerHorizontal="true"
 	    android:layout_marginTop="23dp"
 	    android:gravity="center"
-	    android:height="60dp"
 	    android:text="title"
 	    android:textAlignment="center"
 	    android:textSize="70sp"
