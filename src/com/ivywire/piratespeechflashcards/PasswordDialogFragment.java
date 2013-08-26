@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.text.InputType;
 import android.widget.EditText;
+import android.widget.Toast;
 
 @SuppressLint("ValidFragment")
 public class PasswordDialogFragment extends DialogFragment{
@@ -40,8 +41,11 @@ public class PasswordDialogFragment extends DialogFragment{
 
 				String pass = sp1.getString("Password", null);
 				
-				if(entered_password == pass){
+				if(entered_password.equals(pass)){
 					sendToNaughty();
+				}else{
+					Toast bread = Toast.makeText(context, "Passwords do not match", Toast.LENGTH_LONG);
+	            	bread.show();
 				}
 			}
 		});
@@ -51,5 +55,6 @@ public class PasswordDialogFragment extends DialogFragment{
 	
 	public void sendToNaughty(){
 		Intent intent = new Intent(getActivity(), NaughtyActivity.class);
+		startActivity(intent);
 	}
 }
