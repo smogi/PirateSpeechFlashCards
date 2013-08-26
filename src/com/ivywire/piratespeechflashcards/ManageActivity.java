@@ -6,9 +6,11 @@ import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.content.ContentValues;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -31,6 +33,7 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
 	private TextView tv;
 	private LayoutParams params;
 	private LinearLayout mainLayout;
+	private FragmentManager fm;
 	private boolean click = true;
 	
 	@Override
@@ -43,12 +46,20 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
 		
 		removeNaughtyButton.setOnClickListener(this);
 		changePasswordButton.setOnClickListener(this);
-		
+		final Context ctx = this;
 		if(disabledCheck()){
 			removeNaughtyButton.setOnClickListener(new OnClickListener(){
 				@Override
 				public void onClick(View v) {
-					PasswordCheckerDialogFragment frag = new PasswordCheckerDialogFragment(getApplicationContext());
+					PasswordCheckerDialogFragment2 frag = new PasswordCheckerDialogFragment2(ctx, getSupportFragmentManager());
+	            	frag.show(getSupportFragmentManager(), "PasswordDialogFragment2");
+				}
+			});
+			
+			changePasswordButton.setOnClickListener(new OnClickListener(){
+				@Override
+				public void onClick(View v) {
+					PasswordCheckerDialogFragment frag = new PasswordCheckerDialogFragment(getApplicationContext(), getSupportFragmentManager());
 	            	frag.show(getSupportFragmentManager(), "PasswordDialogFragment");
 				}
 			});
@@ -58,11 +69,20 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
 	@Override
 	protected void onResume(){
 		super.onResume();
+		final Context ctx = this;
 		if(disabledCheck()){
 			removeNaughtyButton.setOnClickListener(new OnClickListener(){
 				@Override
 				public void onClick(View v) {
-					PasswordCheckerDialogFragment frag = new PasswordCheckerDialogFragment(getApplicationContext());
+					PasswordCheckerDialogFragment2 frag = new PasswordCheckerDialogFragment2(ctx, getSupportFragmentManager());
+	            	frag.show(getSupportFragmentManager(), "PasswordDialogFragment2");
+				}
+			});
+			
+			changePasswordButton.setOnClickListener(new OnClickListener(){
+				@Override
+				public void onClick(View v) {
+					PasswordCheckerDialogFragment frag = new PasswordCheckerDialogFragment(getApplicationContext(), getSupportFragmentManager());
 	            	frag.show(getSupportFragmentManager(), "PasswordDialogFragment");
 				}
 			});
@@ -110,7 +130,7 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
         switch(v.getId()){
             case R.id.remove_naughty_button:            
             	turnNaughtyOff();
-            	Toast bread = Toast.makeText(getApplicationContext(), "All naughty cards are now disabled", Toast.LENGTH_LONG);
+            	Toast bread = Toast.makeText(getApplicationContext(), "The naughty section is now disabled", Toast.LENGTH_LONG);
             	bread.show();
                 break;	
             case R.id.naughty_password_button:

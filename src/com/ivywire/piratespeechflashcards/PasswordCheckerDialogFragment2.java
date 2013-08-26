@@ -1,8 +1,12 @@
 package com.ivywire.piratespeechflashcards;
 
+import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
+import com.ivywire.piratespeechflashcards.database.FlashCardTable;
+
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
@@ -14,11 +18,11 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 @SuppressLint("ValidFragment")
-public class PasswordCheckerDialogFragment extends DialogFragment {
-    private Context context;
+public class PasswordCheckerDialogFragment2 extends DialogFragment{
+	private Context context;
     private FragmentManager fm;
     
-	public PasswordCheckerDialogFragment(Context context, FragmentManager fm){
+	public PasswordCheckerDialogFragment2(Context context, FragmentManager fm){
 		this.context = context;
 		this.fm = fm;
 	}
@@ -44,16 +48,26 @@ public class PasswordCheckerDialogFragment extends DialogFragment {
 				String pass = sp1.getString("Password", null);
 				
 				if(entered_password.equals(pass)){
-					PasswordCreateDialogFragment frag = new PasswordCreateDialogFragment(context);
-	            	frag.show(fm, "PasswordCreateDialogFragment");
+					shutNaughtyOff();
+					Toast bread = Toast.makeText(context, "Naughty section disabled", Toast.LENGTH_LONG);
+	            	bread.show();
 				}else{
 					Toast bread = Toast.makeText(context, "Passwords is incorrect", Toast.LENGTH_LONG);
 	            	bread.show();
 				}
 			}
 		});
-		
 		return password.create();
 	}
-}
+	
+	public void shutNaughtyOff(){
+		String naughty = "naughtyDisabled";
+		String disabled = "Yes";
 		
+		ContentValues values = new ContentValues();
+		values.put(FlashCardTable.COLUMN_CATEGORY, naughty);
+		values.put(FlashCardTable.COLUMN_TITLE, disabled);
+		
+		context.getContentResolver().insert(MyCardContentProvider.CONTENT_URI, values);
+	}
+}
