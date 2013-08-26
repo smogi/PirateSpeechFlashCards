@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.DialogFragment;
 import android.text.InputType;
 import android.view.LayoutInflater;
@@ -33,7 +34,7 @@ public class PasswordCreateDialogFragment extends DialogFragment {
 		final EditText password1 = (EditText) view.findViewById(R.id.password1);
 		final EditText password2 = (EditText) view.findViewById(R.id.password2);
 		
-		password.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+		password.setPositiveButton("OK", new DialogInterface .OnClickListener() {
 			
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
@@ -42,11 +43,18 @@ public class PasswordCreateDialogFragment extends DialogFragment {
 				
 				if(entered_password1.equals(entered_password2)){
 					SharedPreferences sp = context.getSharedPreferences("Password", 9);
-					SharedPreferences.Editor ed=sp.edit();
-					ed.putString("Psw", entered_password1 );
-					ed.commit();
+					SharedPreferences sp2 = context.getSharedPreferences("PasswordEnabled", 10);
 					
-					Toast.makeText(context.getApplicationContext(), "Password changed", Toast.LENGTH_LONG).show();
+					SharedPreferences.Editor ed=sp.edit();
+					SharedPreferences.Editor ed2 = sp2.edit();
+					
+					ed.putString("Password", entered_password1 );
+					ed2.putBoolean("PasswordEnabled", true);
+					
+					ed.commit();
+					ed2.commit();
+					
+					Toast.makeText(context.getApplicationContext(), "Password created", Toast.LENGTH_LONG).show();
 				}else{
 					Toast.makeText(context.getApplicationContext(), "Passwords don't match", Toast.LENGTH_LONG).show();
 				}

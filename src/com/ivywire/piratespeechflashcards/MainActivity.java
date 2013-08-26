@@ -6,18 +6,21 @@ import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.Color;
 import android.graphics.LightingColorFilter;
 import android.graphics.PorterDuff;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class MainActivity extends Activity implements OnClickListener {
+public class MainActivity extends FragmentActivity implements OnClickListener {
 	private Cursor naughtyCursor;
 	private String [] nProjection;
 	private String nSelection;
@@ -57,12 +60,35 @@ public class MainActivity extends Activity implements OnClickListener {
 		naughtyButton.setOnClickListener(this);
 		shareButton.setOnClickListener(this);
 		naughtyCheck();
+		if(passwordCheck()){
+			naughtyButton.setOnClickListener(new OnClickListener(){
+
+				@Override
+				public void onClick(View v) {
+					PasswordDialogFragment frag = new PasswordDialogFragment(getApplicationContext());
+					frag.show(getSupportFragmentManager(), "PassworDialogFragment");
+				}
+				
+			});
+		}
 	}
 	
 	@Override
 	protected void onResume(){
 		super.onResume();
 		naughtyCheck();
+		final Context context = getApplicationContext();
+		if(passwordCheck()){
+			naughtyButton.setOnClickListener(new OnClickListener(){
+
+				@Override
+				public void onClick(View v) {
+					PasswordDialogFragment frag = new PasswordDialogFragment(getApplicationContext());
+					frag.show(getSupportFragmentManager(), "PassworDialogFragment");
+				}
+				
+			});
+		}
 	}
 
 	// Reactions for button onClicks
@@ -107,6 +133,12 @@ public class MainActivity extends Activity implements OnClickListener {
                 break;
         }
     }
+	
+	public boolean passwordCheck(){
+		SharedPreferences pr = getSharedPreferences("PasswordEnabled", 10);
+		Boolean enabled = pr.getBoolean("PasswordEnabled", false);
+		return enabled;
+	}
 	
 	public void naughtyCheck(){
 		Button button2 = (Button) findViewById(R.id.button7);

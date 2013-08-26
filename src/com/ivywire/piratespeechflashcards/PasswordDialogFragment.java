@@ -1,7 +1,9 @@
 package com.ivywire.piratespeechflashcards;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -10,7 +12,13 @@ import android.support.v4.app.DialogFragment;
 import android.text.InputType;
 import android.widget.EditText;
 
+@SuppressLint("ValidFragment")
 public class PasswordDialogFragment extends DialogFragment{
+	private Context context;
+	
+	public PasswordDialogFragment(Context context){
+		this.context = context;
+	}
 	
 	@Override
 	public Dialog onCreateDialog(Bundle savedInstanceState){
@@ -28,9 +36,9 @@ public class PasswordDialogFragment extends DialogFragment{
 			public void onClick(DialogInterface dialog, int which) {
 				String entered_password = password_input.getText().toString();
 				
-				SharedPreferences sp1 = getActivity().getApplicationContext().getSharedPreferences("Psw", 0);
+				SharedPreferences sp1 = context.getSharedPreferences("Password", 9);
 
-				String pass = sp1.getString("Psw", null);
+				String pass = sp1.getString("Password", null);
 				
 				if(entered_password == pass){
 					sendToNaughty();

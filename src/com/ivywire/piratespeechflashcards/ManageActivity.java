@@ -4,8 +4,10 @@ import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.content.ContentValues;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.app.FragmentActivity;
 import android.view.Gravity;
 import android.view.Menu;
@@ -41,6 +43,30 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
 		
 		removeNaughtyButton.setOnClickListener(this);
 		changePasswordButton.setOnClickListener(this);
+		
+		if(disabledCheck()){
+			removeNaughtyButton.setOnClickListener(new OnClickListener(){
+				@Override
+				public void onClick(View v) {
+					PasswordCheckerDialogFragment frag = new PasswordCheckerDialogFragment(getApplicationContext());
+	            	frag.show(getSupportFragmentManager(), "PasswordDialogFragment");
+				}
+			});
+		}
+	}
+	
+	@Override
+	protected void onResume(){
+		super.onResume();
+		if(disabledCheck()){
+			removeNaughtyButton.setOnClickListener(new OnClickListener(){
+				@Override
+				public void onClick(View v) {
+					PasswordCheckerDialogFragment frag = new PasswordCheckerDialogFragment(getApplicationContext());
+	            	frag.show(getSupportFragmentManager(), "PasswordDialogFragment");
+				}
+			});
+		}
 	}
 
 	@Override
@@ -49,6 +75,12 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
 		super.onCreateOptionsMenu(menu);
 		getMenuInflater().inflate(R.menu.manage, menu);
 		return true;
+	}
+	
+	public boolean disabledCheck(){
+		SharedPreferences pr = getSharedPreferences("PasswordEnabled", 10);
+		Boolean enabled = pr.getBoolean("PasswordEnabled", false);
+		return enabled;
 	}
 	
 	public void turnNaughtyOff(){
