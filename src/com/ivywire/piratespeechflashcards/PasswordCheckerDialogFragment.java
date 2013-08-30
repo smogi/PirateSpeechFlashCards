@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
@@ -44,8 +45,9 @@ public class PasswordCheckerDialogFragment extends DialogFragment {
 				String pass = sp1.getString("Password", null);
 				
 				if(entered_password.equals(pass)){
-					PasswordCreateDialogFragment frag = new PasswordCreateDialogFragment(context);
-	            	frag.show(fm, "PasswordCreateDialogFragment");
+					dismiss();
+					Intent intent = new Intent(context, PasswordActivity.class);
+					startActivity(intent);
 				}else{
 					Toast bread = Toast.makeText(context, "Passwords is incorrect", Toast.LENGTH_LONG);
 	            	bread.show();

@@ -44,7 +44,7 @@
         android:layout_alignRight="@+id/remove_naughty_button"
         android:layout_below="@+id/remove_naughty_button"
         android:layout_marginTop="29dp"
-        android:text="Change admin password"
+        android:text="Create a password"
         android:textSize="20sp" />
 
 </RelativeLayout>
