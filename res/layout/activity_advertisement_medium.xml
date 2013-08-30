@@ -11,18 +11,17 @@
         android:layout_width="250dp"
         android:layout_height="190dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="51dp"
         android:src="@drawable/sword1" />
 
     <ImageView
         android:id="@+id/imageView2_medium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
-        android:layout_marginRight="63dp"
+        android:layout_toLeftOf="@+id/imageView1_medium"
         android:src="@drawable/olseadog1" />
 
 </RelativeLayout>

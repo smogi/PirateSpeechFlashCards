@@ -4,34 +4,58 @@
     android:layout_height="match_parent"
      >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/imageView1"
-        android:layout_marginRight="27dp"
-        android:text="Arr, matey! Ye b ready ta come aboard, ta set full sails, under heavy winds, for abound’n adventures?"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="220dp"
-        android:layout_height="100dp"
-        android:layout_alignParentBottom="true"
+        android:layout_height="150dp"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/imageView1_info"
         android:src="@drawable/swipe" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:text="Slide up for the next card"
+        android:textSize="17sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView1_info"
         android:layout_width="180dp"
         android:layout_height="200dp"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginRight="21dp"
-        android:layout_toLeftOf="@+id/textView1"
         android:src="@drawable/firstpiratepicture1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="39dp"
+        android:text="C Copyright pending"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#FF0000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:text="Slide down for the previous card"
+        android:textSize="17sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

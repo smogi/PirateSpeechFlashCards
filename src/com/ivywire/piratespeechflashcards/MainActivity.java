@@ -4,8 +4,10 @@ import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -19,6 +21,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends FragmentActivity implements OnClickListener {
 	private Cursor naughtyCursor;
@@ -36,6 +39,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 	private Button complexButton;
 	private Button naughtyButton;
 	private Button shareButton;
+	private Button rateButton;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +53,8 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 		beginnerButton = (Button) findViewById(R.id.button5);
 		complexButton = (Button) findViewById(R.id.button6);
 		naughtyButton = (Button) findViewById(R.id.button7);
+		rateButton = (Button) findViewById(R.id.ratingButton1_beginner);
+		
 		shareButton = (Button) findViewById(R.id.button8);
 				
 		instructionsButton.setOnClickListener(this);
@@ -59,6 +65,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 		complexButton.setOnClickListener(this);
 		naughtyButton.setOnClickListener(this);
 		shareButton.setOnClickListener(this);
+		rateButton.setOnClickListener(this);
 		naughtyCheck();
 		if(passwordCheck()){
 			naughtyButton.setOnClickListener(new OnClickListener(){
@@ -124,6 +131,14 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
             	intent = new Intent(this, NaughtyActivity.class);
             	startActivity(intent);
                 break;
+            case R.id.ratingButton1_beginner:
+            	try{
+				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.imangi.templerun]")));
+								        
+			    }
+			    catch (ActivityNotFoundException e){
+			    	Toast.makeText(this, "Could not open Android market, please install the market app.", Toast.LENGTH_SHORT).show(); 
+			    }
             case R.id.button8:
             	Intent shareIntent=new Intent(Intent.ACTION_SEND);
 				shareIntent.setType("text/plain");

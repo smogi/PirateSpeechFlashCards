@@ -8,22 +8,18 @@
 
     <ImageView
         android:id="@+id/imageView1_naughty"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:layout_alignParentBottom="true"
+        android:layout_width="250dp"
+        android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="28dp"
         android:src="@drawable/knife1" />
 
     <ImageView
         android:id="@+id/imageView2_naughty"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="fill_parent"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginRight="55dp"
         android:src="@drawable/you1" />
 
 </RelativeLayout>

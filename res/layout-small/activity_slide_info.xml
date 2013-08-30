@@ -14,20 +14,10 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="220dp"
-        android:layout_height="140dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/imageView1_info"
-        android:src="@drawable/swipe" />
-
-    <TextView
-        android:id="@+id/textView1"
         android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_height="140dp"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/imageView1"
-        android:text="Arr, matey! Ye b ready ta come aboard, ta set full sails, under heavy winds, for abound’n adventures?"
-        android:textSize="17sp"
-        android:textStyle="bold" />
+        android:src="@drawable/swipe" />
 
 </RelativeLayout>
