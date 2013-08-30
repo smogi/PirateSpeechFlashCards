@@ -34,12 +34,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/card_shape"
-        android:padding="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="5dp"
         android:password="false"
         android:singleLine="false"
         android:text="@string/menu_info"
-        android:textSize="12sp" />
+        android:textColor="#585858"
+        android:textSize="14sp" />
 
     <Button
         android:id="@+id/button4"
