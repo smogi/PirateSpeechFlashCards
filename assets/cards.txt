@@ -15,7 +15,7 @@ so say our muskets! It b arrr good fortune!
 Ahoy=Starting=Ahoy!  Ye mighty sea dogs! Ye hold b full, 
 from wander'n voyages?=Hello;
 
-Begad=Difficult=In a manner o speak'n, me loves me old wench, begad!
+Begad=Difficult=In a manner o speak'n, me loves me old wench, begad! 
 She b a bit daft, an her not best at keep'n me quarters, free of jetsam, but she still b, barnacle free!=By God;
 
 Belay=Starting=
@@ -217,7 +217,7 @@ Plenty a rum to keep dar plague away, begad, so lift ye cups,
  
 No Quarter=Difficult=
 Cap'n, when dar buccaneers come aboard, 
-Ther-al b no quarter!  Dar sharks b heave'n, with swollen bellies, and big smiles upon their jibs!=Not surrender;
+There'l b no quarter!  Dar sharks b heave'n, with swollen bellies, and big smiles upon their jibs!=Not surrender;
 
 Pieces of Eight=Medium=
 Ahoy me buxom, red hared wench, a doubloon an two pieces of eight, for a tall grog? 
@@ -539,8 +539,7 @@ Ye=Starting=
 Ye b think'n, ye a Cap'n Black Beard, but we all b know'n, ye just a two left handed, addled, bone head. Who mother, married her cousin.=You;
 
 Galley=Medium=
-Ye stand guard on deck, while dar deck crew draws down
-to the galley, for some hot grub. Me words b good as gold, cook b set'n aside ye grub. 
+Ye stand guard on deck, while dar deck crew draws down to the galley, for some hot grub. Me words b good as gold, cook b set'n aside ye grub. 
 Alas, ye no, b go'n hungry!=Kitchen and eating area;
 
 Greedy=Beginner=
@@ -561,10 +560,7 @@ Hull=Complex=
 Bring her about steersman, so dar bow b to her broadside an make break'n speed. We'll put our keel into her hull, so she b take'n on water. 
 Then we board her an take no prisoners.=The outer shell of the ship;
 
-Gangplank=Medium=Ahoy! Lower the gangplank, so we drunk'n mateys
-can crawl aboard. We been lay'n waste all night,
- an our pockets b empty.=A plank of wood where people and cargo can gain
-access to the ship;
+Gangplank=Medium=Ahoy! Lower the gangplank, so we drunk'n mateys can crawl aboard. We been lay'n waste all night, an our pockets b empty.=A plank of wood where people and cargo can gain access to the ship;
 
 Hang The Jib=Difficult=
 When he b drunk his tongue does hang the jib. No mistaken, he best keep his trap shut, or, he b receive'n cold steal, fillet'n his liver.=Put up the low small sail to the most speed;
@@ -636,8 +632,7 @@ Me eyes never fall, on such a flea bag cur as ye!=A homeless dog;
 Swaggy=Complex=
 Eyes port, me mates! Dar vixen wench, far end the bar. Me intends, she b me swaggy.=A ship one intends to loot;
 
-Walk The Plank=Medium=Ye B straight'n ye course, or, ye b find'n ye self
-walk'n the plank to feed the little fishes. If ye not abandon, ye evil ways, or, ye frown'n jib, 
+Walk The Plank=Medium=Ye B straight'n ye course, or, ye b find'n ye self walk'n the plank to feed the little fishes. If ye not abandon, ye evil ways, or, ye frown'n jib, 
 never b see'n the light of day, so I B warn'n ye!=A board extended from the ship to execute a sailor;
 
 Sweet Trade=Complex=Hear's me now, ye mighty sea fair'n warriors! We soon, all b plunder'n, under the Skull & Cross Bones. Pirates we are! We agree, it b a sweet trade? Yarr?=A career of a Pirate;
@@ -652,7 +647,7 @@ Ships=Complex=Barge		Blockade        Runner	                 Clipper
 
 
 Messmates=Medium=
-I say, we all b messmates.  Low and behold, we b lift'n our jibs.  B time to weigh anchor, an voyage,
+I say, we all b messmates.  Low and behold, we b lift'n our jibs. B time to weigh anchor, an voyage, 
 to great grub an much grogs.=Eating companions;
 
 Fair Winds=Beginner=
@@ -708,15 +703,14 @@ Neither Cap'n, nor 1st Mate, gave orders to go ashore. So I B say'n, if ye mutts
 least flog'n, b ye fancy!=Not one or the other;
 
 By The Cut Of His Jib=Medium=
-After words with Cap'n, my eyes could see, by
-the cut of his jib, that he b fit, to B tied. It b clear, someone, B walk'n the plank, by sunset.=The expression on one's face.;
+After words with Cap'n, my eyes could see, by the cut of his jib, that he b fit, to B tied. It b clear, someone, B walk'n the plank, by sunset.=The expression on one's face.;
 
 Beg'n Ye Pardon=Starting=
 Beg'n ye pardon, kind sir. Ye b look'n like a sea fair'n man. Correct me course, to scuttle an ale, 
 an ye b done with me.=Asking if you can interrupt another;
 
 Ain't Ye The Jolly One=Medium=
-Ye sing a sweet chanty, while dance'n a lively jig.
+Ye sing a sweet chanty, while dance'n a lively jig. 
 Ain't ye the jolly one? Me see's, ye b'n a lass that b saucy.=Stating that another is fun living;
 
 He B=Beginner=
@@ -733,7 +727,7 @@ Worth His Salt=Beginner=
 Dur'n the gale, the helmsman proved, worth his salt. I thought make'n port, b lost. Helmsman know'n, his course, an here we b.  Limey, he b a good'n!=A person of substance;
 
 Need Your Sea Legs=Difficult=
-Arrr, me mateys.  Seems ye belly, b a'bloat, with
+Arrr, me mateys.  Seems ye belly, b a'bloat, with 
 too much rum, an, ye need your sea legs. 
 Limey, ye rudder b busted.=One is not stable on his/her feet;
 
@@ -779,7 +773,7 @@ Avast!  Me hear from dar 1st mate's ol crew, that he b, a brutal devil. Beware y
 Hoist=Medium=Avast mates! When the wind b fill'n the main sails, ye bone headed scoundrels, hoist the jibs, an we B tack'n, at full speed, to starboard.   Arr, she b a find sea fair'n day.=To lift up;
 
 Lay'n=Medium=
-Yarr, we B lay'n plans, when me make shore,
+Yarr, we B lay'n plans, when me make shore, 
 to plunder the rum abodes. Me hears there b, more taverns, than we have doubloons!  I say we b find'n out, that b true, or, if it B an ol sea dog's tale!=Planning;
 
 I Bid Ye Good Fortune=Starting=Arrr, it was an adventure, to sail with ye Ol Sea Salt. Now that we b part'n, I bid ye good fortune.=Good luck in your future;
@@ -796,14 +790,14 @@ Banish=Difficult=
 Cap'n's orders, let anchor. We banish the jetsam from below, an, scrub the decks before we go ashore. Then we B free to plunder, the land lubers!=To send away;
 
 Villains=Medium=
-Dar flea infested crew, of the Mary Beth,
+Dar flea infested crew, of the Mary Beth, 
 b a pack, of villains. Ye best not b wind'ard, 
 da stench, she B mighty!=Two or more individuals of despicable reputations;
 
 Quarters=Difficult=
 Tis 12 bells.  I beg ye give me leave. Me belly b abound'n with rum. I soon b lose'n me sea legs, an if me not shove off, to me quarters, I B wake'n on the docks.=A living area;
 
-Dares=Medium=Ye yellow bellied scoundrel, I sees ye hand on ye saber. I dares ye draw it, for ye mates soon
+Dares=Medium=Ye yellow bellied scoundrel, I sees ye hand on ye saber. I dares ye draw it, for ye mates soon 
 b hoist'n ye guts, off the deck!=Offering a challenge;
 
 Duty=Medium=Mateys! No more grog for me. Me must abandon ye sorry pole cats.  I b abid'n ye, fair well.  
@@ -871,7 +865,7 @@ to bring us to port, say's I!=Crew member who steers the ship;
 Quartermaster=Complex=
 I says there, quartermaster, the rum barrel b at low tide, should she go empty, mark me words, there'l B mutiny!=An officer responsible for supplies;
 
-Bold Adventures=Medium=Billy thar, B the boson.  Bold adventures, b,
+Bold Adventures=Medium=Billy thar, B the boson.  Bold adventures, b, 
 between his ears. Mighty stories abound, from his blow hole, about much plunder'n, an, wayward wenches. Hard believ'n, he once b'n a mutter's boy.=Doing great things;
 
 Shipmates=Medium=Ahoy! Buccaneer. Me afeared, Gov'nr had ye in irons. Come aboard, an join me shipmates.  
@@ -974,7 +968,7 @@ Ye worthless, rig'n rats, scurry aloft, an, trim dim sails, when we tack win'ard
 Hold Ye Clack=Medium=
 Lis'n up, ye scalawags, hold ye clack, me's something to say. Cap'n says, morrow, we make landfall. The treasure b just ahead. Then it b off to port, to waste our lucre!=Stop talking;
 
-Keep Ye Tongue Behind Ye Teeth=Medium=Give me leave in say'n, ye vast, an foul words, b deliver'n ye, square away, to a mighty flog'n, if ye don't
+Keep Ye Tongue Behind Ye Teeth=Medium=Give me leave in say'n, ye vast, an foul words, b deliver'n ye, square away, to a mighty flog'n, if ye don't 
 keep ye tongue behind ye teeth.=Stop talking;
 
 Square Away=Difficult=Helmsman sir, me beg's ya pardon, square her away, an let's b making time. 
@@ -1171,7 +1165,7 @@ Ye best, not look away, an, turn ye aft my direction, or, I b mount'n ye like an
 Buried Treasure=Naughty=Another rum, me lass. I B seeking, ye buried treasure, 
 an, I feel'n it b a mighty bounty!=Desire to have intercourse;
 
-Messmates=Naughty=Between the sheets me wench, we b messmates.  
+Messmates=Naughty=Between the sheets me wench, we b messmates. 
 Bow to stern and stern to bow.=69;
 
 Flog Me Jolly Roger=Naughty=

@@ -58,11 +58,12 @@ public class BeginnerActivity extends FragmentActivity implements LoaderManager.
 	@Override
 	protected void onStop(){
 		super.onStop();
+		/*
 		getSupportLoaderManager().initLoader(-1, null, this);
 		pager.setAdapter(null);
 		adapterResume = new BeginnerCardCursorPagerAdapter(this, null);
 		pager.setAdapter(adapter);
-		
+		*/
 		
 		/*disabledCursor = getContentResolver().query(MyCardContentProvider.CONTENT_URI, new String []{FlashCardTable.COLUMN_DISABLED, FlashCardTable.COLUMN_TITLE, FlashCardTable.COLUMN_ID}, FlashCardTable.COLUMN_DISABLED + " = true", null, null);
 		int [] ids = new int[disabledCursor.getCount()];

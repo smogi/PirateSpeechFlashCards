@@ -8,6 +8,7 @@ import com.ivywire.piratespeechflashcards.database.FlashCardTable;
 import android.content.Context;
 import android.database.Cursor;
 import android.graphics.Typeface;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.RelativeLayout;
@@ -67,7 +68,7 @@ public class DifficultCardCursorPagerAdapter extends PagerAdapter{
 		    TextView cardDefinition = (TextView) layout.findViewById(R.id.pirate_card_definition);
 	
 		    cardTitle.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_TITLE)));
-		    cardExample.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_SENTENCE)));
+		    cardExample.setText(Html.fromHtml(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_SENTENCE))));
 		    cardDefinition.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DEFINITION)));
 		
 		    cardTitle.setTypeface(boldFont);

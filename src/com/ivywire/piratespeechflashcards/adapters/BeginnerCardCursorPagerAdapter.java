@@ -13,6 +13,7 @@ import android.database.Cursor;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.support.v4.view.ViewPager;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -79,7 +80,7 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 		    TextView cardDefinition = (TextView) layout.findViewById(R.id.pirate_card_definition);
 	
 		    cardTitle.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_TITLE)));
-		    cardExample.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_SENTENCE)));
+		    cardExample.setText(Html.fromHtml(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_SENTENCE))));
 		    cardDefinition.setText(cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DEFINITION)));
 		
 		    cardTitle.setTypeface(boldFont);
