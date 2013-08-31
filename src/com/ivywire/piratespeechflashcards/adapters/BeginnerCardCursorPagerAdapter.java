@@ -67,22 +67,6 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
 		}if(position == 89){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_beginner, null);
-			Button rateButton = (Button) layout.findViewById(R.id.ratingButton1_beginner);
-			rateButton.setOnClickListener(new OnClickListener(){
-
-				@Override
-				public void onClick(View v) {				   
-					try{
-						context2.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.imangi.templerun]")));
-									        
-				    }
-				    catch (ActivityNotFoundException e){
-				    	Toast.makeText(context2, "Could not open Android market, please install the market app.", Toast.LENGTH_SHORT).show(); 
-				    }
-					
-				}
-				
-			});
 		    
 		}
 		else if(position > 0 && position < 89){
