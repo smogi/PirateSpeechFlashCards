@@ -14,18 +14,6 @@
         android:layout_toRightOf="@+id/imageView1_info"
         android:src="@drawable/swipe" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_below="@+id/imageView1"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="14dp"
-        android:text="Slide up for the next card"
-        android:textSize="17sp"
-        android:textStyle="bold" />
-
     <ImageView
         android:id="@+id/imageView1_info"
         android:layout_width="180dp"
@@ -55,6 +43,18 @@
         android:layout_above="@+id/textView3"
         android:layout_alignRight="@+id/textView3"
         android:text="Slide down for the previous card"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="18dp"
+        android:text="Slide up for the next card"
         android:textSize="17sp"
         android:textStyle="bold" />
 
