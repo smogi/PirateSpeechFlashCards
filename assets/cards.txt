@@ -18,7 +18,7 @@ from wander'n voyages?=Hello;
 Begad=Difficult=In a manner o speak'n, me loves me old wench, begad!
 She b a bit daft, an her not best at keep'n me quarters, free of jetsam, but she still b, barnacle free!=By God;
 
-Belat=Starting=
+Belay=Starting=
 Belay ye gamble-n, an backs to dar ship, ye cowardly scum. Debauchery b over, fur da night. Ye leave b over.  Dare always b, another port. Now, bid dez's damsels adieu.=Stop;
 
 Bilge=Beginner=Ye mind b, like a bound-n bilge, an ye blow hole, foul, like a run'n sewer.  Ye gut must b full a maggots.=bottom of a ship where there is rotten and 
@@ -260,9 +260,9 @@ Yo Ho=Starting=Yo Ho! Where b da favorite wenches? Let's dance a jig, an drown i
 
 Squire=Starting=At ye service, Sir Squire, Cap'n say, he meets ye in his quarters.  I b show'n dar way, as ye humble servant.=Male civilian superior;
 
-Jim Lad=Starting=Jim Lad, fetch da maps an sextant from skipper' desk. Watch ye ways, an not be disrupt'n his things, or, ye flesh b parted from ye meat.  Go now handsomely, Capt'n's wait'n!=A younger male person;
+Jim Lad=Starting=Jim Lad, fetch da maps an sextant from skipper' desk. Watch ye ways, an not be disrupt'n his things, or, ye flesh b parted from ye bones.  Go now handsomely, Capt'n's wait'n!=A younger male person;
 
-Scurvy Pup=Starting=Jim Lad, fetch da maps an sextant from skipper' desk. Watch ye ways, an not be disrupt'n his things, or, ye flesh b parted from ye meat.  Go now handsomely, Capt'n's wait'n!=A younger male person;
+Scurvy Pup=Starting=Clip ye jib, handsomely, ye scurvy pup, a villainout devil. Get the Cap'n's Log. Now b on ye way!=A younger person (unfriendly);
 
 Salty Sea Dog=Starting=Yo Ho, ye Salty Sea Dog. Me hears ye b'n sail'n, under the Jolly Roger, an be hord'n a mighty bounty. Welcome aboard mate. How be ye fleas?=Respected elder;
 

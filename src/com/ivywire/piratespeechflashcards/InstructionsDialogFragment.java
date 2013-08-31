@@ -31,8 +31,8 @@ public class InstructionsDialogFragment extends DialogFragment{
         // remove the dialog title, but you must call the superclass to get the Dialog.
     	AlertDialog.Builder builder = new AlertDialog.Builder(context);
     	
-        builder.setTitle("Instructions");
-        builder.setMessage("When using the app swipe upwards for the previous card and swipe downwards for the next card, or use the previous and next buttons above.");
+        
+        builder.setMessage("Please press OK for the first card.");
         
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
 			

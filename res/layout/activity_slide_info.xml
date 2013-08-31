@@ -31,7 +31,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginBottom="14dp"
         android:layout_marginRight="39dp"
-        android:text="C Copyright pending"
+        android:text="© Copyright pending"
         android:textColorHint="#FF0000"
         android:textColorLink="#FF0000"
         android:textSize="14sp" />
