@@ -1,6 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     
     <item 
+        android:id="@+id/action_delete"
+        android:showAsAction="always"
+        android:title="Delete"/>
+    <item 
         android:id="@+id/action_mainmenu"
         android:showAsAction="always"
         android:title="Main Page"/>       
@@ -12,11 +16,6 @@
         android:id="@+id/action_next"
         android:showAsAction="always"
         android:title="Next"/>
-
-    <item 
-        android:id="@+id/action_delete"
-        android:showAsAction="always"
-        android:title="Delete"/>
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
