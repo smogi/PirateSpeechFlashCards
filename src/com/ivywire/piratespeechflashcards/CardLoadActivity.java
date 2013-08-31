@@ -43,7 +43,7 @@ public class CardLoadActivity extends Activity {
                 	 startActivity(new Intent(CardLoadActivity.this, MainActivity.class));
                 	 finish();
                  }
-             }, 3000);
+             }, 5000);
 		}
 	}
 
