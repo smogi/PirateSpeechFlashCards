@@ -19,8 +19,9 @@
         android:id="@+id/imageView2_complex"
         android:layout_width="220dp"
         android:layout_height="fill_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/imageView1_complex"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="41dp"
         android:src="@drawable/piratebird2" />
 
 </RelativeLayout>

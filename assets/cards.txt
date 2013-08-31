@@ -194,7 +194,7 @@ Kiss the gunner's daughter.=Bent over a cannon and flogged;
 
 Lad, Lass, Lassie=Starting=The Squire's daughter, a pretty lass she b. Shame, he b a vile Scorpion.=A young female person.;
 
-Jim Lad=Starting=The cap'n has ordered ye Jim Lad, to fetch=da maps an spyglass. Our treasured island, b a short sail. Crew b need'n to trim dar top sails, an drop the jibs. Reefs may B ahead. Now go fetch for the Cap'n.=Any boy by any name;
+Jim Lad=Starting=The cap'n has ordered ye Jim Lad, to fetchda maps an spyglass. Our treasured island, b a short sail. Crew b need'n to trim dar top sails, an drop the jibs. Reefs may B ahead. Now go fetch for the Cap'n.=Any boy by any name;
 
 Brig=Medium=Ye fail to make ye watch again. The Cap'n'ul throw ye in the brig, with only salt pork an hard tack.  Best straight'n ye keel! Ye messmates an me feels, an abound'n forbod'n, concerning ye ways.=Jail;
 
