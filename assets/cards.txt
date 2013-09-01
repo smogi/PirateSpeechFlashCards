@@ -431,7 +431,7 @@ We all b <b>marauders</b>, an this b a find day for plunder 'n. Da King's vessel
 Mast=Difficult=Skipper says, set ye a mighty <b>mast</b>, for trim'n full sails, an, rig'n!   B about it handsomely! Ye follow dar Cap'n's ways, an, he b share'n a mighty bounty.=The huge vertical poles from which the sails are suspended;
 
 Merchant=Complex=
-Ships ahoy! <b>Merchant</b> freighters off port!  Raise the Skull an Cross bones, an, ye mangy men of fortune, B prepared to plunder. Then we set her on fire, an let her adrift. We leave their blood, to boil on their deck!=A retail business person;
+Ships ahoy! <b>Merchant</b> freighters off port!  Raise the Skull an Cross Bones, an, ye mangy men of fortune, B prepared to plunder. Then we set her on fire, an let her adrift. We leave their blood, to boil on their deck!=A retail business person;
 
 Reckoning=Difficult=Best wager, capt'n b <b>reckon'n</b> ye careless ways, aft da booty b lost.  Ye want to keep ye skin, best have convince'n reasons!=Coming to a deal or understanding;
 
@@ -598,8 +598,7 @@ How She Blow=Starting=Ahoy, mate, I bid ye, good day, ye ruffian lice farmer,
 <b>how she blow</b>?=A greeting.  How are things going?;
 
 Fiddler's Green=Complex=
-B ye, not afeared. After the hangman's noose, an ye  dance'n b over, ye neck b a mast length,
-dar <b>Fiddler's</b> Green b a wait'n, no longer.=A pirate's heaven;
+B ye, not afeared. After the hangman's noose, an ye dance'n b over, ye neck b a mast length, dar <b>Fiddler's</b> Green b a wait'n, no longer.=A pirate's heaven;
 
 Gentleman of Fortune=Complex=
 Ye <b>gentlemen of fortune</b>, morrow, we b board'n, dar king's frigates, with loaded muskets, sabers from our scabbards, daggers between our teeth, an, wash'n the deck with doze villian's blood. This eve, me b thank'n ye kindly, for share'n rum, but me now, b take'n me leave.=A prestigious name for a pirate;
@@ -638,10 +637,7 @@ Sweet Trade=Complex=Hear's me now, ye mighty sea fair'n warriors! We soon, all b
 Port=Beginner=
 Land Ho, <b>Port</b>! Lay ye eye on break'n waters. Beyond b clear water, an, fresh grub. B no more hard tack, an moldy biscuits, made of boot leather.=Left side of a ship;
 
-Ships=Complex=Barge		Blockade        Runner	                 Clipper
-             Cutter                    Dinghy                    Dory
-            Dutch Clipper              Frigate               Man of War
-           Schooner                Tail Ship                  Wind Jammer=Ships;
+Ships=Complex=<table><tr><td>Barge</td><td>Blockade Runner</td><td>Clipper</td></tr><tr><td>Cutter</td><td>Dinghy</td><td>Dory</td></tr><tr><td>Dutch Clipper</td><td>Frigate</td><td>Man of War</td></tr><tr><td>Schooner</td><td>Tail Ship</td><td>Wind Jammer</td></tr></table>=Ships;
 
 Messmates=Medium=
 I say, we all b <b>messmates</b>.  Low and behold, we b lift'n our jibs. B time to weigh anchor, an voyage, 
@@ -987,8 +983,7 @@ Me mates, man'd da deck and trim'd da sails all night follow'n a full day's hard
 Shove Off=Medium=Arrr, me shipmates!  Time's we <b>shove off</b>. I dare's say, we bound'n for mighty seas, an, treacherous uncharted shores. We not all B return'n, an, I already b miss'n ye.  
 Harrr, harr!=To leave    To push a ship off from a dock;
 
-All Hands Make Sail=Complex=Hear ye! We b out, da harbor, an, wind's B favor'n, 
-<b>all hands make sail</b>. I dare say, it b a beauty, 
+All Hands Make Sail=Complex=Hear ye! We b out, da harbor, an, wind's B favor'n, <b>all hands make sail</b>. I dare say, it b a beauty, 
 of a seafar'n day!=All the crew is to let the sails down;
 
 I B Carv'n Ye Gizzard=Difficult=Stand's away, ye fright-full braggard weasel, or <b>I b carv'n ye gizzard</b>, ta feed it to, me toothless cur.=A flamboyant threat;
@@ -1061,8 +1056,7 @@ Blow me down! I b buy'n this round of grog. Let's b fill'n our bellies, an, cack
 
 Seafar'n Man=Medium=That sharp tongued tavern owner, when he b young, he were a mighty <b>seafar'n</b> man. So, he b understand'n us swabs, make'n shore after months of only cockroaches for company, an, b'n lonely for rum.=Sailor;
 
-Quartermaster=Complex=Ye b ask'n me, I see's it best, to plead to da <b>quartermaster</b>,
-to beseech the Cap'n, or, I b fear'n, ye finds ye self, 
+Quartermaster=Complex=Ye b ask'n me, I see's it best, to plead to da <b>quartermaster</b>, to beseech the Cap'n, or, I b fear'n, ye finds ye self, 
 in da brig, wear'n shackles, till we make port.=A top crew member who deals with the officer
 on behalf of the crew;
 
@@ -1097,17 +1091,14 @@ Me b at ye service, Cap'n.  B'n a fine seafar'n day. If we don't hears today, fr
 Rudder Run Shallow=Naughty=Arrr, don't b crow'n bout ye wench please'n ways. 
 Me hear ladies say ye <b>rudder run shallow</b>.=A short penis;
 
-Corpse=Naughty=Me undertaker say, ye took ye boner to a <b>corpse</b>, 
-as it b reminding, of ye ol home wench.=A dead person;
+Corpse=Naughty=Me undertaker say, ye took ye boner to a <b>corpse</b>, as it b reminding, of ye ol home wench.=A dead person;
 
 Heave To=Naughty=
 Me little lady, b ye invite'n me to ye cabin, an,  order'n me to <b>heave to</b>?=Stroke hard during intercourse;
 
-Cargo=Naughty=Arrr sweet thing,  me b want'n to deposit me <b>cargo</b> 
-in ye hold.=Ejaculate;
+Cargo=Naughty=Arrr sweet thing,  me b want'n to deposit me <b>cargo</b> in ye hold.=Ejaculate;
 
-Cannon Loaded=Naughty=Blow me down, but ye B cautious, me <b>cannon, 
-he b loaded</b>.=Penis can ejaculate;
+Cannon Loaded=Naughty=Blow me down, but ye B cautious, me <b>cannon, he b loaded</b>.=Penis can ejaculate;
 
 Dagger=Naughty=
 Rub me right, an me magical <b>dagger</b>, will appear, an I b stab'n ye to death!=Erect penis;
