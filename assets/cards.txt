@@ -460,7 +460,7 @@ Thieve'n=Beginner=When ye b drunk, ye feeble mind, b turn'n to <b>thieve'n</b>. 
  
 Treachery=Complex=
 Their vile ways, b wretched <b>treachery</b> upon us. 
-We just b lowly salts o' salts. 
+We just b lowly Salts O' Salts. 
 We best b keep'n, our eyes fixed, their way.=Doing evil deeds;
 
 Vile=Beginner=
@@ -595,7 +595,7 @@ How She Blow=Starting=Ahoy, mate, I bid ye, good day, ye ruffian lice farmer,
 <b>how she blow</b>?=A greeting.  How are things going?;
 
 Fiddler's Green=Complex=
-B ye, not afeared. After the hangman's noose, an ye dance'n b over, ye neck b a mast length, dar <b>Fiddler's</b> Green b a wait'n, no longer.=A pirate's heaven;
+B ye, not afeared. After the hangman's noose, an ye dance'n b over, ye neck b a mast length, dar <b>Fiddler's Green</b> b a wait'n, no longer.=A pirate's heaven;
 
 Gentleman of Fortune=Complex=
 Ye <b>gentlemen of fortune</b>, morrow, we b board'n, dar king's frigates, with loaded muskets, sabers from our scabbards, daggers between our teeth, an, wash'n the deck with doze villian's blood. This eve, me b thank'n ye kindly, for share'n rum, but me now, b take'n me leave.=A prestigious name for a pirate;
@@ -867,7 +867,7 @@ Hark Ye Now=Starting=
 If Ye Ask Me=Medium=She seems to b, a lady of fine breed'n. <b>If ye ask me</b>. I beg's to differ. Behinds y back, she b a wretched witch, who's words, b daggers!=Lending strength to a statement;
 
 Shackles=Medium=
-He b a thiev'n, an, murder'n scoundrel. Surely, the cat of nine tails b in his future.  Me fears if da ship go down, no mates desires, to find the keys, to his <b>shackles</b>.=Heavy duty handcuffs with a chain fixed to the wall;
+He b a thiev'n, an, murder'n scoundrel. Surely, the Cat-o-nine-tails b in his future.  Me fears if da ship go down, no mates desires, to find the keys, to his <b>shackles</b>.=Heavy duty handcuffs with a chain fixed to the wall;
 
 Alack=Difficult=
 His ol hen b wait'n on shore.  B up to me to tell'er, <b>alack</b> he b dead. Me rolled his carcass, into the sea locker, with me own hands. He b a man among men, in defend'n his ship mates, with the flash of his sword. Whether they b right or wrong, not matter to him!=Remorse, sadness, regret;
