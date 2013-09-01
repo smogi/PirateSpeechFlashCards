@@ -27,7 +27,7 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 		this.cursor = cursor;
 	    this.inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 	    this.context = context;
-	}
+	} 
 	
 	
 	public void swapCursor(Cursor cursor){
