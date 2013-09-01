@@ -8,35 +8,6 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="125dp"
-        android:layout_height="33dp"
-        android:layout_alignLeft="@+id/button1_asd"
-        android:layout_below="@+id/button1_asd"
-        android:layout_marginTop="15dp"
-        android:background="#85c4ff"
-        android:text="Starting" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="125dp"
-        android:layout_height="33dp"
-        android:layout_above="@+id/button3"
-        android:layout_centerHorizontal="true"
-        android:background="#c2e5c0"
-        android:text="Medium" />
-
-    <Button
-        android:id="@+id/button1_asd"
-        android:layout_width="125dp"
-        android:layout_height="33dp"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="21dp"
-        android:background="#BDBDBD"
-        android:text="Instructions" />
-
-    <Button
         android:id="@+id/ratingButton1_beginner"
         android:layout_width="125dp"
         android:layout_height="33dp"
@@ -48,16 +19,6 @@
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="125dp"
-        android:layout_height="33dp"
-        android:layout_alignLeft="@+id/button8"
-        android:layout_below="@+id/button8"
-        android:layout_marginTop="19dp"
-        android:background="#FF0000"
-        android:text="Naughty" />
-
-    <Button
         android:id="@+id/button5"
         android:layout_width="125dp"
         android:layout_height="33dp"
@@ -66,16 +27,6 @@
         android:layout_alignLeft="@+id/button3"
         android:background="#fdff8b"
         android:text="Beginner" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="125dp"
-        android:layout_height="33dp"
-        android:layout_alignBaseline="@+id/button3"
-        android:layout_alignBottom="@+id/button3"
-        android:layout_alignLeft="@+id/button2"
-        android:background="#BCA9F5"
-        android:text="Difficult" />
 
     <Button
         android:id="@+id/button8"
@@ -112,6 +63,55 @@
         android:singleLine="false"
         android:text="@string/menu_info"
         android:textColor="#585858"
-        android:textSize="14sp" />
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="125dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#c2e5c0"
+        android:text="Medium" />
+
+    <Button
+        android:id="@+id/button1_asd"
+        android:layout_width="125dp"
+        android:layout_height="33dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:background="#BDBDBD"
+        android:text="Instructions" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="125dp"
+        android:layout_height="33dp"
+        android:layout_alignLeft="@+id/button1_asd"
+        android:layout_below="@+id/button1_asd"
+        android:layout_marginTop="16dp"
+        android:background="#85c4ff"
+        android:text="Starting" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="125dp"
+        android:layout_height="33dp"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignLeft="@+id/button2"
+        android:background="#BCA9F5"
+        android:text="Difficult" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="125dp"
+        android:layout_height="33dp"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_below="@+id/button8"
+        android:layout_marginTop="16dp"
+        android:background="#FF0000"
+        android:text="Naughty" />
 
 </RelativeLayout>

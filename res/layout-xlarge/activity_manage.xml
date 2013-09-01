@@ -7,44 +7,69 @@
     android:layout_marginTop="10dp"
     tools:context=".ManageActivity" >
 
+    <Button
+        android:id="@+id/remove_naughty_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="41dp"
+        android:text="Disable all naughty cards"
+        android:textSize="13sp" />
+<!-- 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/delete" />
+-->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:src="@drawable/manage1" />
+
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="500dp"
-        android:layout_height="450dp"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:src="@drawable/parrotnaughty" />
-
-    <TextView
-        android:id="@+id/manage_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="21dp"
-        android:text="We understand for a portion of our users some of our content make them uncomfortable. That&apos;s why we offer the option for you to edit our settings to disable the naughty cards section."
-        android:textSize="40sp" />
 
     <Button
         android:id="@+id/naughty_password_button"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/remove_naughty_button"
-        android:layout_below="@+id/remove_naughty_button"
-        android:layout_marginTop="77dp"
-        android:text="Change admin password"
-        android:textSize="50sp" />
+        android:layout_alignBaseline="@+id/remove_naughty_button"
+        android:layout_alignBottom="@+id/remove_naughty_button"
+        android:layout_toLeftOf="@+id/remove_naughty_button"
+        android:text="Create a password"
+        android:textSize="13sp" />
 
-    <Button
-        android:id="@+id/remove_naughty_button"
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView1"
-        android:layout_marginLeft="77dp"
-        android:layout_marginTop="54dp"
-        android:layout_toRightOf="@+id/imageView1"
-        android:text="Disable all naughty cards"
-        android:textSize="50sp" />
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/imageView2"
+        android:src="@drawable/manage2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_below="@+id/imageView3"
+        android:src="@drawable/manage3" />
 
 </RelativeLayout>

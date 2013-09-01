@@ -47,7 +47,7 @@ Bosum=Beginner=He b, dar Cap-n's new <b>Bosum</b>, a fearless pirate, he b! His 
 
 Bucko=Beginner=Aye Aye, there <b>Bucko</b>, me hearty!  B'n a many a voyage, since our wakes b crossed. How b ye villainous ways?=Friend;
 
-Cap'n=Starting=<b>Cap'n</b>, dar men arr a wait-n, ta go ashore. It been a long voyage, orrr a many a high seas, two long stays of dead water, while da sun b sweltering, grub b puny, an water stale. They b eager, for red meat, much grog, 
+Cap'n=Starting=<b>Cap'n</b>, dar men arr a wait'n, ta go ashore. It been a long voyage, orrr a many a high seas, two long stays of dead water, while da sun b sweltering, grub b puny, an water stale. They b eager, for red meat, much grog, 
 an gamble'n their booty.=Short for Captain -The boss - A very important person;
 
 Cat O'Nine Tails=Difficult=Ye b, a rot-n scum, an deserve'n, 20 lashes from 
@@ -189,7 +189,7 @@ Kiss The Gunner's Daughter=Difficult=Gov'nr, b come'n aboard. Remember now, ye b
 
 Lad, Lass, Lassie=Starting=The Squire's daughter, a pretty <b>lass</b> she b. Shame, he b a vile Scorpion.=A young female person.;
 
-Jim Lad=Starting=The cap'n has ordered ye <b>Jim Lad</b>, to fetchda maps an spyglass. Our treasured island, b a short sail. Crew b need'n to trim dar top sails, an drop the jibs. Reefs may b ahead. Now go fetch for the Cap'n.=Any boy by any name;
+Jim Lad=Starting=The cap'n has ordered ye <b>Jim Lad</b>, to fetch da maps an spyglass. Our treasured island, b a short sail. Crew b need'n to trim dar top sails, an drop the jibs. Reefs may b ahead. Now go fetch for the Cap'n.=Any boy by any name;
 
 Brig=Medium=Ye fail to make ye watch again. The Cap'n'ul throw ye in the <b>brig</b>, with only salt pork an hard tack.  Best straight'n ye keel! Ye messmates an me feels, an abound'n forbod'n, concerning ye ways.=Jail;
 
@@ -244,7 +244,7 @@ Rum=Beginner=Port-au-Prince, b our destination. Best <b>Rum</b> in the Caribbean
 Sail Ho!=Medium=<b>Sail Ho</b>, to port. The spyglass says, the crew been starve'n, so take careful aim.  Waste ye not, gunpowder!=I see a ship;
 
 Salt, Ol Salt=Starting=Ye listen close, the 1st Mate b a true <b>Salt Ol Salt</b>.   He knows the men of fortune, an their plunder'n ways. 
-His words B keep'n ye blood in ye veins.=An experienced seaman;
+His words b keep'n ye blood in ye veins.=An experienced seaman;
 
 Scurvy=Starting=Belay, ye murder'n <b>scurvy</b> ol sea dogs. B ye not afeared. The crew on the Mary Jane, b drunken blaggards, with that keg a rum, we sent aboard. They think'n they b big dogs, but we soon run them through, and lay heave to their gold.=A derogatory adjective;
 
@@ -254,11 +254,11 @@ Ye Scurvy Scum=Starting=Avast <b>ye scurvy scum</b>.  I says, abandon ye evil wa
 
 Yo Ho=Starting=<b>Yo Ho</b>! Where b da favorite wenches? Let's dance a jig, an drown in rum! Our ship sails at sunrise, an first wind.  We b at high seas, a many a month. This b last night in port, best b guilty of much, debauchery!=A warm greeting;
 
-Squire=Starting=At ye service, Sir <b>Squire</b>, Cap'n say, he meets ye in his quarters.  I b show'n dar way, as ye humble servant.=Male civilian superior;
+Squire=Starting=At ye service, Sir <b>squire</b>, cap'n say, he meets ye in his quarters.  I b show'n dar way, as ye humble servant.=Male civilian superior;
 
-Jim Lad=Starting=<b>Jim Lad</b>, fetch da maps an sextant from skipper' desk. Watch ye ways, an not B disrupt'n his things, or, ye flesh b parted from ye bones.  Go now handsomely, Capt'n's wait'n!=A younger male person;
+Jim Lad=Starting=<b>Jim Lad</b>, fetch da maps an sextant from skipper' desk. Watch ye ways, an not b disrupt'n his things, or, ye flesh b parted from ye bones.  Go now handsomely, Capt'n's wait'n!=A younger male person;
 
-Scurvy Pup=Starting=Clip ye jib, handsomely, ye <b>scurvy pup</b>, a villainout devil. Get the Cap'n's Log. Now b on ye way!=A younger person (unfriendly);
+Scurvy Pup=Starting=Clip ye jib, handsomely, ye <b>scurvy pup</b>, ye vilnius devil. Get the Cap'n's Log. Now b on ye way!=A younger person (unfriendly);
 
 Salty Sea Dog=Starting=Yo Ho, ye <b>Salty Sea Dog</b>. Me hears ye b'n sail'n, under the Jolly Roger, an B hord'n a mighty bounty. Welcome aboard mate. How b ye fleas?=Respected elder;
 
@@ -994,8 +994,7 @@ I'll Eat Ye Liver Fur Dinner=Difficult=
 Ye know how he b, when he have crew behind him. He b make'n fun of me wench. I pulled me musket, looked him, hard in the eye, an said, stand down or 
 <b>I'll eat ye liver</b> fur dinner.=A threat;
 
-Ask'n Ye Pardin=Starting=<b>Ask'n ye pardin</b>, me little tart lass.  B bring'n me a leg a lamb, an gallon of ale!  Me b'n sail'n the Cape Horn, with only, sour'd water and porridge,
-dat dar cockroaches refused to eat!=A filler phrase to get attention;
+Ask'n Ye Pardin=Starting=<b>Ask'n ye pardin</b>, me little tart lass.  B bring'n me a leg a lamb, an gallon of ale!  Me b'n sail'n the Cape Horn, with only, sour'd water and porridge, dat dar cockroaches refused to eat!=A filler phrase to get attention;
 
 I'll B Hanged=Difficult=
 That b quite a story, young bosun, but, <b>I'll b hanged</b>, if I b believ'n it.=Added to make another statement stronger;

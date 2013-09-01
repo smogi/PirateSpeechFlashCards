@@ -2,28 +2,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="40dp"
+    android:layout_margin="12dp"
     android:background="@drawable/card_beginner" >
 
 	    <ImageView
 	        android:id="@+id/imageView2_beginner"
-	        android:layout_width="520dp"
-	        android:layout_height="500dp"
-	        android:layout_alignParentRight="true"
-	        android:layout_centerVertical="true"
-	        android:layout_marginRight="21dp"
+	        android:layout_width="290dp"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
 	        android:src="@drawable/spyglass1" />
 
 	    <ImageView
 	        android:id="@+id/imageView1_beginner"
-	        android:layout_width="500dp"
-	        android:layout_height="500dp"
+	        android:layout_width="200dp"
+	        android:layout_height="fill_parent"
 	        android:layout_alignParentBottom="true"
-	        android:layout_alignParentLeft="true"
-	        android:layout_marginLeft="74dp"
-	        android:src="@drawable/parrotnaughty" />
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        android:src="@drawable/parrotnaughty1" />
 
 </RelativeLayout>
-    
-    
-
