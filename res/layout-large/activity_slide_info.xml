@@ -4,14 +4,6 @@
     android:layout_height="match_parent"
      >
 
-    <ImageView
-        android:id="@+id/imageView1_info"
-        android:layout_width="500dp"
-        android:layout_height="fill_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/firstpiratepicture1" />
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="300dp"
@@ -32,5 +24,13 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="58dp"
         android:src="@drawable/swipe" />
+
+    <ImageView
+        android:id="@+id/imageView1_info"
+        android:layout_width="500dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/firstpiratepicture1" />
 
 </RelativeLayout>

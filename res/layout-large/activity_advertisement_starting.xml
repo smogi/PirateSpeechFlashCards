@@ -7,23 +7,21 @@
     android:orientation="horizontal" >
 
     <ImageView
-        android:id="@+id/imageView1_starting"
-        android:layout_width="380dp"
-        android:layout_height="300dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="84dp"
-        android:src="@drawable/knife1" />
-
-    <ImageView
         android:id="@+id/imageView2_starting"
-        android:layout_width="300dp"
+        android:layout_width="420dp"
         android:layout_height="fill_parent"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginRight="125dp"
+        android:layout_marginRight="8dp"
         android:src="@drawable/avast1" />
+
+    <ImageView
+        android:id="@+id/imageView1_starting"
+        android:layout_width="380dp"
+        android:layout_height="352dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/knife1" />
 
 </RelativeLayout>
 

@@ -12,16 +12,16 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="52dp"
+        android:layout_marginLeft="0dp"
         android:src="@drawable/monkeypirate" />
 
     <ImageView
         android:id="@+id/imageView3_complex"
-        android:layout_width="300dp"
+        android:layout_width="370dp"
         android:layout_height="fill_parent"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginRight="101dp"
+        android:layout_marginRight="10dp"
         android:src="@drawable/ahoycapn1" />
 
 </RelativeLayout>

@@ -13,17 +13,17 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="74dp"
+        android:layout_marginLeft="2dp"
         android:src="@drawable/knife1" />
 
     <ImageView
         android:id="@+id/imageView2_naughty"
-        android:layout_width="300dp"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginRight="142dp"
+        android:layout_marginRight="8dp"
         android:src="@drawable/you1" />
 
 </RelativeLayout>
