@@ -67,7 +67,7 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 		if(position == 0){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_blank, null);
 		}if(position == 1){
-			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
+			layout = (RelativeLayout) inflater.inflate(R.layout.activity_card_load, null);
 		}if(position == 89){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_beginner, null);
 		    

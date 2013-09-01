@@ -259,7 +259,7 @@ Jim Lad=Starting=<b>Jim Lad</b>, fetch da maps an sextant from skipper' desk. Wa
 
 Scurvy Pup=Starting=Clip ye jib, handsomely, ye <b>scurvy pup</b>, ye vilnius devil. Get the Cap'n's Log. Now b on ye way!=A younger person (unfriendly);
 
-Salty Sea Dog=Starting=Yo Ho, ye <b>Salty Sea Dog</b>. Me hears ye b'n sail'n, under the Jolly Roger, an B hord'n a mighty bounty. Welcome aboard mate. How b ye fleas?=Respected elder;
+Salty Sea Dog=Starting=Yo Ho, ye <b>salty sea dog</b>. Me hears ye b'n sail'n, under the Jolly Roger, an B hord'n a mighty bounty. Welcome aboard mate. How b ye fleas?=Respected elder;
 
 Me Hearty=Starting=Listen up, <b>me hearties</b>. We b go'n ashore at 6 bells. Grogs b spoil'n.  B more lively now lads an make da gangplank.  Me b at the helm, for much plunder'n an maham!=Addressing colleagues;
 
@@ -668,7 +668,7 @@ Arrr, <b>greet'n's to ye</b>, me lady, an me bid a fair day, to ye young lass.  
 
 Jib=Beginner=Aye, Jim Lad, why ye have a sad <b>jib</b>? Did ye flea bit'n, ol mangy sea dog cur, give up da ghost?=The front small sail for extra speed. Jib can also mean face;
 
-Thar She Blows=Beginner=
+There She Blows=Beginner=
 Avast steersman! Over dar port, an 40 furlongs, we b labor'n mightily a search'n, but, finally, <b>thar she blows</b>.=Look over there;
 
 Thank Ye Kind Sir=Beginner=

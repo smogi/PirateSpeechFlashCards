@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Talk Pirate!</string>
+    <string name="app_name">Pirate</string>
     <string name="action_finish">Finish</string>
     <string name="action_previous">Prev</string>
     <string name="action_next">Next</string>

@@ -25,7 +25,7 @@ public class CardLoadActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_card_load);
+		setContentView(R.layout.activity_slide_info);
 		
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 		if(!prefs.getBoolean("firstLaunch", false)) {
