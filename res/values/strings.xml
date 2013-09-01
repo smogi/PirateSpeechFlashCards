@@ -11,7 +11,7 @@
     <string name="cancel">Cancel</string>
     <string name="delete_dialog_message">Are you sure? It\'s permanent.</string>
     <string name="delete_dialog_title">Delete</string>
-    <string name="menu_info">The 450 cards are divided into 7 categories. Learning each category before proceeding to the next will provide the best learning speed. Any card can be deleted and the naughty section can be deleted via the manage icon above. If you enjoy this app, please take the time to rate and share us!</string>
+    <string name="menu_info">The 450 cards are divided into 7 categories. Learning each category before proceeding to the next will provide the best learning speed. Any card can be deleted and the naughty section can be deleted or password protected via the password button above. If you enjoy this app, please take the time to rate and share us!</string>
     <string name="title_activity_instructions">Instructions</string>
     <string name="title_activity_medium">Medium</string>
     <string name="title_activity_starting">Starting</string>

@@ -16,26 +16,6 @@
         android:layout_marginBottom="41dp"
         android:text="Disable all naughty cards"
         android:textSize="13sp" />
-
-    <Button
-        android:id="@+id/naughty_password_button"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/remove_naughty_button"
-        android:layout_alignBottom="@+id/remove_naughty_button"
-        android:layout_marginRight="21dp"
-        android:layout_toLeftOf="@+id/remove_naughty_button"
-        android:text="Create a password"
-        android:textSize="13sp" />
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="280dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:src="@drawable/parrotnaughty" />
 <!-- 
     <ImageView
         android:id="@+id/imageView2"
@@ -72,5 +52,24 @@
         android:layout_above="@+id/imageView4"
         android:layout_alignLeft="@+id/imageView2"
         android:src="@drawable/manage2" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/parrotnaughty" />
+
+    <Button
+        android:id="@+id/naughty_password_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/remove_naughty_button"
+        android:layout_alignBottom="@+id/remove_naughty_button"
+        android:layout_toLeftOf="@+id/remove_naughty_button"
+        android:text="Create a password"
+        android:textSize="13sp" />
 
 </RelativeLayout>

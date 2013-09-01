@@ -42,7 +42,7 @@ public class ComplexCardCursorPagerAdapter extends PagerAdapter{
 		if(cursor == null) {
 	        return 0;
 	    } else {
-	        return 62;
+	        return 63;
 	    }
 	}
 	
@@ -54,11 +54,13 @@ public class ComplexCardCursorPagerAdapter extends PagerAdapter{
 		boldItalicFont = Typeface.createFromAsset(context.getAssets(), "times-bold-italic.ttf");
 		int position2 = position;
 		if(position == 0){
+			layout = (RelativeLayout) inflater.inflate(R.layout.activity_blank, null);
+		}if(position == 1){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
-		}if(position == 61){
+		}if(position == 62){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_complex, null);
 		}
-		else if(position > 0 && position < 61){
+		else if(position > 0 && position < 62){
 			position2--;
 		    cursor.moveToPosition(position2);
 		    layout = (RelativeLayout) inflater.inflate(R.layout.activity_card, null);

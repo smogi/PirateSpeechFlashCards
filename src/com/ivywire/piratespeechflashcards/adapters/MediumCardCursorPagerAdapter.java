@@ -44,7 +44,7 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 		if(cursor == null) {
 	        return 0;
 	    } else {
-	        return 105;
+	        return 106;
 	    }
 	}
 	
@@ -56,11 +56,13 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 		boldItalicFont = Typeface.createFromAsset(context.getAssets(), "times-bold-italic.ttf");
 		int position2 = position;
 		if(position == 0){
+			layout = (RelativeLayout) inflater.inflate(R.layout.activity_blank, null);
+		}if(position == 1){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_slide_info, null);
-		}if(position == 104){
+		}if(position == 105){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_medium, null);
 		}
-		else if(position > 0 && position < 104){
+		else if(position > 0 && position < 105){
 			position2--;
 		    cursor.moveToPosition(position2);
 		    cardDeleted = cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DISABLED));

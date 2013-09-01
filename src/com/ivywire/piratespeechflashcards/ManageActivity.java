@@ -157,7 +157,6 @@ public class ManageActivity extends FragmentActivity implements OnClickListener 
             case R.id.naughty_password_button:
             	PasswordCreateDialogFragment frag = new PasswordCreateDialogFragment(this);
             	frag.show(getSupportFragmentManager(), "PasswordCreateDialogFragment");
-            	finish();
             	break;
         }
 		
