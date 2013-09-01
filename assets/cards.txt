@@ -1,1295 +1,1294 @@
 Addled=Difficult=Ye ol' squire, talks bout waltz'n, with mermaids. 
-Me thinks he B addled! I b fear'n morrow,
+Me thinks he b <b>addled</b>! I b fear'n morrow,
  me brains b stired like he!  Yarr!=Muddled thinking;
  
 Aft=Beginner=
-Me b say'n, dar wench's aft, b large'r dan 
+Me b say'n, dar wench's <b>aft</b>, b large'r dan 
 a flounder-n whale. She b, a formidable force! 
 If me b wrong, strike me dead, Jim Lads!=The rear of the ship or personages;
 
-Avast=Starting=Avast, ye stink'n, bilge bath'n scums!  Drop dar keg!
+Avast=Starting=<b>Avast</b>, ye stink'n, bilge bath'n scums!  Drop dar keg!
 Ye not b taken'er aboard ye ship. It b our plunder now, 
 so say our muskets! It b arrr good fortune!
  Shiver me timbers!=Demanding order to stop;
  
-Ahoy=Starting=Ahoy!  Ye mighty sea dogs! Ye hold b full, 
+Ahoy=Starting=<b>Ahoy</b>!  Ye mighty sea dogs! Ye hold b full, 
 from wander'n voyages?=Hello;
 
-Begad=Difficult=In a manner o speak'n, me loves me old wench, begad! 
+Begad=Difficult=In a manner o speak'n, me loves me old wench, <b>begad</b>! 
 She b a bit daft, an her not best at keep'n me quarters, free of jetsam, but she still b, barnacle free!=By God;
 
 Belay=Starting=
-Belay ye gamble-n, an backs to dar ship, ye cowardly scum. Debauchery b over, fur da night. Ye leave b over.  Dare always b, another port. Now, bid dez's damsels adieu.=Stop;
+<b>Belay</b> ye gamble-n, an backs to dar ship, ye cowardly scum. Debauchery b over, fur da night. Ye leave b over.  Dare always b, another port. Now, bid dez's damsels adieu.=Stop;
 
-Bilge=Beginner=Ye mind b, like a bound-n bilge, an ye blow hole, foul, like a run'n sewer.  Ye gut must b full a maggots.=bottom of a ship where there is rotten and 
+Bilge=Beginner=Ye mind b, like a bound-n <b>bilge</b>, an ye blow hole, foul, like a run'n sewer.  Ye gut must b full a maggots.=bottom of a ship where there is rotten and 
 stinking waste water.;
 
 Bilge-sucking=Beginner=
 No greet'ns, ye b no bucko to us, ye thieve'n
- bilge-suck'n scoundrel!=Very uncomplimentary adjective;
+ <b>bilge-suck'n</b> scoundrel!=Very uncomplimentary adjective;
  
 Black Spot=Complex=
-Cause his murderous way,  Cap'n gave him, dar black spot. He b keelhauled, tell his body b limp, or the sharks b full.=Sentenced to death. To accuse another of a serious crime;
+Cause his murderous way,  Cap'n gave him, dar <b>black spot</b>. He b keelhauled, tell his body b limp, or the sharks b full.=Sentenced to death. To accuse another of a serious crime;
 
-Blaggard=Difficult=The boatswain, b a mutinous blaggard. 
+Blaggard=Difficult=The boatswain, b a mutinous <b>blaggard</b>. 
 His mother's only child, b a sea snake!=Evil, villain, rogue;
 
 Blimey=Starting=
-Blimey, he b a handsome young swashbuckler, but aft a many sail, he b have'n skin, like barnacles, an eye b glass, scars b many, an a swagger, worthy a peg leg.  
+<b>Blimey</b>, he b a handsome young swashbuckler, but aft a many sail, he b have'n skin, like barnacles, an eye b glass, scars b many, an a swagger, worthy a peg leg.  
 So b the days, of a pirate!=An exclamation of surprise;
 
 Booty=Starting=Da map, mateys, shows dar X, whar dare b, a 
-royal Booty!  The dastardly, blaggard, Cap'n Clay, 
+royal <b>Booty</b>!  The dastardly, blaggard, Cap'n Clay, 
 an his crew, me b one, put it below, a 
 rocky cliff, nearly 20 years ago.=Loot;
 
-Bosum=Beginner=He b, dar Cap-n's new Bosum, a fearless pirate, he b! His saber, knows no mercy - cause he b know'n, dead men, tells no tails.=Short for boatswain - Deck officer;
+Bosum=Beginner=He b, dar Cap-n's new <b>Bosum</b>, a fearless pirate, he b! His saber, knows no mercy - cause he b know'n, dead men, tells no tails.=Short for boatswain - Deck officer;
 
-Bucko=Beginner=Aye Aye, there Bucko, me hearty!  B'n a many a voyage, since our wakes b crossed. How b ye villainous ways?=Friend;
+Bucko=Beginner=Aye Aye, there <b>Bucko</b>, me hearty!  B'n a many a voyage, since our wakes b crossed. How b ye villainous ways?=Friend;
 
-Cap'n=Starting=Cap'n, dar men arr a wait-n, ta go ashore. It been a long voyage, orrr a many a high seas, two long stays of dead water, while da sun b sweltering, grub b puny, an water stale. They B eager, for red meat, much grog, 
+Cap'n=Starting=<b>Cap'n</b>, dar men arr a wait-n, ta go ashore. It been a long voyage, orrr a many a high seas, two long stays of dead water, while da sun b sweltering, grub b puny, an water stale. They b eager, for red meat, much grog, 
 an gamble'n their booty.=Short for Captain -The boss - A very important person;
 
 Cat O'Nine Tails=Difficult=Ye b, a rot-n scum, an deserve'n, 20 lashes from 
-dar cat o' nine tails.  Ye mighty greedy ways, make ye, 
+dar <b>cat o' nine tails</b>.  Ye mighty greedy ways, make ye, 
 just a cobble stones throw, from Davie Jone's locker.=A whip with nine streams of leather.  Used for flogging;
 
-Chantey=Complex=Get ye out, your pipehorn, an play a little chantey, bucko. We get to port, ye make much doubloons, with ye pipehorn, at a tavern, dat have dance'n wenches, with pretty jibs!=A sailor's song;
+Chantey=Complex=Get ye out, your pipehorn, an play a little <b>chantey</b>, bucko. We get to port, ye make much doubloons, with ye pipehorn, at a tavern, dat have dance'n wenches, with pretty jibs!=A sailor's song;
 
-Corsair=Complex=Me wench, da ol crow, B addled. She thinks me b, a corsair, but me just, a blaggard pirate. She abounds, at cook'n an keep'n me decks swabbed, so, I b want'n, to keep her aboard.=Romantic name for pirate;
+Corsair=Complex=Me wench, da ol crow, B addled. She thinks me b, a <b>corsair</b>, but me just, a blaggard pirate. She abounds, at cook'n an keep'n me decks swabbed, so, I b want'n, to keep her aboard.=Romantic name for pirate;
 
-Aye=Starting=Aye, me says, see dem scallywags dare! Day b, me loyal mateys, over a many a sails. We spilt enough blood, to turn dis here deck, red fer a month, filled our bellies with much grog, an did endless plunder'n, of da king's jewels!=Yes;
+Aye=Starting=<b>Aye</b>, me says, see dem scallywags dare! Day b, me loyal mateys, over a many a sails. We spilt enough blood, to turn dis here deck, red fer a month, filled our bellies with much grog, an did endless plunder'n, of da king's jewels!=Yes;
 
-Aye Aye=Starting=Aye Aye Cap-n, we been scrub-n the decks, tight'n rigg'n, an stand'n by, to set sail. Me crew's, pockets b empty. They b ready for open seas, an much plunder'n!=I understand and will do right away.;
+Aye Aye=Starting=<b>Aye Aye</b> Cap-n, we been scrub-n the decks, tight'n rigg'n, an stand'n by, to set sail. Me crew's, pockets b empty. They b ready for open seas, an much plunder'n!=I understand and will do right away.;
 
-Arrr=Starting=Arr, ye lily livered, scurvy sea dogs! Rum, b round on me. Ye scallywags, drink up. Den, we soon b abound’n
+Arrr=Starting=<b>Arr</b>, ye lily livered, scurvy sea dogs! Rum, b round on me. Ye scallywags, drink up. Den, we soon b abound’n
  in courage, an eager to spill blood!  Yarr?=Starting a conversation - I agree;
 
-Beauty=Naughty=That wench, she b a beauty,  an abounds, aft and bow. I b desire'n, her biscuits, if she only have, sassy ways.=Most positive adjective for a woman;
+Beauty=Naughty=That wench, she b a <b>beauty</b>,  an abounds, aft and bow. I b desire'n, her biscuits, if she only have, sassy ways.=Most positive adjective for a woman;
 
 Bilge Rat=Beginner=
-Avast! Ye mutant bilge rats. Climb aloft, an let full sails. Away with ye now! Helmsman b tack'n into dar wind, to clap da sails. We soon b hi jack'n, dat frigate!=The bilge is the bottom of the ship below the floor that collects seep water and nasty waste.;
+Avast! Ye mutant <b>bilge rats</b>. Climb aloft, an let full sails. Away with ye now! Helmsman b tack'n into dar wind, to clap da sails. We soon b hi jack'n, dat frigate!=The bilge is the bottom of the ship below the floor that collects seep water and nasty waste.;
 
 Bung Hole=Naughty=
 Arrr, ye ol salty sea dog!  Me hears, ye bilge b flooded. 
-How b ye bung hole?=The hole in the side of a keg.
+How b ye <b>bung hole</b>?=The hole in the side of a keg.
 Often refers metaphorically to the anus;
 
 Grog=Beginner=
-Ye red haired wench, another grog round! 
+Ye red haired wench, another <b>grog</b> round! 
 Mates, b me last. Me hull begin'n to list!=Alcoholic Drink. Usually beer or ale.;
 
-Hornpipe=Difficult=Jim Lad, fetch ye hornpipe.  Play ye mates, a little chantey.  Since Toby, b lost at sea, we all b glum. 
+Hornpipe=Difficult=Jim Lad, fetch ye <b>hornpipe</b>.  Play ye mates, a little chantey.  Since Toby, b lost at sea, we all b glum. 
 Avast the sorrow, an play da pipe!=A small wood reed instrument often carried in a sailor's pocket;
 
 Luber=Complex=
-Mates, me hears, dar bar wenches are lubers.  Best b sea fair'n lubers, but pick'ns b slim. I say, me hearties, let's set sail, in make'n good times. We all aboard?  Yarr?=Slang for lover;
+Mates, me hears, dar bar wenches are <b>lubers</b>.  Best b sea fair'n lubers, but pick'ns b slim. I say, me hearties, let's set sail, in make'n good times. We all aboard?  Yarr?=Slang for lover;
 
-Blow Me Down=Starting=Blow me down!  He b a good messdeck, an of right metal. His stearsmanship see ye through, heave'n seas, 
+Blow Me Down=Starting=<b>Blow me down</b>!  He b a good messdeck, an of right metal. His stearsmanship see ye through, heave'n seas, 
 to a safety harbor.=Bewildered or surprised;
 
 Shiver Me Timbers=Starting=
-While's I b aboard, me home wench, bring me a daughter, have'n blue eyes an blond hair. That little one, bring sight, to me glass eye!  Shiver me timbers!=Overwhelmed with emotion;
+While's I b aboard, me home wench, bring me a daughter, have'n blue eyes an blond hair. That little one, bring sight, to me glass eye!  <b>Shiver me timbers</b>!=Overwhelmed with emotion;
 
 Rudder=Beginner=
-Bucko, ye need'n ye rudder to run true north, or ye fall, the gruesome ways, of thief'n scoundrels.  Soon'r or late'r, Jack Kemp, b seek'n to stretch ye neck, an have'n ye feet, 
+Bucko, ye need'n ye <b>rudder</b> to run true north, or ye fall, the gruesome ways, of thief'n scoundrels.  Soon'r or late'r, Jack Kemp, b seek'n to stretch ye neck, an have'n ye feet,  
 danc'n aloft the deck!=The underwater part of steering that gives direction;
 
-Porthole=Difficult=B hard to know, ye port hole B small, or b foggy for sure. 
+Porthole=Difficult=B hard to know, ye <b>port hole</b> b small, or b foggy for sure. 
 Ye may not see, treachery, a come'n, ye way. =Window on a ship. Metaphorically any opening or viewpoint;
 
 Cannon=Difficult=Ye words b far fetched! Me not, b call'n ye a liar, but me thinks, ye plan to do me in, so, stand back!  
-Me plan'n for me cannons, ta b blast'n ye carcass.=A huge weapon used to shoot cannon balls at other ships;
+Me plan'n for me <b>cannons</b>, ta b blast'n ye carcass.=A huge weapon used to shoot cannon balls at other ships;
 
-Barnacle Free=Medium=Me new schooner, B barnacle free, an ready for high seas. Her sails b mighty, an cannons true. Come aboard mates 
+Barnacle Free=Medium=Me new schooner, b <b>barnacle free</b>, an ready for high seas. Her sails b mighty, an cannons true. Come aboard mates 
 an bind ye selves with rigg'n. 
 Brace ye self's, for a mighty, voyage. =My new car, buckle your seat belts, and hold on!;
 
 Urchin=Difficult=
-That ol Sea Dog, Blind Benny, he b have'n a wench, in every port. He b not know'n, they all look like urchins.=A low life - ugly, ugly, ugly. primitive sea life;
+That ol Sea Dog, Blind Benny, he b have'n a wench, in every port. He b not know'n, they all look like <b>urchins</b>.=A low life - ugly, ugly, ugly. primitive sea life;
 
 Prepare to B Boarded=Medium=Yo Ho! Ye mates!  Me b come'n dar way. 
-Prepare to B boarded!=Going on to/Joining a group;
+<b>Prepare to B boarded</b>!=Going on to/Joining a group;
 
 Sleek Schooner=Medium=I dare say, me wench throw off, a bounty of cargo, 
 tightened her lines, an trim'd her sails. 
-Now, she b, dar Sleekest Schooner.=Shapely woman/A fast car;
+Now, she b, dar <b>Sleekest Schooner</b>.=Shapely woman/A fast car;
 
 Schooner=Medium=
-Me new schooner, b quickly put'n mighty wind through ye hair?   Fetch her ye eyes. She b set'n high an 
+Me new <b>schooner</b>, b quickly put'n mighty wind through ye hair?   Fetch her ye eyes. She b set'n high an 
 able, to leave dat Man-O-War, far to the aft.=A fast ship - A fast car;
 
-Fleet=Difficult=B ye take'n this fleet of swabs, to dar ship.  Na a one, have their sea legs, an each b addled from dar rum.=A group of sailors/A group of boats or ships;
+Fleet=Difficult=B ye take'n this <b>fleet</b> of swabs, to dar ship.  Na a one, have their sea legs, an each b addled from dar rum.=A group of sailors/A group of boats or ships;
 
-Laid Me Eyes=Medium=Arr Squire, me ain't laid me eyes, on dat scurvey rum rat for a forth night. One Eye Willey, b me past messmate. He fetch, throw'n da bones, an drink'n with da wenches.
+Laid Me Eyes=Medium=Arr Squire, me ain't <b>laid me eyes</b>, on dat scurvey rum rat for a forth night. One Eye Willey, b me past messmate. He fetch, throw'n da bones, an drink'n with da wenches.
  Best find's him at Wicked Sally's Tavern.=Have or have not seen;
  
-Wretched=Medium=Ahoy, ye sharp tongued, wretched bilge sucking rat.  Me hears, Jack Kemp, b seek'n ye for ye evil way!  
+Wretched=Medium=Ahoy, ye sharp tongued, <b>wretched</b> bilge sucking rat.  Me hears, Jack Kemp, b seek'n ye for ye evil way!  
 What say, ye?=Low life;
 
-Lice=Beginner=Ahoy, ye bile laid 'n ol crow. I hears ye been in the brig, for spill'n dar Cap'n wine. How b ye lice?=Introduction - Light hearted jab;
+Lice=Beginner=Ahoy, ye bile laid 'n ol crow. I hears ye been in the brig, for spill'n dar Cap'n wine. How b ye <b>lice</b>?=Introduction - Light hearted jab;
 
-Ram-n Speed=Medium=Drop full sails an throw up the jibs, ta get to ram-n speed!
+Ram-n Speed=Medium=Drop full sails an throw up the jibs, ta get to <b>ram-n speed</b>!
  Gov'nr's windjammers, b just beyond dar bow, wait'n with bound'n holds! Her booty B ours!=Maximum speed needed to crash another ship;
  
-Davie Jone's Locker=Medium=If Cap-n catches ye, begad, ye B walking the plank, to Davie Jone's locker! 
+Davie Jone's Locker=Medium=If Cap-n catches ye, begad, ye B walking the plank, to <b>Davie Jone's locker</b>! 
 Ye pitiful mind thinks, like little fishes!=Burial to the bottom of the ocean;
 
-Deadlights=Difficult=Divert ye deadlights Jim Lad, from dar wench that B buxom, at the bar.  Now, B quick about it!=Eyes;
+Deadlights=Difficult=Divert ye <b>deadlights</b> Jim Lad, from dar wench that B buxom, at the bar.  Now, B quick about it!=Eyes;
 
 Deadman Tell No Tales=Difficult=At 8 bells, da mates B meet-n at O'Mally's, for much grog. Then we b set'n sail, for port lights. Don't B forget'n, 
-Dead men tells no tails.=Leaving no survivors/What happens in Vegas stays in Vegas;
+<b>Dead men tells no tales</b>.=Leaving no survivors/What happens in Vegas stays in Vegas;
 
-Dog=Beginner=Arr! Ye lice rid'n deck dog. Cap'n catch ye 
-thief'n Rum, ye B walk'n the plank. 
+Dog=Beginner=Arr! Ye lice rid'n deck <b>dog</b>. Cap'n catch ye 
+thief'n Rum, ye b walk'n the plank. 
 Sharks b look'n to heaven, wait'n fer manna, an ye B it!=A mild insult;
 
-Doubloon=Beginner=Might ye lend's me 10 doubloons? My gut B dry, an much grog b needed, or, I b blow'n away.  Least ye b responsible!=talk parrot conversion equals $10.;
+Doubloon=Beginner=Might ye lend's me 10 <b>doubloons</b>? My gut b dry, an much grog b needed, or, I b blow'n away.  Least ye b responsible!=talk parrot conversion equals $10.;
 
 Feed the Sharks=Medium=
-Cap'n, we b ready to board our hands on dar ship, as helmsman brings her about. When we board, them's that die, b da lucky ones. We b feed'n the sharks with the rest.=Thrown in the ocean to feed the sharks To kill someone;
+Cap'n, we b ready to board our hands on dar ship, as helmsman brings her about. When we board, them's that die, b da lucky ones. We b <b>feed'n the sharks</b> with the rest.=Thrown in the ocean to feed the sharks To kill someone;
 
-Gangway=Medium=Ahoy, an gangway, me B full sails toward the head. Me bowels, b full a fire, an, b having a swift, 
+Gangway=Medium=Ahoy, an <b>gangway</b>, me B full sails toward the head. Me bowels, b full a fire, an, b having a swift, 
 an demand'n current!=Get out of the way;
 
-Godspeed=Difficult=Tell we share's, another grog together, me wish-n ye full sails, in a hearty wind, with clear skies. Godspeed, ye barnacle crusted ol fool!=Goodbye and Good luck;
+Godspeed=Difficult=Tell we share's, another grog together, me wish-n ye full sails, in a hearty wind, with clear skies. <b>Godspeed</b>, ye barnacle crusted ol fool!=Goodbye and Good luck;
 
-Grub=Beginner=Arrr!  We get some grub, then throw da bones, while we fill r bellies with grog.  Much laugh'n, lie'n, an fight'n 
+Grub=Beginner=Arrr!  We get some <b>grub</b>, then throw da bones, while we fill r bellies with grog.  Much laugh'n, lie'n, an fight'n 
 b our ways. Me b right?=Food;
 
 Voyage=Difficult=
-Crew, I say's, we b make'n voyage to a new port, with a galley, have'n hot grub, an void da cockroaches. 
+Crew, I say's, we b make'n <b>voyage</b> to a new port, with a galley, have'n hot grub, an void da cockroaches. 
  What say ye?=A trip;
  
-For'ard=Medium=Avast mateys! Lay ye eyes on dar schooner, off the for'ard. She b run'n deep, laid'n with handsome cargo. I say's we raise the Jolly Roger, rig top sails, board her, 
+For'ard=Medium=Avast mateys! Lay ye eyes on dar schooner, off the <b>for'ard</b>. She b run'n deep, laid'n with handsome cargo. I say's we raise the Jolly Roger, rig top sails, board her, 
 an seize her bounty. What say ye?=Toward the front of the ship, forward.;
 
-Flogged=Beginner=First Mate catch ye plundering rum, ye B flogged, with der Cat O Nine Tails. 
+Flogged=Beginner=First Mate catch ye plundering rum, ye B <b>flogged</b>, with der Cat O Nine Tails. 
 I b wager'n, he b keep'n his good eye, upon ye.=Being publically whipped;
 
-Hands=Beginner=All hands on deck. Squall com-n, drop the sails, 
+Hands=Beginner=All <b>hands</b> on deck. Squall com-n, drop the sails, 
 An, batten down the ship! High seas b pound'n the deck. Dems without sea legs, best stash below.=Two or more crew members.;
 
-Handsomely=Beginner=Na, I begs to differ.  We need not lay low, but lift our Jolly Roger, let full sails handsomely, along with the jibs. Full attack, me mateys! Bloodshed b a bounty. 
+Handsomely=Beginner=Na, I begs to differ.  We need not lay low, but lift our Jolly Roger, let full sails <b>handsomely</b>, along with the jibs. Full attack, me mateys! Bloodshed b a bounty. 
 Shiver me timbers!=Quickly. Hurry up;
 
-Jack Ketch=Difficult=Straighten ye rudder young lad, or Jack Ketch b invite'n ya to dance, without dar deck below ye feet!=The hangman;
+Jack Ketch=Difficult=Straighten ye rudder young lad, or <b>Jack Ketch</b> b invite'n ya to dance, without dar deck below ye feet!=The hangman;
 
-Dance'n With Jack Ketch=Difficult=Dem murder'n an thiev'n lepers, take not kindly to ye troll'n, their wenches. Best belay, orrr, they b heave'n ye up, to dance-n with Jack Ketch.=Being hung;
+Dance'n With Jack Ketch=Difficult=Dem murder'n an thiev'n lepers, take not kindly to ye troll'n, their wenches. Best belay, orrr, they b heave'n ye up, to <b>dance-n with Jack Ketch</b>.=Being hung;
 
-Jolly Boat=Difficult=Ye stink B so foul, ye belongs in da Jolly Boat a drift, aft the ship on a long line! Ye stay among us,
+Jolly Boat=Difficult=Ye stink B so foul, ye belongs in da <b>Jolly Boat</b> a drift, aft the ship on a long line! Ye stay among us,
 ye mates b abandon'n ship!=A dinghy;
 
-Jolly Roger=Beginner=Cap'n's orders, load dar cannons, raise the Jolly Roger, cock ye muskets, bare ye swords, an b ye ready to go aboard, dat heavy laidn schooner.  Arrr, b a good day for spill'n blood!  Those remain, walk the plank, an fills the bellies of the sharks!  Yo Ho, an a bottle a rum!=The pirate flag;
+Jolly Roger=Beginner=Cap'n's orders, load dar cannons, raise the <b>Jolly Roger</b>, cock ye muskets, bare ye swords, an b ye ready to go aboard, dat heavy laidn schooner.  Arrr, b a good day for spill'n blood!  Those remain, walk the plank, an fills the bellies of the sharks!  Yo Ho, an a bottle a rum!=The pirate flag;
 
-Keelhaul=Difficult=Ye speak foul of the Cap-n, ye find ye self, at the end of a Keelhaul! Best b practice'n hold'n ye breathe. She b a big ship. Best pray, dar sharks don't make ye grub, as ye go by.=Punishment in being dragged through the water under one side of the ship to the other;
+Keelhaul=Difficult=Ye speak foul of the Cap-n, ye find ye self, at the end of a <b>Keelhaul</b>! Best b practice'n hold'n ye breathe. She b a big ship. Best pray, dar sharks don't make ye grub, as ye go by.=Punishment in being dragged through the water under one side of the ship to the other;
 
 Kiss The Gunner's Daughter=Difficult=Gov'nr, b come'n aboard. Remember now, ye b have'n a short fuse, and b'n a mighty ruffian. Keep ye mild in tow, or Gov'nr b invite'n ye, to 
-Kiss the gunner's daughter.=Bent over a cannon and flogged;
+<b>Kiss the gunner's daughter</b>.=Bent over a cannon and flogged;
 
-Lad, Lass, Lassie=Starting=The Squire's daughter, a pretty lass she b. Shame, he b a vile Scorpion.=A young female person.;
+Lad, Lass, Lassie=Starting=The Squire's daughter, a pretty <b>lass</b> she b. Shame, he b a vile Scorpion.=A young female person.;
 
-Jim Lad=Starting=The cap'n has ordered ye Jim Lad, to fetchda maps an spyglass. Our treasured island, b a short sail. Crew b need'n to trim dar top sails, an drop the jibs. Reefs may B ahead. Now go fetch for the Cap'n.=Any boy by any name;
+Jim Lad=Starting=The cap'n has ordered ye <b>Jim Lad</b>, to fetchda maps an spyglass. Our treasured island, b a short sail. Crew b need'n to trim dar top sails, an drop the jibs. Reefs may b ahead. Now go fetch for the Cap'n.=Any boy by any name;
 
-Brig=Medium=Ye fail to make ye watch again. The Cap'n'ul throw ye in the brig, with only salt pork an hard tack.  Best straight'n ye keel! Ye messmates an me feels, an abound'n forbod'n, concerning ye ways.=Jail;
+Brig=Medium=Ye fail to make ye watch again. The Cap'n'ul throw ye in the <b>brig</b>, with only salt pork an hard tack.  Best straight'n ye keel! Ye messmates an me feels, an abound'n forbod'n, concerning ye ways.=Jail;
 
-Lights and Liver=Difficult=Avast, ye dastardly rogue, or, I B put'n pain on ye lights and liver! Ye B a lazy scum. Ye meat spoiled to ye marrow.  Starve'n sharks spit, ye out!=A threat of bodily harm;
+Lights and Liver=Difficult=Avast, ye dastardly rogue, or, I b put'n pain on ye <b>lights and liver</b>! Ye b a lazy scum. Ye meat spoiled to ye marrow.  Starve'n sharks spit, ye out!=A threat of bodily harm;
 
-Line=Difficult=Ye swabs batten down the cargo, an lay ye eyes to see da lines B tight. High seas with murder'n winds, b come'n. Best b ready. Mark me words!=Another word for rope;
+Line=Difficult=Ye swabs batten down the cargo, an lay ye eyes to see da <b>lines</b> B tight. High seas with murder'n winds, b come'n. Best b ready. Mark me words!=Another word for rope;
 
-Lookout=Difficult=Arrr! Whiskey Joe, shimmy the main mast to the Crow's nest, an stand lookout.  Forget ye not, the spyglass.  
+Lookout=Difficult=Arrr! Whiskey Joe, shimmy the main mast to the Crow's nest, an stand <b>lookout</b>.  Forget ye not, the spyglass.  
 Ye meet the cat o nine tails, if I hear ye snoring.=Standing guard in the Crow's Nest;
 
-Crow's Nest=Medium=Dar Crow's Nest is sway'n, too far. Ring 2 bells, tell'n Rascal to come down. Bid him care, rig'n B icy, an wind b wicked. One false step, an dar cold seas, 
+Crow's Nest=Medium=Dar <b>Crow's Nest</b> is sway'n, too far. Ring 2 bells, tell'n Rascal to come down. Bid him care, rig'n B icy, an wind b wicked. One false step, an dar cold seas, 
 suck the heat, from his marrow.=A basket at the top of a mast where one stands lookout;
 
-Maroon=Difficult=Mates, it b Nate Da Mutant, dat not b able to keep his angry blow hole tight. I say we shove off, an maroon 
+Maroon=Difficult=Mates, it b Nate Da Mutant, dat not b able to keep his angry blow hole tight. I say we shove off, an <b>maroon</b> 
 his trouble make'n ways.  What ye b say'n?=Stranded;
 
-Me=Starting=Cap'n B say'n, "Me spyglass B miss-in. Best B in me locker, by sunrise, or, there B keelhaul'n, tell the thief B known."  He finds it to b you, ye b see'n ye guts, spilled on dar deck, free of ye carcass, as ye b watch'n!=A word for "me" or "my";
+Me=Starting=Cap'n B say'n, "<b>Me</b> spyglass b miss-in. Best b in me locker, by sunrise, or, there b keelhaul'n, tell the thief b known."  He finds it to b you, ye b see'n ye guts, spilled on dar deck, free of ye carcass, as ye b watch'n!=A word for "me" or "my";
 
 Me Hearties=Starting=
-Me Hearties, we b go'n ashore at 6 bells.  Me says, we finds dar first wayward tavern, with lively tunes, an dance'n wenches. May b, we B spoil'n a fight, before end of night. What ye say mates?=A pirate crew leader addressing his men;
+<b>Me Hearties</b>, we b go'n ashore at 6 bells.  Me says, we finds dar first wayward tavern, with lively tunes, an dance'n wenches. May b, we b spoil'n a fight, before end of night. What ye say mates?=A pirate crew leader addressing his men;
 
-Mateys=Starting=Arrr Mateys, shall we share grogs together? 
+Mateys=Starting=Arrr <b>Mateys</b>, shall we share grogs together? 
 Plenty a rum to keep dar plague away, begad, so lift ye cups,
  for a long life,  Yarrr?=Addressing others in a cheerful way;
  
 No Quarter=Difficult=
 Cap'n, when dar buccaneers come aboard, 
-There'l b no quarter!  Dar sharks b heave'n, with swollen bellies, and big smiles upon their jibs!=Not surrender;
+There'l b <b>no quarter</b>!  Dar sharks b heave'n, with swollen bellies, and big smiles upon their jibs!=Not surrender;
 
 Pieces of Eight=Medium=
-Ahoy me buxom, red hared wench, a doubloon an two pieces of eight, for a tall grog? 
+Ahoy me buxom, red hared wench, a doubloon an two <b>pieces of eight</b>, for a tall grog? 
 That b a mighty bounty, so hop to it!=Talk Pirate conversion, pieces of eight equal $1;
 
-Pillage=Beginner=Aft we board the schooner, an sends dar crew to Davie Jone's locker, we pillage the ship, set her a fire, 
+Pillage=Beginner=Aft we board the schooner, an sends dar crew to Davie Jone's locker, we <b>pillage</b> the ship, set her a fire, 
 an let drift in da wind.   Arr Mateys?=To raid or rob;
 
-Plunder=Beginner=We make port at 8 bells.  Let's fill r bellies with rum, an plunder the wenches.  All b told, buckos, me thinks our  days, of salt pork an hard tack B orr. 
+Plunder=Beginner=We make port at 8 bells.  Let's fill r bellies with rum, an <b>plunder</b> the wenches.  All b told, buckos, me thinks our  days, of salt pork an hard tack B orr. 
 Yo Ho Ho, me mateys!=To lay waste - taking a treasure;
 
-Poop Deck=Difficult=The Cap'n b on the Poop Deck, with da steersman. 
+Poop Deck=Difficult=The Cap'n b on the <b>Poop Deck</b>, with da steersman. 
 They b share'n much rum. Where we b go'n, 
 only, the ghost of the deep, b know'n.=Highest part of the deck at the back of the ship.;
 
-Poxy=Difficult=Ye poxed, ol bilge sucking sea dog, join's me crew for much grogs, an many a harr, we b share'n, begad!=Diseased. Used as a friendly insult;
+Poxy=Difficult=Ye <b>poxed</b>, ol bilge sucking sea dog, join's me crew for much grogs, an many a harr, we b share'n, begad!=Diseased. Used as a friendly insult;
 
-Rope's End=Difficult=Keep ye tongue behind ye teeth, wench! Ye vixen words b run'n me ship on da reefs, an it B take'n on 
-much sea water. Ye drive'n me to rope's end, an 
+Rope's End=Difficult=Keep ye tongue behind ye teeth, wench! Ye vixen words b run'n me ship on da reefs, an it b take'n on 
+much sea water. Ye drive'n me to <b>rope's end</b>, an 
 I b about to abandon ship.=Nowhere to turn.;
 
-Rum=Beginner=Port-au-Prince, b our destination. Best Rum in the Caribbean! Grub b spicy, wenches friendly, and days b lazy.=Pirate's favorite drink;
+Rum=Beginner=Port-au-Prince, b our destination. Best <b>Rum</b> in the Caribbean! Grub b spicy, wenches friendly, and days b lazy.=Pirate's favorite drink;
 
-Sail Ho!=Medium=Sail Ho, to port. The spyglass says, the crew been starve'n, so take careful aim.  Waste ye not, gunpowder!=I see a ship;
+Sail Ho!=Medium=<b>Sail Ho</b>, to port. The spyglass says, the crew been starve'n, so take careful aim.  Waste ye not, gunpowder!=I see a ship;
 
-Salt, Ol Salt=Starting=Ye listen close, the 1st Mate b a true Salt Ol Salt.   He knows the men of fortune, an their plunder'n ways. 
+Salt, Ol Salt=Starting=Ye listen close, the 1st Mate b a true <b>Salt Ol Salt</b>.   He knows the men of fortune, an their plunder'n ways. 
 His words B keep'n ye blood in ye veins.=An experienced seaman;
 
-Scurvy=Starting=Belay, ye murder'n scurvy ol sea dogs. B ye not afeared. The crew on the Mary Jane, b drunken blaggards, with that keg a rum, we sent aboard. They think'n they b big dogs, but we soon run them through, and lay heave to their gold.=A derogatory adjective;
+Scurvy=Starting=Belay, ye murder'n <b>scurvy</b> ol sea dogs. B ye not afeared. The crew on the Mary Jane, b drunken blaggards, with that keg a rum, we sent aboard. They think'n they b big dogs, but we soon run them through, and lay heave to their gold.=A derogatory adjective;
 
-Sea Dog=Starting=Skipper, Ol Johnny B a sail'n, when we b scrap'n Jim lads, an all hands say, he b a true gentleman of fortune. He b a fine Sea Dog!=An experienced seaman;
+Sea Dog=Starting=Skipper, Ol Johnny B a sail'n, when we b scrap'n Jim lads, an all hands say, he b a true gentleman of fortune. He b a fine <b>Sea Dog</b>!=An experienced seaman;
 
-Ye Scurvy Scum=Starting=Avast ye scurvy scum.  I says, abandon ye evil ways. Ye b a long way from b'n a Pope's pup!  Harr, harr! Now come aboard, an tell us, mighty lies!=A somewhat curt introduction;
+Ye Scurvy Scum=Starting=Avast <b>ye scurvy scum</b>.  I says, abandon ye evil ways. Ye b a long way from b'n a Pope's pup!  Harr, harr! Now come aboard, an tell us, mighty lies!=A somewhat curt introduction;
 
-Yo Ho=Starting=Yo Ho! Where b da favorite wenches? Let's dance a jig, an drown in rum! Our ship sails at sunrise, an first wind.  We b at high seas, a many a month. This b last night in port, best b guilty of much, debauchery!=A warm greeting;
+Yo Ho=Starting=<b>Yo Ho</b>! Where b da favorite wenches? Let's dance a jig, an drown in rum! Our ship sails at sunrise, an first wind.  We b at high seas, a many a month. This b last night in port, best b guilty of much, debauchery!=A warm greeting;
 
-Squire=Starting=At ye service, Sir Squire, Cap'n say, he meets ye in his quarters.  I b show'n dar way, as ye humble servant.=Male civilian superior;
+Squire=Starting=At ye service, Sir <b>Squire</b>, Cap'n say, he meets ye in his quarters.  I b show'n dar way, as ye humble servant.=Male civilian superior;
 
-Jim Lad=Starting=Jim Lad, fetch da maps an sextant from skipper' desk. Watch ye ways, an not B disrupt'n his things, or, ye flesh b parted from ye bones.  Go now handsomely, Capt'n's wait'n!=A younger male person;
+Jim Lad=Starting=<b>Jim Lad</b>, fetch da maps an sextant from skipper' desk. Watch ye ways, an not B disrupt'n his things, or, ye flesh b parted from ye bones.  Go now handsomely, Capt'n's wait'n!=A younger male person;
 
-Scurvy Pup=Starting=Clip ye jib, handsomely, ye scurvy pup, a villainout devil. Get the Cap'n's Log. Now b on ye way!=A younger person (unfriendly);
+Scurvy Pup=Starting=Clip ye jib, handsomely, ye <b>scurvy pup</b>, a villainout devil. Get the Cap'n's Log. Now b on ye way!=A younger person (unfriendly);
 
-Salty Sea Dog=Starting=Yo Ho, ye Salty Sea Dog. Me hears ye b'n sail'n, under the Jolly Roger, an B hord'n a mighty bounty. Welcome aboard mate. How B ye fleas?=Respected elder;
+Salty Sea Dog=Starting=Yo Ho, ye <b>Salty Sea Dog</b>. Me hears ye b'n sail'n, under the Jolly Roger, an B hord'n a mighty bounty. Welcome aboard mate. How b ye fleas?=Respected elder;
 
-Me Hearty=Starting=Listen up, me hearties. We B go'n ashore at 6 bells. Grogs B spoil'n.  B more lively now lads an make da gangplank.  Me B at the helm, for much plunder'n an maham!=Addressing colleagues;
+Me Hearty=Starting=Listen up, <b>me hearties</b>. We b go'n ashore at 6 bells. Grogs b spoil'n.  B more lively now lads an make da gangplank.  Me b at the helm, for much plunder'n an maham!=Addressing colleagues;
 
-Buxom=Beginner=I not B the first to say that there wench, she B buxom, but her temper, b a loose cannon.  She leave a long wake, of maggot fested carcasses.=Abundant -Adjective;
+Buxom=Beginner=I not b the first to say that there wench, she b <b>buxom</b>, but her temper, b a loose cannon.  She leave a long wake, of maggot fested carcasses.=Abundant -Adjective;
 
-Saucy=Beginner=That wench, she have a sharp tongue, she B saucy, that b for sure! But she makes memories, dat'l keep ye warm, on an icy, high seas night!=Feisty attitude;
+Saucy=Beginner=That wench, she have a sharp tongue, she b <b>saucy</b>, that b for sure! But she makes memories, dat'l keep ye warm, on an icy, high seas night!=Feisty attitude;
 
-Foul=Beginner=Ahoy, ye foul mouth't, murderous scallywag! Wher b dar last time, our wakes crossed?=Out of sorts   distempered;
+Foul=Beginner=Ahoy, ye <b>foul</b> mouth't, murderous scallywag! Wher b dar last time, our wakes crossed?=Out of sorts   distempered;
 
-Sharp Tongued=Medium=The boson b sharp tongued, since he b moved up rank. Aye, from the poop deck, he ordered Billy Jack, 
+Sharp Tongued=Medium=The boson b <b>sharp tongued</b>, since he b moved up rank. Aye, from the poop deck, he ordered Billy Jack, 
 to kiss the Gunner's daughter.=Brutal language;
 
-Loose Lipped=Medium=B sure mate, tell ol Shark'e nut'n. He b loose lipped! Year ago, we made port, with much booty in our pockets. He opens his mouth about our stash, an scurvy thugs b wait'n for us, as we set sail to another tavern.=Can't keep a secret;
+Loose Lipped=Medium=B sure mate, tell ol Shark'e nut'n. He b <b>loose lipped</b>! Year ago, we made port, with much booty in our pockets. He opens his mouth about our stash, an scurvy thugs b wait'n for us, as we set sail to another tavern.=Can't keep a secret;
 
-Plunder'n=Beginner=We b set'n sail, at sun up an first wind. We B plot'n, for heavy laden frigates for plunder'n! Hope'n it b a strong sea fair'n day. The smell of blood, b in the air!=Taking a treasure;
+Plunder'n=Beginner=We b set'n sail, at sun up an first wind. We B plot'n, for heavy laden frigates for <b>plunder'n</b>! Hope'n it b a strong sea fair'n day. The smell of blood, b in the air!=Taking a treasure;
 
-Yarrr=Starting=Yarrr, me meets ye at the gangplank, at 6 bells. Huge adventures abound. Bring ye scabbard swords, an ye daggers, tucked in ye belts. Ye liver need protect'n!=Agreement;
+Yarrr=Starting=<b>Yarrr</b>, me meets ye at the gangplank, at 6 bells. Huge adventures abound. Bring ye scabbard swords, an ye daggers, tucked in ye belts. Ye liver need protect'n!=Agreement;
 
-Sea Fog=Medium=Ahoy, Ye addled ol sea dog. I hears ye got, sea fog tween ye ears, ye blaggared ol coot.  So what say ye?=A dense fog that roll in from the sea.;
+Sea Fog=Medium=Ahoy, Ye addled ol <b>sea dog</b>. I hears ye got, sea fog tween ye ears, ye blaggared ol coot.  So what say ye?=A dense fog that roll in from the sea.;
 
-Murder'n=Beginner=Arrr, ye plunder'n an murder'n bilge suckers! We b set'n ram'n speed toward first tavern. Pillage'n an debauchery,b a wait'n.  What B ye poison?=The act of killing;
+Murder'n=Beginner=Arrr, ye plunder'n an <b>murder'n</b> bilge suckers! We b set'n ram'n speed toward first tavern. Pillage'n an debauchery,b a wait'n.  What b ye poison?=The act of killing;
 
-Harrr=Starting=Harrr Harrr. That b a good'n! Peers aft ye bung hole, thar, B abundance!=Faked laugh. A funny story was told and maybe the teller is full of bull.;
+Harrr=Starting=<b>Harrr Harrr</b>. That b a good'n! Peers aft ye bung hole, thar, b abundance!=Faked laugh. A funny story was told and maybe the teller is full of bull.;
 
-Bloodshed=Medium=Arrr, the day b ripe for bloodshed! Wind abounds, an King's ships, b a plenty. Hard tack, make our bellies angry, an fit for battle.  Who's innerds, b feed'n the little fishes?=Bloody Combat;
+Bloodshed=Medium=Arrr, the day b ripe for <b>bloodshed</b>! Wind abounds, an King's ships, b a plenty. Hard tack, make our bellies angry, an fit for battle.  Who's innerds, b feed'n the little fishes?=Bloody Combat;
 
-Booty=Beginner=Beg'n ye pardon, Cap'n, I hears we set'n sail in the morn, an helmsman b make'n course, toward the X on ye map.  There B much booty, I b hear'n. That b right?=A treasure or an abundance of goods.;
+Booty=Beginner=Beg'n ye pardon, Cap'n, I hears we set'n sail in the morn, an helmsman b make'n course, toward the X on ye map.  There b much <b>booty</b>, I b hear'n. That b right?=A treasure or an abundance of goods.;
 
-Afeared=Beginner=B ye afeared? They B brawling, drink'n much rum, an soon B throw'n bones.  Best we b tacking starboard, toward, a safe harbor.=Being afraid;
+Afeared=Beginner=B ye <b>afeared</b>? They b brawling, drink'n much rum, an soon B throw'n bones.  Best we b tacking starboard, toward, a safe harbor.=Being afraid;
 
-Bodes=Medium=Doubloons, bodes well, for any privateer, when he makes port. R Booty b lubed by landlubbers.=Speaks (well / bad) of;
+Bodes=Medium=Doubloons, <b>bodes</b> well, for any privateer, when he makes port. R Booty b lubed by landlubbers.=Speaks (well / bad) of;
 
-B Ye Bilges Flooded=Medium=Arrr, there me bucko, b ye bilges flooded?=How are you?  - Are you having hard times? Do you have too many problems?;
+B Ye Bilges Flooded=Medium=Arrr, there me bucko, <b>b ye bilges</b> flooded?=How are you?  - Are you having hard times? Do you have too many problems?;
 
-He B Set Afloat=Difficult=Mark me words, me days b over with him. He b set afloat. Me seas b calm an nor, a cloud in the sky. Then his lie'n ways, throw'd me cargo over board, an me ship on the reefs.=The relationship was ended with another.;
+He B Set Afloat=Difficult=Mark me words, me days b over with him. <b>He b set afloat</b>. Me seas b calm an nor, a cloud in the sky. Then his lie'n ways, throw'd me cargo over board, an me ship on the reefs.=The relationship was ended with another.;
 
-Sea Fair'n Day=Medium=Aye, me hearties! Steersman says, "Voyage B mighty, this sea fair'n day, begad!"=Good weather;
+Sea Fair'n Day=Medium=Aye, me hearties! Steersman says, "Voyage B mighty, this <b>sea fair'n day</b>, begad!"=Good weather;
 
-Rig The Top Sails=Medium=Rig the top sails. Winch up the jibs. Leave the sprog below deck, he not b ready. Send him to the brig, to sweep
+Rig The Top Sails=Medium=<b>Rig the top sails</b>. Winch up the jibs. Leave the sprog below deck, he not b ready. Send him to the brig, to sweep
  the cats' dung.=Let's go fast.;
  
-Buccaneer=Difficult=Dar schooner b full, of the King's buccaneers. We best bring her about, an drop full sails, to come aboard. 
+Buccaneer=Difficult=Dar schooner b full, of the King's <b>buccaneers</b>. We best bring her about, an drop full sails, to come aboard. 
 B ready mateys, for much blood letting!=A pirate working for a government;
 
-Barnacles=Beginner=That wench's skin b like barnacles.  She b so ol, her crevices abound, but a little grog, an dat b fall'n overboard.=Shell creatures - rough;
+Barnacles=Beginner=That wench's skin b like <b>barnacles</b>.  She b so ol, her crevices abound, but a little grog, an dat b fall'n overboard.=Shell creatures - rough;
 
-Swab=Beginner=King's frigates, come'n about, swabs. Soon blood b let. Best it b theirs! So b it!=Lowest crew member;
+Swab=Beginner=King's frigates, come'n about, <b>swabs</b>. Soon blood b let. Best it b theirs! So b it!=Lowest crew member;
 
-Shark Bait=Medium=I b think'n, ye best scuttle ye hopes, for avoid'n the brig. Ye messdeck, b a bit daft, an bone headed. Da judge an jury, see ye as shark bait!=Others are going to do you in. A worthless sailor;
+Shark Bait=Medium=I b think'n, ye best scuttle ye hopes, for avoid'n the brig. Ye messdeck, b a bit daft, an bone headed. Da judge an jury, see ye as <b>shark bait</b>!=Others are going to do you in. A worthless sailor;
 
-Sink Me=Difficult=Ye say, dar merchant ship, surrendered without no blood being spilled? Sink me, an shiver me timbers!=A statement of surprise;
+Sink Me=Difficult=Ye say, dar merchant ship, surrendered without no blood being spilled? <b>Sink me</b>, an shiver me timbers!=A statement of surprise;
 
-Smartly=Beginner=Hear's me clear, lift that sail smartly, ye worthless bilge rats, an keep ye blow holes closed!=Quickly;
+Smartly=Beginner=Hear's me clear, lift that sail <b>smartly</b>, ye worthless bilge rats, an keep ye blow holes closed!=Quickly;
 
-Splice Dar Mainbrace=Difficult=Ye surly Sea Dogs o' mine, gather around, Spice the mainbrace of rum? Let's swell our bellies, an crawl back to dar ship. What say ye mateys?=Issue a drink for everyone;
+Splice Dar Mainbrace=Difficult=Ye surly Sea Dogs o' mine, gather around, <b>Spice the mainbrace</b> of rum? Let's swell our bellies, an crawl back to dar ship. What say ye mateys?=Issue a drink for everyone;
 
-Spyglass=Difficult=Aye, me bid ye good fortune, on ye port leave. Me dare's says to ye shipmates, keep ye rudders straight! The merchant landlubbers, all have spyglasses.=Telescope;
+Spyglass=Difficult=Aye, me bid ye good fortune, on ye port leave. Me dare's says to ye shipmates, keep ye rudders straight! The merchant landlubbers, all have <b>spyglasses</b>.=Telescope;
 
-Starboard=Medium=Wench off the starboard an she B buxom! Wonder if we raise the Skull and Cross Bones, an bring her around, if she would come aboard?=The right side of the ship;
+Starboard=Medium=Wench off the <b>starboard</b> an she B buxom! Wonder if we raise the Skull and Cross Bones, an bring her around, if she would come aboard?=The right side of the ship;
 
-Sulter=Complex=I b 1st off the gangplank to find-n a sulter, for a new eye patch. Me glass eye nearly ware'd, da ol one through.=Merchant in port;
+Sulter=Complex=I b 1st off the gangplank to find-n a <b>sulter</b>, for a new eye patch. Me glass eye nearly ware'd, da ol one through.=Merchant in port;
 
-Yo Ho Ho=Starting=Yo ho ho, ye hornswaggl'n ol paracite. Come aboard 
-Mate, an we B fill'n our bilges, with much ale.=An expression of joy;
+Yo Ho Ho=Starting=<b>Yo ho ho</b>, ye hornswaggl'n ol paracite. Come aboard 
+Mate, an we b fill'n our bilges, with much ale.=An expression of joy;
 
-Da=Starting=Blime swabs, da grog B good, but soon me thoughts turn wretched, an I B want'n, to B plunder'n.=The;
+Da=Starting=Blime swabs, <b>da</b> grog B good, but soon me thoughts turn wretched, an I B want'n, to B plunder'n.=The;
 
-Wish'n Ye No Stormy Seas=Starting=I B say'n, ye ship's rudder,  best B on course, An, ye have full sails toward buried treasure. Wish'n ye, no stormy seas!=Well wishes;
+Wish'n Ye No Stormy Seas=Starting=I B say'n, ye ship's rudder,  best B on course, An, ye have full sails toward buried treasure. <b>Wish'n ye, no stormy seas</b>!=Well wishes;
 
-Avast Sign=Medium=Avast! Helmsman, ahead B no current, nor wind for dar sails! Prepare to drop anchor. Avast sign off da bow=Stop sign;
+Avast Sign=Medium=Avast! Helmsman, ahead B no current, nor wind for dar sails! Prepare to drop anchor. <b>Avast sign</b> off da bow=Stop sign;
 
-Vast=Medium=Stands by, till she comes about starboard. Her bounty b vast. We come up her aft, board, an plunder her vast bounty! B prepared to lay waste, of dar crew, member'n, dead men tell no tales!=A lot;
+Vast=Medium=Stands by, till she comes about starboard. Her bounty b <b>vast</b>. We come up her aft, board, an plunder her vast bounty! B prepared to lay waste, of dar crew, member'n, dead men tell no tales!=A lot;
 
-Mighty=Beginner=Bosun says, "He b a rabid sea dog, and mighty at bloodshed. He swares, cut throat, b his best revenge."=A lot;
+Mighty=Beginner=Bosun says, "He b a rabid sea dog, and <b>mighty</b> at bloodshed. He swares, cut throat, b his best revenge."=A lot;
 
 Scrap-n=Beginner=When cook takes on too much ale, his mouth become 
 a fiery cannon, start'n brawls. 
-No wonder, he b hearty at scrap-n.=Fighting;
+No wonder, he b hearty at <b>scrap-n</b>.=Fighting;
 
 Lass=Beginner=
-The Cap-n's daughter, she B a fair lass! As da sun sets west, pitty da mate, that take her aboard. It require a lot, of plunder'n, to keep a smile on her job!=A young female;
+The Cap-n's daughter, she B a fair <b>lass</b>! As da sun sets west, pitty da mate, that take her aboard. It require a lot, of plunder'n, to keep a smile on her job!=A young female;
 
 Lassie=Beginner=
-Pardon me lassie. B not, consider'n me forward. Me just B an ol salt o' salt, yet me like to ask, would ye mother, b just 
+Pardon me <b>lassie</b>. B not, consider'n me forward. Me just B an ol salt o' salt, yet me like to ask, would ye mother, b just 
 a little more weathered a beauty, without a peg leg?=A young female;
 
 Blow Hole=Beginner=
 Easy mate, why b barnacle words, abound'n, from,
- ye blow hole!=An orifice for whale breathing -  Human mouth metaphor;
+ ye <b>blow hole</b>!=An orifice for whale breathing -  Human mouth metaphor;
  
 Bounty=Beginner=
-Jack Strap, that hornswaggle'n thief, have a 1,000 doubloons bounty, on his mangy heathen skull 
+Jack Strap, that hornswaggle'n thief, have a 1,000 doubloons <b>bounty</b>, on his mangy heathen skull 
 or for his corpse.=Treasure - Money;
 
-Doubloons=Medium=Aye, paymaster, me script, b 10 doubloons short. I b have'n, much debauchery, wait'n, ashore. 
+Doubloons=Medium=Aye, paymaster, me script, b 10 <b>doubloons</b> short. I b have'n, much debauchery, wait'n, ashore. 
 Need's me full script, if ye please.=A portion of money. Today can B considered a dollar for conversation;
 
-Script=Complex=Hark, ye now mates, here b ye script. B ye careful, of brawl'n ashore. Ye murder'n angry way, b warm'n, ye up to Jack Ketch. If ye not B ware, soon'r or later, he b, strech'n ye neck!=Employee's pay;
+Script=Complex=Hark, ye now mates, here b ye <b>script</b>. B ye careful, of brawl'n ashore. Ye murder'n angry way, b warm'n, ye up to Jack Ketch. If ye not B ware, soon'r or later, he b, strech'n ye neck!=Employee's pay;
 
-Set Sail=Medium=Yo Ho ye pickled mates! I says, we trim the deck, settle dar bill, weigh anchor, an den set sail forward, to a new tavern. What say ye?=To begin;
+Set Sail=Medium=Yo Ho ye pickled mates! I says, we trim the deck, settle dar bill, weigh anchor, an den <b>set sail</b> forward, to a new tavern. What say ye?=To begin;
 
-Aboard=Medium=Ahoy, ye ol Sea Dog Lepers, welcome aboard, ye still have all ye body parts?=On ship;
+Aboard=Medium=Ahoy, ye ol Sea Dog Lepers, welcome <b>aboard</b>, ye still have all ye body parts?=On ship;
 
-Scrapper=Beginner=That scum sucking bilge rat, B quite a scrapper! He b have'n dried blood, on his scabbard an boots.=A fighter;
+Scrapper=Beginner=That scum sucking bilge rat, B quite a <b>scrapper</b>! He b have'n dried blood, on his scabbard an boots.=A fighter;
 
-Cannon To Ye Port Hole=Naughty=Me saucy wench, ye welcome me cannon, to ye port hole?=Invitation for intercourse;
+Cannon To Ye Port Hole=Naughty=Me saucy wench, ye welcome me <b>cannon, to ye</b> port hole?=Invitation for intercourse;
 
-Handle'n Me Cannon=Naughty=B ye of interest in handle'n, me cannon?=Hand job;
+Handle'n Me Cannon=Naughty=B ye of interest in <b>handle'n</b>, me cannon?=Hand job;
 
-Hornpipe=Naughty=Tis that ye hornpipe in ye pocket, or are ye just glad, to see me? Will ye play me hornpipe?=A musical instrument of a sailor (sure);
+Hornpipe=Naughty=Tis that ye <b>hornpipe</b> in ye pocket, or are ye just glad, to see me? Will ye play me <b>hornpipe</b>?=A musical instrument of a sailor (sure);
 
-Short Fuse=Naughty=Me cannon, B on a short fuse.=Nearly ready to climax;
+Short Fuse=Naughty=Me cannon, B on a <b>short fuse</b>.=Nearly ready to climax;
 
-Short Fuse=Medium=Don't B a fool, Jim Ladd, stand down, dat blaggard b on a short fuse. Before ye eyes blink, he'l b carve'n ye gizzard!=Quick Tempered;
+Short Fuse=Medium=Don't B a fool, Jim Ladd, stand down, dat blaggard b on a <b>short fuse</b>. Before ye eyes blink, he'l b carve'n ye gizzard!=Quick Tempered;
 
-Batten Down=Difficult=Hear's me now! Squall a come-n, heave ho, drop the sailss and batten down the hold, me scurvy mates! If ye b slow to ye feet, we b visit'n Davie Jones's locker.=To tie down and make safe;
+Batten Down=Difficult=Hear's me now! Squall a come-n, heave ho, drop the sailss and <b>batten down</b> the hold, me scurvy mates! If ye b slow to ye feet, we b visit'n Davie Jones's locker.=To tie down and make safe;
 
-Bilge Diver=Beginner=Me say's, that Jim Lad, if he b not straight'n his rudder, his course B set, on being a  1st class bilge diver!=One sent to the very bottom of the ship for punishment where there is foul seep water and waste;
+Bilge Diver=Beginner=Me say's, that Jim Lad, if he b not straight'n his rudder, his course B set, on being a  1st class <b>bilge diver</b>!=One sent to the very bottom of the ship for punishment where there is foul seep water and waste;
 
-Squall=Medium=Me had ta, batten down, me hatch, ta weather, me wenches' mighty squall. She b angry, an tack might'tly without warning. Her blow hole cannon, B lay'n me low.=An intense line of storm that comes and passes quickly;
+Squall=Medium=Me had ta, batten down, me hatch, ta weather, me wenches' mighty <b>squall</b>. She b angry, an tack might'tly without warning. Her blow hole cannon, B lay'n me low.=An intense line of storm that comes and passes quickly;
 
-Dagger=Beginner=Me never go ashore, without me dagger! Me booty b plenty, an, there B blaggards, want'n to make it theirs!=A thin fixed blade knife, the length of a butcher knife.;
+Dagger=Beginner=Me never go ashore, without me <b>dagger</b>! Me booty b plenty, an, there B blaggards, want'n to make it theirs!=A thin fixed blade knife, the length of a butcher knife.;
 
-A Six Pounder=Complex=If me blast me six pounder, at ta water line, she b sink'n, that ship for sure. Sharks b patient for dinner. We b gut'n da flounder'n mates! Dar Capt'n, an 1st mate, b make'n dem a mighty dessert.=A cannon ball;
+A Six Pounder=Complex=If me blast me <b>six pounder</b>, at ta water line, she b sink'n, that ship for sure. Sharks b patient for dinner. We b gut'n da flounder'n mates! Dar Capt'n, an 1st mate, b make'n dem a mighty dessert.=A cannon ball;
 
-Heave To=Medium=I b beg'n ye pardon, ye lazy scalawags, best heave to, bring dat cargo aboard, an bound it in da hold! Cap'n, lay eyes on ye laz'n, ye b feel'n the end, of the cat o' nine tails.=Put forth a strong effort.;
+Heave To=Medium=I b beg'n ye pardon, ye lazy scalawags, best <b>heave to</b>, bring dat cargo aboard, an bound it in da hold! Cap'n, lay eyes on ye laz'n, ye b feel'n the end, of the cat o' nine tails.=Put forth a strong effort.;
 
-Hornswoggle=Beginner=Pays ye a close eye, that hornswoggling scoundrel messmate of yours, will do ye in, when ye least b expect'n.=To cheat;
+Hornswoggle=Beginner=Pays ye a close eye, that <b>hornswoggling</b> scoundrel messmate of yours, will do ye in, when ye least b expect'n.=To cheat;
 
-Overhaul=Complex=Avast messmates! Grab ye grogs, an we b Overhaul to dar bow seats. Me want's to lay better eyes, on da spoils, of da dance'n wenches!=Get closer;
+Overhaul=Complex=Avast messmates! Grab ye grogs, an we b <b>Overhaul</b> to dar bow seats. Me want's to lay better eyes, on da spoils, of da dance'n wenches!=Get closer;
 
-Scuttle=Medium=Get that bounty on ship, tells da crew to scuttle the rest, set her a fire, and let her a drift.  Skipper says move lively!=To get out;
+Scuttle=Medium=Get that bounty on ship, tells da crew to <b>scuttle</b> the rest, set her a fire, and let her a drift.  Skipper says move lively!=To get out;
 
-Weigh Anchor=Medium=I b say'n ye drunk'n sailors, we best B weigh anchor, an lift short sails, tell we B out dar harbor. Best hold our blow holes, an creep our steps, not to B wake'n these raven wenches!=Lift the anchor;
+Weigh Anchor=Medium=I b say'n ye drunk'n sailors, we best b <b>weigh anchor</b>, an lift short sails, tell we b out dar harbor. Best hold our blow holes, an creep our steps, not to B wake'n these raven wenches!=Lift the anchor;
 
-Heavy Seas=Medium=I b eye'n that bow storm. It B bring'n heavy seas. Lower the high sails, batten down the ship, an we wait's ready, for ta worst. limey, she B throw'n us about!=Very high waves;
+Heavy Seas=Medium=I b eye'n that bow storm. It B bring'n <b>heavy seas</b>. Lower the high sails, batten down the ship, an we wait's ready, for ta worst. limey, she B throw'n us about!=Very high waves;
 
-Knot=Complex=Steersman! Dar sails b abound. Dar limit b 35 knots! Best drag anchor, or gov'nr's cutter, b upon us! B ye not forget'n, me words!=Talk Pirate conversion 1 Knot equals 1 mile per hour.;
+Knot=Complex=Steersman! Dar sails b abound. Dar limit b 35 <b>knots</b>! Best drag anchor, or gov'nr's cutter, b upon us! B ye not forget'n, me words!=Talk Pirate conversion 1 Knot equals 1 mile per hour.;
 
-Gail=Medium=Me never know when me wench will raise her Jolly Roger, an rail a mighty gail! I say's easy there, but, she still do her barracuda ways.=A very intensive wind storm;
+Gail=Medium=Me never know when me wench will raise her Jolly Roger, an rail a mighty <b>gail</b>! I say's easy there, but, she still do her barracuda ways.=A very intensive wind storm;
 
-Musket=Beginner=Avast me hearties! Loads ye musket, get ye daggers in hand, an B quick about it.  B set, to go aboard. We b carve'n their gizzards, our curs B starve'n!=A pistol;
+Musket=Beginner=Avast me hearties! Loads ye <b>musket</b>, get ye daggers in hand, an B quick about it.  B set, to go aboard. We b carve'n their gizzards, our curs B starve'n!=A pistol;
 
-Rascal=Beginner=Yo ho, ye scrap'n rascal! Land ho!  Heave to an we b dock'n soon, with rum a wait'n!=A savory and undependable person;
+Rascal=Beginner=Yo ho, ye scrap'n <b>rascal</b>! Land ho!  Heave to an we b dock'n soon, with rum a wait'n!=A savory and undependable person;
 
-Keel=Complex=Beg'n ye pardon, Jim Lad.  Keep ye keel straight, in heavy seas, an ye bearings always B true!=Center beam in the support of a ship. Runs from the back to the front.;
+Keel=Complex=Beg'n ye pardon, Jim Lad.  Keep ye <b>keel</b> straight, in heavy seas, an ye bearings always B true!=Center beam in the support of a ship. Runs from the back to the front.;
 
-Land Ho=Difficult=Land ho! Cap'n, eyes to port. All hands make top sails, banish ye lazy ways. Buried treasure abounds. Ain't we b, da jolly ones?=Land has been spotted;
+Land Ho=Difficult=<b>Land ho</b>! Cap'n, eyes to port. All hands make top sails, banish ye lazy ways. Buried treasure abounds. Ain't we b, da jolly ones?=Land has been spotted;
 
-Lash=Medium=Ye steals the Boson's grog, it'l b, 20 lashs, from the cat o' nine tails.=One stroke of a whip;
+Lash=Medium=Ye steals the Boson's grog, it'l b, 20 <b>lashes</b>, from the cat o' nine tails.=One stroke of a whip;
 
-Limey=Starting=Limey! I say there Jim Lad, b ye prudent on dar rig'n, a God forsaken slip, an ye b shark bate, for sure!=An introductory statement;
+Limey=Starting=<b>Limey</b>! I say there Jim Lad, b ye prudent on dar rig'n, a God forsaken slip, an ye b shark bate, for sure!=An introductory statement;
 
-Long John Silver=Difficult=Me b tell'n ye, Jim lad, ye got stout guts. Someday, ye B like Long John Silver, a true gentleman of adventure!=One of the most famous pirates;
+Long John Silver=Difficult=Me b tell'n ye, Jim lad, ye got stout guts. Someday, ye b like <b>Long John Silver</b>, a true gentleman of adventure!=One of the most famous pirates;
 
-Black Beard=Difficult=Black Beard plundered, greater than all pirates, combined! He also b the smartest of all the Cap'n's. He provides, for his crew, if they B hurt.  Holds some their doubloons, back, caz some, get's wounded, an half b, left in port.=A famous pirate;
+Black Beard=Difficult=<b>Black Beard</b> plundered, greater than all pirates, combined! He also b the smartest of all the Cap'n's. He provides, for his crew, if they B hurt.  Holds some their doubloons, back, caz some, get's wounded, an half b, left in port.=A famous pirate;
 
 Lucre=Complex=
-Ye Lucre settle, the next tab a Rum.  Don't hold ye purse strings too tight, ye greedy loathsome cur. We know ye have plenty, doubloons to lay waste!=Money gained in pirating;
+Ye <b>Lucre</b> settle, the next tab a Rum.  Don't hold ye purse strings too tight, ye greedy loathsome cur. We know ye have plenty, doubloons to lay waste!=Money gained in pirating;
 
 Maggot=Medium=
-Watch ye tongue, or, me b give'n ye, two feet of steel, rip ye belly open, for maggots to feed!=The worm stage of a fly found in rotting meat;
+Watch ye tongue, or, me b give'n ye, two feet of steel, rip ye belly open, for <b>maggots</b> to feed!=The worm stage of a fly found in rotting meat;
 
 Marauder=Medium=
-We all b marauders, an this b a find day for plunder 'n. Da King's vessels give us, bold adventures!=Another word for pirate;
+We all b <b>marauders</b>, an this b a find day for plunder 'n. Da King's vessels give us, bold adventures!=Another word for pirate;
 
 
-Mast=Difficult=Skipper says, set ye a mighty mast, for trim'n full sails, an, rig'n!   B about it handsomely! Ye follow dar Cap'n's ways, an, he b share'n a mighty bounty.=The huge vertical poles from which the sails are suspended;
+Mast=Difficult=Skipper says, set ye a mighty <b>mast</b>, for trim'n full sails, an, rig'n!   B about it handsomely! Ye follow dar Cap'n's ways, an, he b share'n a mighty bounty.=The huge vertical poles from which the sails are suspended;
 
 Merchant=Complex=
-Ships ahoy! Merchant freighters off port!  Raise the Skull an Cross bones, an, ye mangy men of fortune, B prepared to plunder. Then we set her on fire, an let her adrift. We leave their blood, to boil on their deck!=A retail business person;
+Ships ahoy! <b>Merchant</b> freighters off port!  Raise the Skull an Cross bones, an, ye mangy men of fortune, B prepared to plunder. Then we set her on fire, an let her adrift. We leave their blood, to boil on their deck!=A retail business person;
 
-Reckoning=Difficult=Best wager, capt'n b reckon'n ye careless ways, aft da booty b lost.  Ye want to keep ye skin, best have convince'n reasons!=Coming to a deal or understanding;
+Reckoning=Difficult=Best wager, capt'n b <b>reckon'n</b> ye careless ways, aft da booty b lost.  Ye want to keep ye skin, best have convince'n reasons!=Coming to a deal or understanding;
 
-Revenge=Complex=He gutted me bruter. Me b lay'n with me musket cocked, for revenge, when that drunk'n blaggard, 
+Revenge=Complex=He gutted me bruter. Me b lay'n with me musket cocked, for <b>revenge</b>, when that drunk'n blaggard, 
 b swagger'n back ta his ship.=Eye for an Eye    Retribution for wrong doing;
 
-Ruffian=Beginner=He b a ruffian when he b overcome, with rum. If ye love ye liver, best b keep'n, a different port, or, he b have'n it for breakfast.=A difficult person prone to violence;
+Ruffian=Beginner=He b a <b>ruffian</b> when he b overcome, with rum. If ye love ye liver, best b keep'n, a different port, or, he b have'n it for breakfast.=A difficult person prone to violence;
 
 Skiff=Complex=
-I keep's me blow hole up tight, aft a bounty of rum. Me ways B clouded, an, me judgment B like a skiff, 
+I keep's me blow hole up tight, aft a bounty of rum. Me ways B clouded, an, me judgment B like a <b>skiff</b>, 
 with no drain plug!=A shallow, flat-bottomed boat for transport from shore to anchored ship;
 
-Spoils=Medium=Aft ye plunder da schooner, puts the spoils in the skiff an load'em in the hold. We make port, an divide da shares. We all have a mighty share, of da booty.=The assets acquired by the victor in a battle;
+Spoils=Medium=Aft ye plunder da schooner, puts the <b>spoils</b> in the skiff an load'em in the hold. We make port, an divide da shares. We all have a mighty share, of da booty.=The assets acquired by the victor in a battle;
 
-Swab The Deck=Medium=Ye ruddy pole cats, gather up ye buckets, an swab the deck. Na, to ye lazy wags! Alas, the sun, she b up. Now, b away with ye.=Wash and scrub the ship's deck;
+Swab The Deck=Medium=Ye ruddy pole cats, gather up ye buckets, an <b>swab</b> the deck. Na, to ye lazy wags! Alas, the sun, she b up. Now, b away with ye.=Wash and scrub the ship's deck;
 
-Swagger=Medium=Jimmy Jack, did take on, a bounty of grog. Me know's, as me sees him swaggering back to da ship. Low and behold, Cap'n catches him, he b in the brig, with shackles again. Mark me words!=Walking unstably;
+Swagger=Medium=Jimmy Jack, did take on, a bounty of grog. Me know's, as me sees him <b>swaggering</b> back to da ship. Low and behold, Cap'n catches him, he b in the brig, with shackles again. Mark me words!=Walking unstably;
 
-Swashbuckler=Complex=When Bug Eye Dan has too much rum, he pretends to B, a mighty swashbuckler, he draws his saber, waves it about, an spouts crazy words, prove'n himself to B,
+Swashbuckler=Complex=When Bug Eye Dan has too much rum, he pretends to b, a mighty <b>swashbuckler</b>, he draws his saber, waves it about, an spouts crazy words, prove'n himself to B,
  an addled daft idiot!=An extraverted and flamboyant pirate;
  
-Sword=Difficult=Ye haul back ye words, or, I b given ye two foot of me hot bladed sword. Ye liver and kidneys, b me breakfast.=A three foot long knife carried in a scabbard 
+Sword=Difficult=Ye haul back ye words, or, I b given ye two foot of me hot bladed <b>sword</b>. Ye liver and kidneys, b me breakfast.=A three foot long knife carried in a scabbard 
 attached to one's belt;
 
-Thieve'n=Beginner=When ye b drunk, ye feeble mind, b turn'n to thieve 'n. Before ye know, ye future quickly come
+Thieve'n=Beginner=When ye b drunk, ye feeble mind, b turn'n to <b>thieve'n</b>. Before ye know, ye future quickly come
  to murdur'n ways, an Jack Kemp b, tight'n ye tie!=The process of stealing;
  
 Treachery=Complex=
-Their vile ways, b wretched treachery upon us. 
+Their vile ways, b wretched <b>treachery</b> upon us. 
 We just b lowly salts o' salts. 
 We best b keep'n, our eyes fixed, their way.=Doing evil deeds;
 
 Vile=Beginner=
 Ahoy, Ye, flea bit, mangy sea dog.  Me hears ye steal's the doubloons, off ye dead mother's eyes, so, matey, 
-how vile B ye ways?=Detestable;
+how <b>vile</b> B ye ways?=Detestable;
 
 Abandon=Complex=
-Da gunners laid eyes, with 6 pounders from dar cannons. We b wait'n, for those despicable bilge rats, to B abandon'n ship. Look overboard, Lads, ye B see'n sharks look'n up for supper, grin'n with spark'ln teeth!=To desert a position;
+Da gunners laid eyes, with 6 pounders from dar cannons. We b wait'n, for those despicable bilge rats, to b <b>abandon'n</b> ship. Look overboard, Lads, ye B see'n sharks look'n up for supper, grin'n with spark'ln teeth!=To desert a position;
 
 Armada=Complex=
-Hark ye now, Mateys!  Me b stand'n aft, of Blackie's shoulder. He b have'n, an armada of fleas, about his scalp, as his hair b a heave'n!=A fleet of war ships;
+Hark ye now, Mateys!  Me b stand'n aft, of Blackie's shoulder. He b have'n, an <b>armada</b> of fleas, about his scalp, as his hair b a heave'n!=A fleet of war ships;
 
 Arms=Medium=
-Gather up ye arms, we board'n dar ship. Dare blood b spill'n an run'n like water, upon dare deck. Before da sun sets, we b hauling, mighty bounty aboard.=An abundance of weapons.;
+Gather up ye <b>arms</b>, we board'n dar ship. Dare blood b spill'n an run'n like water, upon dare deck. Before da sun sets, we b hauling, mighty bounty aboard.=An abundance of weapons.;
 
 Ashore=Difficult=
-We b harbor bound.  Soon ashore, we'l b drink'n rum
+We b harbor bound.  Soon <b>ashore</b>, we'l b drink'n rum
 and plunder'n plenty. No more beans an hardtack! We b guzzel'n much ale, an, glad we b leave'n, that stale an stink'n gutter water, on ship!=On land;
 
 Behead=Difficult=
-B caught, ye b beheaded, ye knuckle headed, addled, idiot. Best ye pull ye bonehead out of ye bung hole, an wipe the dung out of ye eyes.  Wake up, an, set ye ways straight!=To cut a head off a body;
+B caught, ye b <b>beheaded</b>, ye knuckle headed, addled, idiot. Best ye pull ye bonehead out of ye bung hole, an wipe the dung out of ye eyes.  Wake up, an, set ye ways straight!=To cut a head off a body;
 
 Boatswain=Complex=
-Bring the Boatswain up from his quarters. We b having, vex'n troubles, with the rigg'n, an clap'n the sails, Bucko, belay ye lazy ways. Now, b off with ye!=An officer in charge of the rigging;
+Bring the <b>Boatswain</b> up from his quarters. We b having, vex'n troubles, with the rigg'n, an clap'n the sails, Bucko, belay ye lazy ways. Now, b off with ye!=An officer in charge of the rigging;
 
 Brawl=Beginner=
-Cap'n we b mind'n our own, but the Mary Bell's crew  fetched our wenches, an, before the sea fog cleared, there were a mighty brawl. We b leave'n a bounty of their blood on the tavern's deck, an little of our own.=A fight with many participants;
+Cap'n we b mind'n our own, but the Mary Bell's crew  fetched our wenches, an, before the sea fog cleared, there were a mighty <b>brawl</b>. We b leave'n a bounty of their blood on the tavern's deck, an little of our own.=A fight with many participants;
 
 Capsize=Difficult=
-Me hears his frigate capsized. I b afeared, he may b eye'n, to script our crew. He b cruising our way. Keep's ye tongue behind ye teeth, ye bone headed mates!=A ship turns over;
+Me hears his frigate <b>capsized</b>. I b afeared, he may b eye'n, to script our crew. He b cruising our way. Keep's ye tongue behind ye teeth, ye bone headed mates!=A ship turns over;
 
 Cargo=Medium=
-Cap'n's, orders mates. Ye b finish'n load'n the cargo, so we b set'n sail by 3 bells.  Mighty sweat on ye brow,
+Cap'n's, orders mates. Ye b finish'n load'n the <b>cargo</b>, so we b set'n sail by 3 bells.  Mighty sweat on ye brow,
  earn ye extra grub.=Supplies or a customer's shipments to B delivered to another port;
  
-Treasure Chest=Beginner=Jim Lad, there B a map, in the Cap'n's  cabin, b showing the X, where the treasure chest b buried. B bring'n it to me. Ye best b wary as Cap'n's sleep'n off 
+Treasure Chest=Beginner=Jim Lad, there B a map, in the Cap'n's  cabin, b showing the X, where the <b>treasure chest</b> b buried. B bring'n it to me. Ye best b wary as Cap'n's sleep'n off 
 a bounty of rum.=A container where pirates bury their stolen goods;
 
 Locker=Medium=
-Ye evil ways, b send'n ye walk'n the plank, to Davie Jones's locker.  While ye b walk'n, ye enemies b sing'n ol pirate songs an spill'n rum.  The barracudas b wait'n, 
+Ye evil ways, b send'n ye walk'n the plank, to Davie Jones's <b>locker</b>.  While ye b walk'n, ye enemies b sing'n ol pirate songs an spill'n rum.  The barracudas b wait'n, 
 to slice ye flesh, from ye carcass.=A cabinet for personal items or a compartment;
 
 Contraband=Difficult=
-Lay ye eyes, on the wench in the corner. Bartender say's, she make her cargo contraband. So we see. I b put'n, me best peg leg for'ard. She not B able to resist, its new lacker'd sheen!=Forbidden to have;
+Lay ye eyes, on the wench in the corner. Bartender say's, she make her cargo <b>contraband</b>. So we see. I b put'n, me best peg leg for'ard. She not B able to resist, its new lacker'd sheen!=Forbidden to have;
 
 Corpse=Difficult=
 Avast, me simple minded fool,  ye swashbuckle with me, 
-ye sword soon B protect'n ye corpse.=A dead body;
+ye sword soon b protect'n ye <b>corpse</b>.=A dead body;
 
 Cutglass=Medium=
-Avast ye rogue! Leave ye eyes, from my wench, or, me cutlass b find'n ye liver. Best not call on ye mates, cause them's b dead, B the lucky ones!=A shorter curved sword;
+Avast ye rogue! Leave ye eyes, from my wench, or, me <b>cutlass</b> b find'n ye liver. Best not call on ye mates, cause them's b dead, B the lucky ones!=A shorter curved sword;
 
 Cutthroat=Difficult=
-Avast, ye mutinous scurvy dog. Pull ye saber, for a round of cutthroat, ye lily livered coward.  Me promises, ye b dead in the bilge, as ye split belly, abounds with maggots.=Very serious conflict with deadly results;
+Avast, ye mutinous scurvy dog. Pull ye saber, for a round of <b>cutthroat</b>, ye lily livered coward.  Me promises, ye b dead in the bilge, as ye split belly, abounds with maggots.=Very serious conflict with deadly results;
 
-Dead Reckoning=Complex=Standby, till she come about. When we go aboard, we b bring'n dead reckoning, an, we b feast'n 
+Dead Reckoning=Complex=Standby, till she come about. When we go aboard, we b bring'n <b>dead reckoning</b>, an, we b feast'n 
 on their livers for dinner!  Harrr, Mateys!=Flirting with death;
 
 Deck Hands=Difficult=
-Skipper, the deck hands b trained, to scuttle any ship, 
+Skipper, the <b>deck hands</b> b trained, to scuttle any ship, 
 dat fall our prey. Me men, not b ol hens, but mad wolves, love'n, the taste a blood!=Crew members who work on the deck;
 
 Pup=Medium=
-Aye Aye, mates! The pup b of right metal, but yet, of simple mind. We b stand'n watch over him, and b of his service, till he come about.=A child;
+Aye Aye, mates! The <b>pup</b> b of right metal, but yet, of simple mind. We b stand'n watch over him, and b of his service, till he come about.=A child;
 
 Fleet=Difficult=
-Helmsman! Hard tack port, crew mightily up the rigg'n's, to drop full sails, an throw up, the jibs. We b, under attack soon, cause the King's fleet b upon us.=A group of ships larger than armada under one leader;
+Helmsman! Hard tack port, crew mightily up the rigg'n's, to drop full sails, an throw up, the jibs. We b, under attack soon, cause the King's <b>fleet</b> b upon us.=A group of ships larger than armada under one leader;
 
 Flotsam=Difficult=
-That ol bar maid, her whole ship look like flotsam, after a night on the reefs, in a stormy sea. Me sure, when she B a young lass, her cargo b tight in the hold!=Cargo afloat after a shipwreck;
+That ol bar maid, her whole ship look like <b>flotsam</b>, after a night on the reefs, in a stormy sea. Me sure, when she b a young lass, her cargo b tight in the hold!=Cargo afloat after a shipwreck;
 
-Jetsam=Complex=If I b so bold, we b board'n that Man-O-War by high noon. We b off'n lights and livers and slip'n steal to their vitals. When we b done, we throw them like jetsam, overboard to choke the sharks!=Trash that has been thrown out;
+Jetsam=Complex=If I b so bold, we b board'n that Man-O-War by high noon. We b off'n lights and livers and slip'n steal to their vitals. When we b done, we throw them like <b>jetsam</b>, overboard to choke the sharks!=Trash that has been thrown out;
 
 Ye=Starting=
-Ye b think'n, ye a Cap'n Black Beard, but we all b know'n, ye just a two left handed, addled, bone head. Who mother, married her cousin.=You;
+<b>Ye</b> b think'n, ye a Cap'n Black Beard, but we all b know'n, ye just a two left handed, addled, bone head. Who mother, married her cousin.=You;
 
 Galley=Medium=
-Ye stand guard on deck, while dar deck crew draws down to the galley, for some hot grub. Me words b good as gold, cook b set'n aside ye grub. 
+Ye stand guard on deck, while dar deck crew draws down to the <b>galley</b>, for some hot grub. Me words b good as gold, cook b set'n aside ye grub. 
 Alas, ye no, b go'n hungry!=Kitchen and eating area;
 
 Greedy=Beginner=
-He b a greedy, flea ridden scallywag. I say's we keeps, our eyes upon him. When we find's the buried treasure, we best b keep'n him away from, the muskets an daggers. 
+He b a <b>greedy</b>, flea ridden scallywag. I say's we keeps, our eyes upon him. When we find's the buried treasure, we best b keep'n him away from, the muskets an daggers. 
 He b a shifty scum for sure.=Lust for money;
 
-Gunner=Medium=Arrr Gunner,  I hears ye crew, has far less brains, than gunpowder! B ye powder dry?=Crewman in charge of the cannon team;
+Gunner=Medium=Arrr <b>Gunner</b>,  I hears ye crew, has far less brains, than gunpowder! B ye powder dry?=Crewman in charge of the cannon team;
 
 Gun Powder=Difficult=
-Ye short fused anger, best not confront the helmsman, or 1st mate, with too much heave ho. Ye know they b made of abound'n dry gun powder.=What gives power to a gun to propel the bullet;
+Ye short fused anger, best not confront the helmsman, or 1st mate, with too much heave ho. Ye know they b made of abound'n dry <b>gun powder</b>.=What gives power to a gun to propel the bullet;
 
 Hijack=Difficult=
-Lay eyes on that fair lass with da ol squire. Jake and Black'e, ye bait him out, an me hijack her while his blood runs hot.=To take without permission;
+Lay eyes on that fair lass with da ol squire. Jake and Black'e, ye bait him out, an me <b>hijack</b> her while his blood runs hot.=To take without permission;
 
-Hold=Medium=Ye thiev'n scoundrels, should me throws ye in the hold, with no grub, an only bilge water to drink?=Below the deck where the cargo is stored;
+Hold=Medium=Ye thiev'n scoundrels, should me throws ye in the <b>hold</b>, with no grub, an only bilge water to drink?=Below the deck where the cargo is stored;
 
 Hull=Complex=
-Bring her about steersman, so dar bow b to her broadside an make break'n speed. We'll put our keel into her hull, so she b take'n on water. 
+Bring her about steersman, so dar bow b to her broadside an make break'n speed. We'll put our keel into her <b>hull</b>, so she b take'n on water. 
 Then we board her an take no prisoners.=The outer shell of the ship;
 
-Gangplank=Medium=Ahoy! Lower the gangplank, so we drunk'n mateys can crawl aboard. We been lay'n waste all night, an our pockets b empty.=A plank of wood where people and cargo can gain access to the ship;
+Gangplank=Medium=Ahoy! Lower the <b>gangplank</b>, so we drunk'n mateys can crawl aboard. We been lay'n waste all night, an our pockets b empty.=A plank of wood where people and cargo can gain access to the ship;
 
 Hang The Jib=Difficult=
-When he b drunk his tongue does hang the jib. No mistaken, he best keep his trap shut, or, he b receive'n cold steal, fillet'n his liver.=Put up the low small sail to the most speed;
+When he b drunk his tongue does <b>hang the jib</b>. No mistaken, he best keep his trap shut, or, he b receive'n cold steal, fillet'n his liver.=Put up the low small sail to the most speed;
 
 Clap of Thunder=Difficult=
 Da crew b going to the Cap'n Jack's Tavern. Dar rum give
-a clap of thunder, an rock ye belly. There b wrenches dance'n, an much debauchery.=A strong drink;
+a <b>clap of thunder</b>, an rock ye belly. There b wrenches dance'n, an much debauchery.=A strong drink;
 
 Mizzen Mast=Complex=
-There b ye, Stubby, shimmy that mizzen mast to the crow's nest.  Keeps ye eyes wide like a dead man's. 
+There b ye, Stubby, shimmy that <b>mizzen mast</b> to the crow's nest.  Keeps ye eyes wide like a dead man's. 
 Call out ye b see'n sails away.=The tallest mast;
 
 Port=Medium=
-Land ho, port tward dar bow. Ready dar skiffs. We b send'n, a land'n party to make a beach head, before we dawn our map, to retrieve our treasure chest.=Left side of the ship looking from the back toward the front;
+Land ho, <b>port</b> tward dar bow. Ready dar skiffs. We b send'n, a land'n party to make a beach head, before we dawn our map, to retrieve our treasure chest.=Left side of the ship looking from the back toward the front;
 
 Rig'n=Medium=
 Avast ye sloth'n flea bit scrubs, squalls come'n. Pull the
-rig'n and down the sails before she comes aboard.=All the ropes, block & tackle, and everything
+<b>rig'n</b> and down the sails before she comes aboard.=All the ropes, block & tackle, and everything
 used to manage the sails;
 
 Hand=Medium=
-Ye B the new hand? How b ye at spil'n blood? With a little work, when ye banish ye saber, other gentlemen of adventure, know ye b worth ye salt!=One man in the crew;
+Ye B the new <b>hand</b>? How b ye at spil'n blood? With a little work, when ye banish ye saber, other gentlemen of adventure, know ye b worth ye salt!=One man in the crew;
 
 First Mate=Medium=
-Ta 1st Mate front the charge, when we b pull along side da clipper.  That crew, when they lay eyes on his ugly jib know'd, Davie Jones's bay door b open'n to'm.  They b so afeared they stand frozen unable to avoid their fate.=Next in command under the Captain;
+Ta <b>1st Mate</b> front the charge, when we b pull along side da clipper.  That crew, when they lay eyes on his ugly jib know'd, Davie Jones's bay door b open'n to'm.  They b so afeared they stand frozen unable to avoid their fate.=Next in command under the Captain;
 
-Messdeck=Complex=Blimey, lay caution to that bile soaked, spineless, loose mouthed messdeck. Ye say he b in your favor? 
+Messdeck=Complex=Blimey, lay caution to that bile soaked, spineless, loose mouthed <b>messdeck</b>. Ye say he b in your favor? 
 In a pig's eye.=Lawyer or a know-it-all;
 
 Scallywag=Beginner=
-Ahoy, ye flea bitten, leech suck-n, scallywag. I hears ye b a pirate on Cap'n Jones' ship, who B lay'n seige on a many a frigate, an did plunder mighty bounty.=Deceitful and unreliable scoundrel;
+Ahoy, ye flea bitten, leech suck-n, <b>scallywag</b>. I hears ye b a pirate on Cap'n Jones' ship, who B lay'n seige on a many a frigate, an did plunder mighty bounty.=Deceitful and unreliable scoundrel;
 
-Squiffy=Complex=Ye not only addled but a little squiffy to boot. Dar crew, B make'n ye a hero, to lead the charge. When at hand, they just b sending ye aboard first to dull their sabers an catch their musket balls.  Ye b no leader, nor hero, 
+Squiffy=Complex=Ye not only addled but a little <b>squiffy</b> to boot. Dar crew, B make'n ye a hero, to lead the charge. When at hand, they just b sending ye aboard first to dull their sabers an catch their musket balls.  Ye b no leader, nor hero, 
 just a short lived fool.=Some degree of drunk;
 
 How She Blow=Starting=Ahoy, mate, I bid ye, good day, ye ruffian lice farmer, 
-how she blow?=A greeting.  How are things going?;
+<b>how she blow</b>?=A greeting.  How are things going?;
 
 Fiddler's Green=Complex=
 B ye, not afeared. After the hangman's noose, an ye  dance'n b over, ye neck b a mast length,
-dar Fiddler's Green b a wait'n, no longer.=A pirate's heaven;
+dar <b>Fiddler's</b> Green b a wait'n, no longer.=A pirate's heaven;
 
 Gentleman of Fortune=Complex=
-Ye gentlemen of fortune, morrow, we b board'n, dar king's frigates, with loaded muskets, sabers from our scabbards, daggers between our teeth, an, wash'n the deck with doze villian's blood. This eve, me b thank'n ye kindly, for share'n rum, but me now, b take'n me leave.=A prestigious name for a pirate;
+Ye <b>gentlemen of fortune</b>, morrow, we b board'n, dar king's frigates, with loaded muskets, sabers from our scabbards, daggers between our teeth, an, wash'n the deck with doze villian's blood. This eve, me b thank'n ye kindly, for share'n rum, but me now, b take'n me leave.=A prestigious name for a pirate;
 
 Lily Livered=Beginner=
-Ahoy ye scum sucking, lily livered, flea infested, ol sea dog.  How b ye warts?=A coward;
+Ahoy ye scum sucking, <b>lily livered</b>, flea infested, ol sea dog.  How b ye warts?=A coward;
 
 Loaded To The Gunwales=Complex=
-I dar say, when ye get loaded, to the gunwales, ye b sharp tongued, an, spoil'n for blood. Mark me words, one day the law B reckon'n.=Drunk;
+I dar say, when ye get <b>loaded, to the gunwales</b>, ye b sharp tongued, an, spoil'n for blood. Mark me words, one day the law B reckon'n.=Drunk;
 
 Privateer=Complex=
-That frigate squadron, b crewed by privateers, but, me knows dem well, an they b pirates hide'n their Jolly Rogers.=A pirate under the employment of a government;
+That frigate squadron, b crewed by <b>privateers</b>, but, me knows dem well, an they b pirates hide'n their Jolly Rogers.=A pirate under the employment of a government;
 
 Son Of A Biscuit Eater=Medium=
-Belay, say's me, ye bilge sucking, son of a biscuit eater. 
+Belay, say's me, ye bilge sucking, <b>son of a biscuit eater</b>. 
 What b ye poison?=Bastard son of a pirate;
 
 Sprog=Complex=
-Ye act like a sprog, rather than, the ol sea dog that ye b. Why b ye a foul? Are ye daft an addled? Me b mystified!=An untrained crew member;
+Ye act like a <b>sprog</b>, rather than, the ol sea dog that ye b. Why b ye a foul? Are ye daft an addled? Me b mystified!=An untrained crew member;
 
 Squadron=Complex=
-Cap'n, crow's nest reports, "Ahoy to the aft. Squadron of, king's Man-O-War.  They b close'n fast. Tack, sharp to port, bring her around, so gunner, can lay'n waste. 
+Cap'n, crow's nest reports, "Ahoy to the aft. <b>Squadron</b> of, king's Man-O-War.  They b close'n fast. Tack, sharp to port, bring her around, so gunner, can lay'n waste. 
 What say ye?=A group of 10 or less warships;
 
 Cur=Beginner=
-Me eyes never fall, on such a flea bag cur as ye!=A homeless dog;
+Me eyes never fall, on such a flea bag <b>cur</b> as ye!=A homeless dog;
 
 Swaggy=Complex=
-Eyes port, me mates! Dar vixen wench, far end the bar. Me intends, she b me swaggy.=A ship one intends to loot;
+Eyes port, me mates! Dar vixen wench, far end the bar. Me intends, she b me <b>swaggy</b>.=A ship one intends to loot;
 
-Walk The Plank=Medium=Ye B straight'n ye course, or, ye b find'n ye self walk'n the plank to feed the little fishes. If ye not abandon, ye evil ways, or, ye frown'n jib, 
-never b see'n the light of day, so I B warn'n ye!=A board extended from the ship to execute a sailor;
+Walk The Plank=Medium=Ye B straight'n ye course, or, ye b find'n ye self <b>walk'n the plank</b> to feed the little fishes. If ye not abandon, ye evil ways, or, ye frown'n jib, 
+never b see'n the light of day, so I b warn'n ye!=A board extended from the ship to execute a sailor;
 
-Sweet Trade=Complex=Hear's me now, ye mighty sea fair'n warriors! We soon, all b plunder'n, under the Skull & Cross Bones. Pirates we are! We agree, it b a sweet trade? Yarr?=A career of a Pirate;
+Sweet Trade=Complex=Hear's me now, ye mighty sea fair'n warriors! We soon, all b plunder'n, under the Skull & Cross Bones. Pirates we are! We agree, it b a <b>sweet trade</b>? Yarr?=A career of a Pirate;
 
 Port=Beginner=
-Land Ho, Port! Lay ye eye on break'n waters. Beyond b clear water, an, fresh grub.  B no more hard tack, an moldy biscuits, made of boot leather.=Left side of a ship;
+Land Ho, <b>Port</b>! Lay ye eye on break'n waters. Beyond b clear water, an, fresh grub. B no more hard tack, an moldy biscuits, made of boot leather.=Left side of a ship;
 
 Ships=Complex=Barge		Blockade        Runner	                 Clipper
              Cutter                    Dinghy                    Dory
             Dutch Clipper              Frigate               Man of War
            Schooner                Tail Ship                  Wind Jammer=Ships;
 
-
 Messmates=Medium=
-I say, we all b messmates.  Low and behold, we b lift'n our jibs. B time to weigh anchor, an voyage, 
+I say, we all b <b>messmates</b>.  Low and behold, we b lift'n our jibs. B time to weigh anchor, an voyage, 
 to great grub an much grogs.=Eating companions;
 
 Fair Winds=Beginner=
 Yo ho crew! Dar moon aft night, did linger in a deep sea of jewels. When dar sea fog, she does fade, 
-we b blessed, with fair winds.=Smooth sailing;
+we b blessed, with <b>fair winds</b>.=Smooth sailing;
 
 Gentleman Of Adventure=Medium=
-Stand ye, gentlemen of adventure! Holds ye muskets high, with your dagger, twen ye teeth, we come along side. Death b whisper'n in their ears, an take'n'm home.=A romantic name for a pirate;
+Stand ye, <b>gentlemen of adventure</b>! Holds ye muskets high, with your dagger, twen ye teeth, we come along side. Death b whisper'n in their ears, an take'n'm home.=A romantic name for a pirate;
 
-Slip'n Steal To Ye Vitals!=Difficult=One more step, an me b slip'n steal to ye vitals!
+Slip'n Steal To Ye Vitals!=Difficult=One more step, an me b <b>slip'n steal to ye vitals</b>!
 Quicker, than ye eyes do glaze, ye blood B run'n cold, on the deck, an me crew B chop'n ye toes, for the little fishes.=Stabbed with a knife or sword;
 
 Split Ye Sideways=Difficult=
-Avast, ye neutered pole cat! B ye out of me course, or, me split ye sideways. Best b keep'n ye distance an not B insult'n. Me saber, b sharp, an crav'n blood.=A sword slice;
+Avast, ye neutered pole cat! B ye out of me course, or, me <b>split ye sideways</b>. Best b keep'n ye distance an not B insult'n. Me saber, b sharp, an crav'n blood.=A sword slice;
 
 Thee=Beginner=
-Thee B me most trusted, ol sea dog! Dar others B treacherous, an, mutinous villains, bluff'n 
+<b>Thee</b> B me most trusted, ol sea dog! Dar others B treacherous, an, mutinous villains, bluff'n 
 to B me loyal mates.=You;
 
-Skipper=Medium=Arrr Skipper.  Eyes b starboard, here comes, ye ol hen. Her feathers b a fluffed, an her cackle sounds bitter. Seems before she b done with ye, 
+Skipper=Medium=Arrr <b>Skipper</b>.  Eyes b starboard, here comes, ye ol hen. Her feathers b a fluffed, an her cackle sounds bitter. Seems before she b done with ye, 
 ye b wish'n, ye b on the high seas!=Captain;
 
 Good One=Medium=
 Peg Leg Jack, ye b, the best at story tell'n.
-That B a good'n! Harr harr!=A good story;
+That B a <b>good'n</b>! Harr harr!=A good story;
 
 Greet'n's To Ye=Starting=
-Arrr, greet'n's to ye, me lady, an me bid a fair day, to ye young lass.  Wish'n ye fine sail'n, among these merchants. I b beg'n ye pardon, as I b take'n me leave.=Hello;
+Arrr, <b>greet'n's to ye</b>, me lady, an me bid a fair day, to ye young lass.  Wish'n ye fine sail'n, among these merchants. I b beg'n ye pardon, as I b take'n me leave.=Hello;
 
 Jib=Beginner=
 Aye, Jim Lad, why ye have a sad jib? Did ye flea bit'n, ol mangy sea dog cur, give up da ghost?=The front small sail for extra speed  
-Jib can also mean face
+<b>Jib</b> can also mean face
 
 Thar She Blows=Beginner=
-Avast steersman! Over dar port, an 40 furlongs, we b labor'n mightily a search'n, but, finally, thar she blows.=Look over there;
+Avast steersman! Over dar port, an 40 furlongs, we b labor'n mightily a search'n, but, finally, <b>thar she blows</b>.=Look over there;
 
 Thank Ye Kind Sir=Beginner=
-That b best rum. Thank ye kind sir. I b tell'n me messmates, about ye tavern. Ye b have'n, lively music 
+That b best rum. <b>Thank ye kind sir</b>. I b tell'n me messmates, about ye tavern. Ye b have'n, lively music 
 an dance'n wenches?=Can B placed at the beginning or end of a sentence;
 
 Salt Pork & Hard Tack=Difficult=
-B'n a long sail, me belly b curse'n, salt pork and hard tack.  Let's b set'n sail, for meat run'n red. Me murder'n swabs, b craven the same.  What say ye?=Cured food that will not rot on very long sail;
+B'n a long sail, me belly b curse'n, <b>salt pork and hard tack</b>.  Let's b set'n sail, for meat run'n red. Me murder'n swabs, b craven the same.  What say ye?=Cured food that will not rot on very long sail;
 
 Heave=Medium=
-Arrr, we b nearly, out da bay, heave dar mid-sails. Dar high seas, b wait'n.  Trade winds b strong, an catch'n us soon. We B weigh'n purge, on the king's fleet, 
+Arrr, we b nearly, out da bay, <b>heave</b> dar mid-sails. Dar high seas, b wait'n.  Trade winds b strong, an catch'n us soon. We B weigh'n purge, on the king's fleet, 
 before dar week B out.=To lift up;
 
 Sees From Afar=Difficult=
-I sees from afar, ye meaning, Cap'n. No bones bout it, da new crew, B mutinous, flea breed'n curs.=I think I understand;
+I <b>sees from afar</b>, ye meaning, Cap'n. No bones bout it, da new crew, B mutinous, flea breed'n curs.=I think I understand;
 
 Neither=Medium=
-Neither Cap'n, nor 1st Mate, gave orders to go ashore. So I B say'n, if ye mutts go ashore, ye best not return, 
+<b>Neither</b> Cap'n, nor 1st Mate, gave orders to go ashore. So I B say'n, if ye mutts go ashore, ye best not return, 
 least flog'n, b ye fancy!=Not one or the other;
 
 By The Cut Of His Jib=Medium=
-After words with Cap'n, my eyes could see, by the cut of his jib, that he b fit, to B tied. It b clear, someone, B walk'n the plank, by sunset.=The expression on one's face.;
+After words with Cap'n, my eyes could see, <b>by the cut of his jib</b>, that he b fit, to B tied. It b clear, someone, B walk'n the plank, by sunset.=The expression on one's face.;
 
 Beg'n Ye Pardon=Starting=
-Beg'n ye pardon, kind sir. Ye b look'n like a sea fair'n man. Correct me course, to scuttle an ale, 
+<b>Beg'n ye pardon</b>, kind sir. Ye b look'n like a sea fair'n man. Correct me course, to scuttle an ale, 
 an ye b done with me.=Asking if you can interrupt another;
 
 Ain't Ye The Jolly One=Medium=
 Ye sing a sweet chanty, while dance'n a lively jig. 
-Ain't ye the jolly one? Me see's, ye b'n a lass that b saucy.=Stating that another is fun living;
+<b>Ain't ye the jolly one</b>? Me see's, ye b'n a lass that b saucy.=Stating that another is fun living;
 
 He B=Beginner=
-Dat scurvy scum, b dar first one over da gangplank, he b move'n, like he run'n from dar plague.=True the description fits the statement;
+Dat scurvy scum, b dar first one over da gangplank, <b>he b</b> move'n, like he run'n from dar plague.=True the description fits the statement;
 
 I Wager=Beginner=
-Quartermaster Jones, I wager, dar crew not return after  leave, with not as much as peace of eight. They b a motley bunch, with minds set on debauchery. 
+Quartermaster Jones, <b>I wager</b>, dar crew not return after  leave, with not as much as peace of eight. They b a motley bunch, with minds set on debauchery. 
 Save'n b, a foreign word to'm.=A dramatic statement to emphasize the sentence being said;
 
 Shipmates=Medium=
-Cap'n, may me take leave, to plunder rum with me shipmates? Thar voyage b long with many high seas, and mighty bitter winds did suck the warmth from me marrow.=Your ship crew members;
+Cap'n, may me take leave, to plunder rum with me <b>shipmates</b>? Thar voyage b long with many high seas, and mighty bitter winds did suck the warmth from me marrow.=Your ship crew members;
 
 Worth His Salt=Beginner=
-Dur'n the gale, the helmsman proved, worth his salt. I thought make'n port, b lost. Helmsman know'n, his course, an here we b.  Limey, he b a good'n!=A person of substance;
+Dur'n the gale, the helmsman proved, <b>worth his salt</b>. I thought make'n port, b lost. Helmsman know'n, his course, an here we b.  Limey, he b a good'n!=A person of substance;
 
 Need Your Sea Legs=Difficult=
 Arrr, me mateys.  Seems ye belly, b a'bloat, with 
-too much rum, an, ye need your sea legs. 
+too much rum, an, ye <b>need your sea legs</b>. 
 Limey, ye rudder b busted.=One is not stable on his/her feet;
 
 Bloodletting=Medium=
-Ready ye arms, ye plunder'n swine! When we come along port side, and scuttle aboard, we'll b have'n a bloodletting! I bid ye good fortune.=Injuring a person or persons to produce an
+Ready ye arms, ye plunder'n swine! When we come along port side, and scuttle aboard, we'll b have'n a <b>bloodletting</b>! I bid ye good fortune.=Injuring a person or persons to produce an
 abundance of blood;
 
 In A Manner Of Speaking=Starting=
-Thar Sea Snake, when he spills his words, it b like a foul bilge overflowed, in a manner of speak'n.=Drawing attention to the metaphor;
+Thar Sea Snake, when he spills his words, it b like a foul bilge overflowed, <b>in a manner of speak'n</b>.=Drawing attention to the metaphor;
 
 To B Sure=Starting=
-A sweet pretty abode, you have here, to b sure, me lady. I B wonder'n, what ye b see'n, in an ol, crippled sea dog, 
+A sweet pretty abode, you have here, <b>to b sure</b>, me lady. I B wonder'n, what ye b see'n, in an ol, crippled sea dog, 
 like me. I B ask'n, do tell?=Phrase to bring emphasis to the statemen;
 
 Says I=Starting=
 That schooner thar, b deep in da water.
-There b a great booty, to plunder, Says I! When we come aboard, I wage, there b, a mighty bloodletting. They have much, to defend.=Bring emphasis to the previous or post statement;
+There b a great booty, to plunder, <b>Says I</b>! When we come aboard, I wage, there b, a mighty bloodletting. They have much, to defend.=Bring emphasis to the previous or post statement;
 
-Ye B A Better Man, I Never Seen Before=Difficult=Pleasure to b meet'n ye, Squire.  Ye b a better man, I never seen before. Y b abound'n in fine friends. Me, myself, b held hostage aboard, by a crew 
+Ye B A Better Man, I Never Seen Before=Difficult=Pleasure to b meet'n ye, Squire.  <b>Ye b a better man</b>, I never seen before. Y b abound'n in fine friends. Me, myself, b held hostage aboard, by a crew 
 of, lice infested drunkards.=A strong compliment;
 
-Them's That Die B's The Lucky Ones!=Difficult=We's board'n that frigate, them's that dies, b's the lucky ones. Now ye merciless scoundrels, we b given'em, two feet of steel, an part'n their guts. B ready to heave ho!=A battle cry to take no prisoners.;
+Them's That Die B's The Lucky Ones!=Difficult=We's board'n that frigate, <b>them's that dies, b's the lucky ones</b>. Now ye merciless scoundrels, we b given'em, two feet of steel, an part'n their guts. B ready to heave ho!=A battle cry to take no prisoners.;
 
 I B Wonder'n=Starting=
-Cap'n, when port b made, I B wonder'n, if me mates b allowed to go ashore? No ships been in port lately. Me b wager'n, da wenches B out of doubloons, 
+Cap'n, when port b made, <b>I B wonder'n</b>, if me mates b allowed to go ashore? No ships been in port lately. Me b wager'n, da wenches B out of doubloons, 
 an b offer'n, bold adventures!=Asking a question   The phrase is tacked on the end.;
 
 Ye Words Makes Me Blood Run Cold=Beginner=When ye speak evil of the Cap'n,
-ye words make's me blood run cold. Me knows him not, to B friends, with mercy, an I b fear'n, ye b stroll'n the plank, with sharks wait'n, ye arrival. 
+<b>ye words make's me blood run cold</b>. Me knows him not, to B friends, with mercy, an I b fear'n, ye b stroll'n the plank, with sharks wait'n, ye arrival. 
 Best mind, ye angry ways.=Saying you are scared;
 
 Crew=Beginner=
-Arrr, I beseech ye crew. Say we b down the gangplank, an b find'n, a mighty tavern, for grog and grub? 
+Arrr, I beseech ye <b>crew</b>. Say we b down the gangplank, an b find'n, a mighty tavern, for grog and grub? 
 What ye, b say'n?=All the working people on a ship;
 
-Na=Beginner=Ye say mutiny, b the only answer, but I b say'n na!=Another word for no   Hard sounding "a";
+Na=Beginner=Ye say mutiny, b the only answer, but I b say'n <b>na</b>!=Another word for no   Hard sounding "a";
 
-Tack=Medium=Tack to port, bring her round, an steady'er rudder, till we dock. Then we b bound'n, for all the rum, we b hold'n.=To turn a ship;
+Tack=Medium=<b>Tack</b> to port, bring her round, an steady'er rudder, till we dock. Then we b bound'n, for all the rum, we b hold'n.=To turn a ship;
 
 Devil=Medium=
-Avast!  Me hear from dar 1st mate's ol crew, that he b, a brutal devil. Beware ye ways.  I b warn'n ye.=Evil description of another;
+Avast!  Me hear from dar 1st mate's ol crew, that he b, a brutal <b>devil</b>. Beware ye ways.  I b warn'n ye.=Evil description of another;
 
-Hoist=Medium=Avast mates! When the wind b fill'n the main sails, ye bone headed scoundrels, hoist the jibs, an we B tack'n, at full speed, to starboard.   Arr, she b a find sea fair'n day.=To lift up;
+Hoist=Medium=Avast mates! When the wind b fill'n the main sails, ye bone headed scoundrels, <b>hoist</b> the jibs, an we B tack'n, at full speed, to starboard.   Arr, she b a find sea fair'n day.=To lift up;
 
 Lay'n=Medium=
-Yarr, we B lay'n plans, when me make shore, 
+Yarr, we b <b>lay'n</b> plans, when me make shore, 
 to plunder the rum abodes. Me hears there b, more taverns, than we have doubloons!  I say we b find'n out, that b true, or, if it B an ol sea dog's tale!=Planning;
 
-I Bid Ye Good Fortune=Starting=Arrr, it was an adventure, to sail with ye Ol Sea Salt. Now that we b part'n, I bid ye good fortune.=Good luck in your future;
+I Bid Ye Good Fortune=Starting=Arrr, it was an adventure, to sail with ye Ol Sea Salt. Now that we b part'n, <b>I bid ye good fortune</b>.=Good luck in your future;
 
 I Swear's On Me Wench's Hairy Chest=Naughty=
-Arrr mates!  I sees with me own eyes, Black Eye Jack, down a quart a rum. I swear's, on me wench's 
-hairy chest, it B true.=Affirmation of the truth of a statement;
+Arrr mates!  I sees with me own eyes, Black Eye Jack, down a quart a rum. <b>I swear's, on me wench's 
+hairy chest</b>, it b true.=Affirmation of the truth of a statement;
 
-Tavern Keeper=Difficult=The murder'n, tavern keeper, he had two muskets. He brung the brawl, to a stand-down, befor me crew could draw their sabers and run them through.=The operator, boss, or owner of a bar;
+Tavern Keeper=Difficult=The murder'n, <b>tavern keeper</b>, he had two muskets. He brung the brawl, to a stand-down, befor me crew could draw their sabers and run them through.=The operator, boss, or owner of a bar;
 
-He B Of Right Metal=Difficult=1st Mate, he come from fine breed'n, he B of right metal. We best b share'n much clap of thunder, and fine grub, with him. Them words, come off, a dead man's chest!=A person of high character;
+He B Of Right Metal=Difficult=1st Mate, he come from fine breed'n, <b>he b of right metal</b>. We best b share'n much clap of thunder, and fine grub, with him. Them words, come off, a dead man's chest!=A person of high character;
 
 Banish=Difficult=
-Cap'n's orders, let anchor. We banish the jetsam from below, an, scrub the decks before we go ashore. Then we B free to plunder, the land lubers!=To send away;
+Cap'n's orders, let anchor. We <b>banish</b> the jetsam from below, an, scrub the decks before we go ashore. Then we b free to plunder, the land lubers!=To send away;
 
 Villains=Medium=
 Dar flea infested crew, of the Mary Beth, 
-b a pack, of villains. Ye best not b wind'ard, 
+b a pack, of <b>villains</b>. Ye best not b wind'ard, 
 da stench, she B mighty!=Two or more individuals of despicable reputations;
 
 Quarters=Difficult=
-Tis 12 bells.  I beg ye give me leave. Me belly b abound'n with rum. I soon b lose'n me sea legs, an if me not shove off, to me quarters, I B wake'n on the docks.=A living area;
+Tis 12 bells.  I beg ye give me leave. Me belly b abound'n with rum. I soon b lose'n me sea legs, an if me not shove off, to me <b>quarters</b>, I b wake'n on the docks.=A living area;
 
-Dares=Medium=Ye yellow bellied scoundrel, I sees ye hand on ye saber. I dares ye draw it, for ye mates soon 
+Dares=Medium=Ye yellow bellied scoundrel, I sees ye hand on ye saber. I <b>dares</b> ye draw it, for ye mates soon 
 b hoist'n ye guts, off the deck!=Offering a challenge;
 
 Duty=Medium=Mateys! No more grog for me. Me must abandon ye sorry pole cats.  I b abid'n ye, fair well.  
-Me one legged ol wench B expect'n me duty. Harrr!=Responsibility;
+Me one legged ol wench B expect'n me <b>duty</b>. Harrr!=Responsibility;
 
 At Ye Service=Starting=
-Mor'n me lady, counts me b at ye service. Seldom, a pretty young lass, as ye, pass's me bow. May I b so bold to ask, how B ye fleas?=Willing to help the one being addressed;
+Mor'n me lady, counts me b <b>at ye service</b>. Seldom, a pretty young lass, as ye, pass's me bow. May I b so bold to ask, how B ye fleas?=Willing to help the one being addressed;
 
 Ye B Welcome=Starting=
-Yo Ho there, ye villainous ruffians, come aboard an meet's me shipmates. Ye B welcome to down our rum!=A welcoming expression;
+Yo Ho there, ye villainous ruffians, come aboard an meet's me shipmates. <b>Ye b welcome</b> to down our rum!=A welcoming expression;
 
 Bid Ye Good Day=Starting=
-Good to lay me eyes, on ye Squire, bid ye good day. Blow me down, an I b beg'n ye pardon, in say'n, me b sorrowful, ye home wench, b such a barracuda!=A warm greeting;
+Good to lay me eyes, on ye Squire, <b>bid ye good day</b>. Blow me down, an I b beg'n ye pardon, in say'n, me b sorrowful, ye home wench, b such a barracuda!=A warm greeting;
 
 Come Aboard=Beginner=
-Ahoy! Take ye the gangplank, an come aboard.  B a messmate, ye mighty dafted bone head.  
+Ahoy! Take ye the gangplank, an <b>come aboard</b>.  B a messmate, ye mighty dafted bone head.  
 Speak me of ye self!=To come onto a ship;
 
-Whence Come Ye=Starting=Me weary ol eyes, b glad to b see'n ye.  It b many ports since I bid ye farewell. Whence come ye?=Where have you been?;
+Whence Come Ye=Starting=Me weary ol eyes, b glad to b see'n ye.  It b many ports since I bid ye farewell. <b>Whence come ye</b>?=Where have you been?;
 
 How Fares Ye Day?=Starting=
 Arrr, ye lice burden'd, ol scurvy Sea Dog! 
-How fares ye day?=How has your day been?;
+<b>How fares ye day</b>?=How has your day been?;
 
 How Ye Wind B?=Starting=
 Ahoy there Boson. Me miss b'n on ye crew. 
-How b ye wind?=How are circumstances going for you?;
+<b>How b ye wind</b>?=How are circumstances going for you?;
 
 I Take My Leave Of You=Starting=
-Harrr, ye old stink'n wet curs, me wench has her spyglass, out for me,  I take my leave of you. 
+Harrr, ye old stink'n wet curs, me wench has her spyglass, out for me,  <b>I take my leave of you</b>. 
 Clear sail'n to all, so say's me!=I have to leave.;
 
 Govrn'r=Beginner=
-Aye Aye,  Govn'r! Me mates, an me, b take'n 
+Aye Aye,  <b>Govn'r</b>! Me mates, an me, b take'n 
 ye cargo, to dar ship, an, secure'n it soundly, in the hold.=A general name of respect for one in authority;
 
 Until Our Wakes Cross Again=Difficult=Avast, ye crusty ol, barnacle layd'n, ship mates.  
-Me b bid'n ye, adieu, until our wakes cross again!=Until we meet again;
+Me b bid'n ye, adieu, <b>until our wakes cross again</b>!=Until we meet again;
 
 Mister=Complex=
-Mister, dar Cap'n invites ye to his cabin, so, b come'n a board.  Make way ye swabs, for the Cap'n's guest!=Respect like Mr. with the weight on the ter;
+<b>Mister</b>, dar Cap'n invites ye to his cabin, so, b come'n a board.  Make way ye swabs, for the Cap'n's guest!=Respect like Mr. with the weight on the ter;
 
-Cut-throat=Difficult=That crazed pirate at the bar, with the sea beat'n coat, his belly b bloated with spice the mainbrace. He soon b a cut-throat. I b tell'n ye, get clear, set sail, before ye see
+Cut-throat=Difficult=That crazed pirate at the bar, with the sea beat'n coat, his belly b bloated with spice the mainbrace. He soon b a <b>cut-throat</b>. I b tell'n ye, get clear, set sail, before ye see
  ye blood, spilt on the deck.=A dangerous person;
  
 Speak Me Of Yourself=Difficult=
 Ahoy, ye ol Salt-O'-Salt.  B'n many voyages, an, much plunder'n, since my eyes b laid upon ye. 
-Speak me of yourself?=Tell me about yourself.;
+<b>Speak me of yourself</b>?=Tell me about yourself.;
 
 What Might Ye Call Ye self=Difficult=
 Arrr, ye scrap'n mangy ol Sea Dog.  
-Me wants to know, what might ye call ye self?=What is your name?;
+Me wants to know, <b>what might ye call ye self</b>?=What is your name?;
 
 I B Ye Humble Servant=Starting=
-Aye Aye goven'r, ask as ye will, I b ye humble servant. There b no doubt, ye b a far better man, than me ever seen before. Now, pardon me kind sir, as I take me leave.=I am ready to help.;
+Aye Aye goven'r, ask as ye will, <b>I b ye humble servant</b>. There b no doubt, ye b a far better man, than me ever seen before. Now, pardon me kind sir, as I take me leave.=I am ready to help.;
 
 Forebod'n=Medium=
-Me mates, when we b come'n about, the Man-O-War, da Mary Jane, we move on her.  They b own'n a mighty forebod'n, like, a death bearing sea fog, 
+Me mates, when we b come'n about, the Man-O-War, da Mary Jane, we move on her.  They b own'n a mighty <b>forebod'n</b>, like, a death bearing sea fog, 
 as God b me witness!=A feeling that something bad is going to happen;
 
 Helmsman=Medium=
-Helmsman b a mighty sea dog.  Yesterday night, he weathered ice and sleet for 6 bells. No one b able to see us through that storm of a 40 fathom sea. B he alone, 
+<b>Helmsman</b> b a mighty sea dog.  Yesterday night, he weathered ice and sleet for 6 bells. No one b able to see us through that storm of a 40 fathom sea. B he alone, 
 to bring us to port, say's I!=Crew member who steers the ship;
 
 Quartermaster=Complex=
-I says there, quartermaster, the rum barrel b at low tide, should she go empty, mark me words, there'l B mutiny!=An officer responsible for supplies;
+I says there, <b>quartermaster</b>, the rum barrel b at low tide, should she go empty, mark me words, there'l B mutiny!=An officer responsible for supplies;
 
-Bold Adventures=Medium=Billy thar, B the boson.  Bold adventures, b, 
+Bold Adventures=Medium=Billy thar, b the boson.  <b>Bold adventures</b>, b, 
 between his ears. Mighty stories abound, from his blow hole, about much plunder'n, an, wayward wenches. Hard believ'n, he once b'n a mutter's boy.=Doing great things;
 
-Shipmates=Medium=Ahoy! Buccaneer. Me afeared, Gov'nr had ye in irons. Come aboard, an join me shipmates.  
+Shipmates=Medium=Ahoy! Buccaneer. Me afeared, Gov'nr had ye in irons. Come aboard, an join me <b>shipmates</b>.  
 We all b ears, bout ye, swashbuckle'n ways.=The crew;
 
 Stand Down=Difficult=
 Dem boney wenches, with the lack'n treasure chests, ain't b worth bloodshed. I orders ye, to 
-stand down, ye blood sucking leeches!=Back off;
+<b>stand down</b>, ye blood sucking leeches!=Back off;
 
-No Mistaken=Difficult=No mistaken, Two Toe'd Jack, b quite the scallywag! He tells sea tales, to the pups, an, when he b done, they put their tongues, back in their mouths, an say, "that b a good'n!"=Affirmation of accuracy regarding a statement;
+No Mistaken=Difficult=<b>No mistaken</b>, Two Toe'd Jack, b quite the scallywag! He tells sea tales, to the pups, an, when he b done, they put their tongues, back in their mouths, an say, "that b a good'n!"=Affirmation of accuracy regarding a statement;
 
 Hark Ye Now=Starting=
-Hark ye now me pretty lass. Fetch me a bottle of rum. Me mates B dry, from a far voyage. Now b gone with ye!=A summons to get attention from another;
+<b>Hark ye now</b> me pretty lass. Fetch me a bottle of rum. Me mates b dry, from a far voyage. Now b gone with ye!=A summons to get attention from another;
 
 If Ye Ask Me=Medium=
-She seems to b, a lady of fine breed'n. If ye ask me.
+She seems to b, a lady of fine breed'n. <b>If ye ask me</b>.
 I beg's to differ. Behinds y back, she b a wretched witch, 
 who's words, b daggers!=Lending strength to a statement;
 
 Shackles=Medium=
-He b a thiev'n, an, murder'n scoundrel. Surely, the cat of 9 tails b in his future.  Me fears if da ship go down, no mates desires, to find the keys, to his shackles.=Heavy duty handcuffs with a chain fixed to the wall;
+He b a thiev'n, an, murder'n scoundrel. Surely, the cat of 9 tails b in his future.  Me fears if da ship go down, no mates desires, to find the keys, to his <b>shackles</b>.=Heavy duty handcuffs with a chain fixed to the wall;
 
 Alack=Difficult=
-His ol hen b wait'n on shore.  B up to me to tell'er, Alack he b dead. Me rolled his carcass, into the sea locker, with me own hands. He b a man among men, in defend'n his ship mates, with the flash of his sword. Whether they b right or wrong, not matter to him!=Remorse, sadness, regret;
+His ol hen b wait'n on shore.  B up to me to tell'er, <b>Alack</b> he b dead. Me rolled his carcass, into the sea locker, with me own hands. He b a man among men, in defend'n his ship mates, with the flash of his sword. Whether they b right or wrong, not matter to him!=Remorse, sadness, regret;
 
 Alas=Difficult=
-Alas, me belly has no more room for rum, but harr, 
+<b>Alas</b>, me belly has no more room for rum, but harr, 
 there B time to throw da bones.=Concern    regret;
 
 All Told=Beginner=
-All told, we still have time, before our sea legs b swagger'n.  B'n  ol salts, I b wager'n, the wenches 
+<b>All told</b>, we still have time, before our sea legs b swagger'n.  B'n  ol salts, I b wager'n, the wenches 
 b pick'n our pockets, so we best b ship bound now.=The entire total;
 
 So B It=Beginner=
-The Cap'n says at dawn, me walk the plank. So B it. He b doing, his duty. Me forbod'n, b'n, shark food.=Resignation   Matter of fact;
+The Cap'n says at dawn, me walk the plank. <b>So b it</b>. He b doing, his duty. Me forbod'n, b'n, shark food.=Resignation   Matter of fact;
 
 B Done With It=Beginner=
-If flog'n, by da cat of 9 tails, b da price, for me fool's ways, then, we B done with it!=It's final.;
+If flog'n, by da cat of 9 tails, b da price, for me fool's ways, then, <b>we b done with it</b>!=It's final.;
 
 No Bones About It=Beginner=
-Me sees with me own eyes, he did wager, full years script on one throw of the bones.  Blow me down! They come up 7s, No bones about it.=Absolutely certain;
+Me sees with me own eyes, he did wager, full years script on one throw of the bones.  Blow me down! They come up 7s, <b>No bones about it</b>.=Absolutely certain;
 
 A Small Wonder=Beginner=
-Ahoy ye bone headed, loose tongued, scrapper. A small wonder, ye still b alive! What b ye evil ways?=Emphasizes something remarkable;
+Ahoy ye bone headed, loose tongued, scrapper. <b>A small wonder</b>, ye still b alive! What b ye evil ways?=Emphasizes something remarkable;
 
 Give Me Leave=Beginner=
-Give me leave, to say, dar wench by da bar, b so ugly she favor'n an ol possum with rouge. Me b think'n it b 6 months at sea, and me glass eye make'n her a beauty. What ye say?=Give me permission;
+<b>Give me leave</b>, to say, dar wench by da bar, b so ugly she favor'n an ol possum with rouge. Me b think'n it b 6 months at sea, and me glass eye make'n her a beauty. What ye say?=Give me permission;
 
 Fetch=Beginner=
-Avast, ye empty headed, lazy, Jim Lad, fetch me, me bottle o rum, or I make ye fish bait.  Now, b on ye way!=Go get;
+Avast, ye empty headed, lazy, Jim Lad, <b>fetch</b> me, me bottle o rum, or I make ye fish bait.  Now, b on ye way!=Go get;
 
 I B Wager'n=Beginner=
-I b wager'n, the Cap'n'l throw, Gray Beard Jim, in dar hold, for 30 days. He b a sullen soul, with a loose salty mouth, that b his undo'n.=Willing to bet upon what I am saying;
+<b>I b wager'n</b>, the Cap'n'l throw, Gray Beard Jim, in dar hold, for 30 days. He b a sullen soul, with a loose salty mouth, that b his undo'n.=Willing to bet upon what I am saying;
  
 If I B So Bold=Beginner=
-If I B so bold, Gov'nr, I B tell'n ye, me hears, she have mighty warts about her saddle, an, barnacles on her hull, abound. I b hanged, if I b lying.=If you will let me say something outrageous;
+<b>If I B so bold</b>, Gov'nr, I B tell'n ye, me hears, she have mighty warts about her saddle, an, barnacles on her hull, abound. I b hanged, if I b lying.=If you will let me say something outrageous;
 
 Mark Me Words=Beginner=
-Tell the boatswain, to order, full sails an jibs. 1st Mate, set the crew, as we come about, to board da cutter. We b have'n, their gizzards for dinner. Mark me words!=Remember what I am saying will B proven true.;
+Tell the boatswain, to order, full sails an jibs. 1st Mate, set the crew, as we come about, to board da cutter. We b have'n, their gizzards for dinner. <b>Mark me</b> words!=Remember what I am saying will B proven true.;
 
-Me Thinks=Beginner=Da wench dare, B vicious,me thinks. I seen her once, slip, ever so easily, her dagger, under dar ribs of an ol mate, cause he not take her please'n places.=I'm not sure, but I think so.;
+Me Thinks=Beginner=Da wench dare, B vicious, <b>me thinks</b>. I seen her once, slip, ever so easily, her dagger, under dar ribs of an ol mate, cause he not take her please'n places.=I'm not sure, but I think so.;
 
 Ye B Have'n Me Balls For Dinner=Naughty=
-If I b lie'n, ye b have'n me balls for dinner.=Additional testament of a statement;
+If I b lie'n, <b>ye b have'n me balls for dinner</b>.=Additional testament of a statement;
 
 Clap On Sail=Complex=
-Clap on sail, mateys. The crew is pull'n the gangplank. We b leave'n port, for high seas, an mighty adventures. Much, plunder, b ours. On return we b kings in port. 
+<b>Clap on sail</b>, mateys. The crew is pull'n the gangplank. We b leave'n port, for high seas, an mighty adventures. Much, plunder, b ours. On return we b kings in port. 
 So, now, we b on our way!=Get going faster;
 
-Move Lively=Beginner=Ye lazy swabs, storm a come'n, move lively now, heave the sails or we all B visit'n Davie Jones' Locker.=Move more quickly;
+Move Lively=Beginner=Ye lazy swabs, storm a come'n, <b>move lively</b> now, heave the sails or we all B visit'n Davie Jones' Locker.=Move more quickly;
 
-Away With Ye=Beginner=B'n good hear'n ye words. Now heave ye anchor, an we b set'n sail, handsomely. Me have wait'n, a find feathered dame, with lacy wears, an red lips, eager to whisper her long'n's. Now away with ye, to fetch dar anchor.=Dismissing a person;
+Away With Ye=Beginner=B'n good hear'n ye words. Now heave ye anchor, an we b set'n sail, handsomely. Me have wait'n, a find feathered dame, with lacy wears, an red lips, eager to whisper her long'n's. Now <b>away with ye</b>, to fetch dar anchor.=Dismissing a person;
 
 Hatch=Medium=
-Batt'n down da hatches, let sails to half-mast, an, tighten dar rig'n. The ship, she brace'n, to keep an even keel, though da gale sends mighty swells. 
+Batt'n down da <b>hatches</b>, let sails to half-mast, an, tighten dar rig'n. The ship, she brace'n, to keep an even keel, though da gale sends mighty swells. 
 Best B prepar'n, for the worst, mates.=An opening to the inside of the ship;
 
 B Quick About It=Beginner=
-Ahoy, one more grog, me fine tavern maid, an, B quick about it. Me not keep'n pace, with me hearty flea infested curs. They all, b, have'n a hollow peg leg!=Hurry up;
+Ahoy, one more grog, me fine tavern maid, an, <b>b quick about it</b>. Me not keep'n pace, with me hearty flea infested curs. They all, b, have'n a hollow peg leg!=Hurry up;
 
 Cackle=Medium=
-Dar ol cook's maid, never ends her cackle. It b, so shrill, me, no b hold'n, me biscuits down. So say I, mates.=The noise a hen makes when excite;
+Dar ol cook's maid, never ends her <b>cackle</b>. It b, so shrill, me, no b hold'n, me biscuits down. So say I, mates.=The noise a hen makes when excite;
 
-Bide=Medium=An officer, me want'n to b. Cap'n, says, "Bide ye time, work hard, an with ye, clever mind, ye'l soon b raised up."=Wait;
+Bide=Medium=An officer, me want'n to b. Cap'n, says, "<b>Bide</b> ye time, work hard, an with ye, clever mind, ye'l soon b raised up."=Wait;
 
 Easy There=Beginner=
-I got, a one legged, half minded, ol wench, an 4 wee rats at home port, b starve'n, if ye b make'n me a God forsaken corpse. Put down dar musket, easy there, on that trigger an let's call'r a day.=Don't B in a hurry. Think about what you are doing.;
+I got, a one legged, half minded, ol wench, an 4 wee rats at home port, b starve'n, if ye b make'n me a God forsaken corpse. Put down dar musket, <b>easy there</b>, on that trigger an let's call'r a day.=Don't B in a hurry. Think about what you are doing.;
 
 Cabin=Medium=
-Pup, b ye scurry'n, this mighty plate of grub, an, a new bottle o' rum, for da Cap'n's dinner. He b wait'n, in his cabin. Watch ye step, ye spill his dinner, 
+Pup, b ye scurry'n, this mighty plate of grub, an, a new bottle o' rum, for da Cap'n's dinner. He b wait'n, in his <b>cabin</b>. Watch ye step, ye spill his dinner, 
 he fling'n ye, to the wait'n sharks!=An officer's bedroom;
 
 Windward=Difficult=
-Ye best not b wind'ard, behind ol One 
+Ye best not b <b>wind'ard</b>, behind ol One 
 Eyed Jack. He smells like a sun swollen dead pole cat, Me hears, he b so stout, his fleas, abandon ship.=Into the wind;
 
 Aloft=Difficult=
-Ye worthless, rig'n rats, scurry aloft, an, trim dim sails, when we tack win'ard. If ye ask me, ye best not b laze'n, or 1st mate, B order'n ye flogged at sunrise, to B sure!=Up or go up;
+Ye worthless, rig'n rats, scurry <b>aloft</b>, an, trim dim sails, when we tack win'ard. If ye ask me, ye best not b laze'n, or 1st mate, B order'n ye flogged at sunrise, to B sure!=Up or go up;
 
 Hold Ye Clack=Medium=
-Lis'n up, ye scalawags, hold ye clack, me's something to say. Cap'n says, morrow, we make landfall. The treasure b just ahead. Then it b off to port, to waste our lucre!=Stop talking;
+Lis'n up, ye scalawags, <b>hold ye clack</b>, me's something to say. Cap'n says, morrow, we make landfall. The treasure b just ahead. Then it b off to port, to waste our lucre!=Stop talking;
 
 Keep Ye Tongue Behind Ye Teeth=Medium=Give me leave in say'n, ye vast, an foul words, b deliver'n ye, square away, to a mighty flog'n, if ye don't 
-keep ye tongue behind ye teeth.=Stop talking;
+<b>keep ye tongue behind ye teeth</b>.=Stop talking;
 
-Square Away=Difficult=Helmsman sir, me beg's ya pardon, square her away, an let's b making time. 
+Square Away=Difficult=Helmsman sir, me beg's ya pardon, <b>square her away</b>, an let's b making time. 
 Port, grogs, an lonely wenches, b wait'n!=Bring full into the wind;
 
 Stands By Till She Comes About=Difficult=
-Me glass eye b astray. Where b da lady bartender? Best we, stands by, till she come about, then we give her our order.=Waiting for something to happen;
+Me glass eye b astray. Where b da lady bartender? Best we, <b>stands by, till she come about</b>, then we give her our order.=Waiting for something to happen;
 
-Steady=Beginner=Steady mates, holds your fire, til, we come about an ready to board. Hold's ye knives, in ye teeth, till time for bloodletting, ye blood thirsty curs!=Wait;
+Steady=Beginner=<b>Steady</b> mates, holds your fire, til, we come about an ready to board. Hold's ye knives, in ye teeth, till time for bloodletting, ye blood thirsty curs!=Wait;
 
 Step Up=Beginner=
-I says, ye scurvy bunch of scalawags, let's step up, for another round of rum. Then we b at rope's end, hoist anchor, an set sail, to another tavern, 
+I says, ye scurvy bunch of scalawags, let's <b>step up</b>, for another round of rum. Then we b at rope's end, hoist anchor, an set sail, to another tavern, 
 where the wenches, ease our dead lights!=Move to;
 
-Weigh Anchor=Medium=Mr. Jones, dar 1st mate, says, "Hoist dar Jolly Boat and all crew b present,  weigh anchor, move lively, at raise'n full sails, an, we b mightly abound!=Lift the anchor;
+Weigh Anchor=Medium=Mr. Jones, dar 1st mate, says, "Hoist dar Jolly Boat and all crew b present,  <b>weigh anchor</b>, move lively, at raise'n full sails, an, we b mightly abound!=Lift the anchor;
 
-Cock Ye Piece=Difficult=We b bring'n her, about the aft, to her port. Cock ye pieces, an, ready ye daggers. We b let'n blood sooner, than the tavern wenches, b take's our doubloons!=Pull the hammer back on your musket.;
+Cock Ye Piece=Difficult=We b bring'n her, about the aft, to her port. <b>Cock ye pieces</b>, an, ready ye daggers. We b let'n blood sooner, than the tavern wenches, b take's our doubloons!=Pull the hammer back on your musket.;
 
 Dead Man's Chest=Beginner=
-Me mates, man'd da deck and trim'd da sails all night follow'n a full day's hard sail, Skipper. They B mighty tired. I sware's on a dead man's chest!=Giving strength to a statement;
+Me mates, man'd da deck and trim'd da sails all night follow'n a full day's hard sail, Skipper. They B mighty tired. I sware's on a <b>dead man's chest</b>!=Giving strength to a statement;
 
-Shove Off=Medium=Arrr, me shipmates!  Time's we shove off. I dare's say, we bound'n for mighty seas, an, treacherous uncharted shores. We not all B return'n, an, I already b miss'n ye.  
+Shove Off=Medium=Arrr, me shipmates!  Time's we <b>shove off</b>. I dare's say, we bound'n for mighty seas, an, treacherous uncharted shores. We not all B return'n, an, I already b miss'n ye.  
 Harrr, harr!=To leave    To push a ship off from a dock;
 
-All Hands Make Sail=Complex=Hear ye! We b out, da harbor, an, wind's B favor'n,
-all hands make sail. I dare say, it b a beauty, 
+All Hands Make Sail=Complex=Hear ye! We b out, da harbor, an, wind's B favor'n, 
+<b>all hands make sail</b>. I dare say, it b a beauty, 
 of a seafar'n day!=All the crew is to let the sails down;
 
-I B Carv'n Ye Gizzard=Difficult=Stand's away, ye fright-full braggard weasel, or I b carv'n ye gizzard, ta feed it to, me toothless cur.=A flamboyant threat;
+I B Carv'n Ye Gizzard=Difficult=Stand's away, ye fright-full braggard weasel, or <b>I b carv'n ye gizzard</b>, ta feed it to, me toothless cur.=A flamboyant threat;
 
-Bow=Medium=Ye tells me, that bound'n adventure again, straight from the bow. Alas, me dare say, it b a mighty good tale!=The front end of a ship. The front;
+Bow=Medium=Ye tells me, that bound'n adventure again, straight from the <b>bow</b>. Alas, me dare say, it b a mighty good tale!=The front end of a ship. The front;
 
 I'll Eat Ye Liver Fur Dinner=Difficult=
 Ye know how he b, when he have crew behind him. He b make'n fun of me wench. I pulled me musket, looked him, hard in the eye, an said, stand down or 
-I'll eat ye liver fur dinner.=A threat;
+<b>I'll eat ye liver</b> fur dinner.=A threat;
 
-Ask'n Ye Pardin=Starting=Ask'n ye pardin, me little tart lass.  B bring'n me a leg a lamb, an gallon of ale!  Me b'n sail'n the Cape Horn, with only, sour'd water and porridge,
+Ask'n Ye Pardin=Starting=<b>Ask'n ye pardin</b>, me little tart lass.  B bring'n me a leg a lamb, an gallon of ale!  Me b'n sail'n the Cape Horn, with only, sour'd water and porridge,
 dat dar cockroaches refused to eat!=A filler phrase to get attention;
 
 I'll B Hanged=Difficult=
-That b quite a story, young bosun, but, I'll B hanged,
+That b quite a story, young bosun, but, <b>I'll b hanged</b>,
 if I b believ'n it.=Added to make another statement stronger;
 
-Plague=Complex=I b telling ye mates, when I laid eyes upon her, she b a pretty lass, an, seemed clear between her ears, but somewhere deep inside, was a mad, an rabid pole cat, claw'n to get out. Me thoughts she had the plague, but it just B the time.=A deadly disease killing masses of people;
+Plague=Complex=I b telling ye mates, when I laid eyes upon her, she b a pretty lass, an, seemed clear between her ears, but somewhere deep inside, was a mad, an rabid pole cat, claw'n to get out. Me thoughts she had the <b>plague</b>, but it just B the time.=A deadly disease killing masses of people;
 
 Cockroach=Medium=
-Ye bilge sucking scoundrel, ain't ye know'n ye vile soaked words, only b getting ye cockroaches, for friends?=A bug associate with filth and disease;
+Ye bilge sucking scoundrel, ain't ye know'n ye vile soaked words, only b getting ye <b>cockroaches</b>, for friends?=A bug associate with filth and disease;
 
 Bile Laid'n=Beginner=
-Whence come ye, me bile laid'n, ol flea infested scum? Me not laid me eyes on ye, since Blackie walked the plank.=Nasty fluid vomited from an empty stomach;
+Whence come ye, me <b>bile laid'n</b>, ol flea infested scum? Me not laid me eyes on ye, since Blackie walked the plank.=Nasty fluid vomited from an empty stomach;
 
-Bone Headed=Beginner=Ye know, he b  bone headed, an, stubborn as a block'n tackle. There b no doubt about it, ye lassie B a sleek schooner, but she b say'n her daggerdly words, 
+Bone Headed=Beginner=Ye know, he b  <b>bone headed</b>, an, stubborn as a block'n tackle. There b no doubt about it, ye lassie B a sleek schooner, but she b say'n her daggerdly words, 
 to strike ye short fuse.=A head of mostly bone and very little brains;
 
-B Gone=Starting=It b late mates, one more grog, an we b gone, yarr? I b want'n fair winds to the ship, cause I b lose'n me sea legs.=To leave;
+B Gone=Starting=It b late mates, one more grog, an we <b>b gone</b>, yarr? I b want'n fair winds to the ship, cause I b lose'n me sea legs.=To leave;
 
 Dung=Medium=
-Ahoy, ye lowly sea urchin! I hears ye thiev'n, ye mother's pension for rum, an roll'n dung, with ye nose!  
+Ahoy, ye lowly sea urchin! I hears ye thiev'n, ye mother's pension for rum, an roll'n <b>dung</b>, with ye nose!  
 So what say ye?=Poop;
 
 Fine Feathered=Medium=
-Limey! The Govn'r's lass, b a fine feathered beauty, but I hears, she has lice, the size of doubloons, 
+Limey! The Govn'r's lass, b a <b>fine feathered</b> beauty, but I hears, she has lice, the size of doubloons, 
 that stays well hidden.=Fine clothing;
 
-Fish Bait=Medium=The wench, she b have'n a sleek hull, an, bow and aft, b abound'n, but she b boneheaded, an her clack, b, never end'n. She hardly b fit, for fish bait.=Food for the fish;
+Fish Bait=Medium=The wench, she b have'n a sleek hull, an, bow and aft, b abound'n, but she b boneheaded, an her clack, b, never end'n. She hardly b fit, for <b>fish bait</b>.=Food for the fish;
 
 God Forsaken=Difficult=
-Ye God forsaken words of treachery, makes me blood run cold. Neither Cap'n, nor 1st Mate, have no mercy. They hear's ye words, they b scuttle'n ye innards overboard 
+Ye <b>God forsaken</b> words of treachery, makes me blood run cold. Neither Cap'n, nor 1st Mate, have no mercy. They hear's ye words, they b scuttle'n ye innards overboard 
 an making ye watch the fishes boil.=Derelict    A nasty place or person;
 
-Ol Hen=Beginner=Glad me 30 days leave B over. I b'n in the brig with me ol hen. Her vile cackle never b end'n. I b yearn'n, for the high seas, foreign ports, and abound'n plunder'n.=Old woman;
+Ol Hen=Beginner=Glad me 30 days leave B over. I b'n in the brig with me <b>ol hen</b>. Her vile cackle never b end'n. I b yearn'n, for the high seas, foreign ports, and abound'n plunder'n.=Old woman;
 
 Spineless=Medium=
-First musket fired, he b shake'n with fear, an did head for da hold. He b a spineless mouse!=A coward;
+First musket fired, he b shake'n with fear, an did head for da hold. He b a <b>spineless</b> mouse!=A coward;
 
-Villain=Difficult=Ye best keep's, a close eye on young Blackie there, he b a true villain!  Me hears he thieve, the doubloons, 
+Villain=Difficult=Ye best keep's, a close eye on young Blackie there, he b a true <b>villain</b>!  Me hears he thieve, the doubloons, 
 off his dead mother's eyes. God rest her soul. 
 He give her, a mighty burden.=A person who does evil things;
 
-Arse Hole=Naughty=She preten'th to B sweet, an lovely, but aft that pretty face, B a true arse hole. Best not trust her words, 
+Arse Hole=Naughty=She preten'th to B sweet, an lovely, but aft that pretty face, B a true <b>arse hole</b>. Best not trust her words, 
 she b, a villainous tripe!=Ass hole;
 
 Barracuda=Medium=
-Hear me words. B ye not find'n ye-self, on the wrong side of Cap'n's pleasure.  He can B a loathsome barracuda, an, a generous man, with the cat-o-9 tails!=A very aggressive teeth laden fish;
+Hear me words. B ye not find'n ye-self, on the wrong side of Cap'n's pleasure.  He can B a loathsome <b>barracuda</b>, an, a generous man, with the cat-o-9 tails!=A very aggressive teeth laden fish;
 
-I Beg To Differ=Starting=So ye say, that Digger Smith should b dar new Quarter Master. I begs to differ.  Willie b with the crew longer and he b brave when deal'n with the 1st Mate.=I don't agree.;
+I Beg To Differ=Starting=So ye say, that Digger Smith should b dar new Quarter Master. <b>I begs to differ</b>.  Willie b with the crew longer and he b brave when deal'n with the 1st Mate.=I don't agree.;
 
-In A Pig's Eye=Difficult=Ye b think'n, me b go'n in with ye lily livered dogs, to split the booty equally? In a pig's eye! Ye scurvy 
+In A Pig's Eye=Difficult=Ye b think'n, me b go'n in with ye lily livered dogs, to split the booty equally? <b>In a pig's eye</b>! Ye scurvy 
 scallywags just got bone between ye ears.  I b dar brains here, an, future bounty depends on me.  Now what say ye?=No;
 
-Daft=Beginner=Don't B ask'n Jimmy, he B daft. He mother and father were cousins, an both b addled. All his brothers and sisters B idiots.  I hears he B shot in the head, an the ball bounced around, with noth'n to slow it down!=Dumb;
+Daft=Beginner=Don't b ask'n Jimmy, he b <b>daft</b>. He mother and father were cousins, an both b addled. All his brothers and sisters b idiots.  I hears he b shot in the head, an the ball bounced around, with noth'n to slow it down!=Dumb;
 
-Crow=Difficult=Ahoy ye dung roll'n crafty ol crow! How b ye thiev'n?=Wily thief;
+Crow=Difficult=Ahoy ye dung roll'n crafty ol <b>crow</b>! How b ye thiev'n?=Wily thief;
 
 What B Ye Poison?=Medium=
-Blow me down! I b buy'n this round of grog. Let's b fill'n our bellies, an, cackle like ol crows. What b ye poison?=What kind of drink or food do you want?;
+Blow me down! I b buy'n this round of grog. Let's b fill'n our bellies, an, cackle like ol crows. <b>What b ye poison</b>?=What kind of drink or food do you want?;
 
-Seafar'n Man=Medium=That sharp tongued tavern owner, when he b young, he were a mighty seafar'n man. So, he b understand'n us swabs, make'n shore after months of only cockroaches for company, an, b'n lonely for rum.=Sailor;
+Seafar'n Man=Medium=That sharp tongued tavern owner, when he b young, he were a mighty <b>seafar'n</b> man. So, he b understand'n us swabs, make'n shore after months of only cockroaches for company, an, b'n lonely for rum.=Sailor;
 
-Quartermaster=Complex=Ye b ask'n me, I see's it best, to plead to da quartermaster,
+Quartermaster=Complex=Ye b ask'n me, I see's it best, to plead to da <b>quartermaster</b>,
 to beseech the Cap'n, or, I b fear'n, ye finds ye self, 
 in da brig, wear'n shackles, till we make port.=A top crew member who deals with the officer
 on behalf of the crew;
 
-Steersman=Difficult=Ye b a mighty young sprog, but I b wager'n, with hard work, that ye b right, in think'n ye can b steersman. 
+Steersman=Difficult=Ye b a mighty young sprog, but I b wager'n, with hard work, that ye b right, in think'n ye can b <b>steersman</b>. 
 It b true!=Crewman who steers the ship from the helm on the poop deck. Same as the helmsman;
 
-Saber=Difficult=Pull your sabers, cock ye muskets, it B time for
+Saber=Difficult=Pull your <b>sabers</b>, cock ye muskets, it B time for
 bloodletting, so says I. We b come'n about, an pull'n aside, then it'l b every man for himself. Hear's me words. 
 Take's no prisoners!=A curved sword;
 
 Overboard=Complex=
-I say's messmates, da new cook is poison'n us. Let's rush him, drag him up to the deck, binds his feet, and lower's him, overboard, just fur enough for the sharks, to bound an snap about his ears. What say ye?=To put over the side of the ship;
+I say's messmates, da new cook is poison'n us. Let's rush him, drag him up to the deck, binds his feet, and lower's him, <b>overboard</b>, just fur enough for the sharks, to bound an snap about his ears. What say ye?=To put over the side of the ship;
 
 Ale=Beginner=
-Me b dream'n for months, on this stink'n, swelter'n ship, for a bath in cold ale, as me drink's, me fill, 
+Me b dream'n for months, on this stink'n, swelter'n ship, for a bath in cold <b>ale</b>, as me drink's, me fill, 
 from a mighty stein.=Ale is like beer.;
 
 Fathom=Complex=
-Cap'n, me lay'n me eyes, from being here in the crow's nest, there b a reef to port, that b less than 3 fathoms, from break'n water. Me b thank'n ye kindly sir, if ye tell the helmsman, to tack starboard smartly!=6 feet in distance or depth;
+Cap'n, me lay'n me eyes, from being here in the crow's nest, there b a reef to port, that b less than 3 <b>fathoms</b>, from break'n water. Me b thank'n ye kindly sir, if ye tell the helmsman, to tack starboard smartly!=6 feet in distance or depth;
 
 She Devil=Complex=
-Arrr me lady, I b enjoy'n ye company 2 times. Now me ask ye, when we close doors, if ye b a she devil, if ye know the mean'n, of me words? If the answer B no, 
+Arrr me lady, I b enjoy'n ye company 2 times. Now me ask ye, when we close doors, if ye b a <b>she devil</b>, if ye know the mean'n, of me words? If the answer B no, 
 I beg ye pardon, an I b plan'n to set sail.=A wickedly playful  or a vicious female;
 
-Blow Me Down=Beginner=Blow me down, bucko!  Me never dreamed, ye had a mother, ye bile suck'n devil. Tell me now, bout ye adventures.=A bewilderment statement;
+Blow Me Down=Beginner=<b>Blow me down</b>, bucko!  Me never dreamed, ye had a mother, ye bile suck'n devil. Tell me now, bout ye adventures.=A bewilderment statement;
 
-Dare Say=Starting=You b tell'n me, he throw scrubs overboard, for no reason, an, he thinks he b a mighty mate? Dare say? He truly b addled. Me hears, his whole family have unsquare keels, with their rudders, gone wild.=Astonishment;
+Dare Say=Starting=You b tell'n me, he throw scrubs overboard, for no reason, an, he thinks he b a mighty mate? <b>Dare say</b>? He truly b addled. Me hears, his whole family have unsquare keels, with their rudders, gone wild.=Astonishment;
 
 Strike Me Dead=Starting=
-Me b at ye service, Cap'n.  B'n a fine seafar'n day. If we don't hears today, from the Crow's Nest, "Land Ho," ye can  strike me dead, an send me to Fiddler's Green!=Statement of profound testament;
+Me b at ye service, Cap'n.  B'n a fine seafar'n day. If we don't hears today, from the Crow's Nest, "Land Ho," ye can <b>strike me dead</b>, an send me to Fiddler's Green!=Statement of profound testament;
 
-Rudder Run Shallow=Naughty=Arrr, don't B crow'n bout ye wench please'n ways.
-Me hear ladies say ye rudder run shallow.=A short penis;
+Rudder Run Shallow=Naughty=Arrr, don't b crow'n bout ye wench please'n ways. 
+Me hear ladies say ye <b>rudder run shallow</b>.=A short penis;
 
-Corpse=Naughty=Me undertaker say, ye took ye boner to a corpse,
+Corpse=Naughty=Me undertaker say, ye took ye boner to a <b>corpse</b>, 
 as it b reminding, of ye ol home wench.=A dead person;
 
 Heave To=Naughty=
-Me little lady, b ye invite'n me to ye cabin, an,  order'n me to heave to?=Stroke hard during intercourse;
+Me little lady, b ye invite'n me to ye cabin, an,  order'n me to <b>heave to</b>?=Stroke hard during intercourse;
 
-Cargo=Naughty=Arrr sweet thing,  me b want'n to deposit me cargo
+Cargo=Naughty=Arrr sweet thing,  me b want'n to deposit me <b>cargo</b> 
 in ye hold.=Ejaculate;
 
-Cannon Loaded=Naughty=Blow me down, but ye B cautious, me cannon,
-he b loaded.=Penis can ejaculate;
+Cannon Loaded=Naughty=Blow me down, but ye B cautious, me <b>cannon, 
+he b loaded</b>.=Penis can ejaculate;
 
 Dagger=Naughty=
-Rub me right, an me magical dagger, will appear, an I b stab'n ye to death!=Erect penis;
+Rub me right, an me magical <b>dagger</b>, will appear, an I b stab'n ye to death!=Erect penis;
 
 Treasure Chest=Naughty=
 Eyes port mates, the lass at the bar does bare
-a bountiful treasure chest!=Big breasts;
+a bountiful <b>treasure chest</b>!=Big breasts;
 
 Contraband=Naughty=
-Don't b tell'n me, ye port B contraband, 
-Make ye, no never mind, I B plunder'n!=Being rejected;
+Don't b tell'n me, ye port b <b>contraband</b>, 
+Make ye, no never mind, I b plunder'n!=Being rejected;
 
 Hornpipe=Naughty=Ye B look'n like da musical type, me lady. 
-Will's ye blow me hornpipe.=A metaphorical word for penis;
+Will's ye blow me <b>hornpipe</b>.=A metaphorical word for penis;
 
-Ye Shimmy Me Mast=Naughty=Me asked her, with sensitivity, ye shimmy me mast?=Will you B on top for intercourse?;
+Ye Shimmy Me Mast=Naughty=Me asked her, with sensitivity, <b>ye shimmy me mast</b>?=Will you B on top for intercourse?;
 
-Me Mast B Ready For Full Sails=Naughty=Me wench, did ask me, after me home from much rum, if I b up for full speed ahead an me say's, "Me mast b ready for full sail an a heave'n sea!"=An erection;
+Me Mast B Ready For Full Sails=Naughty=Me wench, did ask me, after me home from much rum, if I b up for full speed ahead an me say's, "<b>Me mast b ready for full sail an a heave'n sea!</b>"=An erection;
 
 Me Cannon B Loaded=Naughty=
-Arr.. me sweet lady, might we slip to ye cabin,
-me cannon B loaded for ye pound'n seas.=Invitation for intercourse;
+Arr.. me sweet lady, might we slip to ye cabin, 
+<b>me cannon b loaded</b> for ye pound'n seas.=Invitation for intercourse;
 
 Shiver Me Timbers=Naughty=
-May I B whisper'n in ye ear?  Last night you rocked my ship, and shivered me timbers!=Great sex;
+May I b whisper'n in ye ear?  Last night you rocked my ship, and <b>shivered me timbers</b>!=Great sex;
 
-Balls For Dessert=Naughty=Then she says out of a cloudless sky, "Ye bag of salty ol bones, ye buys me dinner, fit for a queen, I'll have ye balls for dessert. If me b lie'n, strike me dead!=Oral testicular massage;
+Balls For Dessert=Naughty=Then she says out of a cloudless sky, "Ye bag of salty ol bones, ye buys me dinner, fit for a queen, I'll have ye <b>balls for dessert</b>. If me b lie'n, strike me dead!=Oral testicular massage;
 
-Rig'n=Naughty=Ye b into, me rig'n ye hands an feet, bound tight, then me rid'n ye like ye b a wounded shark?=Bondage;
+Rig'n=Naughty=Ye b into, me <b>rig'n</b> ye hands an feet, bound tight, then me rid'n ye like ye b a wounded shark?=Bondage;
 
 Abandon Ship=Naughty=
-Me B give'n ye a mighty tongue lash'n, an, ye b abandon ship.  Ye may never return, say's I!=Oral sex;
+Me B give'n ye a mighty tongue lash'n, an, ye b <b>abandon ship</b>.  Ye may never return, say's I!=Oral sex;
 
-Ram'n Speed=Naughty=She b whisper'n in me ear, "How's ye like it, Dirty Jack, fair seas with a calm wind, or, ye B abound'n in heavy seas at  ram-n speed?"=Slow and easy intercourse or no holds barred;
+Ram'n Speed=Naughty=She b whisper'n in me ear, "How's ye like it, Dirty Jack, fair seas with a calm wind, or, ye b abound'n in heavy seas at <b>ram-n speed</b>?"=Slow and easy intercourse or no holds barred;
 
 Scuttle=Naughty=If ye welcome me aboard, it'll B a little sand, that'll fall from the hour glass, of me plunder'n ye hold, 
-before me scuttle ye mind!=Short trip to orgasm;
+before me <b>scuttle</b> ye mind!=Short trip to orgasm;
 
 Afeared=Naughty=
-When I drops me drawers, an ye lay ye eyes, upon me cannon, ye b gasp'n, an, afeared.=Big penis;
+When I drops me drawers, an ye lay ye eyes, upon me cannon, ye b gasp'n, an, <b>afeared</b>.=Big penis;
 
 Hold=Naughty=
-Me lady, if ye b allow'n me to say so, me b offer'n, a mighty cargo, for ye hold. I b say'n, how b ye mood?=Invitation for intercourse;
+Me lady, if ye b allow'n me to say so, me b offer'n, a mighty cargo, for ye <b>hold</b>. I b say'n, how b ye mood?=Invitation for intercourse;
 
 Ol Sea Dog=Naughty=
-Ye best, not look away, an, turn ye aft my direction, or, I b mount'n ye like an ol sea dog, that ain't made port fer a year!=Intercourse from the rear position;
+Ye best, not look away, an, turn ye aft my direction, or, I b mount'n ye like an <b>ol sea dog</b>, that ain't made port fer a year!=Intercourse from the rear position;
 
-Buried Treasure=Naughty=Another rum, me lass. I B seeking, ye buried treasure, 
+Buried Treasure=Naughty=Another rum, me lass. I B seeking, ye <b>buried treasure</b>, 
 an, I feel'n it b a mighty bounty!=Desire to have intercourse;
 
-Messmates=Naughty=Between the sheets me wench, we b messmates. 
+Messmates=Naughty=Between the sheets me wench, we b <b>messmates</b>. 
 Bow to stern and stern to bow.=69;
 
 Flog Me Jolly Roger=Naughty=
-I tell ye mates, she b a wonderful wench. Even when she feel'n poorly, she'll still flog me Jolly Roger.=Hand job;
+I tell ye mates, she b a wonderful wench. Even when she feel'n poorly, she'll still <b>flog me Jolly Roger</b>.=Hand job;
 
 Blow Hole=Naughty=
-Whose blow hole, b the one, to let that stout bilge wind?=Who farted?;
+Whose <b>blow hole</b>, b the one, to let that stout bilge wind?=Who farted?;
 
 Bilge Diver=Naughty=
 After me Jolly Roger, plunders ye bow, me b turn'n ye 
-over, cause,  I b a mightily bilge diver.=Anal sex;
+over, cause,  I b a mightily <b>bilge diver</b>.=Anal sex;
 
-Aboard=Naughty=Me and me Jolly Roger, ask'n permission to come aboard.=To mount;
+Aboard=Naughty=Me and me Jolly Roger, ask'n permission to come <b>aboard</b>.=To mount;
 
-Sleek Schooner=Naughty=Ye b a fine, sleek schooner. 
+Sleek Schooner=Naughty=Ye b a fine, <b>sleek schooner</b>. 
 Me b desire'n, to plunder ye goods.=Proposition for sex;
 
 Drop Anchor=Naughty=
-I b wonder'n, if we might b latch'n the cabin, an go aboard the bunk? Me b want'n, to drop anchor.=Have intercourse;
+I b wonder'n, if we might b latch'n the cabin, an go aboard the bunk? Me b want'n, to <b>drop anchor</b>.=Have intercourse;
 
 Loose Lipped=Naughty=
-I hear's ye b loose lipped. Me Jolly Rodger, sees, that a might attribute, an, b standing in ye honor.=Inferring one is receptive to give oral sex;
+I hear's ye b <b>loose lipped</b>. Me Jolly Rodger, sees, that a might attribute, an, b standing in ye honor.=Inferring one is receptive to give oral sex;
 
 Prepare To B Boarded=Naughty=
-Ahoy me beauty.  Prepare to b boarded!  Me Jolly Roger, desires his way, with ye, so say's he.=Mounted;
+Ahoy me beauty. <b>Prepare to b boarded</b>!  Me Jolly Roger, desires his way, with ye, so say's he.=Mounted;
 
-Steersman=Naughty=I b tell'n ye mates, last eve me wench, who b quite buxom, took the helm, an, like a master steersman, did build wind in me sails, tell it b ram'n speed ahead, into uncharted waters! Shiver me timbers, she did!=Took control;
+Steersman=Naughty=I b tell'n ye mates, last eve me wench, who b quite buxom, took the helm, an, like a master <b>steersman</b>, did build wind in me sails, tell it b ram'n speed ahead, into uncharted waters! Shiver me timbers, she did!=Took control;
 
-Bonehead=Naughty=Me bonehead, Jolly Roger, have a mind, of his own.=Stubborn  erection;
+Bonehead=Naughty=Me <b>bonehead</b>, Jolly Roger, have a mind, of his own.=Stubborn  erection;
 
 Shackles=Naughty=
-Ye b afeared to b shackled, to me bed masts, an, me 
+Ye b afeared to b <b>shackled</b>, to me bed masts, an, me 
 have'n me way with ye?=Chains for wrist and ankles;
 
 Blow Me Down=Naughty=If we slip out of dar tavern, an, goes to's me dinghy, 
 docked down, at the end of the tavern's dock, 
-would ye blow me down?=Oral sex;
+would ye <b>blow me down</b>?=Oral sex;
 
 "Greeting Tails"=Starting=Fleas: How b'n ye wicked ways<br>Ticks: Who B hunt'n ye carcass<br>Lice: What's b'n ye plunder'n'ous ways<br>Leech: What b'n ye evil ways<br>Tape worm: Who's husband b want'n ye liver<br>Worms: What's b'n ye debacherous ways, Where b ye last port, Who b ye ol hen these days, Who b want'n ye blood, How B ye innards=greeting sentences;
 
-Masthead=Complex=I b warn'n ye, if ye don't b deal'n dar cards, from the masthead, me dagger, B slice'n ye gizzard!=The top of the mast  (inference,  the top of anything);
+Masthead=Complex=I b warn'n ye, if ye don't b deal'n dar cards, from the <b>masthead</b>, me dagger, B slice'n ye gizzard!=The top of the mast  (inference,  the top of anything);
 
-I Hear's Ye Can Go 12 Inches!=Naughty=I hears ye can go 12 inches.Three inches, four times, harrr, harrr=Inferred length of penis but addressing strokes to ejaculation;
+I Hear's Ye Can Go 12 Inches!=Naughty=<b>I hears ye can go 12 inches</b>. Three inches, four times, harrr, harrr=Inferred length of penis but addressing strokes to ejaculation;
 
-Come About=Difficult=They b a crew, of bile soaked hornswogglers, that b stir'n, for bloodletting. Let's come about, with daggers an muskets ready, an grant their wishes. 
+Come About=Difficult=They b a crew, of bile soaked hornswogglers, that b stir'n, for bloodletting. Let's <b>come about</b>, with daggers an muskets ready, an grant their wishes. 
 Member, dead men tell's no tales!=Change of Direction;
 
-Masthead=Naughty=Me just put me masthead in, a bit, an, b it no more,
+Masthead=Naughty=Me just put me <b>masthead</b> in, a bit, an, b it no more,
 me swares!=Penis head;
 
 Hull=Complex=
-Dar ol crow's hull b creak'n, an loose, at dar keel, but she still hold'n, a mighty wind in her sails. Blow me down!=The outside shell of a ship;
+Dar ol crow's <b>hull</b> b creak'n, an loose, at dar keel, but she still hold'n, a mighty wind in her sails. Blow me down!=The outside shell of a ship;
 
-Eye To The Wind=Complex=Me thinks, ye best b keep'n ye eye to the wind. Banish ye distractions. Cap'n expect'n bold adventures. Ye fail ye part, he b see'n ye mighty alack, an, only fit for fish bait.=Keep on track;
+Eye To The Wind=Complex=Me thinks, ye best b keep'n ye <b>eye to the wind</b>. Banish ye distractions. Cap'n expect'n bold adventures. Ye fail ye part, he b see'n ye mighty alack, an, only fit for fish bait.=Keep on track;
 
-Astern=Complex=Avast! Cap'n, astern b sails, close'n fast. B King's armada. So says scout, in dar crow's nest. If we abide, they b upon us. Best set full sails. What b ye orders?=Behind the back of the ship;
+Astern=Complex=Avast! Cap'n, <b>astern</b> b sails, close'n fast. B King's armada. So says scout, in dar crow's nest. If we abide, they b upon us. Best set full sails. What b ye orders?=Behind the back of the ship;
 
-Headway=Complex=When we b meet'n, at high noon, if we fails to make headway, least we have sabers ready, an, set to spill their guts  upon the deck. Ye b ready? They b show'n no mercy, an, believe'n, dead men tell's no tales.=Moving ahead;
+Headway=Complex=When we b meet'n, at high noon, if we fails to make <b>headway</b>, least we have sabers ready, an, set to spill their guts  upon the deck. Ye b ready? They b show'n no mercy, an, believe'n, dead men tell's no tales.=Moving ahead;
 
 Leeward=Complex=Hear's me words, Helmsman! A mighty gale b mount'n starboard, against dar ship, with a mind to capsize.  
-Keel best b leeward.=Side of the ship away from the wind or ship to the wind;
+Keel best b <b>leeward</b>.=Side of the ship away from the wind or ship to the wind;
 
-Low An Behold=Starting=Low an behold, ye blaggard, bilge divers, fetch ye eyes starboard. B a red hair'd wench, truly abound'n bow, an aft, who b navigate'n rolling seas.=Drawing attention;
+Low An Behold=Starting=<b>Low an behold</b>, ye blaggard, bilge divers, fetch ye eyes starboard. B a red hair'd wench, truly abound'n bow, an aft, who b navigate'n rolling seas.=Drawing attention;
 
-Helm=Complex=Me thinks ye b look'n, through a foggy port hole. No small wonder, ye jib look angry. Scuttle from ye quarters, get to the crow's nest, with ye clear eye piece, an, have a better look at dar horizon. Then ye trim ye helm.=Steering wheel;
+Helm=Complex=Me thinks ye b look'n, through a foggy port hole. No small wonder, ye jib look angry. Scuttle from ye quarters, get to the crow's nest, with ye clear eye piece, an, have a better look at dar horizon. Then ye trim ye <b>helm</b>.=Steering wheel;
 
-Ballard=Complex=I b say'n mates, b bind'n the ship, to the ballards, an, let's b abandon'n da dock, for much grogs, an, mighty feast'n!=The post on the dock for ropes securing the ships;
+Ballard=Complex=I b say'n mates, b bind'n the ship, to the <b>ballards</b>, an, let's b abandon'n da dock, for much grogs, an, mighty feast'n!=The post on the dock for ropes securing the ships;
 
-Head=Difficult=I b say'n mates, I need to set course, to the head. Me bilge b abound'n, an, a mighty current, B press'n.=Bathroom;
+Head=Difficult=I b say'n mates, I need to set course, to the <b>head</b>. Me bilge b abound'n, an, a mighty current, B press'n.=Bathroom;
 
 Debauchery=Complex=
-Me wish a good book learn'n, b'n mine.  When dar squire said, with highest dignity, "It is clear for all fine men to see, that you B the epitome in the mastery of debauchery."  B'wildered, to such fine words, me said, "Me b grateful for ye kind words, my dear sir. Me mother would B pleased."=A wide diverse obsession with carnal acts;
+Me wish a good book learn'n, b'n mine.  When dar squire said, with highest dignity, "It is clear for all fine men to see, that you B the epitome in the mastery of <b>debauchery</b>."  B'wildered, to such fine words, me said, "Me b grateful for ye kind words, my dear sir. Me mother would B pleased."=A wide diverse obsession with carnal acts;
 
 Take Me Leave=Starting=
-Ye wretched souls, hear me words.  Dar rum, b take'n me under. Me beg ye pardon, at take'n me leave.=Leaving;
+Ye wretched souls, hear me words.  Dar rum, b take'n me under. Me beg ye pardon, at <b>take'n me leave</b>.=Leaving;
 
-Bear Away=Complex=Dem's scallywags, at da bar, b troll'n for spill'n blood. We best bear away, to another rum tavern.=Away from the wind;
+Bear Away=Complex=Dem's scallywags, at da bar, b troll'n for spill'n blood. We best <b>bear away</b>, to another rum tavern.=Away from the wind;
 
 Stern=Complex=
-Jim Lad, set sail to me cabin, at da stern. Under me bed, ye b find'n, a mighty locker. Within, b a spyglass, me father's saber, a sexton, a folded Union Jack, and under dem, b a folded map. Bring dar map to me. Now B gone with ye!=Back of a ship;
+Jim Lad, set sail to me cabin, at da <b>stern</b>. Under me bed, ye b find'n, a mighty locker. Within, b a spyglass, me father's saber, a sexton, a folded Union Jack, and under dem, b a folded map. Bring dar map to me. Now B gone with ye!=Back of a ship;
 
 Luber=Complex=
-Ye member, dar ol pickled wench, I did help to her cabin, da last time we b in port?  We now B lubers, an, me b think'n of give'n up, me seaward ways.=Slang for lover;
+Ye member, dar ol pickled wench, I did help to her cabin, da last time we b in port?  We now b <b>lubers</b>, an, me b think'n of give'n up, me seaward ways.=Slang for lover;
 
-Muster=Complex=Jim Lad, ring the bell, for all hands to muster.  When they all B present, Cap'n b speak'n.=Gathering of a group, a meeting;
+Muster=Complex=Jim Lad, ring the bell, for all hands to <b>muster</b>.  When they all b present, Cap'n b speak'n.=Gathering of a group, a meeting;
 
-Bid Ye Adieu=Starting=Me beg ye pardon, fine lady.  If ye have no more need of me, me bids ye adieu.=Say good bye;
+Bid Ye Adieu=Starting=Me beg ye pardon, fine lady.  If ye have no more need of me, me <b>bids ye adieu</b>.=Say good bye;
 
-Mutant=Beginner=Me hears of ye wicked ways. Others say, ye b, a true mutant, to ye honorable, mother and father. How a'feared they must b, that ye soon B dance'n, Jack Kemp's jig!=Different than all the rest;
+Mutant=Beginner=Me hears of ye wicked ways. Others say, ye b, a true <b>mutant</b>, to ye honorable, mother and father. How a'feared they must b, that ye soon B dance'n, Jack Kemp's jig!=Different than all the rest;
 
-Safety Harbor=Complex=King's armadas, b hunt'n us like swine. There b, no rest, as we b plund'n the ship'n lanes. Soon our treasury b bound'n. Then we set sail, for Safety Harbor.=A harbor that will protect ships from serious storms;
+Safety Harbor=Complex=King's armadas, b hunt'n us like swine. There b, no rest, as we b plund'n the ship'n lanes. Soon our treasury b bound'n. Then we set sail, for <b>Safety Harbor</b>.=A harbor that will protect ships from serious storms;
 
-Heave'n Seas=Medium=The Gov'nr's ways b wicked, he squanders our taxes, an, his army's lay wage, against us. A battle b brew'n, an da blood,  b like heave'n seas!=High waves during a huge storm;
+Heave'n Seas=Medium=The Gov'nr's ways b wicked, he squanders our taxes, an, his army's lay wage, against us. A battle b brew'n, an da blood,  b like <b>heave'n seas</b>!=High waves during a huge storm;
 
 Troll=Difficult=
-Ahoy, ye sorry mutant. Lay'n me eyes on ye, cause's'um grievous pain. Surely ye mother, B a troll, 
+Ahoy, ye sorry mutant. Lay'n me eyes on ye, cause's'um grievous pain. Surely ye mother, b a <b>troll</b>, 
 an, ye father her cousin.=An ugly creature that lives under bridges;
 
 Leper=Difficult=
-Avast ye leprous mutant. How b ye fall'n toes?=A person infected with leprosy  
+Avast ye <b>leprous</b> mutant. How b ye fall'n toes?=A person infected with leprosy  
 When body parts rot 
 and fall off;
 
-Cocked Musket=Naughty=Arr, young lady, ye B mighty saucy, me loaded and cocked musket b desire'n to b shot through ye port hole.=Invitation to intercourse;
+Cocked Musket=Naughty=Arr, young lady, ye B mighty saucy, me loaded and <b>cocked musket</b> b desire'n to b shot through ye port hole.=Invitation to intercourse;
 
-Spoils=Medium=Cap'n says, once we scurry that schooner's crew overboard, the spoils are to b stored in the bow hold.=Bounty from war;
+Spoils=Medium=Cap'n says, once we scurry that schooner's crew overboard, the <b>spoils</b> are to b stored in the bow hold.=Bounty from war;
 
 For Spice And Crunch=Complex=
-Arrr, Cook's porridge, b need'n a bit, a gunpowder for spice, an, cockroaches for crunch!=Cooking ingredients;
+Arrr, Cook's porridge, b need'n a bit, a gunpowder <b>for spice, an, cockroaches for crunch</b>!=Cooking ingredients;
 
-Trade Winds=Complex=Arrr, helmsman, would ye say, if we have fair weather, should we b reach'n dar trade winds for the 
+Trade Winds=Complex=Arrr, helmsman, would ye say, if we have fair weather, should we b reach'n dar <b>trade winds</b> for the 
 Caribbean by sunset?=Natural winds that always blow in a direction favorable for shipping cargo;
 
 I Bid'n Ye Adieu=Starting=May the Great Capt'n, lead ye helmsman, through, heave'n seas, an always give ye a safety harbor. Me wish'n he brin'n ye much plunder'n, with great bounty, and many wenchs void of lice.  Me b eager for our wakes to cross again. 
-I bid ye adieu.=Benediction;
+<b>I bid ye adieu</b>.=Benediction;
 
 Tapeworm=Medium=Ahoy, ye scourge, of the tavern wenches. 
-How b ye ol tapeworm?=A large intestinal worm that can B 20 feet long;
+How b ye ol <b>tapeworm</b>?=A large intestinal worm that can B 20 feet long;
 
-Harbinger=Complex=Aye, dar mate come'n aboard, b his dead lights down, an  trodden gate, b a harbinger of woeful news. 
+Harbinger=Complex=Aye, dar mate come'n aboard, b his dead lights down, an  trodden gate, b a <b>harbinger</b> of woeful news. 
 Mark me words!=Someone or thing delivering something or news;
 
-Dame=Medium=Avast! Ye drunken scallywags, cast ye deadlights to dar door. Dame enter'n da tavern door b of bound'n beauty.=Dame is another word for woman;
+Dame=Medium=Avast! Ye drunken scallywags, cast ye deadlights to dar door. <b>Dame</b> enter'n da tavern door b of bound'n beauty.=Dame is another word for woman;
 
-Galley=Medium=Arr! Me wayward scallywags, let's b set'n sail, for another tavern, that b have'n  a galley, as me needs weight in me belly to stable me legs, under the remainder of me carcass!=Galley is a kitchen.;
+Galley=Medium=Arr! Me wayward scallywags, let's b set'n sail, for another tavern, that b have'n a <b>galley</b>, as me needs weight in me belly to stable me legs, under the remainder of me carcass!=Galley is a kitchen.;
 
 
