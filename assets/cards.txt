@@ -637,7 +637,7 @@ Sweet Trade=Complex=Hear's me now, ye mighty sea fair'n warriors! We soon, all b
 Port=Beginner=
 Land Ho, <b>Port</b>! Lay ye eye on break'n waters. Beyond b clear water, an, fresh grub. B no more hard tack, an moldy biscuits, made of boot leather.=Left side of a ship;
 
-Ships=Complex=<table><tr><td>Barge</td><td>Blockade Runner</td><td>Clipper</td></tr><tr><td>Cutter</td><td>Dinghy</td><td>Dory</td></tr><tr><td>Dutch Clipper</td><td>Frigate</td><td>Man of War</td></tr><tr><td>Schooner</td><td>Tail Ship</td><td>Wind Jammer</td></tr></table>=Ships;
+Ships=Complex= Barge, Blockade Runner, Clipper<br/> Cutter, Dinghy, Dory<br/> Dutch Clipper, Frigate, Man of War<br/> Schooner, Tail Ship, Wind Jammer=Ships;
 
 Messmates=Medium=
 I say, we all b <b>messmates</b>.  Low and behold, we b lift'n our jibs. B time to weigh anchor, an voyage, 
