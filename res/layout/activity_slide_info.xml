@@ -38,16 +38,6 @@
         android:textColorLink="#FF0000"
         android:textSize="14sp" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="370dp"
-        android:layout_height="180dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="11dp"
-        android:layout_toRightOf="@+id/imageView1_info"
-        android:src="@drawable/swipe" />
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -58,5 +48,14 @@
         android:text="Slide up for the next card"
         android:textSize="20sp"
         android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="370dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/imageView1_info"
+        android:src="@drawable/swipe" />
 
 </RelativeLayout>

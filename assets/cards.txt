@@ -290,7 +290,7 @@ Booty=Beginner=Beg'n ye pardon, Cap'n, I hears we set'n sail in the morn, an hel
 
 Afeared=Beginner=B ye <b>afeared</b>? They b brawling, drink'n much rum, an soon B throw'n bones.  Best we b tacking starboard, toward, a safe harbor.=Being afraid;
 
-Bodes=Medium=Doubloons, <b>bodes</b> well, for any privateer, when he makes port. R Booty b lubed by landlubbers.=Speaks (well / bad) of;
+Bodes=Medium=Doubloons, <b>bodes</b> well, for any privateer, when he makes port. R booty b lubed by landlubbers.=Speaks (well / bad) of;
 
 B Ye Bilges Flooded=Medium=Arrr, there me bucko, <b>b ye bilges</b> flooded?=How are you?  - Are you having hard times? Do you have too many problems?;
 
@@ -574,9 +574,7 @@ Port=Medium=
 Land ho, <b>port</b> tward dar bow. Ready dar skiffs. We b send'n, a land'n party to make a beach head, before we dawn our map, to retrieve our treasure chest.=Left side of the ship looking from the back toward the front;
 
 Rig'n=Medium=
-Avast ye sloth'n flea bit scrubs, squalls come'n. Pull the
-<b>rig'n</b> and down the sails before she comes aboard.=All the ropes, block & tackle, and everything
-used to manage the sails;
+Avast ye sloth'n flea bit scrubs, squalls come'n. Pull the <b>rig'n</b> and down the sails before she comes aboard.=All the ropes, block & tackle, and everything used to manage the sails;
 
 Hand=Medium=
 Ye B the new <b>hand</b>? How b ye at spil'n blood? With a little work, when ye banish ye saber, other gentlemen of adventure, know ye b worth ye salt!=One man in the crew;
@@ -742,8 +740,7 @@ I B Wonder'n=Starting=
 Cap'n, when port b made, <b>I B wonder'n</b>, if me mates b allowed to go ashore? No ships been in port lately. Me b wager'n, da wenches B out of doubloons, 
 an b offer'n, bold adventures!=Asking a question   The phrase is tacked on the end.;
 
-Ye Words Makes Me Blood Run Cold=Beginner=When ye speak evil of the Cap'n,
-<b>ye words make's me blood run cold</b>. Me knows him not, to B friends, with mercy, an I b fear'n, ye b stroll'n the plank, with sharks wait'n, ye arrival. 
+Ye Words Makes Me Blood Run Cold=Beginner=When ye speak evil of the Cap'n, <b>ye words make's me blood run cold</b>. Me knows him not, to B friends, with mercy, an I b fear'n, ye b stroll'n the plank, with sharks wait'n, ye arrival. 
 Best mind, ye angry ways.=Saying you are scared;
 
 Crew=Beginner=
@@ -867,13 +864,10 @@ No Mistaken=Difficult=<b>No mistaken</b>, Two Toe'd Jack, b quite the scallywag!
 Hark Ye Now=Starting=
 <b>Hark ye now</b> me pretty lass. Fetch me a bottle of rum. Me mates b dry, from a far voyage. Now b gone with ye!=A summons to get attention from another;
 
-If Ye Ask Me=Medium=
-She seems to b, a lady of fine breed'n. <b>If ye ask me</b>.
-I beg's to differ. Behinds y back, she b a wretched witch, 
-who's words, b daggers!=Lending strength to a statement;
+If Ye Ask Me=Medium=She seems to b, a lady of fine breed'n. <b>If ye ask me</b>. I beg's to differ. Behinds y back, she b a wretched witch, who's words, b daggers!=Lending strength to a statement;
 
 Shackles=Medium=
-He b a thiev'n, an, murder'n scoundrel. Surely, the cat of 9 tails b in his future.  Me fears if da ship go down, no mates desires, to find the keys, to his <b>shackles</b>.=Heavy duty handcuffs with a chain fixed to the wall;
+He b a thiev'n, an, murder'n scoundrel. Surely, the cat of nine tails b in his future.  Me fears if da ship go down, no mates desires, to find the keys, to his <b>shackles</b>.=Heavy duty handcuffs with a chain fixed to the wall;
 
 Alack=Difficult=
 His ol hen b wait'n on shore.  B up to me to tell'er, <b>alack</b> he b dead. Me rolled his carcass, into the sea locker, with me own hands. He b a man among men, in defend'n his ship mates, with the flash of his sword. Whether they b right or wrong, not matter to him!=Remorse, sadness, regret;
@@ -890,7 +884,7 @@ So B It=Beginner=
 The Cap'n says at dawn, me walk the plank. <b>So b it</b>. He b doing, his duty. Me forbod'n, b'n, shark food.=Resignation   Matter of fact;
 
 B Done With It=Beginner=
-If flog'n, by da cat of 9 tails, b da price, for me fool's ways, then, <b>we b done with it</b>!=It's final.;
+If flog'n, by da cat of 9 tails, b da price, for me fool's ways, then, we <b>b done with it</b>!=It's final.;
 
 No Bones About It=Beginner=
 Me sees with me own eyes, he did wager, full years script on one throw of the bones.  Blow me down! They come up 7s, <b>No bones about it</b>.=Absolutely certain;
@@ -1036,7 +1030,7 @@ Arse Hole=Naughty=She preten'th to B sweet, an lovely, but aft that pretty face,
 she b, a villainous tripe!=Ass hole;
 
 Barracuda=Medium=
-Hear me words. B ye not find'n ye-self, on the wrong side of Cap'n's pleasure.  He can B a loathsome <b>barracuda</b>, an, a generous man, with the cat-o-9 tails!=A very aggressive teeth laden fish;
+Hear me words. B ye not find'n ye-self, on the wrong side of Cap'n's pleasure.  He can B a loathsome <b>barracuda</b>, an, a generous man, with the cat of nine tails!=A very aggressive teeth laden fish;
 
 I Beg To Differ=Starting=So ye say, that Digger Smith should b dar new Quarter Master. <b>I begs to differ</b>.  Willie b with the crew longer and he b brave when deal'n with the 1st Mate.=I don't agree.;
 
@@ -1050,7 +1044,7 @@ Crow=Difficult=Ahoy ye dung roll'n crafty ol <b>crow</b>! How b ye thiev'n?=Wily
 What B Ye Poison?=Medium=
 Blow me down! I b buy'n this round of grog. Let's b fill'n our bellies, an, cackle like ol crows. <b>What b ye poison</b>?=What kind of drink or food do you want?;
 
-Seafar'n Man=Medium=That sharp tongued tavern owner, when he b young, he were a mighty <b>seafar'n</b> man. So, he b understand'n us swabs, make'n shore after months of only cockroaches for company, an, b'n lonely for rum.=Sailor;
+Seafar'n Man=Medium=That sharp tongued tavern owner, when he b young, he were a mighty <b>seafar'n man</b>. So, he b understand'n us swabs, make'n shore after months of only cockroaches for company, an, b'n lonely for rum.=Sailor;
 
 Quartermaster=Complex=Ye b ask'n me, I see's it best, to plead to da <b>quartermaster</b>, to beseech the Cap'n, or, I b fear'n, ye finds ye self, 
 in da brig, wear'n shackles, till we make port.=A top crew member who deals with the officer
