@@ -72,7 +72,7 @@ public class BeginnerCardCursorPagerAdapter extends PagerAdapter {
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_beginner, null);
 		    
 		}
-		else if(position > 0 && position < 90){
+		else if(position > 1 && position < 90){
 			position2--;
 		    cursor.moveToPosition(position2);
 		    layout = (RelativeLayout) inflater.inflate(R.layout.activity_card, null);

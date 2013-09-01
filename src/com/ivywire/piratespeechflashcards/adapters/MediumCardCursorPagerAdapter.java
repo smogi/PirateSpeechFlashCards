@@ -62,7 +62,7 @@ public class MediumCardCursorPagerAdapter extends PagerAdapter {
 		}if(position == 105){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_medium, null);
 		}
-		else if(position > 0 && position < 105){
+		else if(position > 1 && position < 105){
 			position2--;
 		    cursor.moveToPosition(position2);
 		    cardDeleted = cursor.getString(cursor.getColumnIndex(FlashCardTable.COLUMN_DISABLED));

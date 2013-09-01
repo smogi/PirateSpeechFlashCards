@@ -60,7 +60,7 @@ public class NaughtyCardCursorPagerAdapter extends PagerAdapter{
 		}if(position == 49){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_naughty, null);
 		}
-		else if(position > 0 && position < 49){
+		else if(position > 1 && position < 49){
 			position2--;
 		    cursor.moveToPosition(position2);
 		    layout = (RelativeLayout) inflater.inflate(R.layout.activity_card, null);

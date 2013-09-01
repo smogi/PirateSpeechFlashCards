@@ -60,7 +60,7 @@ public class DifficultCardCursorPagerAdapter extends PagerAdapter{
 		}if(position == 90){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_difficult, null);
 		}
-		else if(position > 0 && position < 90){
+		else if(position > 1 && position < 90){
 			position2--;
 		    cursor.moveToPosition(position2);
 		    layout = (RelativeLayout) inflater.inflate(R.layout.activity_card, null);
