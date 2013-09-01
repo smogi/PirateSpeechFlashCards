@@ -7,7 +7,7 @@
 
 	    <ImageView
 	        android:id="@+id/imageView2_beginner"
-	        android:layout_width="290dp"
+	        android:layout_width="700dp"
 	        android:layout_height="fill_parent"
 	        android:layout_alignParentBottom="true"
 	        android:layout_alignParentLeft="true"
@@ -16,9 +16,8 @@
 
 	    <ImageView
 	        android:id="@+id/imageView1_beginner"
-	        android:layout_width="200dp"
+	        android:layout_width="600dp"
 	        android:layout_height="fill_parent"
-	        android:layout_alignParentBottom="true"
 	        android:layout_alignParentRight="true"
 	        android:layout_alignParentTop="true"
 	        android:src="@drawable/parrotnaughty1" />

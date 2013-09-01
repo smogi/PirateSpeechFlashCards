@@ -13,7 +13,7 @@
 
     <ImageView
         android:id="@+id/imageView1_complex"
-        android:layout_width="190dp"
+        android:layout_width="690dp"
         android:layout_height="190dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -22,7 +22,7 @@
 
     <ImageView
         android:id="@+id/imageView3_complex"
-        android:layout_width="300dp"
+        android:layout_width="620dp"
         android:layout_height="fill_parent"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"

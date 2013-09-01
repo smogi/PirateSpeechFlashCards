@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/imageView1_complex"
-        android:layout_width="250dp"
+        android:layout_width="600dp"
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -17,11 +17,10 @@
 
     <ImageView
         android:id="@+id/imageView2_complex"
-        android:layout_width="220dp"
+        android:layout_width="550dp"
         android:layout_height="fill_parent"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView1_complex"
         android:src="@drawable/piratebird2" />
 
 </RelativeLayout>

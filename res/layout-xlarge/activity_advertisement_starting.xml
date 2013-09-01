@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/imageView1_starting"
-        android:layout_width="280dp"
+        android:layout_width="700dp"
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -16,10 +16,11 @@
 
     <ImageView
         android:id="@+id/imageView2_starting"
-        android:layout_width="400dp"
+        android:layout_width="700dp"
         android:layout_height="fill_parent"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:src="@drawable/avast1" />
 
 </RelativeLayout>
+

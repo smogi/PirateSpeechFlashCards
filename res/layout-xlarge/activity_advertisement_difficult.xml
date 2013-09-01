@@ -7,7 +7,7 @@
 
     <ImageView
         android:id="@+id/imageView1_difficult"
-        android:layout_width="220dp"
+        android:layout_width="600dp"
         android:layout_height="180dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -16,11 +16,11 @@
 
     <ImageView
         android:id="@+id/imageView2_difficult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_width="700dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageView1_difficult"
         android:src="@drawable/olcapn" />
 
 </RelativeLayout>
+
