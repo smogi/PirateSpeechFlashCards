@@ -71,7 +71,7 @@
         android:layout_alignLeft="@+id/button8"
         android:layout_below="@+id/button8"
         android:layout_marginTop="19dp"
-        android:background="#FA5858"
+        android:background="#FF0000"
         android:text="Naughty" />
 
     <Button

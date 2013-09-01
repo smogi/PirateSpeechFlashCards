@@ -7,7 +7,7 @@ Me b say'n, dar wench's <b>aft</b>, b large'r dan
 a flounder-n whale. She b, a formidable force! 
 If me b wrong, strike me dead, Jim Lads!=The rear of the ship or personages;
 
-Avast=Starting=<b>Avast</b>, ye stink'n, bilge bath'n scums!  Drop dar keg!
+Avast=Starting=<b>Avast</b>, ye stink'n, bilge bath'n scums!  Drop dar keg! 
 Ye not b taken'er aboard ye ship. It b our plunder now, 
 so say our muskets! It b arrr good fortune!
  Shiver me timbers!=Demanding order to stop;
@@ -62,7 +62,7 @@ Aye=Starting=<b>Aye</b>, me says, see dem scallywags dare! Day b, me loyal matey
 
 Aye Aye=Starting=<b>Aye Aye</b> Cap-n, we been scrub-n the decks, tight'n rigg'n, an stand'n by, to set sail. Me crew's, pockets b empty. They b ready for open seas, an much plunder'n!=I understand and will do right away.;
 
-Arrr=Starting=<b>Arr</b>, ye lily livered, scurvy sea dogs! Rum, b round on me. Ye scallywags, drink up. Den, we soon b abound’n
+Arrr=Starting=<b>Arr</b>, ye lily livered, scurvy sea dogs! Rum, b round on me. Ye scallywags, drink up. Den, we soon b abound'n
  in courage, an eager to spill blood!  Yarr?=Starting a conversation - I agree;
 
 Beauty=Naughty=That wench, she b a <b>beauty</b>,  an abounds, aft and bow. I b desire'n, her biscuits, if she only have, sassy ways.=Most positive adjective for a woman;
