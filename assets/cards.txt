@@ -144,7 +144,7 @@ Dog=Beginner=Arr! Ye lice rid'n deck <b>dog</b>. Cap'n catch ye
 thief'n Rum, ye b walk'n the plank. 
 Sharks b look'n to heaven, wait'n fer manna, an ye B it!=A mild insult;
 
-Doubloon=Beginner=Might ye lend's me 10 <b>doubloons</b>? My gut b dry, an much grog b needed, or, I b blow'n away.  Least ye b responsible!=talk parrot conversion equals $10.;
+Doubloon=Beginner=Might ye lend's me 10 <b>doubloons</b>? My gut b dry, an much grog b needed, or, I b blow'n away.  Least ye b responsible!=Talk Parrot conversion equals $10.;
 
 Feed the Sharks=Medium=
 Cap'n, we b ready to board our hands on dar ship, as helmsman brings her about. When we board, them's that die, b da lucky ones. We b <b>feed'n the sharks</b> with the rest.=Thrown in the ocean to feed the sharks To kill someone;
@@ -167,8 +167,7 @@ an seize her bounty. What say ye?=Toward the front of the ship, forward.;
 Flogged=Beginner=First Mate catch ye plundering rum, ye B <b>flogged</b>, with der Cat O Nine Tails. 
 I b wager'n, he b keep'n his good eye, upon ye.=Being publically whipped;
 
-Hands=Beginner=All <b>hands</b> on deck. Squall com-n, drop the sails, 
-An, batten down the ship! High seas b pound'n the deck. Dems without sea legs, best stash below.=Two or more crew members.;
+Hands=Beginner=All <b>hands</b> on deck. Squall com-n, drop the sails, an, batten down the ship! High seas b pound'n the deck. Dems without sea legs, best stash below.=Two or more crew members.;
 
 Handsomely=Beginner=Na, I begs to differ.  We need not lay low, but lift our Jolly Roger, let full sails <b>handsomely</b>, along with the jibs. Full attack, me mateys! Bloodshed b a bounty. 
 Shiver me timbers!=Quickly. Hurry up;
@@ -266,7 +265,7 @@ Me Hearty=Starting=Listen up, <b>me hearties</b>. We b go'n ashore at 6 bells. G
 
 Buxom=Beginner=I not b the first to say that there wench, she b <b>buxom</b>, but her temper, b a loose cannon.  She leave a long wake, of maggot fested carcasses.=Abundant -Adjective;
 
-Saucy=Beginner=That wench, she have a sharp tongue, she b <b>saucy</b>, that b for sure! But she makes memories, dat'l keep ye warm, on an icy, high seas night!=Feisty attitude;
+Saucy=Beginner=That wench, she have a sharp tongue, she b <b>saucy</b>, that b for sure! But she makes memories, dat'l keep ye warm, on an icy, high seas nights!=Feisty attitude;
 
 Foul=Beginner=Ahoy, ye <b>foul</b> mouth't, murderous scallywag! Wher b dar last time, our wakes crossed?=Out of sorts   distempered;
 
@@ -281,7 +280,7 @@ Yarrr=Starting=<b>Yarrr</b>, me meets ye at the gangplank, at 6 bells. Huge adve
 
 Sea Fog=Medium=Ahoy, Ye addled ol <b>sea dog</b>. I hears ye got, sea fog tween ye ears, ye blaggared ol coot.  So what say ye?=A dense fog that roll in from the sea.;
 
-Murder'n=Beginner=Arrr, ye plunder'n an <b>murder'n</b> bilge suckers! We b set'n ram'n speed toward first tavern. Pillage'n an debauchery,b a wait'n.  What b ye poison?=The act of killing;
+Murder'n=Beginner=Arrr, ye plunder'n an <b>murder'n</b> bilge suckers! We b set'n ram'n speed toward first tavern. Pillage'n an debauchery, b a wait'n.  What b ye poison?=The act of killing;
 
 Harrr=Starting=<b>Harrr Harrr</b>. That b a good'n! Peers aft ye bung hole, thar, b abundance!=Faked laugh. A funny story was told and maybe the teller is full of bull.;
 
@@ -341,7 +340,7 @@ a fiery cannon, start'n brawls.
 No wonder, he b hearty at <b>scrap-n</b>.=Fighting;
 
 Lass=Beginner=
-The Cap-n's daughter, she B a fair <b>lass</b>! As da sun sets west, pitty da mate, that take her aboard. It require a lot, of plunder'n, to keep a smile on her job!=A young female;
+The Cap'n's daughter, she B a fair <b>lass</b>! As da sun sets west, pitty da mate, that take her aboard. It require a lot, of plunder'n, to keep a smile on her job!=A young female;
 
 Lassie=Beginner=
 Pardon me <b>lassie</b>. B not, consider'n me forward. Me just B an ol salt o' salt, yet me like to ask, would ye mother, b just 
@@ -465,7 +464,7 @@ We just b lowly salts o' salts.
 We best b keep'n, our eyes fixed, their way.=Doing evil deeds;
 
 Vile=Beginner=
-Ahoy, Ye, flea bit, mangy sea dog.  Me hears ye steal's the doubloons, off ye dead mother's eyes, so, matey, 
+Ahoy, ye, flea bit, mangy sea dog.  Me hears ye steal's the doubloons, off ye dead mother's eyes, so, matey, 
 how <b>vile</b> B ye ways?=Detestable;
 
 Abandon=Complex=
@@ -669,9 +668,7 @@ That B a <b>good'n</b>! Harr harr!=A good story;
 Greet'n's To Ye=Starting=
 Arrr, <b>greet'n's to ye</b>, me lady, an me bid a fair day, to ye young lass.  Wish'n ye fine sail'n, among these merchants. I b beg'n ye pardon, as I b take'n me leave.=Hello;
 
-Jib=Beginner=
-Aye, Jim Lad, why ye have a sad jib? Did ye flea bit'n, ol mangy sea dog cur, give up da ghost?=The front small sail for extra speed  
-<b>Jib</b> can also mean face
+Jib=Beginner=Aye, Jim Lad, why ye have a sad <b>jib</b>? Did ye flea bit'n, ol mangy sea dog cur, give up da ghost?=The front small sail for extra speed. Jib can also mean face;
 
 Thar She Blows=Beginner=
 Avast steersman! Over dar port, an 40 furlongs, we b labor'n mightily a search'n, but, finally, <b>thar she blows</b>.=Look over there;
