@@ -44,38 +44,6 @@
         android:textSize="13sp" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView6"
-        android:layout_below="@+id/email"
-        android:layout_marginTop="17dp"
-        android:text="Developer: IvyWire Development"
-        android:textSize="14sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1"
-        android:autoLink="email"
-        android:text="talkpirate@gmail.com"
-        android:textColor="#000000"
-        android:textColorLink="#000000" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView1"
-        android:layout_below="@+id/textView9"
-        android:layout_marginTop="26dp"
-        android:text="Artist: Sean Gregorio"
-        android:textStyle="bold" />
-
-    <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -111,13 +79,44 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:autoLink="email"
+        android:text="talkpirate@gmail.com"
+        android:textColor="#000000"
+        android:textColorLink="#000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="14dp"
+        android:text="Developer: IvyWire Development"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/email"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="14dp"
+        android:text="Artist: Sean Gregorio"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView8"
-        android:layout_alignBottom="@+id/textView8"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="34dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="26dp"
         android:text="Anthony Luu and Alex Checca"
         android:textSize="13sp" />
 
@@ -125,9 +124,8 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="14dp"
-        android:layout_toLeftOf="@+id/textView9"
+        android:layout_above="@+id/textView10"
+        android:layout_alignLeft="@+id/textView6"
         android:text="Android Developers:"
         android:textSize="13sp" />
 
