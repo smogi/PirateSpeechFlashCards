@@ -32,7 +32,7 @@
         android:layout_alignBaseline="@+id/textView3"
         android:layout_alignBottom="@+id/textView3"
         android:layout_toRightOf="@+id/imageView1_info"
-        android:text="Loading 20 seconds"
+        android:text="Loading 45 seconds"
         android:textSize="10sp" />
 
     <ImageView

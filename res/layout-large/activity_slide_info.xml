@@ -34,7 +34,7 @@
         android:layout_alignBottom="@+id/textView3"
         android:layout_marginLeft="33dp"
         android:layout_toRightOf="@+id/imageView1_info"
-        android:text="Loading 20 seconds"
+        android:text="Loading 45 seconds"
         android:textSize="18sp" />
 
     <TextView
