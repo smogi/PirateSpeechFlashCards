@@ -17,11 +17,10 @@
 
     <ImageView
         android:id="@+id/imageView2_naughty"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_width="210dp"
+        android:layout_height="fill_parent"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/imageView1_naughty"
-        android:layout_marginRight="26dp"
+        android:layout_alignParentTop="true"
         android:src="@drawable/you1" />
 
 </RelativeLayout>

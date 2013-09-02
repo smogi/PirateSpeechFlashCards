@@ -12,7 +12,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_margin="10dp"
-        android:text="The speaking rhythm is highly repetitive along with the word, “be”. Speaking slowly, exaggerating the accent, with a gravelly voice, along with the use of many very colorful words will bring more fun!  Yarr?" />
+        android:text="The speaking rhythm is highly repetitive along with the word, “be”. Speaking slowly, exaggerating the accent, with a gravelly voice, along with the use of many very colorful words will bring more fun!  Yarr?"
+        android:textSize="12sp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -21,7 +22,8 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView2"
         android:layout_margin="10dp"
-        android:text="No correct grammar exists!  Commas and periods mark only the rhythm.  The examples in each card appear in type like they sound. " />
+        android:text="No correct grammar exists!  Commas and periods mark only the rhythm.  The examples in each card appear in type like they sound. "
+        android:textSize="12sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -30,6 +32,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView1"
         android:layout_margin="10dp"
-        android:text="Pirate is an eighteenth century English Cockney rhythmic slang, like, “Ye b, a flea ridden, scurvy cur!” Many comments are light hearted insults along with extravagant interchangeable compounded phrases, which bring unique color, and enhances the fun." />
+        android:text="Pirate is an eighteenth century English Cockney rhythmic slang, like, “Ye b, a flea ridden, scurvy cur!” Many comments are light hearted insults along with extravagant interchangeable compounded phrases, which bring unique color, and enhances the fun."
+        android:textSize="12sp" />
 
 </RelativeLayout>

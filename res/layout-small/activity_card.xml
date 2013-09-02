@@ -17,21 +17,8 @@
      android:lineSpacingMultiplier="1.2"
      android:paddingLeft="15dp"
      android:text="definition"
-     android:textSize="17sp"
+     android:textSize="13sp"
      android:textStyle="normal|italic" />
-
- <TextView
-     android:id="@+id/pirate_card_title"
-     style="?android:textAppearanceLarge"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignParentTop="true"
-     android:layout_centerHorizontal="true"
-     android:gravity="center"
-     android:text="title"
-     android:textAlignment="center"
-     android:textSize="25sp"
-     android:textStyle="bold" />
 
  <TextView
      android:id="@+id/pirate_card_example"
@@ -45,6 +32,19 @@
      android:lineSpacingMultiplier="1.2"
      android:paddingLeft="15dp"
      android:text="example"
-     android:textSize="14sp" />
+     android:textSize="11sp" />
+
+ <TextView
+     android:id="@+id/pirate_card_title"
+     style="?android:textAppearanceLarge"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_centerHorizontal="true"
+     android:gravity="center"
+     android:text="title"
+     android:textAlignment="center"
+     android:textSize="20sp"
+     android:textStyle="bold" />
 
 </RelativeLayout>

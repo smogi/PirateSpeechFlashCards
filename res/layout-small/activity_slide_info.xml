@@ -6,7 +6,7 @@
 
     <ImageView
         android:id="@+id/imageView1_info"
-        android:layout_width="220dp"
+        android:layout_width="180dp"
         android:layout_height="200dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -23,7 +23,7 @@
         android:text="© Copyright pending"
         android:textColorHint="#FF0000"
         android:textColorLink="#FF0000"
-        android:textSize="14sp" />
+        android:textSize="10sp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -31,37 +31,36 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView3"
         android:layout_alignBottom="@+id/textView3"
-        android:layout_centerHorizontal="true"
-        android:text="Loading 20 seconds" />
+        android:layout_toRightOf="@+id/imageView1_info"
+        android:text="Loading 20 seconds"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/swipe" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView1"
-        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
         android:text="Slide Up For The Next Cards And"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView3"
-        android:layout_alignLeft="@+id/textView4"
-        android:layout_marginBottom="16dp"
-        android:layout_marginLeft="47dp"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
         android:text="Down For The Previous Cards"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="300dp"
-        android:layout_height="180dp"
-        android:layout_alignLeft="@+id/textView4"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/swipe" />
 
 </RelativeLayout>
