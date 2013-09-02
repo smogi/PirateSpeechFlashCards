@@ -13,19 +13,6 @@
         android:layout_alignParentTop="true"
         android:src="@drawable/firstpiratepicture1" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="21dp"
-        android:layout_marginRight="47dp"
-        android:text="© Copyright pending"
-        android:textColorHint="#FF0000"
-        android:textColorLink="#FF0000"
-        android:textSize="14sp" />
-
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="370dp"
@@ -35,26 +22,45 @@
         android:src="@drawable/swipe" />
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textView3"
-        android:layout_alignRight="@+id/textView2"
-        android:layout_marginRight="15dp"
-        android:text="Slide up for the next card"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/textView1"
         android:layout_alignLeft="@+id/imageView1"
-        android:layout_marginBottom="11dp"
-        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="14dp"
         android:text="Slide down for the previous card"
         android:textSize="20sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginBottom="18dp"
+        android:text="© Copyright pending"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#FF0000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:text="Slide up for the next card"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:text="Loading..." />
 
 </RelativeLayout>
