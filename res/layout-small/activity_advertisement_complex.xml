@@ -13,19 +13,20 @@
 
     <ImageView
         android:id="@+id/imageView1_complex"
-        android:layout_width="210dp"
-        android:layout_height="195dp"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/imageView3_complex"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:src="@drawable/monkeypirate" />
 
     <ImageView
         android:id="@+id/imageView3_complex"
-        android:layout_width="180dp"
-        android:layout_height="230dp"
-        android:layout_alignParentBottom="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="59dp"
         android:src="@drawable/ahoycapn1" />
 
 </RelativeLayout>

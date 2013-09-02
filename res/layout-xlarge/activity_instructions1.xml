@@ -6,27 +6,6 @@
     android:background="@drawable/card_instructions" >
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="10dp"
-        android:layout_marginTop="46dp"
-        android:text="The goal of this app is for your family, friends, and you to have fun talking pirate. Flash cards have long been the best way to learn a new language.  "
-        android:textSize="14sp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/textView2"
-        android:layout_margin="10dp"
-        android:text="It is impossible to become fluent and to speak a new language with ease if the vocabulary is too small. The fun of talking pirate comes from having a large integrated vocabulary so that you and yours can use it metaphorically to describe your current events. The greater your imagination and skill the greater everyone’s fun will “b.” "
-        android:textSize="14sp" />
-
-    <TextView
         android:id="@+id/textView1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -35,7 +14,29 @@
         android:layout_marginTop="15dp"
         android:gravity="center"
         android:text="Talk Pirate Flashcards"
-        android:textSize="25sp"
+        android:textSize="40sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_margin="10dp"
+        android:layout_marginTop="64dp"
+        android:text="The goal of this app is for your family, friends, and you to have fun talking pirate. Flash cards have long been the best way to learn a new language.  "
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_margin="10dp"
+        android:layout_marginTop="38dp"
+        android:text="It is impossible to become fluent and to speak a new language with ease if the vocabulary is too small. The fun of talking pirate comes from having a large integrated vocabulary so that you and yours can use it metaphorically to describe your current events. The greater your imagination and skill the greater everyone’s fun will “b.” "
+        android:textSize="30sp" />
     
 </RelativeLayout>

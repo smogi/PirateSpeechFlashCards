@@ -8,43 +8,33 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="440dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="39dp"
-        android:text="Please, tell your friends about our app!"
-        android:textSize="25sp"
-        android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="500dp"
-        android:layout_height="400dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/sword1" />
+        android:layout_marginBottom="37dp"
+        android:text="Please, tell your friends about our app!"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="For the greatest success, get a friend or friends to join you in your adventure or make it a family project. Together, have fun practicing, encouraging and harassing each other! Practicing must be done out loud to be able to speak off the cuff. Like all foreign languages, the work is hard up front, even a bit frustrating, but the fun soon follows."
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="430dp"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_margin="10dp"
         android:text="Our cards are grouped from simple to complex and the naughty section at the end can be password protected or deleted. Any card can be deleted."
         android:textSize="20sp" />
-    
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="15dp"
-        android:text="&quot;-Or else ye be walking the plank!&quot;"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textSize="25sp"
-        android:textStyle="bold|italic" />
 
 </RelativeLayout>

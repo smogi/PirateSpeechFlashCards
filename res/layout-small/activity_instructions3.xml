@@ -12,17 +12,28 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_margin="10dp"
-        android:text="There are two ways to hear how the language is spoken.  In Walt Disney’s movie, “Treasure Island”  produced in 1950 is where Long John Silver’s dialect sets the standard."
-        android:textSize="12sp" />
+        android:text="There are two ways to hear how the language is spoken.  In Walt Disney’s movie, “Treasure Island”  produced in 1950 is where Long John Silver’s dialect sets the standard." />
 
     <ImageButton
         android:id="@+id/youtube"
-        android:layout_width="180dp"
-        android:layout_height="110dp"
-        android:layout_below="@+id/textView1"
+        android:layout_width="250dp"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
         android:autoLink="web"
         android:src="@drawable/monkeypirate_youtube"
         android:text="http://www.youtube.com/watch?v=fqMu6e5Dgtg" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:text="&apos;After viewing this video, click the back button to return here.&apos;"
+        android:textSize="12sp"
+        android:textStyle="italic" />
 
 </RelativeLayout>

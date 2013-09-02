@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="37dp"
         android:text="Please, tell your friends about our app!"
-        android:textSize="16sp"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
     <TextView
@@ -24,7 +24,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_margin="10dp"
-        android:text="For the greatest success, get a friend or friends to join you in your adventure or make it a family project. Together, have fun practicing, encouraging and harassing each other! Practicing must be done out loud to be able to speak off the cuff. Like all foreign languages, the work is hard up front, even a bit frustrating, but the fun soon follows." />
+        android:text="For the greatest success, get a friend or friends to join you in your adventure or make it a family project. Together, have fun practicing, encouraging and harassing each other! Practicing must be done out loud to be able to speak off the cuff. Like all foreign languages, the work is hard up front, even a bit frustrating, but the fun soon follows."
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textView1"
@@ -33,6 +34,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/TextView01"
         android:layout_margin="10dp"
-        android:text="Our cards are grouped from simple to complex and the naughty section at the end can be password protected or deleted. Any card can be deleted." />
+        android:text="Our cards are grouped from simple to complex and the naughty section at the end can be password protected or deleted. Any card can be deleted."
+        android:textSize="30sp" />
 
 </RelativeLayout>

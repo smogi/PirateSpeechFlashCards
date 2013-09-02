@@ -2,19 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="35dp"
+    android:layout_margin="12dp"
     android:background="@drawable/card_instructions" >
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="Talk Pirate Flashcards"
-        android:textSize="27sp"
-        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView2"
@@ -22,9 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="false"
-        android:layout_margin="15dp"
-        android:layout_marginTop="43dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="46dp"
         android:text="The goal of this app is for your family, friends, and you to have fun talking pirate. Flash cards have long been the best way to learn a new language.  "
         android:textSize="20sp" />
 
@@ -32,21 +20,22 @@
         android:id="@+id/textView3"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="15dp"
+        android:layout_margin="10dp"
         android:text="It is impossible to become fluent and to speak a new language with ease if the vocabulary is too small. The fun of talking pirate comes from having a large integrated vocabulary so that you and yours can use it metaphorically to describe your current events. The greater your imagination and skill the greater everyone’s fun will “b.” "
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView3"
-        android:layout_centerHorizontal="true"
-        android:text="Please swipe upwards for the next card and downwards for the previous card."
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Talk Pirate Flashcards"
+        android:textSize="25sp"
         android:textStyle="bold" />
-
+    
 </RelativeLayout>

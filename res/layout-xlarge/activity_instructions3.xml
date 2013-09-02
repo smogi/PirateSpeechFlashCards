@@ -9,31 +9,34 @@
         android:id="@+id/textView1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_margin="10dp"
-        android:text="There are two ways to hear how the language is spoken.  In Walt Disney’s movie, “Treasure Island”  produced in 1950 is where Long John Silver’s dialect sets the standard." />
+        android:layout_marginTop="40dp"
+        android:text="There are two ways to hear how the language is spoken.  In Walt Disney’s movie, “Treasure Island”  produced in 1950 is where Long John Silver’s dialect sets the standard."
+        android:textSize="30sp" />
 
     <ImageButton
         android:id="@+id/youtube"
-        android:layout_width="250dp"
-        android:layout_height="160dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="17dp"
+        android:layout_width="700dp"
+        android:layout_height="400dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="109dp"
         android:autoLink="web"
         android:src="@drawable/monkeypirate_youtube"
         android:text="http://www.youtube.com/watch?v=fqMu6e5Dgtg" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="100dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/textView1"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="20dp"
+        android:layout_alignTop="@+id/youtube"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="74dp"
         android:text="&apos;After viewing this video, click the back button to return here.&apos;"
-        android:textSize="12sp"
+        android:textSize="30sp"
         android:textStyle="italic" />
 
 </RelativeLayout>

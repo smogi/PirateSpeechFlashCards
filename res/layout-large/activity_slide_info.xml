@@ -4,33 +4,67 @@
     android:layout_height="match_parent"
      >
 
+    <ImageView
+        android:id="@+id/imageView1_info"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/firstpiratepicture1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginLeft="78dp"
+        android:layout_toRightOf="@+id/textView4"
+        android:text="© Copyright pending"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#FF0000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_marginLeft="33dp"
+        android:layout_toRightOf="@+id/imageView1_info"
+        android:text="Loading 20 seconds"
+        android:textSize="18sp" />
+
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/imageView1"
-        android:layout_marginRight="23dp"
-        android:layout_marginTop="27dp"
-        android:text="Arr, matey! Ye b ready ta come aboard, ta set full sails, under heavy winds, for abound’n adventures?"
-        android:textSize="30sp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="24dp"
+        android:text="Down For The Previous Cards"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="35dp"
+        android:text="Slide Up For The Next Cards And"
+        android:textSize="23sp"
         android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="400dp"
-        android:layout_height="170dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="58dp"
-        android:src="@drawable/swipe" />
-
-    <ImageView
-        android:id="@+id/imageView1_info"
         android:layout_width="500dp"
-        android:layout_height="fill_parent"
-        android:layout_alignParentLeft="true"
+        android:layout_height="220dp"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/firstpiratepicture1" />
+        android:src="@drawable/swipe" />
 
 </RelativeLayout>

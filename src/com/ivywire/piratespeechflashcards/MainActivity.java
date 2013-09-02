@@ -133,7 +133,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
                 break;
             case R.id.ratingButton1_beginner:
             	try{
-				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.imangi.templerun]")));
+				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.ivywire.piratespeechflashcards")));
 								        
 			    }
 			    catch (ActivityNotFoundException e){
