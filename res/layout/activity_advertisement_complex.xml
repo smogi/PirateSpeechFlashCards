@@ -14,7 +14,7 @@
     <ImageView
         android:id="@+id/imageView1_complex"
         android:layout_width="190dp"
-        android:layout_height="190dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -23,10 +23,10 @@
     <ImageView
         android:id="@+id/imageView3_complex"
         android:layout_width="300dp"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginRight="16dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="59dp"
         android:src="@drawable/ahoycapn1" />
 
 </RelativeLayout>
