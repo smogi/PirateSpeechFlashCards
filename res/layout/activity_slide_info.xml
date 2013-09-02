@@ -61,6 +61,6 @@
         android:layout_alignBaseline="@+id/textView3"
         android:layout_alignBottom="@+id/textView3"
         android:layout_centerHorizontal="true"
-        android:text="Loading..." />
+        android:text="Loading 20 seconds" />
 
 </RelativeLayout>
