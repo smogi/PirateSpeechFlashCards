@@ -1173,8 +1173,6 @@ Blow Me Down=Naughty=If we slip out of dar tavern, an, goes to's me dinghy,
 docked down, at the end of the tavern's dock, 
 would ye <b>blow me down</b>?=Oral sex;
 
-"Greeting Tails"=Starting=Fleas: How b'n ye wicked ways<br>Ticks: Who b hunt'n ye carcass<br>Lice: What's b'n ye plunder'n'ous ways<br>Leech: What b'n ye evil ways<br>Tape worm: Who's husband b want'n ye liver<br>Worms: What's b'n ye debacherous ways, Where b ye last port, Who b ye ol hen these days, Who b want'n ye blood, How b ye innards=greeting sentences;
-
 Masthead=Complex=I b warn'n ye, if ye don't b deal'n dar cards, from the <b>masthead</b>, me dagger, b slice'n ye gizzard!=The top of the mast  (inference,  the top of anything);
 
 I Hear's Ye Can Go 12 Inches!=Naughty=<b>I hears ye can go 12 inches</b>. Three inches, four times, harrr, harrr=Inferred length of penis but addressing strokes to ejaculation;

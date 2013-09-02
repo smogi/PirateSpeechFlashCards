@@ -42,7 +42,7 @@ public class StartingCardCursorPagerAdapter extends PagerAdapter{
 		if(cursor == null) {
 	        return 0;
 	    } else {
-	        return 62;
+	        return 61;
 	    }
 	}
 	
@@ -57,10 +57,10 @@ public class StartingCardCursorPagerAdapter extends PagerAdapter{
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_blank, null);
 		}if(position == 1){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_card_load, null);
-		}if(position == 61){
+		}if(position == 60){
 			layout = (RelativeLayout) inflater.inflate(R.layout.activity_advertisement_starting, null);
 		}
-		else if(position > 1 && position < 61){
+		else if(position > 1 && position < 60){
 			position2--;
 		    cursor.moveToPosition(position2);
 		    layout = (RelativeLayout) inflater.inflate(R.layout.activity_card, null);
