@@ -133,16 +133,16 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
                 break;
             case R.id.ratingButton1_beginner:
             	try{
-				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.ivywire.piratespeechflashcards")));
-								        
+            		startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.ivywire.piratespeechflashcards")));		        
 			    }
 			    catch (ActivityNotFoundException e){
 			    	Toast.makeText(this, "Could not open Android market, please install the market app.", Toast.LENGTH_SHORT).show(); 
 			    }
+            	break;
             case R.id.button8:
             	Intent shareIntent=new Intent(Intent.ACTION_SEND);
 				shareIntent.setType("text/plain");
-				shareIntent.putExtra(Intent.EXTRA_TEXT,"Learn to talk like a pirate!");
+				shareIntent.putExtra(Intent.EXTRA_TEXT,"Learn to talk like a pirate! https://play.google.com/store/apps/details?id=com.ivywire.piratespeechflashcards");
 				shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Check out this app!");
 				startActivity(Intent.createChooser(shareIntent, "Share..."));
                 break;
@@ -157,7 +157,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 	
 	public void naughtyCheck(){
 		Button button2 = (Button) findViewById(R.id.button7);
-
 
 		nProjection = new String[] {FlashCardTable.COLUMN_CATEGORY, FlashCardTable.COLUMN_TITLE};
 		nSelection = FlashCardTable.COLUMN_CATEGORY + " = " + " 'naughtyDisabled' ";
