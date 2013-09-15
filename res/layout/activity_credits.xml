@@ -52,7 +52,7 @@
         android:layout_alignRight="@+id/textView1"
         android:layout_below="@+id/textView1"
         android:autoLink="email"
-        android:text="talkpirate@gmail.com"
+        android:text="talkpirateapp@gmail.com"
         android:textColor="#000000"
         android:textColorLink="#000000" />
 

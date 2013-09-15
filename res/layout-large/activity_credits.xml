@@ -159,7 +159,7 @@
         android:layout_marginRight="136dp"
         android:layout_toLeftOf="@+id/imageView1"
         android:autoLink="email"
-        android:text="talkpirate@gmail.com"
+        android:text="talkpirateapp@gmail.com"
         android:textSize="18sp" />
 
 </RelativeLayout>

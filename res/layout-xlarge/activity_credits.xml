@@ -63,7 +63,7 @@
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:autoLink="email"
-        android:text="talkpirate@gmail.com"
+        android:text="talkpirateapp@gmail.com"
         android:textColorLink="#000000"
         android:textSize="40sp" />
 
@@ -75,18 +75,7 @@
         android:layout_alignLeft="@+id/email"
         android:layout_marginLeft="21dp"
         android:text="Karanbir Randhawa: Lead Developer"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView8"
-        android:layout_alignBottom="@+id/textView8"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="118dp"
-        android:text="Anthony Luu and Alex Checca"
-        android:textSize="30sp" />
+        android:textSize="29sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -96,7 +85,7 @@
         android:layout_below="@+id/email"
         android:layout_marginTop="36dp"
         android:text="Developer: IvyWire Development"
-        android:textSize="40sp"
+        android:textSize="38sp"
         android:textStyle="bold" />
 
     <TextView
@@ -130,6 +119,16 @@
         android:autoLink="web"
         android:text="www.mantisart.blogspot.com"
         android:textColorLink="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_toRightOf="@+id/ivywire"
+        android:text="Anthony Luu and Alex Checca"
         android:textSize="30sp" />
 
 </RelativeLayout>
