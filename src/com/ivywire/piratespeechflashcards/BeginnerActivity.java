@@ -24,7 +24,6 @@ import com.ivywire.piratespeechflashcards.adapters.BeginnerCardCursorPagerAdapte
 import com.ivywire.piratespeechflashcards.contentprovider.MyCardContentProvider;
 import com.ivywire.piratespeechflashcards.database.CardDatabaseHelper;
 import com.ivywire.piratespeechflashcards.database.FlashCardTable;
-
 import android.support.v4.content.Loader;
 
 @SuppressLint("Recycle")
